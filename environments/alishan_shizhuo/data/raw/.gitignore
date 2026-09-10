@@ -1,0 +1,4 @@
+# Preserve the directory marker while keeping externally downloaded source data out of Git.
+*
+!.gitignore
+!.gitkeep

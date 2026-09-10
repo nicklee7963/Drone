@@ -1,0 +1,7 @@
+
+# External software
+PX4-Autopilot/
+QGroundControl/*.AppImage
+
+# Windows metadata
+*:Zone.Identifier

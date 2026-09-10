@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+  Direct GDAL/GeoTIFF DEM terrain.
+  Local Z = source TWVD2001 elevation - 1330.340 m.
+-->
+<sdf version="1.10">
+  <model name="alishan_shizhuo_terrain">
+    <static>true</static>
+    <link name="terrain_link">
+      <collision name="terrain_collision">
+        <!-- DART attaches the collision from this pose, not heightmap <pos>. -->
+        <pose>0 0 -1330.340 0 0 0</pose>
+        <geometry>
+          <heightmap>
+            <uri>model://alishan_shizhuo_terrain/terrain/alishan_shizhuo_terrain_20m.tif</uri>
+            <size>500 500 229.830</size>
+            <pos>0 0 -1330.340</pos>
+            <sampling>1</sampling>
+          </heightmap>
+        </geometry>
+      </collision>
+      <visual name="terrain_visual">
+        <geometry>
+          <heightmap>
+            <uri>model://alishan_shizhuo_terrain/terrain/alishan_shizhuo_terrain_20m.tif</uri>
+            <size>500 500 229.830</size>
+            <pos>0 0 -1330.340</pos>
+            <sampling>1</sampling>
+            <texture>
+              <size>500</size>
+              <diffuse>terrain/alishan_neutral.ppm</diffuse>
+              <normal>terrain/alishan_flat_normal.ppm</normal>
+            </texture>
+          </heightmap>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
