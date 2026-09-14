@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="villa_wall_test">
+
+    <!-- 故意讓重力朝 +X，讓球水平撞牆 -->
+    <gravity>9.81 0 0</gravity>
+
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics"/>
+
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands"/>
+
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster"/>
+
+    <light type="directional" name="sun">
+      <pose>0 0 20 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <include>
+      <uri>model://villa_1F</uri>
+    </include>
+
+    <!--
+      Target wall:
+      1F_Wall_Interior_010_Pantry_Kitchen
+      x ≈ 14.628 m
+      y ≈ 3.571 m
+      height = 3.2 m
+    -->
+    <model name="wall_test_ball">
+      <pose>12.0 3.57 1.5 0 0 0</pose>
+
+      <link name="ball_link">
+
+        <inertial>
+          <mass>1.0</mass>
+          <inertia>
+            <ixx>0.016</ixx>
+            <iyy>0.016</iyy>
+            <izz>0.016</izz>
+          </inertia>
+        </inertial>
+
+        <collision name="ball_collision">
+          <geometry>
+            <sphere>
+              <radius>0.4</radius>
+            </sphere>
+          </geometry>
+        </collision>
+
+        <visual name="ball_visual">
+          <geometry>
+            <sphere>
+              <radius>0.4</radius>
+            </sphere>
+          </geometry>
+
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+  </world>
+</sdf>

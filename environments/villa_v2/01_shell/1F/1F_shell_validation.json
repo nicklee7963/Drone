@@ -1,0 +1,684 @@
+{
+  "checks": [
+    {
+      "check": "Scene uses meters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Architectural shell geometry exists",
+      "pass": true,
+      "detail": 82
+    },
+    {
+      "check": "1F_Floor_Main exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1F_Terrace_Main exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1F_Terrace_Left exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1F_Terrace_Dining exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1F_Entry_Porch exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1F_StairA_DownToB1 exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1F_StairB_UpTo2F exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "VOID_GreatRoom_OpenToAbove exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1F_Reference_Plan exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1F_Connection_B1 exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1F_Connection_2F exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Reference calibrated by dimension markers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Reference packed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Structural meshes closed with outward normals and no degenerate faces",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Mesh object scales all 1,1,1",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "No duplicate complete meshes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "No orphaned wall islands or thin trimming remnants",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "No intersecting architectural solid volumes",
+      "pass": true,
+      "detail": {
+        "candidate_pairs": 29,
+        "overlaps": []
+      }
+    },
+    {
+      "check": "Architectural width consistent with calibrated source extent",
+      "pass": true,
+      "detail": [
+        37.65241241455078,
+        24.94629669189453,
+        6.799999952316284
+      ]
+    },
+    {
+      "check": "No renderable ceiling or upper-floor slab",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Main slab top at zero and thickness 0.20 m",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Great Room usable interior has zero columns, piers, or wall stubs",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Actual exterior wall bands are within 0.25-0.30 m",
+      "pass": true,
+      "detail": [
+        0.28
+      ]
+    },
+    {
+      "check": "Actual interior wall bands are within 0.15-0.20 m",
+      "pass": true,
+      "detail": [
+        0.18
+      ]
+    },
+    {
+      "check": "Actual stairwell wall bands are within 0.20-0.25 m",
+      "pass": true,
+      "detail": [
+        0.22
+      ]
+    },
+    {
+      "check": "Exterior faces, partition centerlines, and stair-void faces retain alignment",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "No wall mesh extends outside its measured construction bands",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "No non-column wall geometry exceeds 0.30 m",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Slab aperture for Stair A",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Slab aperture for Stair B",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Garage has slab",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Great Room has slab",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Foyer has slab",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Kitchen has slab",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Guest Suite 1 has slab",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Guest Suite 2 has slab",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Great Room remains open to above",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Glass remains separate 0.020 m solid geometry",
+      "pass": true,
+      "detail": [
+        0.019999,
+        0.02
+      ]
+    },
+    {
+      "check": "Named doorway/circulation paths unblocked at 1.2 m",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "Every room connects to foyer with sampled 0.40 m UAV clearance",
+      "pass": true,
+      "detail": {
+        "Grand Entry Foyer": true,
+        "Great Room": true,
+        "Garage": true,
+        "Storage": true,
+        "Utility": true,
+        "Wine Cellar": true,
+        "Guest Suite 1": true,
+        "En-suite 1": true,
+        "Kitchen & Dining": true,
+        "Pantry / Prep Kitchen": true,
+        "Mudroom / Shoe Gallery": true,
+        "Left Corridor": true,
+        "Right Corridor": true,
+        "Powder Room": true,
+        "Guest Suite 2": true,
+        "En-suite 2": true
+      }
+    },
+    {
+      "check": "1F_StairA_DownToB1 physical treads change elevation in documented direction",
+      "pass": true,
+      "detail": [
+        -0.16842103004455566,
+        -0.33684277534484863,
+        -0.5052635669708252,
+        -0.67368483543396,
+        -0.8421051502227783,
+        -1.0105268955230713,
+        -1.1789476871490479,
+        -1.3473689556121826,
+        -1.5157897472381592,
+        -1.6842105388641357,
+        -1.8526313304901123,
+        -2.0210530757904053,
+        -2.189473867416382,
+        -2.3578951358795166,
+        -2.5263149738311768,
+        -2.694737195968628,
+        -2.8631579875946045,
+        -3.0315778255462646
+      ]
+    },
+    {
+      "check": "1F_StairA_DownToB1 realistic riser / tread",
+      "pass": true,
+      "detail": [
+        0.16842105263157894,
+        0.27,
+        2.8360586166381836
+      ]
+    },
+    {
+      "check": "1F_StairA_DownToB1 minimum 2.1 m vertical headroom",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "1F_StairB_UpTo2F physical treads change elevation in documented direction",
+      "pass": true,
+      "detail": [
+        0.168420672416687,
+        0.33684241771698,
+        0.5052627325057983,
+        0.6736835241317749,
+        0.8421047925949097,
+        1.0105262994766235,
+        1.1789470911026,
+        1.3473683595657349,
+        1.5157893896102905,
+        1.684210181236267,
+        1.8526312112808228,
+        2.021052837371826,
+        2.1894736289978027,
+        2.3578944206237793,
+        2.526315689086914,
+        2.694736957550049,
+        2.8631582260131836,
+        3.03157901763916
+      ]
+    },
+    {
+      "check": "1F_StairB_UpTo2F realistic riser / tread",
+      "pass": true,
+      "detail": [
+        0.16842105263157894,
+        0.27,
+        2.350943088531494
+      ]
+    },
+    {
+      "check": "1F_StairB_UpTo2F minimum 2.1 m vertical headroom",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "No furniture/decor geometry",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "passed": 49,
+  "failed": 0,
+  "bounds_min_m": [
+    -18.844863891601562,
+    -12.490740776062012,
+    -3.5999999046325684
+  ],
+  "bounds_max_m": [
+    18.80754852294922,
+    12.45555591583252,
+    3.200000047683716
+  ],
+  "dimensions_m": [
+    37.65241241455078,
+    24.94629669189453,
+    6.799999952316284
+  ],
+  "mesh_objects": 82,
+  "triangles": 4740,
+  "door_paths": [
+    {
+      "name": "Main_Entry",
+      "start": [
+        0.0,
+        -10.133333333333335,
+        1.2
+      ],
+      "end": [
+        0.0,
+        -8.901851851851852,
+        1.2
+      ]
+    },
+    {
+      "name": "Foyer_GreatRoom",
+      "start": [
+        0.0,
+        -6.861111111111112,
+        1.2
+      ],
+      "end": [
+        0.0,
+        0.10555555555555557,
+        1.2
+      ]
+    },
+    {
+      "name": "Foyer_Corridor_Left",
+      "start": [
+        -2.79874213836478,
+        -3.764814814814815,
+        1.2
+      ],
+      "end": [
+        -6.530398322851153,
+        -3.764814814814815,
+        1.2
+      ]
+    },
+    {
+      "name": "Foyer_Corridor_Right",
+      "start": [
+        8.023060796645703,
+        -3.764814814814815,
+        1.2
+      ],
+      "end": [
+        10.262054507337526,
+        -3.764814814814815,
+        1.2
+      ]
+    },
+    {
+      "name": "Garage_GreatRoom",
+      "start": [
+        -7.7991614255765205,
+        -0.10555555555555557,
+        1.2
+      ],
+      "end": [
+        -6.381132075471698,
+        -0.10555555555555557,
+        1.2
+      ]
+    },
+    {
+      "name": "Garage_Utility",
+      "start": [
+        -13.69517819706499,
+        -0.7740740740740741,
+        1.2
+      ],
+      "end": [
+        -13.69517819706499,
+        -1.8296296296296297,
+        1.2
+      ]
+    },
+    {
+      "name": "Garage_Wine",
+      "start": [
+        -8.321593291404612,
+        -0.7740740740740741,
+        1.2
+      ],
+      "end": [
+        -8.321593291404612,
+        -1.8296296296296297,
+        1.2
+      ]
+    },
+    {
+      "name": "Garage_Storage_InferredSlidingAccess",
+      "start": [
+        -15.598322851153041,
+        -0.7740740740740741,
+        1.2
+      ],
+      "end": [
+        -15.598322851153041,
+        -1.9351851851851853,
+        1.2
+      ]
+    },
+    {
+      "name": "Guest1_Wine",
+      "start": [
+        -9.067924528301887,
+        -4.046296296296297,
+        1.2
+      ],
+      "end": [
+        -9.067924528301887,
+        -5.312962962962963,
+        1.2
+      ]
+    },
+    {
+      "name": "Guest1_Ensuite1",
+      "start": [
+        -14.329559748427673,
+        -6.122222222222223,
+        1.2
+      ],
+      "end": [
+        -12.874213836477988,
+        -6.122222222222223,
+        1.2
+      ]
+    },
+    {
+      "name": "GreatRoom_LeftCorridor",
+      "start": [
+        -6.19454926624738,
+        -2.1814814814814816,
+        1.2
+      ],
+      "end": [
+        -6.19454926624738,
+        -3.553703703703704,
+        1.2
+      ]
+    },
+    {
+      "name": "Kitchen_Pantry",
+      "start": [
+        13.844444444444445,
+        6.65,
+        1.2
+      ],
+      "end": [
+        15.337106918238995,
+        6.65,
+        1.2
+      ]
+    },
+    {
+      "name": "Pantry_Mudroom",
+      "start": [
+        16.008805031446542,
+        2.111111111111111,
+        1.2
+      ],
+      "end": [
+        16.008805031446542,
+        0.7388888888888889,
+        1.2
+      ]
+    },
+    {
+      "name": "Kitchen_Mudroom",
+      "start": [
+        13.769811320754718,
+        -1.4425925925925926,
+        1.2
+      ],
+      "end": [
+        15.374423480083857,
+        -1.4425925925925926,
+        1.2
+      ]
+    },
+    {
+      "name": "Kitchen_RightCorridor",
+      "start": [
+        13.247379454926625,
+        -1.7592592592592593,
+        1.2
+      ],
+      "end": [
+        13.247379454926625,
+        -3.4833333333333334,
+        1.2
+      ]
+    },
+    {
+      "name": "Corridor_Guest2",
+      "start": [
+        10.971069182389938,
+        -3.9759259259259263,
+        1.2
+      ],
+      "end": [
+        10.971069182389938,
+        -5.4185185185185185,
+        1.2
+      ]
+    },
+    {
+      "name": "Corridor_Powder",
+      "start": [
+        8.135010482180293,
+        -3.9759259259259263,
+        1.2
+      ],
+      "end": [
+        8.135010482180293,
+        -5.4185185185185185,
+        1.2
+      ]
+    },
+    {
+      "name": "Guest2_Ensuite2",
+      "start": [
+        13.247379454926625,
+        -6.227777777777778,
+        1.2
+      ],
+      "end": [
+        15.00125786163522,
+        -6.227777777777778,
+        1.2
+      ]
+    },
+    {
+      "name": "StairA_Entrance",
+      "start": [
+        -5.933333333333334,
+        -3.940740740740741,
+        1.2
+      ],
+      "end": [
+        -5.933333333333334,
+        -5.559259259259259,
+        1.2
+      ]
+    },
+    {
+      "name": "StairB_Entrance",
+      "start": [
+        5.784067085953879,
+        -3.9759259259259263,
+        1.2
+      ],
+      "end": [
+        5.784067085953879,
+        -5.7,
+        1.2
+      ]
+    },
+    {
+      "name": "Garage_TerraceVestibule",
+      "start": [
+        -8.023060796645703,
+        7.6000000000000005,
+        1.2
+      ],
+      "end": [
+        -8.023060796645703,
+        9.112962962962964,
+        1.2
+      ]
+    },
+    {
+      "name": "Kitchen_TerraceVestibule",
+      "start": [
+        8.135010482180293,
+        7.564814814814815,
+        1.2
+      ],
+      "end": [
+        8.135010482180293,
+        9.148148148148149,
+        1.2
+      ]
+    }
+  ],
+  "room_connectivity": {
+    "Grand Entry Foyer": true,
+    "Great Room": true,
+    "Garage": true,
+    "Storage": true,
+    "Utility": true,
+    "Wine Cellar": true,
+    "Guest Suite 1": true,
+    "En-suite 1": true,
+    "Kitchen & Dining": true,
+    "Pantry / Prep Kitchen": true,
+    "Mudroom / Shoe Gallery": true,
+    "Left Corridor": true,
+    "Right Corridor": true,
+    "Powder Room": true,
+    "Guest Suite 2": true,
+    "En-suite 2": true
+  },
+  "wall_thicknesses_m": {
+    "exterior": [
+      0.28
+    ],
+    "interior": [
+      0.18
+    ],
+    "stairwell": [
+      0.22
+    ]
+  },
+  "great_room_obstructions": [],
+  "remaining_walls_over_030_m": [],
+  "validation_images": {
+    "1F_shell_top.png": [
+      2400,
+      1700
+    ],
+    "1F_shell_perspective_front.png": [
+      1800,
+      1300
+    ],
+    "1F_shell_perspective_corner.png": [
+      1800,
+      1300
+    ],
+    "1F_shell_greatroom_validation.png": [
+      1800,
+      1300
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="villa_glass_test">
+
+    <!-- 重力朝 +Y，讓球水平撞玻璃 -->
+    <gravity>0 9.81 0</gravity>
+
+    <physics name="glass_test_physics" type="ignored">
+      <max_step_size>0.0005</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <plugin filename="gz-sim-physics-system"
+            name="gz::sim::systems::Physics"/>
+
+    <plugin filename="gz-sim-user-commands-system"
+            name="gz::sim::systems::UserCommands"/>
+
+    <plugin filename="gz-sim-scene-broadcaster-system"
+            name="gz::sim::systems::SceneBroadcaster"/>
+
+    <light type="directional" name="sun">
+      <pose>0 0 20 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <include>
+      <uri>model://villa_1F</uri>
+    </include>
+
+    <!--
+      Target:
+      1F_Glass_008_GreatRoom_North
+      x = 0
+      y ≈ 8.55
+      z center = 1.6
+      thickness ≈ 0.02 m
+    -->
+    <model name="glass_test_ball">
+      <pose>0 6.0 1.5 0 0 0</pose>
+
+      <link name="ball_link">
+
+        <inertial>
+          <mass>1.0</mass>
+          <inertia>
+            <ixx>0.004</ixx>
+            <iyy>0.004</iyy>
+            <izz>0.004</izz>
+          </inertia>
+        </inertial>
+
+        <collision name="ball_collision">
+          <geometry>
+            <sphere>
+              <radius>0.2</radius>
+            </sphere>
+          </geometry>
+        </collision>
+
+        <visual name="ball_visual">
+          <geometry>
+            <sphere>
+              <radius>0.2</radius>
+            </sphere>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+
+      </link>
+    </model>
+
+  </world>
+</sdf>

@@ -1,0 +1,1250 @@
+{
+  "checks": [
+    {
+      "name": "Blender file opens with expected 3F scene",
+      "pass": true,
+      "detail": "3F"
+    },
+    {
+      "name": "Scene uses meters at unit scale 1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Required floor, terrace, stair interface, and top camera exist",
+      "pass": true,
+      "detail": [
+        "3F_Floor_Main",
+        "3F_Terrace_Private",
+        "3F_Opening_From2F",
+        "3F_Connection_2F",
+        "3F_Camera_Top_Orthographic"
+      ]
+    },
+    {
+      "name": "Expected architectural mesh count is nonzero",
+      "pass": true,
+      "detail": 40
+    },
+    {
+      "name": "All architectural object scales are unit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No duplicate object names",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No furniture, fixtures, or decorative geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No ceiling or other-floor room geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Saved top camera is truly orthographic",
+      "pass": true,
+      "detail": {
+        "type": "ORTHO",
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Calibrated 3F source image is packed and locked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "XY bounds remain on the established villa coordinate frame",
+      "pass": true,
+      "detail": [
+        [
+          -18.770233154296875,
+          17.650733947753906
+        ],
+        [
+          -10.696296691894531,
+          11.87740707397461
+        ]
+      ]
+    },
+    {
+      "name": "Z bounds keep local finished floor near zero",
+      "pass": true,
+      "detail": [
+        -0.20000000298023224,
+        3.200000047683716
+      ]
+    },
+    {
+      "name": "All floor and terrace slabs span Z=-0.20..0.00 m",
+      "pass": true,
+      "detail": {
+        "3F_Floor_Main": [
+          -0.20000000298023224,
+          0.0
+        ],
+        "3F_Terrace_Private": [
+          -0.20000000298023224,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Main walkable slab and private terrace are each continuous connected meshes",
+      "pass": true,
+      "detail": {
+        "3F_Floor_Main": 1,
+        "3F_Terrace_Private": 1
+      }
+    },
+    {
+      "name": "Main floor and terrace meet without duplicate coplanar slab area",
+      "pass": true,
+      "detail": {
+        "positive_overlap_m2": 0.0
+      }
+    },
+    {
+      "name": "Floor and terrace outer bounds match independent source-plan extents",
+      "pass": true,
+      "detail": {
+        "3F_Floor_Main": {
+          "actual_xyxy_m": [
+            -18.770233154296875,
+            -9.5703706741333,
+            17.650733947753906,
+            7.31851863861084
+          ],
+          "expected_xyxy_m": [
+            -18.770230607966457,
+            -9.570370370370371,
+            17.650733752620546,
+            7.318518518518519
+          ],
+          "max_error_m": 2.5463304176298607e-06
+        },
+        "3F_Terrace_Private": {
+          "actual_xyxy_m": [
+            -17.94926643371582,
+            7.31851863861084,
+            16.904401779174805,
+            11.857407569885254
+          ],
+          "expected_xyxy_m": [
+            -17.949266247379455,
+            7.318518518518519,
+            16.90440251572327,
+            11.857407407407408
+          ],
+          "max_error_m": 7.365484648858001e-07
+        }
+      }
+    },
+    {
+      "name": "No duplicate physical stair or invented upward stair exists in 3F",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "3F stair aperture exactly matches live 2F_Stair_UpTo3F XY bounds",
+      "pass": true,
+      "detail": {
+        "3F": [
+          0.8209642171859741,
+          -10.69629693031311,
+          3.694339394569397,
+          -5.735185384750366
+        ],
+        "2F": [
+          0.8209643363952637,
+          -10.696296691894531,
+          3.6943395137786865,
+          -5.735185146331787
+        ],
+        "max_error_m": 2.384185791015625e-07
+      }
+    },
+    {
+      "name": "Stair alignment metadata agrees with both evaluated object transforms",
+      "pass": true,
+      "detail": {
+        "2F_mesh_vs_metadata_error_m": 3.955982350589693e-07,
+        "3F_transform_vs_metadata_error_m": 2.384185791015625e-07
+      }
+    },
+    {
+      "name": "2F stair terminates at the 3F finished-floor datum after assembly",
+      "pass": true,
+      "detail": {
+        "bounds_xyxy_m": [
+          0.8209643363952637,
+          -10.696296691894531,
+          3.6943395137786865,
+          -5.735185146331787
+        ],
+        "metadata_bounds_xyxy_m": [
+          0.8209643605870021,
+          -10.696296296296296,
+          3.6943396226415097,
+          -5.735185185185186
+        ],
+        "terminal_elevation_m": 3.2,
+        "landing_depth_m": 0.5411111111111104,
+        "direction": "north (+Y), up to 3F",
+        "connection_xyz_m": [
+          3.6943395137786865,
+          -6.005740642547607,
+          3.200000047683716
+        ]
+      }
+    },
+    {
+      "name": "3F connection marker is centered at the source-drawn north stair arrival",
+      "pass": true,
+      "detail": {
+        "3F_local": [
+          2.2576518058776855,
+          -5.735185146331787,
+          0.0
+        ],
+        "expected_north_arrival": [
+          2.257651925086975,
+          -5.735185146331787,
+          0.0
+        ],
+        "undocumented_2F_marker": [
+          3.6943395137786865,
+          -6.005740642547607,
+          3.200000047683716
+        ],
+        "north_arrival_error_m": 1.1920928955078125e-07
+      }
+    },
+    {
+      "name": "Source-drawn north stair arrival remains physically open on 3F",
+      "pass": true,
+      "detail": {
+        "0.05": [],
+        "0.15": [],
+        "0.35": []
+      }
+    },
+    {
+      "name": "No 3F slab covers the live 2F stair aperture",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Walls span Z=0.00..3.20 m",
+      "pass": true,
+      "detail": {
+        "3F_Wall_Exterior_001_NorthWest_Side": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Wall_Exterior_002_NorthEast_Side": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Wall_Exterior_003_SouthWest_DownReturn": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Wall_Exterior_004_SouthEast_DownReturn": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Wall_Exterior_005_Arrival_West_Return": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Wall_Exterior_006_Arrival_East_Return": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Wall_Stair_001_From2F_West": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Wall_Stair_002_From2F_East": [
+          0.0,
+          3.200000047683716
+        ]
+      }
+    },
+    {
+      "name": "Exterior wall segments use nominal 0.28 m thickness",
+      "pass": true,
+      "detail": [
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28
+      ]
+    },
+    {
+      "name": "Stairwell walls use nominal 0.22 m thickness",
+      "pass": true,
+      "detail": [
+        0.22,
+        0.22
+      ]
+    },
+    {
+      "name": "No unsupported interior partitions were added",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "All exterior and stair wall runs match independent source/alignment bounds",
+      "pass": true,
+      "detail": {
+        "3F_Wall_Exterior_001_NorthWest_Side": {
+          "actual_xyxy_m": [
+            -18.770231246948242,
+            5.488888740539551,
+            -18.490230560302734,
+            7.31851863861084
+          ],
+          "expected_xyxy_m": [
+            -18.770230607966457,
+            5.488888888888889,
+            -18.49023060796646,
+            7.318518518518519
+          ],
+          "max_error_m": 6.389817848173607e-07
+        },
+        "3F_Wall_Exterior_002_NorthEast_Side": {
+          "actual_xyxy_m": [
+            17.3707332611084,
+            5.488888740539551,
+            17.650733947753906,
+            7.31851863861084
+          ],
+          "expected_xyxy_m": [
+            17.370733752620545,
+            5.488888888888889,
+            17.650733752620546,
+            7.318518518518519
+          ],
+          "max_error_m": 4.915121465387529e-07
+        },
+        "3F_Wall_Exterior_003_SouthWest_DownReturn": {
+          "actual_xyxy_m": [
+            -17.035137176513672,
+            -9.042593002319336,
+            -16.755136489868164,
+            -6.298148155212402
+          ],
+          "expected_xyxy_m": [
+            -17.035136268343816,
+            -9.042592592592593,
+            -16.755136268343815,
+            -6.298148148148148
+          ],
+          "max_error_m": 9.081698557622531e-07
+        },
+        "3F_Wall_Exterior_004_SouthEast_DownReturn": {
+          "actual_xyxy_m": [
+            15.822221755981445,
+            -9.042593002319336,
+            16.102222442626953,
+            -6.298148155212402
+          ],
+          "expected_xyxy_m": [
+            15.822222222222223,
+            -9.042592592592593,
+            16.10222222222222,
+            -6.298148148148148
+          ],
+          "max_error_m": 4.6624077754131577e-07
+        },
+        "3F_Wall_Stair_001_From2F_West": {
+          "actual_xyxy_m": [
+            0.6009643077850342,
+            -10.696296691894531,
+            0.8209643363952637,
+            -5.735185146331787
+          ],
+          "expected_xyxy_m": [
+            0.6009643363952637,
+            -10.696296691894531,
+            0.8209643363952637,
+            -5.735185146331787
+          ],
+          "max_error_m": 2.8610229518832853e-08
+        },
+        "3F_Wall_Stair_002_From2F_East": {
+          "actual_xyxy_m": [
+            3.6943395137786865,
+            -10.696296691894531,
+            3.914339542388916,
+            -5.735185146331787
+          ],
+          "expected_xyxy_m": [
+            3.6943395137786865,
+            -10.696296691894531,
+            3.9143395137786867,
+            -5.735185146331787
+          ],
+          "max_error_m": 2.8610229296788248e-08
+        },
+        "3F_Wall_Exterior_005_Arrival_West_Return": {
+          "actual_xyxy_m": [
+            -0.8582808971405029,
+            -9.182592391967773,
+            0.6009643077850342,
+            -8.902592658996582
+          ],
+          "expected_xyxy_m": [
+            -0.8582809224318658,
+            -9.182592592592593,
+            0.6009643363952637,
+            -8.902592592592592
+          ],
+          "max_error_m": 2.0062481986826697e-07
+        },
+        "3F_Wall_Exterior_006_Arrival_East_Return": {
+          "actual_xyxy_m": [
+            3.914339542388916,
+            -9.182592391967773,
+            5.373584747314453,
+            -8.902592658996582
+          ],
+          "expected_xyxy_m": [
+            3.9143395137786867,
+            -9.182592592592593,
+            5.373584905660378,
+            -8.902592592592592
+          ],
+          "max_error_m": 2.0062481986826697e-07
+        }
+      }
+    },
+    {
+      "name": "All four source-drawn opaque facade corner blocks are structurally continuous",
+      "pass": true,
+      "detail": {
+        "northwest": [
+          "3F_Column_011_Facade_NorthWestCorner"
+        ],
+        "northeast": [
+          "3F_Column_012_Facade_NorthEastCorner"
+        ],
+        "southwest": [
+          "3F_Column_013_Facade_SouthWestCorner"
+        ],
+        "southeast": [
+          "3F_Column_014_Facade_SouthEastCorner"
+        ]
+      }
+    },
+    {
+      "name": "All four private-terrace wall piers match the 1.10 m glass guard height",
+      "pass": true,
+      "detail": {
+        "3F_Column_001_Terrace_NorthWest": [
+          0.0,
+          1.100000023841858
+        ],
+        "3F_Column_002_Terrace_CenterWest": [
+          0.0,
+          1.100000023841858
+        ],
+        "3F_Column_003_Terrace_CenterEast": [
+          0.0,
+          1.100000023841858
+        ],
+        "3F_Column_004_Terrace_NorthEast": [
+          0.0,
+          1.100000023841858
+        ]
+      }
+    },
+    {
+      "name": "All non-terrace structural columns remain at 3.20 m",
+      "pass": true,
+      "detail": {
+        "3F_Column_005_Facade_WestMid": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Column_006_Facade_EastMid": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Column_007_Facade_SouthWestStep": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Column_008_Facade_SouthEastStep": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Column_009_Arrival_OuterWest": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Column_010_Arrival_OuterEast": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Column_011_Facade_NorthWestCorner": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Column_012_Facade_NorthEastCorner": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Column_013_Facade_SouthWestCorner": [
+          0.0,
+          3.200000047683716
+        ],
+        "3F_Column_014_Facade_SouthEastCorner": [
+          0.0,
+          3.200000047683716
+        ]
+      }
+    },
+    {
+      "name": "Full-height glazing is separate, 0.020 m thick, and 3.20 m high",
+      "pass": true,
+      "detail": [
+        [
+          "3F_Glass_001_MasterNorth_West",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ],
+        [
+          "3F_Glass_002_MasterNorth_East",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ],
+        [
+          "3F_Glass_003_FacadeWest_North",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ],
+        [
+          "3F_Glass_004_FacadeWest_South",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ],
+        [
+          "3F_Glass_005_FacadeEast_North",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ],
+        [
+          "3F_Glass_006_FacadeEast_South",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ],
+        [
+          "3F_Glass_007_SouthWest_Outer",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ],
+        [
+          "3F_Glass_008_SouthWest_Inner",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ],
+        [
+          "3F_Glass_009_SouthEast_Inner",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ],
+        [
+          "3F_Glass_010_SouthEast_Outer",
+          0.02,
+          [
+            0.0,
+            3.200000047683716
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "All ten glazing runs match independent source-plan bounds",
+      "pass": true,
+      "detail": {
+        "3F_Glass_001_MasterNorth_West": {
+          "actual_xyxy_m": [
+            -16.493921279907227,
+            7.308518409729004,
+            -1.5299787521362305,
+            7.328518390655518
+          ],
+          "expected_xyxy_m": [
+            -16.49392033542977,
+            7.308518518518519,
+            -1.529979035639413,
+            7.328518518518519
+          ],
+          "max_error_m": 9.444774562439306e-07
+        },
+        "3F_Glass_002_MasterNorth_East": {
+          "actual_xyxy_m": [
+            1.4180293083190918,
+            7.308518409729004,
+            15.561006546020508,
+            7.328518390655518
+          ],
+          "expected_xyxy_m": [
+            1.4180293501048218,
+            7.308518518518519,
+            15.561006289308176,
+            7.328518518518519
+          ],
+          "max_error_m": 2.567123313923503e-07
+        },
+        "3F_Glass_003_FacadeWest_North": {
+          "actual_xyxy_m": [
+            -18.556331634521484,
+            0.7037036418914795,
+            -18.536331176757812,
+            5.488888740539551
+          ],
+          "expected_xyxy_m": [
+            -18.556331236897275,
+            0.7037037037037037,
+            -18.536331236897272,
+            5.488888888888889
+          ],
+          "max_error_m": 3.9762420911415575e-07
+        },
+        "3F_Glass_004_FacadeWest_South": {
+          "actual_xyxy_m": [
+            -18.556331634521484,
+            -4.538888931274414,
+            -18.536331176757812,
+            -0.6333333253860474
+          ],
+          "expected_xyxy_m": [
+            -18.556331236897275,
+            -4.538888888888889,
+            -18.536331236897272,
+            -0.6333333333333334
+          ],
+          "max_error_m": 3.9762420911415575e-07
+        },
+        "3F_Glass_005_FacadeEast_North": {
+          "actual_xyxy_m": [
+            17.379518508911133,
+            0.7037036418914795,
+            17.399517059326172,
+            5.488888740539551
+          ],
+          "expected_xyxy_m": [
+            17.379517819706496,
+            0.7037037037037037,
+            17.3995178197065,
+            5.488888888888889
+          ],
+          "max_error_m": 7.603803275912924e-07
+        },
+        "3F_Glass_006_FacadeEast_South": {
+          "actual_xyxy_m": [
+            17.379518508911133,
+            -4.538888931274414,
+            17.399517059326172,
+            -0.6333333253860474
+          ],
+          "expected_xyxy_m": [
+            17.379517819706496,
+            -4.538888888888889,
+            17.3995178197065,
+            -0.6333333333333334
+          ],
+          "max_error_m": 7.603803275912924e-07
+        },
+        "3F_Glass_007_SouthWest_Outer": {
+          "actual_xyxy_m": [
+            -16.755136489868164,
+            -9.052592277526855,
+            -8.246960639953613,
+            -9.0325927734375
+          ],
+          "expected_xyxy_m": [
+            -16.755136268343815,
+            -9.052592592592593,
+            -8.246960167714885,
+            -9.032592592592593
+          ],
+          "max_error_m": 4.722387281219653e-07
+        },
+        "3F_Glass_008_SouthWest_Inner": {
+          "actual_xyxy_m": [
+            -7.239412784576416,
+            -9.052592277526855,
+            -0.8582808971405029,
+            -9.0325927734375
+          ],
+          "expected_xyxy_m": [
+            -7.239412997903564,
+            -9.052592592592593,
+            -0.8582809224318658,
+            -9.032592592592593
+          ],
+          "max_error_m": 3.1506573705541996e-07
+        },
+        "3F_Glass_009_SouthEast_Inner": {
+          "actual_xyxy_m": [
+            5.373584747314453,
+            -9.052592277526855,
+            6.97819709777832,
+            -9.0325927734375
+          ],
+          "expected_xyxy_m": [
+            5.373584905660378,
+            -9.052592592592593,
+            6.978197064989518,
+            -9.032592592592593
+          ],
+          "max_error_m": 3.1506573705541996e-07
+        },
+        "3F_Glass_010_SouthEast_Outer": {
+          "actual_xyxy_m": [
+            7.948427677154541,
+            -9.052592277526855,
+            15.822221755981445,
+            -9.0325927734375
+          ],
+          "expected_xyxy_m": [
+            7.948427672955975,
+            -9.052592592592593,
+            15.822222222222223,
+            -9.032592592592593
+          ],
+          "max_error_m": 4.6624077754131577e-07
+        }
+      }
+    },
+    {
+      "name": "Private terrace outer edge has 1.10 m collision guardrails",
+      "pass": true,
+      "detail": {
+        "glass": 3,
+        "toprails": 3
+      }
+    },
+    {
+      "name": "Private terrace slab preserves the source-drawn stepped north projection",
+      "pass": true,
+      "detail": {
+        "source_pixel_samples": {
+          "west_side_inside": [
+            250,
+            220
+          ],
+          "west_side_north_outside": [
+            250,
+            190
+          ],
+          "center_projection_inside": [
+            580,
+            190
+          ],
+          "center_projection_north_outside": [
+            580,
+            165
+          ],
+          "east_side_inside": [
+            900,
+            220
+          ],
+          "east_side_north_outside": [
+            900,
+            190
+          ]
+        },
+        "actual_hits": {
+          "west_side_inside": true,
+          "west_side_north_outside": false,
+          "center_projection_inside": true,
+          "center_projection_north_outside": false,
+          "east_side_inside": true,
+          "east_side_north_outside": false
+        }
+      }
+    },
+    {
+      "name": "Central terrace columns match the source-traced projected blocks",
+      "pass": true,
+      "detail": {
+        "3F_Column_002_Terrace_CenterWest": {
+          "actual_xyxy_m": [
+            -8.284276962280273,
+            10.274073600769043,
+            -7.0155134201049805,
+            11.857407569885254
+          ],
+          "expected_xyxy_m": [
+            -8.284276729559748,
+            10.274074074074075,
+            -7.015513626834382,
+            11.857407407407408
+          ],
+          "max_error_m": 4.7330503250009315e-07
+        },
+        "3F_Column_003_Terrace_CenterEast": {
+          "actual_xyxy_m": [
+            6.605031490325928,
+            10.274073600769043,
+            7.948427677154541,
+            11.857407569885254
+          ],
+          "expected_xyxy_m": [
+            6.605031446540881,
+            10.274074074074075,
+            7.948427672955975,
+            11.857407407407408
+          ],
+          "max_error_m": 4.7330503250009315e-07
+        }
+      }
+    },
+    {
+      "name": "Terrace guardrail segments follow all three stepped source edges",
+      "pass": true,
+      "detail": {
+        "3F_Railing_Terrace_NorthWest": {
+          "actual_xyxy_m": [
+            -17.001352310180664,
+            10.651110649108887,
+            -8.299276351928711,
+            10.671111106872559
+          ],
+          "expected_xyxy_m": [
+            -17.001352201257863,
+            10.651111111111112,
+            -8.299276729559748,
+            10.671111111111111
+          ],
+          "max_error_m": 4.620022249213207e-07
+        },
+        "3F_Railing_Terrace_NorthCenter": {
+          "actual_xyxy_m": [
+            -7.000514030456543,
+            11.847407341003418,
+            6.590031623840332,
+            11.86740779876709
+          ],
+          "expected_xyxy_m": [
+            -7.000513626834382,
+            11.847407407407408,
+            6.590031446540881,
+            11.867407407407407
+          ],
+          "max_error_m": 4.036221605829837e-07
+        },
+        "3F_Railing_Terrace_NorthEast": {
+          "actual_xyxy_m": [
+            7.963427543640137,
+            10.651110649108887,
+            15.993804931640625,
+            10.671111106872559
+          ],
+          "expected_xyxy_m": [
+            7.963427672955975,
+            10.651111111111112,
+            15.993805031446541,
+            10.671111111111111
+          ],
+          "max_error_m": 4.620022249213207e-07
+        }
+      }
+    },
+    {
+      "name": "Opening schedule classifies one doorway and one stair opening",
+      "pass": true,
+      "detail": [
+        {
+          "name": "PrivateTerrace_DoubleDoor",
+          "classification": "intentional_doorway",
+          "aperture_source_px": [
+            544,
+            296,
+            623,
+            310
+          ],
+          "clear_width_m": 2.948008385744235,
+          "sample_world_xy_m": [
+            -0.0559748427672956,
+            7.318518518518519
+          ],
+          "reason": "double door swing shown in the terrace glass wall"
+        },
+        {
+          "name": "StairArrival_From2F",
+          "classification": "stair_opening",
+          "aperture_world_xyxy_m": [
+            0.8209643363952637,
+            -10.696296691894531,
+            3.6943395137786865,
+            -5.735185146331787
+          ],
+          "sample_world_xy_m": [
+            2.2576519916142557,
+            -5.348148148148148
+          ],
+          "reason": "exact live 2F stair aperture and open north arrival"
+        }
+      ]
+    },
+    {
+      "name": "Both intentional openings remain physically unobstructed",
+      "pass": true,
+      "detail": {
+        "PrivateTerrace_DoubleDoor": [],
+        "StairArrival_From2F": []
+      }
+    },
+    {
+      "name": "Every scheduled wall/column/glass junction object exists",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No tiny cracks remain at audited wall-to-glass and wall-to-column junctions",
+      "pass": true,
+      "detail": {
+        "northwest_return_to_north_glass": 0.0,
+        "northeast_return_to_north_glass": 0.0,
+        "northwest_side_to_west_glass": 0.0,
+        "northwest_corner_to_side": 0.0,
+        "west_glass_to_mid_column_north": 0.0,
+        "west_mid_column_to_glass_south": 0.0,
+        "west_glass_to_south_side": 0.0,
+        "southwest_corner_to_downreturn": 0.0,
+        "west_downreturn_to_outer_glass": 0.0,
+        "west_outer_glass_to_step_column": 0.0,
+        "west_step_column_to_inner_glass": 0.0,
+        "west_inner_glass_to_arrival_return": 0.0,
+        "west_arrival_return_to_stair_wall": 0.0,
+        "northeast_side_to_east_glass": 0.0,
+        "northeast_corner_to_side": 0.0,
+        "east_glass_to_mid_column_north": 0.0,
+        "east_mid_column_to_glass_south": 0.0,
+        "east_glass_to_south_side": 0.0,
+        "southeast_corner_to_downreturn": 0.0,
+        "east_downreturn_to_outer_glass": 0.0,
+        "east_outer_glass_to_step_column": 0.0,
+        "east_step_column_to_inner_glass": 0.0,
+        "east_inner_glass_to_arrival_return": 0.0,
+        "east_arrival_return_to_stair_wall": 0.0
+      }
+    },
+    {
+      "name": "No positive-area structural or glazing overlaps",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "All architectural meshes are closed with positive signed volume",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "No wall object contains disconnected structural fragments",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "No walls, columns, or glazing float away from a slab footprint",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No duplicate architectural meshes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "1F and 2F source/model files remain byte-identical",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "1F/1F_shell.blend": "7a91e92129e1fa5d5ff155ccc80027de38b345c1a6f23173fac3a9980dbfb230",
+          "2F/2F_shell.blend": "2e72436177fc4cc9fd8d8db4f6b9ffa42d0b9364941480874ce8612991159b46",
+          "1F/1F.png": "f40aa2ea503d22a7e08a013d72ad6e715d2e6d1c3933884dde9bbe3a8eaf0e13",
+          "2F/2F.png": "1ed9ca6adba94b5af9bbc8d28b05baeeeab93663743cd52ac865bace3596c41e"
+        },
+        "actual": {
+          "1F/1F_shell.blend": "7a91e92129e1fa5d5ff155ccc80027de38b345c1a6f23173fac3a9980dbfb230",
+          "2F/2F_shell.blend": "2e72436177fc4cc9fd8d8db4f6b9ffa42d0b9364941480874ce8612991159b46",
+          "1F/1F.png": "f40aa2ea503d22a7e08a013d72ad6e715d2e6d1c3933884dde9bbe3a8eaf0e13",
+          "2F/2F.png": "1ed9ca6adba94b5af9bbc8d28b05baeeeab93663743cd52ac865bace3596c41e"
+        }
+      }
+    },
+    {
+      "name": "Required validation renders exist and are nonempty",
+      "pass": true,
+      "detail": {
+        "3F_shell_top.png": {
+          "exists": true,
+          "bytes": 3769080,
+          "modified_unix_s": 1789399699.7105606,
+          "sha256": "2da70e36f4b7e1e67b9a9b06373c65738a85fbf16d8e8f2ab6ca04d80fc3b6b3",
+          "from_current_build": true
+        },
+        "3F_shell_perspective_corner.png": {
+          "exists": true,
+          "bytes": 2243322,
+          "modified_unix_s": 1789399703.8599925,
+          "sha256": "bc0cf3b170a819c6610dfb4d2b7000ad2c90451f2027b51f03b3e8098124ab90",
+          "from_current_build": true
+        }
+      }
+    }
+  ],
+  "passed": 48,
+  "failed": 0,
+  "mesh_objects": 40,
+  "object_count_total": 48,
+  "triangles": 624,
+  "bounds_m": {
+    "min": [
+      -18.770233154296875,
+      -10.696296691894531,
+      -0.20000000298023224
+    ],
+    "max": [
+      17.650733947753906,
+      11.87740707397461,
+      3.200000047683716
+    ],
+    "dimensions": [
+      36.42096710205078,
+      22.57370376586914,
+      3.400000050663948
+    ]
+  },
+  "floor_slab_ranges_m": {
+    "3F_Floor_Main": [
+      -0.20000000298023224,
+      0.0
+    ],
+    "3F_Terrace_Private": [
+      -0.20000000298023224,
+      0.0
+    ]
+  },
+  "wall_ranges_m": {
+    "3F_Wall_Exterior_001_NorthWest_Side": [
+      0.0,
+      3.200000047683716
+    ],
+    "3F_Wall_Exterior_002_NorthEast_Side": [
+      0.0,
+      3.200000047683716
+    ],
+    "3F_Wall_Exterior_003_SouthWest_DownReturn": [
+      0.0,
+      3.200000047683716
+    ],
+    "3F_Wall_Exterior_004_SouthEast_DownReturn": [
+      0.0,
+      3.200000047683716
+    ],
+    "3F_Wall_Exterior_005_Arrival_West_Return": [
+      0.0,
+      3.200000047683716
+    ],
+    "3F_Wall_Exterior_006_Arrival_East_Return": [
+      0.0,
+      3.200000047683716
+    ],
+    "3F_Wall_Stair_001_From2F_West": [
+      0.0,
+      3.200000047683716
+    ],
+    "3F_Wall_Stair_002_From2F_East": [
+      0.0,
+      3.200000047683716
+    ]
+  },
+  "stair_interface": {
+    "live_2f_stair_bounds_xyxy_m": [
+      0.8209643363952637,
+      -10.696296691894531,
+      3.6943395137786865,
+      -5.735185146331787
+    ],
+    "3f_opening_bounds_xyzxyz_m": [
+      0.8209642171859741,
+      -10.69629693031311,
+      -0.20000004768371582,
+      3.694339394569397,
+      -5.735185384750366,
+      3.200000047683716
+    ],
+    "3f_opening_metadata_bounds_xyzxyz_m": [
+      0.8209643363952637,
+      -10.696296691894531,
+      -0.2,
+      3.6943395137786865,
+      -5.735185146331787,
+      3.2
+    ],
+    "alignment_error_m": 2.384185791015625e-07,
+    "connection_alignment_error_m": 1.1920928955078125e-07,
+    "landing_exit_direction": "+Y/north",
+    "landing_exit_blockers": {
+      "0.05": [],
+      "0.15": [],
+      "0.35": []
+    },
+    "physical_stair_mesh_duplicated_in_3f": false,
+    "raster_stair_center_x_px_approx": 584.0,
+    "live_2f_stair_center_source_equivalent_x_px": 645.5,
+    "documented_plan_displacement_m": 2.2949685534591198
+  },
+  "wall_audit": {
+    "opening_schedule": [
+      {
+        "name": "PrivateTerrace_DoubleDoor",
+        "classification": "intentional_doorway",
+        "aperture_source_px": [
+          544,
+          296,
+          623,
+          310
+        ],
+        "clear_width_m": 2.948008385744235,
+        "sample_world_xy_m": [
+          -0.0559748427672956,
+          7.318518518518519
+        ],
+        "reason": "double door swing shown in the terrace glass wall"
+      },
+      {
+        "name": "StairArrival_From2F",
+        "classification": "stair_opening",
+        "aperture_world_xyxy_m": [
+          0.8209643363952637,
+          -10.696296691894531,
+          3.6943395137786865,
+          -5.735185146331787
+        ],
+        "sample_world_xy_m": [
+          2.2576519916142557,
+          -5.348148148148148
+        ],
+        "reason": "exact live 2F stair aperture and open north arrival"
+      }
+    ],
+    "intentional_opening_count": 2,
+    "blocked_openings": {
+      "PrivateTerrace_DoubleDoor": [],
+      "StairArrival_From2F": []
+    },
+    "accidental_gaps_detected": 0,
+    "unexplained_gaps_remaining": 0,
+    "junction_clearances_m": {
+      "northwest_return_to_north_glass": 0.0,
+      "northeast_return_to_north_glass": 0.0,
+      "northwest_side_to_west_glass": 0.0,
+      "northwest_corner_to_side": 0.0,
+      "west_glass_to_mid_column_north": 0.0,
+      "west_mid_column_to_glass_south": 0.0,
+      "west_glass_to_south_side": 0.0,
+      "southwest_corner_to_downreturn": 0.0,
+      "west_downreturn_to_outer_glass": 0.0,
+      "west_outer_glass_to_step_column": 0.0,
+      "west_step_column_to_inner_glass": 0.0,
+      "west_inner_glass_to_arrival_return": 0.0,
+      "west_arrival_return_to_stair_wall": 0.0,
+      "northeast_side_to_east_glass": 0.0,
+      "northeast_corner_to_side": 0.0,
+      "east_glass_to_mid_column_north": 0.0,
+      "east_mid_column_to_glass_south": 0.0,
+      "east_glass_to_south_side": 0.0,
+      "southeast_corner_to_downreturn": 0.0,
+      "east_downreturn_to_outer_glass": 0.0,
+      "east_outer_glass_to_step_column": 0.0,
+      "east_step_column_to_inner_glass": 0.0,
+      "east_inner_glass_to_arrival_return": 0.0,
+      "east_arrival_return_to_stair_wall": 0.0
+    },
+    "positive_area_overlaps": [],
+    "disconnected_walls": {},
+    "floating_elements": []
+  },
+  "terrace": {
+    "drawn_mesh_top_area_m2": 135.92073249816895,
+    "schedule_area_m2": 52.0,
+    "area_discrepancy_m2": 83.92073249816895,
+    "policy": "Trace drawn full-width terrace; do not distort it to the approximate room schedule."
+  },
+  "ambiguities": [
+    "The 3F raster stair is approximately 2.295 m west of live 2F_Stair_UpTo3F; only the local arrival bay is shifted.",
+    "The drawn full-width terrace is materially larger than the approximate 52 m2 room schedule.",
+    "Blue-gray lines at the outdoor terrace perimeter are interpreted as 1.10 m guards; occupied fa\u00e7ades use 3.20 m glazing.",
+    "The 3F PNG is 1447 x 1087 while earlier sheets are nominally 1448 x 1086; the established stack transform governs."
+  ],
+  "readonly_sha256": {
+    "1F/1F_shell.blend": "7a91e92129e1fa5d5ff155ccc80027de38b345c1a6f23173fac3a9980dbfb230",
+    "2F/2F_shell.blend": "2e72436177fc4cc9fd8d8db4f6b9ffa42d0b9364941480874ce8612991159b46",
+    "1F/1F.png": "f40aa2ea503d22a7e08a013d72ad6e715d2e6d1c3933884dde9bbe3a8eaf0e13",
+    "2F/2F.png": "1ed9ca6adba94b5af9bbc8d28b05baeeeab93663743cd52ac865bace3596c41e"
+  },
+  "validation_images": {
+    "3F_shell_top.png": {
+      "exists": true,
+      "bytes": 3769080,
+      "modified_unix_s": 1789399699.7105606,
+      "sha256": "2da70e36f4b7e1e67b9a9b06373c65738a85fbf16d8e8f2ab6ca04d80fc3b6b3",
+      "from_current_build": true
+    },
+    "3F_shell_perspective_corner.png": {
+      "exists": true,
+      "bytes": 2243322,
+      "modified_unix_s": 1789399703.8599925,
+      "sha256": "bc0cf3b170a819c6610dfb4d2b7000ad2c90451f2027b51f03b3e8098124ab90",
+      "from_current_build": true
+    }
+  }
+}

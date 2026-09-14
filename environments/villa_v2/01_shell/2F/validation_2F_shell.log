@@ -1,0 +1,62 @@
+VALIDATION: 57 passed; 0 failed
+PASS Blender file opens with expected 2F scene
+PASS Scene uses meters at unit scale 1
+PASS Expected architectural mesh count is nonzero
+PASS All architectural object scales are unit
+PASS No duplicate object names
+PASS Required floor, terrace, stair, and void objects exist
+PASS Saved top validation camera is truly orthographic
+PASS Calibrated source image is packed in the scene
+PASS No furniture or decorative object names
+PASS No ceiling or other-floor room slab
+PASS Overall X extent is realistic and consistent with the 1F architectural envelope
+PASS Overall Y extent is realistic for the corrected terrace projection
+PASS No absurd coordinates or millimeter/meter scale error
+PASS Family Terrace correction leaves every unrelated XY bound unchanged
+PASS Main slab top is Z=0 with 0.20 m thickness
+PASS Main floor slab is horizontal
+PASS No floor covers the OPEN TO BELOW region
+PASS 1F to 2F stair opening is not covered by the 2F slab
+PASS Exterior walls use nominal 0.28 m thickness
+PASS Interior walls use nominal 0.18 m thickness
+PASS Stairwell walls use nominal 0.22 m thickness
+PASS Walls are vertical with reasonable 3.2 m height
+PASS No non-column wall thickness exceeds 0.30 m
+PASS Glass is separate and 0.020 m thick
+PASS 2F to 3F stair is physical and rises north with realistic steps
+PASS Existing 1F to 2F flight is not duplicated in the independent 2F shell
+PASS Guardrails exist on all four void edges and exposed stair side edges
+PASS Guardrail height is 1.05 to 1.10 m with nominal top at 1.10 m
+PASS Guardrail glass has physical 0.020 m thickness
+PASS All guardrail object scales are unit
+PASS Void guardrails remain outside the OPEN TO BELOW clear volume
+PASS Guardrails cover every exposed OPEN TO BELOW edge
+PASS Guardrails do not block Bridge / Upper Gallery circulation
+PASS Stair guardrails do not block the south landing exit toward +X
+PASS Stair opening exposed west side and east flight side have guardrails
+PASS Dedicated Family Terrace slab exists
+PASS Family Terrace is north of the Family Lounge glazing
+PASS Family Terrace connects continuously to the Lounge glazing interface
+PASS Family Terrace slab has the validated 0.20 m thickness
+PASS Family Terrace uses the approved 10.0 m luxury proportion width
+PASS Family Terrace provides the approved uniform 2.7 m furnishing depth
+PASS Family Terrace actual top area is approximately 27 square metres
+PASS Family Terrace width/depth ratio matches the approved luxury design
+PASS Family Terrace does not overlap indoor or bridge floor slabs
+PASS Family Terrace does not cover OPEN TO BELOW
+PASS Family Terrace object scale is unit
+PASS Family Lounge glazing remains a full-height separator at the terrace interface
+PASS Family Terrace exposed north, west, and east edges have 1.10 m glass guards
+PASS All architectural meshes are closed with positive signed volume
+PASS No duplicate architectural meshes
+PASS 2F stair opening matches the measured 1F Stair B opening
+PASS 2F reuses exact 1F origin and pixel-to-world transform
+PASS 2F OPEN TO BELOW substantially overlaps the measured 1F Great Room void
+PASS Shared major X anchors align to 1F within 0.25 m
+PASS 1F/2F alignment regression remains unchanged outside the corrected terrace
+PASS Read-only 1F deliverables remain byte-identical
+PASS All requested visual validation files exist and are nonempty
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/home/nicklee/Phenix_Project/Drone/environments/villa_v2/01_shell/2F/2F_shell.blend"
+
+Blender quit

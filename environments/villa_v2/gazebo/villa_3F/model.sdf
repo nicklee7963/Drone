@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+
+  <model name="villa_3F">
+
+    <static>true</static>
+
+    <link name="villa_3F_link">
+
+      <visual name="villa_3F_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/villa_3F.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="villa_3F_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/villa_3F.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+    </link>
+
+  </model>
+
+</sdf>
