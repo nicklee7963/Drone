@@ -15,7 +15,7 @@ This environment is part of the larger **Drone / Phoenix Project** and is intend
 
 The environment will be developed incrementally.
 
-> **Current release: V0 — Real Terrain Geometry**
+> **Current release: V1 — Real Roads and Geographic Structure**
 
 ---
 
@@ -26,7 +26,7 @@ The Alishan environment will evolve through multiple versions.
 | Version | Main Goal | Status |
 |---|---|---|
 | **V0** | Real 500 m × 500 m terrain geometry from official DTM | ✅ Completed |
-| **V1** | Geographic appearance, roads and basic semantic environment | Planned |
+| **V1** | Real road/path locations and basic geographic structure | ✅ Completed |
 | **V2** | Vegetation, bamboo, tea plantations and buildings | Planned |
 | **V3** | PX4 SITL + x500 manual flight in the environment | Planned |
 | **V4** | ROS 2 autonomous navigation and terrain-following missions | Planned |
@@ -345,12 +345,122 @@ The neutral diffuse and normal maps are only renderer-support assets for the Ogr
 
 ---
 
+# V1 — Real Roads and Geographic Structure
+
+V1 retains V0's unmodified, real 20 m terrain GeoTIFF as the environment foundation and adds a deliberately small, visual-only road/path layer. It does not modify the DTM, terrain collision, PX4, ROS 2, or any other simulation integration.
+
+## Road source
+
+Road and path locations come from [OpenStreetMap](https://www.openstreetmap.org/) highway ways. The preferred downloader issues this narrow Overpass query:
+
+```text
+[out:json][timeout:30];
+way["highway"](23.477127735,120.696157403,23.481652227,120.701062514);
+out tags geom;
+```
+
+The bounding box is not a degree approximation: it is the inverse projection of the canonical EPSG:3826 500 m × 500 m site rectangle. During V1 creation the primary Overpass endpoint returned a gateway timeout, so the preserved raw source was instead obtained directly from the official OSM API:
+
+```text
+https://api.openstreetmap.org/api/0.6/map?bbox=120.696157403%2C23.477127735%2C120.701062514%2C23.481652227
+```
+
+It is stored, unchanged and ignored by Git, at:
+
+```text
+data/raw/osm/alishan_shizhuo_roads_osm-api.osm
+```
+
+The downloaded XML identifies the source as © OpenStreetMap contributors under the Open Data Commons Open Database License. See the [OpenStreetMap copyright and license notice](https://www.openstreetmap.org/copyright) before redistributing derived data.
+
+## Coordinate and elevation pipeline
+
+```text
+OSM WGS84 LineString
+        ↓ EPSG:4326 → EPSG:3826
+GeoTIFF footprint → local Gazebo XY (±250 m)
+        ↓ bilinear sample of the existing 20 m DTM
+TWVD2001 elevation − 1330.340 m + 0.100 m
+        ↓
+terrain-following static OBJ ribbon
+        ↓
+Gazebo visual-only roads model
+```
+
+The road generator maps EPSG:3826 coordinates to the existing terrain raster's 500 m footprint, centered at local `(0, 0)`, then clips lines to that footprint. This aligns roads with the physical terrain model, including the small grid-alignment difference between the canonical site center and the grid-snapped DTM extent. It does not use arbitrary latitude/longitude offsets.
+
+Each line is densified to a maximum 5 m horizontal segment length and sampled bilinearly from the original 20 m DTM. This interpolation follows the same coarse source surface; it does not add terrain detail or modify the GeoTIFF. The 0.100 m local-Z offset prevents z-fighting. Widths are intentionally approximate visual categories: secondary is wider; unclassified/residential/service are medium; tracks and paths are narrow.
+
+The raw OSM response contains 22 highway ways in the terrain footprint:
+
+```text
+secondary: 1, unclassified: 3, service: 5, track: 7,
+path: 1, footway: 1, steps: 4
+```
+
+For dependable Gazebo Harmonic / Ogre2 rendering, each visible category is generated as its own static OBJ and receives an explicit, matte SDF material. This avoids relying on OBJ/MTL face-material import. The roads intentionally have no separate collision geometry: V0's terrain remains the collision surface.
+
+| OSM highway type | Visual width | Material |
+|---|---:|---|
+| `secondary` | 5.0 m | matte dark gray |
+| `unclassified` | 3.5 m | matte medium gray |
+| `service` | 2.5 m | matte light gray |
+| `track` | 1.8 m | matte earth brown |
+| `path` | 0.8 m | matte muted tan |
+| `footway` | 0.7 m | matte muted tan |
+| `steps` | hidden | intentionally omitted for a cleaner V1 overview |
+
+The six visible categories account for 18 rendered OSM ways; all four `steps` ways are intentionally hidden. These visual widths are approximate only; road centreline coordinates, clipping, DTM sampling, and the `+0.100 m` terrain offset remain unchanged.
+
+## Reproduce V1 road preprocessing
+
+From this environment directory, download only the 500 m site data. The downloader never overwrites an existing raw response.
+
+```bash
+# Preferred Overpass source (JSON, if its endpoint is available)
+python3 scripts/download_osm_roads.py --source overpass
+
+# Direct official OpenStreetMap fallback (XML)
+python3 scripts/download_osm_roads.py --source osm-api
+
+# Generate the terrain-following road mesh from the source that was downloaded
+python3 scripts/generate_road_mesh.py \
+  --source-json data/raw/osm/alishan_shizhuo_roads_osm-api.osm
+
+# Check model references, local bounds/Z, and the immutable V0 GeoTIFF hash
+python3 scripts/validate_v1_environment.py
+```
+
+The generated mesh and metadata live under `data/processed/roads/`. The Gazebo roads model uses small model-local symlinks to those generated files, avoiding a second mesh copy.
+
+## V1 limitations
+
+V1 provides geographic readability, not a road-engineering model:
+
+- OSM completeness and tags determine what is shown.
+- Terrain following is constrained by the original 20 m DTM; road grade, cuttings, bridges, and embankments are not independently modeled.
+- Road widths are approximate visual categories, not surveyed widths.
+- Roads are visual-only; terrain collision remains authoritative.
+- V1 still does **not** include buildings, vegetation, bamboo, tea-plantation geometry, satellite texture, Blender assets, PX4, ROS 2, QGroundControl, weather, or autonomous navigation.
+
+Launch the combined terrain-and-roads V1 world with the existing command:
+
+```bash
+alishan_sim
+```
+
+or use the manual command in [Running the Environment](#running-the-environment).
+
+---
+
 # Validation
 
 Validate the Gazebo terrain configuration:
 
 ```bash
 python3 scripts/validate_gazebo_terrain.py
+
+python3 scripts/validate_v1_environment.py
 ```
 
 Run the full test suite:
@@ -378,10 +488,13 @@ alishan_shizhuo/
 │   └── site.yaml
 ├── data/
 │   ├── raw/
+│   │   └── osm/
 │   └── processed/
+│       └── roads/
 ├── docs/
 ├── gazebo/
 │   ├── models/
+│   │   └── alishan_shizhuo_roads/
 │   └── worlds/
 ├── scripts/
 └── tests/
@@ -480,14 +593,13 @@ cannot be accurately represented by the current DTM alone.
 
 ## V1 — Geographic Environment
 
-V1 will begin turning the terrain geometry into a recognizable Alishan environment.
+Completed in this release:
 
-Planned additions include:
+ - real road/path locations from OpenStreetMap
+ - terrain-following static road ribbons
+ - category-specific road widths and materials
 
-- real road locations
-- improved ground appearance
-- basic land-use information
-- initial geographic environment layers
+V1 intentionally stops before land-use layers or object placement.
 
 ---
 

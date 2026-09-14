@@ -1,0 +1,51 @@
+{
+  "coordinate_pipeline": "EPSG:4326 -> EPSG:3826 -> GeoTIFF-centred Gazebo local XY",
+  "face_count": 879,
+  "feature_count": 18,
+  "gazebo_material_assignment": "one explicit matte SDF material per per-category OBJ visual",
+  "gazebo_visual_meshes": {
+    "road_footway": "/home/nicklee/Phenix_Project/Drone/environments/alishan_shizhuo/data/processed/roads/alishan_shizhuo_roads_footway.obj",
+    "road_path": "/home/nicklee/Phenix_Project/Drone/environments/alishan_shizhuo/data/processed/roads/alishan_shizhuo_roads_path.obj",
+    "road_secondary": "/home/nicklee/Phenix_Project/Drone/environments/alishan_shizhuo/data/processed/roads/alishan_shizhuo_roads_secondary.obj",
+    "road_service": "/home/nicklee/Phenix_Project/Drone/environments/alishan_shizhuo/data/processed/roads/alishan_shizhuo_roads_service.obj",
+    "road_track": "/home/nicklee/Phenix_Project/Drone/environments/alishan_shizhuo/data/processed/roads/alishan_shizhuo_roads_track.obj",
+    "road_unclassified": "/home/nicklee/Phenix_Project/Drone/environments/alishan_shizhuo/data/processed/roads/alishan_shizhuo_roads_unclassified.obj"
+  },
+  "hidden_highway_types": [
+    "steps"
+  ],
+  "highway_types": {
+    "footway": 1,
+    "path": 1,
+    "secondary": 1,
+    "service": 5,
+    "track": 7,
+    "unclassified": 3
+  },
+  "local_maximum_m": 229.83004394531258,
+  "local_minimum_m": 0.0,
+  "local_z": "TWVD2001 elevation - 1330.340 m + 0.100 m road offset",
+  "material_types": {
+    "road_footway": 1,
+    "road_path": 1,
+    "road_secondary": 1,
+    "road_service": 5,
+    "road_track": 7,
+    "road_unclassified": 3
+  },
+  "site_config": "/home/nicklee/Phenix_Project/Drone/environments/alishan_shizhuo/configs/site.yaml",
+  "source_osm_json": "data/raw/osm/alishan_shizhuo_roads_osm-api.osm",
+  "source_tiff_sha256": "b082d7f874808eb531a27daa293dd5766faf3339763219cdeab0bd578fd2c8dc",
+  "terrain_bounds_epsg3826": [
+    218970.0,
+    2597150.0,
+    219470.0,
+    2597650.0
+  ],
+  "terrain_maximum_m": 1560.1700439453125,
+  "terrain_minimum_m": 1330.3399658203125,
+  "terrain_sampling": "bilinear sample of the source 20 m DTM; no terrain modification",
+  "terrain_tiff": "/home/nicklee/Phenix_Project/Drone/environments/alishan_shizhuo/data/processed/alishan_shizhuo_terrain_20m.tif",
+  "vertex_count": 1796,
+  "z_offset_m": 0.1
+}

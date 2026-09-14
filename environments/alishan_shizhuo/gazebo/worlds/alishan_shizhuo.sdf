@@ -57,5 +57,8 @@
     <include>
       <uri>model://alishan_shizhuo_terrain</uri>
     </include>
+    <include>
+      <uri>model://alishan_shizhuo_roads</uri>
+    </include>
   </world>
 </sdf>
