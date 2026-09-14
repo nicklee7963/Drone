@@ -1,0 +1,332 @@
+[
+  {
+    "path": "reference/1F/villa_v1_1F_bathroom.png",
+    "group": "1F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "4d2d8c13d03b9a5549651b9e448e9568e3c68a4903fe79102c3c5b365459f1b0",
+    "inspected": true
+  },
+  {
+    "path": "reference/1F/villa_v1_1F_dining_room.png",
+    "group": "1F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "681faafcd50dd40f396706e4ceef8d02ea70db12fa9044900b9bb2f832647f69",
+    "inspected": true
+  },
+  {
+    "path": "reference/1F/villa_v1_1F_garage.png",
+    "group": "1F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "ac6413f01b444964b90161695031ad6ec31eefda04d7c17af1493a3286f2a19b",
+    "inspected": true
+  },
+  {
+    "path": "reference/1F/villa_v1_1F_great_room.png",
+    "group": "1F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "cca864024ef111c2a7bf07a4e60f35f85201d1d62e75dbeb9035bb5a3e459794",
+    "inspected": true
+  },
+  {
+    "path": "reference/1F/villa_v1_1F_guest_bedroom_1.png",
+    "group": "1F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "3516efa94743c16c47005176868a6126abe20d75c4ec9404921d83419a66c771",
+    "inspected": true
+  },
+  {
+    "path": "reference/1F/villa_v1_1F_kitchen_2.png",
+    "group": "1F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "a0849cd12d032b397f996bbbb0e3e39d23dc187b72c4738ced35f23c6b6960aa",
+    "inspected": true
+  },
+  {
+    "path": "reference/1F/villa_v1_1F_overview.png",
+    "group": "1F",
+    "role": "overview",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "a6646be4329b3683bfdd693dbd6e20a3259127a14de95dc2af94024fb5813f3b",
+    "inspected": true
+  },
+  {
+    "path": "reference/1F/villa_v1_1F_shoe_gallery.png",
+    "group": "1F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "410055fe9316f950af5f51c9bf8de27b62ee4a5ba819138dd3f6536d51ab7f35",
+    "inspected": true
+  },
+  {
+    "path": "reference/2F/villa_v1_2F__central_atrium.png",
+    "group": "2F",
+    "role": "closeup",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "228ff275090472b782859a0269573b6adf73825922dc0541b73d8b0edbcc7a08",
+    "inspected": true
+  },
+  {
+    "path": "reference/2F/villa_v1_2F_art_gallery.png",
+    "group": "2F",
+    "role": "closeup",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "ce322f6cdff05f876cccb11274689fddf9b8c4fcb4fcf2f36c99725ee4526e2b",
+    "inspected": true
+  },
+  {
+    "path": "reference/2F/villa_v1_2F_family_lounge.png",
+    "group": "2F",
+    "role": "closeup",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "02fb28f124becdb867239ffe7f1aae5f2879324a2c7d8ea0b5e0800f5cd8f8ff",
+    "inspected": true
+  },
+  {
+    "path": "reference/2F/villa_v1_2F_gaming_lounge.png",
+    "group": "2F",
+    "role": "closeup",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "6113ea6b11400abdc6b2ef085b0178625d6698501fbcbbc8ad7c3a837eb76591",
+    "inspected": true
+  },
+  {
+    "path": "reference/2F/villa_v1_2F_guest_suite_A.png",
+    "group": "2F",
+    "role": "closeup",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "fb0cc2a9465ecbe1866b1e201280022c26cc4e26c2172ab019113b190c790bfb",
+    "inspected": true
+  },
+  {
+    "path": "reference/2F/villa_v1_2F_guest_suite_B.png",
+    "group": "2F",
+    "role": "closeup",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "d4baab4ad5bb6db7f72375fe37124c3b7b09bebc53570a0bd537c64ba12fe262",
+    "inspected": true
+  },
+  {
+    "path": "reference/2F/villa_v1_2F_overview.png",
+    "group": "2F",
+    "role": "overview",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "2c98aaf35e9a66f6c0e3b9806b91952d2531773ec14e6ebf701842c226e27056",
+    "inspected": true
+  },
+  {
+    "path": "reference/3F/villa_v1_3F_bathroom.png",
+    "group": "3F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "07285e90c32aff01e258f3980b7af212ed8491a8f715c64f019c88f5927d0451",
+    "inspected": true
+  },
+  {
+    "path": "reference/3F/villa_v1_3F_closets.png",
+    "group": "3F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "6d85a108cc3384b2a901a753e91766460df5a91147d159e7e2bb2393be4f8684",
+    "inspected": true
+  },
+  {
+    "path": "reference/3F/villa_v1_3F_master_suite.png",
+    "group": "3F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "4144a204b66efcbbed7ad723f49ebca02908047e728f3899484e3d33e88e9252",
+    "inspected": true
+  },
+  {
+    "path": "reference/3F/villa_v1_3F_overview.png",
+    "group": "3F",
+    "role": "overview",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "8ee3db4e28f2af9fcd4d3777d7cf5484e9fae5241ba0400538da332edabe1520",
+    "inspected": true
+  },
+  {
+    "path": "reference/3F/villa_v1_3F_private_entry.png",
+    "group": "3F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "0af3ac6ae54fe49ea4a0eb4dc8f006c052a60ae105d30479f63ade6c3554f859",
+    "inspected": true
+  },
+  {
+    "path": "reference/3F/villa_v1_3F_terrace.png",
+    "group": "3F",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "629c845c26415408b5bf98e0314de77b22ebe942da4ff88bed3a9ada4460bcfa",
+    "inspected": true
+  },
+  {
+    "path": "reference/B1/villa_v1_b1_bathroom.png",
+    "group": "B1",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "52de08ab037a63fd7fb44d9fb3be732aed9cdd4959a1d8140377bd167f4580e8",
+    "inspected": true
+  },
+  {
+    "path": "reference/B1/villa_v1_b1_gym.png",
+    "group": "B1",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "ab74572e601555d235d60b133ed53371438344013cd69431a07695c8fd0966d0",
+    "inspected": true
+  },
+  {
+    "path": "reference/B1/villa_v1_b1_laundry.png",
+    "group": "B1",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "a1f05246b5dab094e79df65db5a026ef0794908c8810962514539c89c05aeae0",
+    "inspected": true
+  },
+  {
+    "path": "reference/B1/villa_v1_b1_library_1.png",
+    "group": "B1",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "e437c92a108d2a432206d30cd8288a8725f2ea6a1517617dabc2fa96da36fc72",
+    "inspected": true
+  },
+  {
+    "path": "reference/B1/villa_v1_b1_library_2.png",
+    "group": "B1",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "07ed0db98f8fdb8d5e5b0445ef470b68546ff4a255faac2560d7a5b4edff5d94",
+    "inspected": true
+  },
+  {
+    "path": "reference/B1/villa_v1_b1_theater.png",
+    "group": "B1",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "0676aaf9b1b7e3d39190b0a6a930dd3e4d49ef51a2256fe5f04efbea35ae59be",
+    "inspected": true
+  },
+  {
+    "path": "reference/B1/villa_v1_b1_wine.png",
+    "group": "B1",
+    "role": "closeup",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "cacd44a2bec88d0aff96aebc90ba69be496b8b9c6ff1a9ceb14f17b106d8307e",
+    "inspected": true
+  },
+  {
+    "path": "reference/B1/villa_v1_basement_overview.png",
+    "group": "B1",
+    "role": "overview",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "1347e1fbe53239477e30dba5ffe2a11733fe7b04deb30be4b0c2e4d9b73d1505",
+    "inspected": true
+  },
+  {
+    "path": "reference/villa_v1_reference_whole.png",
+    "group": "whole",
+    "role": "whole",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "2182ce0de4b0d9c762a60d98379404270f16c036b3d0dcfd6b84e41996791447",
+    "inspected": true
+  }
+]
