@@ -1,0 +1,15 @@
+{
+  "PX4-Autopilot": {
+    "files_checked": 60851,
+    "metadata_unchanged": false,
+    "git_status_unchanged": true,
+    "git_status": "",
+    "runtime_note": "New or updated files since the starting snapshot are build/px4_sitl_default/rootfs/fs/log/*.ulg and runtime parameter BSON files. No showcase command writes there. Tracked source tree remains clean."
+  },
+  "environments/alishan_shizhuo": {
+    "files_checked": 68,
+    "metadata_unchanged": true,
+    "git_status_unchanged": true,
+    "git_status": " M README_alishan_shizhuo.md\n M data/raw/.gitignore\n M gazebo/worlds/alishan_shizhuo.sdf\n?? data/processed/roads/\n?? data/raw/osm/\n?? gazebo/models/alishan_shizhuo_roads/\n?? scripts/download_osm_roads.py\n?? scripts/generate_road_mesh.py\n?? scripts/validate_v1_environment.py\n?? tests/test_road_pipeline.py\n?? tests/test_v1_environment.py\n"
+  }
+}

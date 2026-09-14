@@ -1,0 +1,218 @@
+{
+  "overview": {
+    "position": [
+      230,
+      -470,
+      345
+    ],
+    "target": [
+      -45,
+      20,
+      65
+    ]
+  },
+  "villa": {
+    "position": [
+      220,
+      -66,
+      147
+    ],
+    "target": [
+      84,
+      135,
+      85
+    ]
+  },
+  "arrival": {
+    "position": [
+      86,
+      -28,
+      101
+    ],
+    "target": [
+      78,
+      136,
+      85
+    ]
+  },
+  "lake": {
+    "position": [
+      -35,
+      -110,
+      142
+    ],
+    "target": [
+      -180,
+      140,
+      49
+    ]
+  },
+  "amenities": {
+    "position": [
+      240,
+      15,
+      133
+    ],
+    "target": [
+      156,
+      116,
+      80
+    ]
+  },
+  "gate": {
+    "position": [
+      -157,
+      -449,
+      39
+    ],
+    "target": [
+      -185,
+      -381,
+      29
+    ]
+  },
+  "interior_living": {
+    "position": [
+      66,
+      133,
+      83.60000000000001
+    ],
+    "target": [
+      46,
+      124,
+      81.7
+    ]
+  },
+  "interior_dining": {
+    "position": [
+      90,
+      133,
+      83.5
+    ],
+    "target": [
+      108,
+      125,
+      81.3
+    ]
+  },
+  "interior_kitchen": {
+    "position": [
+      93,
+      143,
+      83.3
+    ],
+    "target": [
+      109,
+      155,
+      81.60000000000001
+    ]
+  },
+  "interior_bedroom": {
+    "position": [
+      59,
+      132,
+      89.1
+    ],
+    "target": [
+      43,
+      124.5,
+      86.89999999999999
+    ]
+  },
+  "interior_bathroom": {
+    "position": [
+      61.3,
+      123.2,
+      88.3
+    ],
+    "target": [
+      66.2,
+      119.2,
+      86.8
+    ]
+  },
+  "interior_gym": {
+    "position": [
+      67,
+      132,
+      78.6
+    ],
+    "target": [
+      44,
+      122,
+      76.1
+    ]
+  },
+  "interior_boxing": {
+    "position": [
+      66,
+      148.5,
+      78.3
+    ],
+    "target": [
+      43,
+      155,
+      76.3
+    ]
+  },
+  "interior_cinema": {
+    "position": [
+      106,
+      132.5,
+      78.8
+    ],
+    "target": [
+      106,
+      117,
+      77.0
+    ]
+  },
+  "interior_library": {
+    "position": [
+      108,
+      148,
+      78.0
+    ],
+    "target": [
+      99,
+      158,
+      76.6
+    ]
+  },
+  "interior_atrium": {
+    "position": [
+      76,
+      131,
+      88.6
+    ],
+    "target": [
+      78,
+      144,
+      81.2
+    ]
+  },
+  "basement_walkout": {
+    "position": [
+      14,
+      142,
+      78.0
+    ],
+    "target": [
+      44,
+      140,
+      76.3
+    ]
+  },
+  "roof_terrace": {
+    "position": [
+      18,
+      100,
+      111.4
+    ],
+    "target": [
+      76,
+      141,
+      92.4
+    ]
+  }
+}

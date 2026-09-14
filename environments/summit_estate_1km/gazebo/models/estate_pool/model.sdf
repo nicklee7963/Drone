@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="estate_pool">
+    <static>true</static>
+    <link name="structure">
+      <visual name="visual_ivory">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/ivory.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.88 0.87 0.81 1</ambient>
+          <diffuse>0.88 0.87 0.81 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_paving">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/paving.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.53 0.53 0.49 1</ambient>
+          <diffuse>0.53 0.53 0.49 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_stone">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/stone.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.42 0.43 0.39 1</ambient>
+          <diffuse>0.42 0.43 0.39 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_wood">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/wood.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.3 0.18 0.095 1</ambient>
+          <diffuse>0.3 0.18 0.095 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_metal">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/metal.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.21 0.23 0.24 1</ambient>
+          <diffuse>0.21 0.23 0.24 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.35</roughness>
+              <metalness>0.65</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_dark_fabric">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/dark_fabric.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.095 0.12 0.14 1</ambient>
+          <diffuse>0.095 0.12 0.14 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_fabric">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/fabric.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.7 0.64 0.52 1</ambient>
+          <diffuse>0.7 0.64 0.52 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_grass_dark">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/grass_dark.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.14 0.22 0.085 1</ambient>
+          <diffuse>0.14 0.22 0.085 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_leaf2">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/leaf2.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.15 0.235 0.105 1</ambient>
+          <diffuse>0.15 0.235 0.105 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_pool_water">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/pool_water.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.08 0.56 0.67 1</ambient>
+          <diffuse>0.08 0.56 0.67 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.16</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <transparency>0.13</transparency>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="visual_white">
+        <geometry>
+          <mesh>
+            <uri>model://estate_pool/meshes/visual/white.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.93 0.93 0.89 1</ambient>
+          <diffuse>0.93 0.93 0.89 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="pool_floor">
+        <geometry>
+          <box>
+            <size>36.8 20.8 0.36</size>
+          </box>
+        </geometry>
+        <pose>167 149 77.52 0 0 0</pose>
+      </collision>
+      <collision name="pool_west_wall">
+        <geometry>
+          <box>
+            <size>0.4 20.8 2.6</size>
+          </box>
+        </geometry>
+        <pose>148.8 149 78.88 0 0 0</pose>
+      </collision>
+      <collision name="pool_east_wall">
+        <geometry>
+          <box>
+            <size>0.4 20.8 2.6</size>
+          </box>
+        </geometry>
+        <pose>185.2 149 78.88 0 0 0</pose>
+      </collision>
+      <collision name="pool_south_wall">
+        <geometry>
+          <box>
+            <size>36 0.4 2.6</size>
+          </box>
+        </geometry>
+        <pose>167 138.8 78.88 0 0 0</pose>
+      </collision>
+      <collision name="pool_north_wall">
+        <geometry>
+          <box>
+            <size>36 0.4 2.6</size>
+          </box>
+        </geometry>
+        <pose>167 159.2 78.88 0 0 0</pose>
+      </collision>
+      <collision name="pool_entry_step_0">
+        <geometry>
+          <box>
+            <size>10 1 2.18</size>
+          </box>
+        </geometry>
+        <pose>167 158.5 78.79 0 0 0</pose>
+      </collision>
+      <collision name="pool_entry_step_1">
+        <geometry>
+          <box>
+            <size>10 1 1.74</size>
+          </box>
+        </geometry>
+        <pose>167 157.5 78.57 0 0 0</pose>
+      </collision>
+      <collision name="pool_entry_step_2">
+        <geometry>
+          <box>
+            <size>10 1 1.3</size>
+          </box>
+        </geometry>
+        <pose>167 156.5 78.35 0 0 0</pose>
+      </collision>
+      <collision name="pool_entry_step_3">
+        <geometry>
+          <box>
+            <size>10 1 0.86</size>
+          </box>
+        </geometry>
+        <pose>167 155.5 78.13 0 0 0</pose>
+      </collision>
+      <collision name="pool_entry_step_4">
+        <geometry>
+          <box>
+            <size>10 1 0.42</size>
+          </box>
+        </geometry>
+        <pose>167 154.5 77.91 0 0 0</pose>
+      </collision>
+      <collision name="pool_west_coping">
+        <geometry>
+          <box>
+            <size>0.8 21.6 0.24</size>
+          </box>
+        </geometry>
+        <pose>148.6 149 80.11 0 0 0</pose>
+      </collision>
+      <collision name="pool_east_coping">
+        <geometry>
+          <box>
+            <size>0.8 21.6 0.24</size>
+          </box>
+        </geometry>
+        <pose>185.4 149 80.11 0 0 0</pose>
+      </collision>
+      <collision name="pool_south_coping">
+        <geometry>
+          <box>
+            <size>36 0.8 0.24</size>
+          </box>
+        </geometry>
+        <pose>167 138.6 80.11 0 0 0</pose>
+      </collision>
+      <collision name="pool_north_coping">
+        <geometry>
+          <box>
+            <size>36 0.8 0.24</size>
+          </box>
+        </geometry>
+        <pose>167 159.4 80.11 0 0 0</pose>
+      </collision>
+      <collision name="pool_deck_south">
+        <geometry>
+          <box>
+            <size>70 10.2 0.3</size>
+          </box>
+        </geometry>
+        <pose>167 133.1 80.03 0 0 0</pose>
+      </collision>
+      <collision name="pool_deck_north">
+        <geometry>
+          <box>
+            <size>70 12.2 0.3</size>
+          </box>
+        </geometry>
+        <pose>167 165.9 80.03 0 0 0</pose>
+      </collision>
+      <collision name="pool_deck_west">
+        <geometry>
+          <box>
+            <size>16.2 21.6 0.3</size>
+          </box>
+        </geometry>
+        <pose>140.1 149 80.03 0 0 0</pose>
+      </collision>
+      <collision name="pool_deck_east">
+        <geometry>
+          <box>
+            <size>16.2 21.6 0.3</size>
+          </box>
+        </geometry>
+        <pose>193.9 149 80.03 0 0 0</pose>
+      </collision>
+      <collision name="lounger_0_frame">
+        <geometry>
+          <box>
+            <size>2.1 4.5 0.44</size>
+          </box>
+        </geometry>
+        <pose>142 165.3 80.45 0 0 0</pose>
+      </collision>
+      <collision name="lounger_table_0">
+        <geometry>
+          <box>
+            <size>1.1 1.1 0.65</size>
+          </box>
+        </geometry>
+        <pose>145.6 165.3 80.5 0 0 0</pose>
+      </collision>
+      <collision name="lounger_1_frame">
+        <geometry>
+          <box>
+            <size>2.1 4.5 0.44</size>
+          </box>
+        </geometry>
+        <pose>149.6 165.3 80.45 0 0 0</pose>
+      </collision>
+      <collision name="lounger_table_1">
+        <geometry>
+          <box>
+            <size>1.1 1.1 0.65</size>
+          </box>
+        </geometry>
+        <pose>153.2 165.3 80.5 0 0 0</pose>
+      </collision>
+      <collision name="lounger_2_frame">
+        <geometry>
+          <box>
+            <size>2.1 4.5 0.44</size>
+          </box>
+        </geometry>
+        <pose>157.2 165.3 80.45 0 0 0</pose>
+      </collision>
+      <collision name="lounger_table_2">
+        <geometry>
+          <box>
+            <size>1.1 1.1 0.65</size>
+          </box>
+        </geometry>
+        <pose>160.8 165.3 80.5 0 0 0</pose>
+      </collision>
+      <collision name="lounger_3_frame">
+        <geometry>
+          <box>
+            <size>2.1 4.5 0.44</size>
+          </box>
+        </geometry>
+        <pose>164.8 165.3 80.45 0 0 0</pose>
+      </collision>
+      <collision name="lounger_table_3">
+        <geometry>
+          <box>
+            <size>1.1 1.1 0.65</size>
+          </box>
+        </geometry>
+        <pose>168.4 165.3 80.5 0 0 0</pose>
+      </collision>
+      <collision name="lounger_4_frame">
+        <geometry>
+          <box>
+            <size>2.1 4.5 0.44</size>
+          </box>
+        </geometry>
+        <pose>172.4 165.3 80.45 0 0 0</pose>
+      </collision>
+      <collision name="lounger_table_4">
+        <geometry>
+          <box>
+            <size>1.1 1.1 0.65</size>
+          </box>
+        </geometry>
+        <pose>176 165.3 80.5 0 0 0</pose>
+      </collision>
+      <collision name="lounger_5_frame">
+        <geometry>
+          <box>
+            <size>2.1 4.5 0.44</size>
+          </box>
+        </geometry>
+        <pose>180 165.3 80.45 0 0 0</pose>
+      </collision>
+      <collision name="cabana_0_platform">
+        <geometry>
+          <box>
+            <size>9 10 0.22</size>
+          </box>
+        </geometry>
+        <pose>195 142 80.28 0 0 0</pose>
+      </collision>
+      <collision name="cabana_0_post_-3.9_-4.4">
+        <geometry>
+          <box>
+            <size>0.2 0.2 3.6</size>
+          </box>
+        </geometry>
+        <pose>191.1 137.6 81.96 0 0 0</pose>
+      </collision>
+      <collision name="cabana_0_post_-3.9_4.4">
+        <geometry>
+          <box>
+            <size>0.2 0.2 3.6</size>
+          </box>
+        </geometry>
+        <pose>191.1 146.4 81.96 0 0 0</pose>
+      </collision>
+      <collision name="cabana_0_post_3.9_-4.4">
+        <geometry>
+          <box>
+            <size>0.2 0.2 3.6</size>
+          </box>
+        </geometry>
+        <pose>198.9 137.6 81.96 0 0 0</pose>
+      </collision>
+      <collision name="cabana_0_post_3.9_4.4">
+        <geometry>
+          <box>
+            <size>0.2 0.2 3.6</size>
+          </box>
+        </geometry>
+        <pose>198.9 146.4 81.96 0 0 0</pose>
+      </collision>
+      <collision name="cabana_0_roof">
+        <geometry>
+          <box>
+            <size>9.6 10.5 0.3</size>
+          </box>
+        </geometry>
+        <pose>195 142 83.9 0 0 0</pose>
+      </collision>
+      <collision name="cabana_0_sofa_base">
+        <geometry>
+          <box>
+            <size>6.4 1.3 0.58</size>
+          </box>
+        </geometry>
+        <pose>195 144.8 80.75 0 0 0</pose>
+      </collision>
+      <collision name="cabana_0_sofa_back">
+        <geometry>
+          <box>
+            <size>6.4 0.19 1</size>
+          </box>
+        </geometry>
+        <pose>195 145.36 81.44 0 0 0</pose>
+      </collision>
+      <collision name="cabana_0_table">
+        <geometry>
+          <box>
+            <size>2.8 1.8 0.6</size>
+          </box>
+        </geometry>
+        <pose>195 142 80.82 0 0 0</pose>
+      </collision>
+      <collision name="cabana_1_platform">
+        <geometry>
+          <box>
+            <size>9 10 0.22</size>
+          </box>
+        </geometry>
+        <pose>195 156 80.28 0 0 0</pose>
+      </collision>
+      <collision name="cabana_1_post_-3.9_-4.4">
+        <geometry>
+          <box>
+            <size>0.2 0.2 3.6</size>
+          </box>
+        </geometry>
+        <pose>191.1 151.6 81.96 0 0 0</pose>
+      </collision>
+      <collision name="cabana_1_post_-3.9_4.4">
+        <geometry>
+          <box>
+            <size>0.2 0.2 3.6</size>
+          </box>
+        </geometry>
+        <pose>191.1 160.4 81.96 0 0 0</pose>
+      </collision>
+      <collision name="cabana_1_post_3.9_-4.4">
+        <geometry>
+          <box>
+            <size>0.2 0.2 3.6</size>
+          </box>
+        </geometry>
+        <pose>198.9 151.6 81.96 0 0 0</pose>
+      </collision>
+      <collision name="cabana_1_post_3.9_4.4">
+        <geometry>
+          <box>
+            <size>0.2 0.2 3.6</size>
+          </box>
+        </geometry>
+        <pose>198.9 160.4 81.96 0 0 0</pose>
+      </collision>
+      <collision name="cabana_1_roof">
+        <geometry>
+          <box>
+            <size>9.6 10.5 0.3</size>
+          </box>
+        </geometry>
+        <pose>195 156 83.9 0 0 0</pose>
+      </collision>
+      <collision name="cabana_1_sofa_base">
+        <geometry>
+          <box>
+            <size>6.4 1.3 0.58</size>
+          </box>
+        </geometry>
+        <pose>195 158.8 80.75 0 0 0</pose>
+      </collision>
+      <collision name="cabana_1_sofa_back">
+        <geometry>
+          <box>
+            <size>6.4 0.19 1</size>
+          </box>
+        </geometry>
+        <pose>195 159.36 81.44 0 0 0</pose>
+      </collision>
+      <collision name="cabana_1_table">
+        <geometry>
+          <box>
+            <size>2.8 1.8 0.6</size>
+          </box>
+        </geometry>
+        <pose>195 156 80.82 0 0 0</pose>
+      </collision>
+      <collision name="pool_planter_0">
+        <geometry>
+          <cylinder>
+            <radius>1.5</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>134 130 80.56 0 0 0</pose>
+      </collision>
+      <collision name="pool_planter_1">
+        <geometry>
+          <cylinder>
+            <radius>1.5</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>134 170 80.56 0 0 0</pose>
+      </collision>
+      <collision name="pool_planter_2">
+        <geometry>
+          <cylinder>
+            <radius>1.5</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>200 130 80.56 0 0 0</pose>
+      </collision>
+      <collision name="pool_planter_3">
+        <geometry>
+          <cylinder>
+            <radius>1.5</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>200 170 80.56 0 0 0</pose>
+      </collision>
+      <collision name="villa_pool_link">
+        <geometry>
+          <box>
+            <size>6 10 0.2</size>
+          </box>
+        </geometry>
+        <pose>129 149 80.1 0 0 0</pose>
+      </collision>
+    </link>
+  </model>
+</sdf>

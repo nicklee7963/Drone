@@ -1,0 +1,833 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="estate_entrance">
+    <static>true</static>
+    <link name="structure">
+      <visual name="visual_stone">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/stone.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.42 0.43 0.39 1</ambient>
+          <diffuse>0.42 0.43 0.39 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_paving">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/paving.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.53 0.53 0.49 1</ambient>
+          <diffuse>0.53 0.53 0.49 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_ivory">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/ivory.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.88 0.87 0.81 1</ambient>
+          <diffuse>0.88 0.87 0.81 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_metal">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/metal.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.21 0.23 0.24 1</ambient>
+          <diffuse>0.21 0.23 0.24 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.35</roughness>
+              <metalness>0.65</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_trunk">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/trunk.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.19 0.12 0.072 1</ambient>
+          <diffuse>0.19 0.12 0.072 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_charcoal">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/charcoal.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.045 0.054 0.06 1</ambient>
+          <diffuse>0.045 0.054 0.06 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_brass">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/brass.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.68 0.48 0.22 1</ambient>
+          <diffuse>0.68 0.48 0.22 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.35</roughness>
+              <metalness>0.65</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_emissive">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/emissive.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.94 0.73 0.36 1</ambient>
+          <diffuse>0.94 0.73 0.36 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <emissive>0.517 0.4015 0.198 1</emissive>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_grass_dark">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/grass_dark.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.14 0.22 0.085 1</ambient>
+          <diffuse>0.14 0.22 0.085 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_leaf0">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/leaf0.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.072 0.145 0.065 1</ambient>
+          <diffuse>0.072 0.145 0.065 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_leaf1">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/leaf1.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.105 0.195 0.085 1</ambient>
+          <diffuse>0.105 0.195 0.085 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_leaf2">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/leaf2.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.15 0.235 0.105 1</ambient>
+          <diffuse>0.15 0.235 0.105 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_white">
+        <geometry>
+          <mesh>
+            <uri>model://estate_entrance/meshes/visual/white.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.93 0.93 0.89 1</ambient>
+          <diffuse>0.93 0.93 0.89 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="west_gate_pier">
+        <geometry>
+          <box>
+            <size>2.2 2.5 5.4</size>
+          </box>
+        </geometry>
+        <pose>-192.4 -390 29.1 0 0 0</pose>
+      </collision>
+      <collision name="west_pier_base">
+        <geometry>
+          <box>
+            <size>2.7 2.9 0.5</size>
+          </box>
+        </geometry>
+        <pose>-192.4 -390 26.65 0 0 0</pose>
+      </collision>
+      <collision name="west_pier_cap">
+        <geometry>
+          <box>
+            <size>2.65 2.95 0.3</size>
+          </box>
+        </geometry>
+        <pose>-192.4 -390 31.83 0 0 0</pose>
+      </collision>
+      <collision name="west_leaf_rail_0.5">
+        <geometry>
+          <box>
+            <size>0.14 5.9 0.12</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -386.8 26.9 0 0 0</pose>
+      </collision>
+      <collision name="west_leaf_rail_1.25">
+        <geometry>
+          <box>
+            <size>0.14 5.9 0.12</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -386.8 27.65 0 0 0</pose>
+      </collision>
+      <collision name="west_leaf_rail_2.9">
+        <geometry>
+          <box>
+            <size>0.14 5.9 0.12</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -386.8 29.3 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_0">
+        <geometry>
+          <box>
+            <size>0.065 0.065 2.95</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -389.7 28.025 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_1">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.01257</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -389.41 28.0563 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_2">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.07361</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -389.12 28.0868 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_3">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.1316</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -388.83 28.1158 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_4">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.18511</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -388.54 28.1426 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_5">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.23284</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -388.25 28.1664 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_6">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.27361</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -387.96 28.1868 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_7">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.3064</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -387.67 28.2032 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_8">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.33042</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -387.38 28.2152 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_9">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.34508</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -387.09 28.2225 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_10">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.35</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -386.8 28.225 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_11">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.34508</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -386.51 28.2225 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_12">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.33042</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -386.22 28.2152 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_13">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.3064</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -385.93 28.2032 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_14">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.27361</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -385.64 28.1868 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_15">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.23284</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -385.35 28.1664 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_16">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.18511</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -385.06 28.1426 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_17">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.1316</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -384.77 28.1158 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_18">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.07361</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -384.48 28.0868 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_19">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.01257</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -384.19 28.0563 0 0 0</pose>
+      </collision>
+      <collision name="west_picket_20">
+        <geometry>
+          <box>
+            <size>0.065 0.065 2.95</size>
+          </box>
+        </geometry>
+        <pose>-192.2 -383.9 28.025 0 0 0</pose>
+      </collision>
+      <collision name="west_entry_wing">
+        <geometry>
+          <box>
+            <size>13 1.3 3</size>
+          </box>
+        </geometry>
+        <pose>-201 -390 27.9 0 0 0</pose>
+      </collision>
+      <collision name="west_wing_cap">
+        <geometry>
+          <box>
+            <size>13.4 1.5 0.22</size>
+          </box>
+        </geometry>
+        <pose>-201 -390 29.45 0 0 0</pose>
+      </collision>
+      <collision name="west_entry_cypress_0_trunk">
+        <geometry>
+          <cylinder>
+            <radius>0.2</radius>
+            <length>3.1</length>
+          </cylinder>
+        </geometry>
+        <pose>-195 -385.5 28.3 0 0 0</pose>
+      </collision>
+      <collision name="west_entry_cypress_1_trunk">
+        <geometry>
+          <cylinder>
+            <radius>0.2</radius>
+            <length>3.4</length>
+          </cylinder>
+        </geometry>
+        <pose>-200 -385.5 28.45 0 0 0</pose>
+      </collision>
+      <collision name="west_entry_cypress_2_trunk">
+        <geometry>
+          <cylinder>
+            <radius>0.2</radius>
+            <length>3.7</length>
+          </cylinder>
+        </geometry>
+        <pose>-205 -385.5 28.6 0 0 0</pose>
+      </collision>
+      <collision name="west_approach_planter_0">
+        <geometry>
+          <cylinder>
+            <radius>1.05</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>-194.5 -395 26.46 0 0 0</pose>
+      </collision>
+      <collision name="west_approach_planter_1">
+        <geometry>
+          <cylinder>
+            <radius>1.05</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>-194.5 -400 26.14 0 0 0</pose>
+      </collision>
+      <collision name="west_approach_planter_2">
+        <geometry>
+          <cylinder>
+            <radius>1.05</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>-194.5 -405 25.82 0 0 0</pose>
+      </collision>
+      <collision name="west_approach_planter_3">
+        <geometry>
+          <cylinder>
+            <radius>1.05</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>-194.5 -410 25.5 0 0 0</pose>
+      </collision>
+      <collision name="east_gate_pier">
+        <geometry>
+          <box>
+            <size>2.2 2.5 5.4</size>
+          </box>
+        </geometry>
+        <pose>-177.6 -390 29.1 0 0 0</pose>
+      </collision>
+      <collision name="east_pier_base">
+        <geometry>
+          <box>
+            <size>2.7 2.9 0.5</size>
+          </box>
+        </geometry>
+        <pose>-177.6 -390 26.65 0 0 0</pose>
+      </collision>
+      <collision name="east_pier_cap">
+        <geometry>
+          <box>
+            <size>2.65 2.95 0.3</size>
+          </box>
+        </geometry>
+        <pose>-177.6 -390 31.83 0 0 0</pose>
+      </collision>
+      <collision name="east_leaf_rail_0.5">
+        <geometry>
+          <box>
+            <size>0.14 5.9 0.12</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -386.8 26.9 0 0 0</pose>
+      </collision>
+      <collision name="east_leaf_rail_1.25">
+        <geometry>
+          <box>
+            <size>0.14 5.9 0.12</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -386.8 27.65 0 0 0</pose>
+      </collision>
+      <collision name="east_leaf_rail_2.9">
+        <geometry>
+          <box>
+            <size>0.14 5.9 0.12</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -386.8 29.3 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_0">
+        <geometry>
+          <box>
+            <size>0.065 0.065 2.95</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -389.7 28.025 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_1">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.01257</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -389.41 28.0563 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_2">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.07361</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -389.12 28.0868 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_3">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.1316</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -388.83 28.1158 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_4">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.18511</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -388.54 28.1426 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_5">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.23284</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -388.25 28.1664 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_6">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.27361</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -387.96 28.1868 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_7">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.3064</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -387.67 28.2032 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_8">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.33042</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -387.38 28.2152 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_9">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.34508</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -387.09 28.2225 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_10">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.35</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -386.8 28.225 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_11">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.34508</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -386.51 28.2225 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_12">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.33042</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -386.22 28.2152 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_13">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.3064</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -385.93 28.2032 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_14">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.27361</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -385.64 28.1868 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_15">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.23284</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -385.35 28.1664 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_16">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.18511</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -385.06 28.1426 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_17">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.1316</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -384.77 28.1158 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_18">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.07361</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -384.48 28.0868 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_19">
+        <geometry>
+          <box>
+            <size>0.065 0.065 3.01257</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -384.19 28.0563 0 0 0</pose>
+      </collision>
+      <collision name="east_picket_20">
+        <geometry>
+          <box>
+            <size>0.065 0.065 2.95</size>
+          </box>
+        </geometry>
+        <pose>-177.8 -383.9 28.025 0 0 0</pose>
+      </collision>
+      <collision name="east_entry_wing">
+        <geometry>
+          <box>
+            <size>13 1.3 3</size>
+          </box>
+        </geometry>
+        <pose>-169 -390 27.9 0 0 0</pose>
+      </collision>
+      <collision name="east_wing_cap">
+        <geometry>
+          <box>
+            <size>13.4 1.5 0.22</size>
+          </box>
+        </geometry>
+        <pose>-169 -390 29.45 0 0 0</pose>
+      </collision>
+      <collision name="east_entry_cypress_0_trunk">
+        <geometry>
+          <cylinder>
+            <radius>0.2</radius>
+            <length>3.1</length>
+          </cylinder>
+        </geometry>
+        <pose>-175 -385.5 28.3 0 0 0</pose>
+      </collision>
+      <collision name="east_entry_cypress_1_trunk">
+        <geometry>
+          <cylinder>
+            <radius>0.2</radius>
+            <length>3.4</length>
+          </cylinder>
+        </geometry>
+        <pose>-170 -385.5 28.45 0 0 0</pose>
+      </collision>
+      <collision name="east_entry_cypress_2_trunk">
+        <geometry>
+          <cylinder>
+            <radius>0.2</radius>
+            <length>3.7</length>
+          </cylinder>
+        </geometry>
+        <pose>-165 -385.5 28.6 0 0 0</pose>
+      </collision>
+      <collision name="east_approach_planter_0">
+        <geometry>
+          <cylinder>
+            <radius>1.05</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>-175.5 -395 26.46 0 0 0</pose>
+      </collision>
+      <collision name="east_approach_planter_1">
+        <geometry>
+          <cylinder>
+            <radius>1.05</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>-175.5 -400 26.14 0 0 0</pose>
+      </collision>
+      <collision name="east_approach_planter_2">
+        <geometry>
+          <cylinder>
+            <radius>1.05</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>-175.5 -405 25.82 0 0 0</pose>
+      </collision>
+      <collision name="east_approach_planter_3">
+        <geometry>
+          <cylinder>
+            <radius>1.05</radius>
+            <length>0.72</length>
+          </cylinder>
+        </geometry>
+        <pose>-175.5 -410 25.5 0 0 0</pose>
+      </collision>
+    </link>
+  </model>
+</sdf>

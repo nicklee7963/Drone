@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+blender/*.blend1
+data/processed/logs/
+data/processed/runtime/

@@ -1,0 +1,901 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="summit_boulders">
+    <static>true</static>
+    <link name="structure">
+      <visual name="visual_rock">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/visual/rock.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.34 0.355 0.32 1</ambient>
+          <diffuse>0.34 0.355 0.32 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="outcrop_1">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_1.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_2">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_2.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_3">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_3.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_6">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_6.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_7">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_7.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_8">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_8.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_9">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_9.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_10">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_10.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_12">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_12.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_14">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_14.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_15">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_15.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_16">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_16.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_17">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_17.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_18">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_18.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_19">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_19.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_20">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_20.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_21">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_21.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_23">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_23.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_24">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_24.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_25">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_25.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_26">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_26.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_27">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_27.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_29">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_29.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_30">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_30.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_31">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_31.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_32">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_32.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_33">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_33.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_34">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_34.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_35">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_35.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_36">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_36.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_37">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_37.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_39">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_39.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_40">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_40.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_41">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_41.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_42">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_42.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_43">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_43.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_45">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_45.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_47">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_47.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_49">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_49.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_50">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_50.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_51">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_51.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_52">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_52.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_53">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_53.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_54">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_54.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_55">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_55.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_56">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_56.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_57">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_57.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_58">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_58.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_59">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_59.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_60">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_60.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_61">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_61.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_62">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_62.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_63">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_63.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_64">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_64.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_66">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_66.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_67">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_67.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_68">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_68.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_69">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_69.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_70">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_70.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_71">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_71.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_72">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_72.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_73">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_73.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_74">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_74.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_75">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_75.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_76">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_76.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_77">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_77.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_78">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_78.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_79">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_79.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_81">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_81.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_82">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_82.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_84">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_84.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_85">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_85.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_86">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_86.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_87">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_87.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_88">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_88.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_89">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_89.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_90">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_90.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_91">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_91.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_92">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_92.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_93">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_93.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_95">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_95.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_96">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_96.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_97">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_97.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_98">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_98.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_100">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_100.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_101">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_101.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_102">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_102.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_103">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_103.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_104">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_104.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_106">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_106.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_107">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_107.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_108">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_108.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_109">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_109.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_110">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_110.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_111">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_111.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_113">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_113.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_114">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_114.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_115">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_115.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_116">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_116.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_118">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_118.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_119">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_119.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_120">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_120.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_122">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_122.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_123">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_123.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_124">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_124.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_125">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_125.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_127">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_127.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_129">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_129.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_130">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_130.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_132">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_132.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_133">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_133.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_134">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_134.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_135">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_135.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_137">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_137.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_138">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_138.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_139">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_139.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_140">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_140.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_141">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_141.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_143">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_143.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_144">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_144.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_145">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_145.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_146">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_146.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_147">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_147.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_148">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_148.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="outcrop_149">
+        <geometry>
+          <mesh>
+            <uri>model://summit_boulders/meshes/collision/outcrop_149.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

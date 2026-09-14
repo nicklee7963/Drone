@@ -1,0 +1,19 @@
+{
+  "mesh_files": 69,
+  "triangles": 1007178,
+  "road_surface_gaps": {
+    "gravel": {
+      "min_m": 0.041968030589885075,
+      "max_m": 0.06779915072689846
+    },
+    "asphalt": {
+      "min_m": 0.11698943835875752,
+      "max_m": 0.14241242111654628
+    }
+  },
+  "native_meshes_passed": 69,
+  "sdf_valid": true,
+  "gazebo_server_exit_code": 0,
+  "gazebo_world_initialized": true,
+  "gazebo_errors": []
+}

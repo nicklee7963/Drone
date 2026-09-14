@@ -1,0 +1,13 @@
+{
+  "terrain": {
+    "expected_center_z_m": 125.9505865656048,
+    "measured_center_z_m": 125.93929503969146,
+    "contact_error_m": 0.011291525913335931
+  },
+  "launch_pad": {
+    "expected_center_z_m": 126.1005865656048,
+    "measured_center_z_m": 126.08899051307415,
+    "contact_error_m": 0.011596052530649104
+  },
+  "temporary_probes_removed": true
+}

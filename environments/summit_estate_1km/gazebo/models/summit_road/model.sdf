@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="summit_road">
+    <static>true</static>
+    <link name="structure">
+      <visual name="visual_asphalt">
+        <geometry>
+          <mesh>
+            <uri>model://summit_road/meshes/visual/asphalt.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.12 0.135 0.145 1</ambient>
+          <diffuse>0.12 0.135 0.145 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_stone">
+        <geometry>
+          <mesh>
+            <uri>model://summit_road/meshes/visual/stone.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.42 0.43 0.39 1</ambient>
+          <diffuse>0.42 0.43 0.39 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_white">
+        <geometry>
+          <mesh>
+            <uri>model://summit_road/meshes/visual/white.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.93 0.93 0.89 1</ambient>
+          <diffuse>0.93 0.93 0.89 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_sand">
+        <geometry>
+          <mesh>
+            <uri>model://summit_road/meshes/visual/sand.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.55 0.48 0.32 1</ambient>
+          <diffuse>0.55 0.48 0.32 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_charcoal">
+        <geometry>
+          <mesh>
+            <uri>model://summit_road/meshes/visual/charcoal.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.045 0.054 0.06 1</ambient>
+          <diffuse>0.045 0.054 0.06 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_emissive">
+        <geometry>
+          <mesh>
+            <uri>model://summit_road/meshes/visual/emissive.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.94 0.73 0.36 1</ambient>
+          <diffuse>0.94 0.73 0.36 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <emissive>0.517 0.4015 0.198 1</emissive>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="asphalt_surface">
+        <geometry>
+          <mesh>
+            <uri>model://summit_road/meshes/collision/asphalt_surface.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="curb_minus4.5">
+        <geometry>
+          <mesh>
+            <uri>model://summit_road/meshes/collision/curb_minus4.5.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="curb_4.5">
+        <geometry>
+          <mesh>
+            <uri>model://summit_road/meshes/collision/curb_4.5.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="bollard_12_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-177.232 -437.862 23.7285 0 0 0</pose>
+      </collision>
+      <collision name="bollard_12_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-190.353 -436.42 23.7279 0 0 0</pose>
+      </collision>
+      <collision name="bollard_37_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-176.261 -398.547 26.286 0 0 0</pose>
+      </collision>
+      <collision name="bollard_37_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-189.296 -400.626 26.2813 0 0 0</pose>
+      </collision>
+      <collision name="bollard_62_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-194.239 -361.224 29.1 0 0 0</pose>
+      </collision>
+      <collision name="bollard_62_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-204.798 -369.146 29.0988 0 0 0</pose>
+      </collision>
+      <collision name="bollard_87_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-217.642 -328.272 32.0007 0 0 0</pose>
+      </collision>
+      <collision name="bollard_87_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-229.384 -334.301 31.9947 0 0 0</pose>
+      </collision>
+      <collision name="bollard_112_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-218.184 -302.108 35.1382 0 0 0</pose>
+      </collision>
+      <collision name="bollard_112_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-230.246 -296.746 35.1471 0 0 0</pose>
+      </collision>
+      <collision name="bollard_137_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-195.661 -274.652 38.5754 0 0 0</pose>
+      </collision>
+      <collision name="bollard_137_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-204.192 -264.58 38.5784 0 0 0</pose>
+      </collision>
+      <collision name="bollard_162_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-164.134 -254.538 41.5107 0 0 0</pose>
+      </collision>
+      <collision name="bollard_162_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-168.953 -242.249 41.5132 0 0 0</pose>
+      </collision>
+      <collision name="bollard_187_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-124.312 -242.72 43.8158 0 0 0</pose>
+      </collision>
+      <collision name="bollard_187_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-127.654 -229.95 43.8159 0 0 0</pose>
+      </collision>
+      <collision name="bollard_212_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-84.6398 -230.345 46.1184 0 0 0</pose>
+      </collision>
+      <collision name="bollard_212_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-89.9296 -218.252 46.1219 0 0 0</pose>
+      </collision>
+      <collision name="bollard_237_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-62.6312 -201.068 49.0556 0 0 0</pose>
+      </collision>
+      <collision name="bollard_237_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-75.7474 -202.553 49.0337 0 0 0</pose>
+      </collision>
+      <collision name="bollard_262_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-79.8284 -160.72 52.9539 0 0 0</pose>
+      </collision>
+      <collision name="bollard_262_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-92.2127 -165.288 52.9444 0 0 0</pose>
+      </collision>
+      <collision name="bollard_287_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-74.0164 -131.185 56.9948 0 0 0</pose>
+      </collision>
+      <collision name="bollard_287_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-85.3759 -124.461 57 0 0 0</pose>
+      </collision>
+      <collision name="bollard_312_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-50.5072 -100.216 61.1668 0 0 0</pose>
+      </collision>
+      <collision name="bollard_312_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-60.5622 -91.6638 61.1667 0 0 0</pose>
+      </collision>
+      <collision name="bollard_337_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-23.9021 -74.2248 65.4757 0 0 0</pose>
+      </collision>
+      <collision name="bollard_337_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-31.8326 -63.6727 65.475 0 0 0</pose>
+      </collision>
+      <collision name="bollard_362_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>3.34644 -46.0773 69.8158 0 0 0</pose>
+      </collision>
+      <collision name="bollard_362_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-8.69795 -40.6761 69.8 0 0 0</pose>
+      </collision>
+      <collision name="bollard_387_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>9.45206 -5.75682 73.769 0 0 0</pose>
+      </collision>
+      <collision name="bollard_387_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>-3.65535 -4.19609 73.7632 0 0 0</pose>
+      </collision>
+      <collision name="bollard_412_-1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>24.9902 20.4624 77.6162 0 0 0</pose>
+      </collision>
+      <collision name="bollard_412_1">
+        <geometry>
+          <box>
+            <size>0.22 0.22 1</size>
+          </box>
+        </geometry>
+        <pose>16.7472 30.7722 77.6212 0 0 0</pose>
+      </collision>
+    </link>
+  </model>
+</sdf>

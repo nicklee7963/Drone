@@ -1,0 +1,2362 @@
+[
+  {
+    "path": "gazebo/models/estate_arrival/meshes/collision/arrival_drive.dae",
+    "bytes": 60640,
+    "sha256": "c74c8e1b7fbd7010324c0a5ccfa617c0dea9425f35f9be0a330116b54c9853d0"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/collision/fountain_basin.dae",
+    "bytes": 48522,
+    "sha256": "87a80fa4a478db28c07bfa2738d391e8ad320c8b16126d969cf426936c86da60"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/collision/fountain_coping.dae",
+    "bytes": 48522,
+    "sha256": "fb3e5457e5c64f6955dcbb26946d1c0583a93d85c6e81c627c7f9ba4a11090ad"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/collision/fountain_middle_bowl.dae",
+    "bytes": 32513,
+    "sha256": "cc758cd5c7bd8bca2715863c2ab4c84ec9a25c2ae259f85db5aaea7470a4c4f6"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/collision/fountain_upper_bowl.dae",
+    "bytes": 24509,
+    "sha256": "3258df873d8393e3b892de5005af74758312f49c0a20a89457fe66243aa75b69"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/collision/fountain_walk.dae",
+    "bytes": 48522,
+    "sha256": "364aefbe3a5872dbc82c239fe9b102f04e747c6882377942c7dab5530b0c3eaa"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/collision/inner_drive_curb.dae",
+    "bytes": 60612,
+    "sha256": "0d35085a5c75709a9dfd88a22a1cfa67bf4d9da88757c167439f499893812ef3"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/asphalt.dae",
+    "bytes": 60640,
+    "sha256": "c74c8e1b7fbd7010324c0a5ccfa617c0dea9425f35f9be0a330116b54c9853d0"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/brass.dae",
+    "bytes": 45833,
+    "sha256": "b0231d3e8ebfcf8398d24a3a2bd88225e5682ee2d941aee22c1874e939d5650b"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/grass.dae",
+    "bytes": 6918,
+    "sha256": "5e16c3fd518db32bf70c7f83f5d5450fae4a96ef185677ddefcee244f40327c5"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/grass_dark.dae",
+    "bytes": 10087,
+    "sha256": "58c657096ca0cf6056001ee47b0b87ea15fb56bfb7965a4388c08da1ad96e059"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/ivory.dae",
+    "bytes": 136305,
+    "sha256": "68e7e53f53efca108271cbf467607d31e732d28f36d17509fda9375c7594b9c7"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/leaf0.dae",
+    "bytes": 142083,
+    "sha256": "9d218e052597b1ccb9bfa5a0294978b1a4c07a10b61b78edb6b262ccba4f4a53"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/leaf1.dae",
+    "bytes": 142065,
+    "sha256": "a1dc8a8938d6fa096d4df44167a2e783fcb08ae74145de299e7ba3d388541d0d"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/leaf2.dae",
+    "bytes": 136548,
+    "sha256": "e4ebcef01505747045429faf445b3f05fcbe341ef336f4a0198253ab6042a669"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/paving.dae",
+    "bytes": 86457,
+    "sha256": "b79e154557329d0b7e9b267c408279a01bf9ffc4cc557e3061f1ed5eccc88bf1"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/stone.dae",
+    "bytes": 178442,
+    "sha256": "e88d887189d4988ae02bcc496875d730e9dec1ec3a8aa3fc915631dde4fe51b9"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/trunk.dae",
+    "bytes": 14995,
+    "sha256": "d039beaa43eed70d5f8b0bab560f746c62d43765a786bde4ab5125e05d1476c9"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/water.dae",
+    "bytes": 472024,
+    "sha256": "5c5475ed8002c6a696e71645887e806de998b135221a1fe5aecbb90ecdbfed61"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/meshes/visual/white.dae",
+    "bytes": 115401,
+    "sha256": "3cd89d7b06114f0f9f13296a99ac83cf82b8acf196262e19c07990ea16fdde0d"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/model.config",
+    "bytes": 229,
+    "sha256": "dffc964a56cd092d86158eafd83b224bc23f5153de1771300e62e1e62e45c9f2"
+  },
+  {
+    "path": "gazebo/models/estate_arrival/model.sdf",
+    "bytes": 13481,
+    "sha256": "eb1e13432b22ee8090a5d396dc5520f020b507ebd33bd4b93e9ab1f064fa8116"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/collision/east_rim.dae",
+    "bytes": 16632,
+    "sha256": "70af91d095fed3591e500c77938cd445a7d1814707522676794d5819cb50a2a6"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/collision/west_rim.dae",
+    "bytes": 16632,
+    "sha256": "528176141a32e5067643c1990e04548f1bd907d4774bb556e363c4fd4cb4882f"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/brass.dae",
+    "bytes": 32768,
+    "sha256": "3fa738d54f9423247c5a4cd324672e8490d2cb3ce533fd65ace3e75f866cb98b"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/court.dae",
+    "bytes": 2150,
+    "sha256": "e4b258a38d3bcf7e1d25e8bc89e0de11c6dfa0609119db2e4d648ae9c0fe4811"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/court_key.dae",
+    "bytes": 1847,
+    "sha256": "ab831570c57bc2b8c4befbdffc6555ab8b7e82898687fdc3a8b0adbdf0aabe61"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/dark_fabric.dae",
+    "bytes": 4356,
+    "sha256": "da7fa0c039344f7a5956339a3a367205d1b92b9744dfbb9c8d39debe0c29febd"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/fabric.dae",
+    "bytes": 4356,
+    "sha256": "9950c5593150d69fc533e3d814c7570b12c76d0e6b904abb2007ec0d06ad6e71"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/glass.dae",
+    "bytes": 2877,
+    "sha256": "725401fdb30e0c5f9d5d90017653dce9497710bdc3e63783773f86b98dadf520"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/metal.dae",
+    "bytes": 52774,
+    "sha256": "32437efbff1f2d73d83c3cc7f213a504f6cf57e9f41da19691ce4b092f7ef17b"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/rubber.dae",
+    "bytes": 2877,
+    "sha256": "8ac979d8d425623e20dffa5dba139c045f251b424c23cb99af816e5e6dc3b58e"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/white.dae",
+    "bytes": 125334,
+    "sha256": "016c16e77279e7d1320055a70ec7f8069b22a50f5fc94eff332ca68b3618df46"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/meshes/visual/wood.dae",
+    "bytes": 4356,
+    "sha256": "c9c74b0c33df379fb4e18f0feb01f5f58908bd1c4bb4756f6451877fc8800294"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/model.config",
+    "bytes": 232,
+    "sha256": "6a92594ddc00ffdec02a5fdc968005d1347d8e5a3a4669a2e03533e193362a8a"
+  },
+  {
+    "path": "gazebo/models/estate_basketball/model.sdf",
+    "bytes": 13869,
+    "sha256": "51329bb7c18993017e13204073a845166bc1e0822d30f6b3bc93db4c80bf0676"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/brass.dae",
+    "bytes": 70151,
+    "sha256": "e4f938686685eab8a90f13f5425c64ea410bf4d665310553dd0dc492c0e4628e"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/charcoal.dae",
+    "bytes": 39844,
+    "sha256": "33013da925e617ade158a94ed5ccef7e9e306123e088dcf6660884e01e73e29f"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/emissive.dae",
+    "bytes": 2925,
+    "sha256": "0af5f259cbb9771f8a9f3ae23cc6ff67e434e490c17c7e549eb4d6a42a6c1d94"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/grass_dark.dae",
+    "bytes": 13733,
+    "sha256": "3c51b64d4514d3f2fc0dbafb69a8018d586fa23a38b4fc3e1a40194216089b7a"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/ivory.dae",
+    "bytes": 6722,
+    "sha256": "8f9a8495f1f31328a0e27adf2328f3088b62b09952c3d411eb78bb68e885b579"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/leaf0.dae",
+    "bytes": 32015,
+    "sha256": "943be79cc8001b9d3c4fbb788391939761c7ce1ef435794347989ca538b8e6b7"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/leaf1.dae",
+    "bytes": 32015,
+    "sha256": "c42afa6e75cc90423fbe54dbf6b8e19325fe4a8b69f8adb4dc821bbc8453f51c"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/leaf2.dae",
+    "bytes": 42510,
+    "sha256": "4d592fa332423a15b1fc9303557b07ac020de6057842afb12296185dc4c8580c"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/metal.dae",
+    "bytes": 42214,
+    "sha256": "d1233107863d01874526bf7822185410701a87e0f29a3b908d42d3bfb369f58a"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/paving.dae",
+    "bytes": 2925,
+    "sha256": "1c3c5d467cd4aac741f7a1cbe9226c7d1d5f802b98e3b58df5b5a4b871c28a79"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/stone.dae",
+    "bytes": 37357,
+    "sha256": "f84a5e67913f743ee8cb9ce581bf4eddbbd2359068d445b0e7640756adf8a416"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/trunk.dae",
+    "bytes": 13321,
+    "sha256": "6f4609748fcac7a5d0c38def18091f3bf286e59996345a458d7a7df04c2baedf"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/meshes/visual/white.dae",
+    "bytes": 92011,
+    "sha256": "7fcc02a4ef60f76720b475f5d430246fd88b34a3575beb465332c4fd1f6aaf19"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/model.config",
+    "bytes": 230,
+    "sha256": "e7891248254a080d0016994f03e124f1e2864a5cbf4d435a31bb2587af4dd5cb"
+  },
+  {
+    "path": "gazebo/models/estate_entrance/model.sdf",
+    "bytes": 23740,
+    "sha256": "17b7521b9f56c9fb8d1da2a5ce1dfb8a4a06cf8009759bb5f829394b9d943c7e"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/collision/fire_pit_bowl.dae",
+    "bytes": 24665,
+    "sha256": "87f76e77e070109595e1ecc46a0cd1729b928e61a5921cce30022f8436a4aecc"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/collision/lounge_border.dae",
+    "bytes": 40697,
+    "sha256": "891944af078858dd9671bf59012dae801acb98a75bf6118a5b781d339324c5a6"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/charcoal.dae",
+    "bytes": 12636,
+    "sha256": "b69e7a527b3cf323ba5171a944abf126ce6225feccedbec7479d86de6cbf7bc5"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/dark_fabric.dae",
+    "bytes": 10375,
+    "sha256": "7125c04ba2d188c117d5faeffa9f4ec8ad485ce91ce1f24f3c6d72905a1f563d"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/fabric.dae",
+    "bytes": 10359,
+    "sha256": "ac872359590181a42b99df56cf394df68305da87ad50a8cc2455c16b05696809"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/fire.dae",
+    "bytes": 30456,
+    "sha256": "b2b6ae56cc53dd4c027001357de03b114ac9205d501deb739afff1b5f737aae4"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/grass_dark.dae",
+    "bytes": 11637,
+    "sha256": "92109e1eecc1f29e79df7826de00f167195b71687e7b76a845b54af3bfd6d137"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/ivory.dae",
+    "bytes": 24665,
+    "sha256": "87f76e77e070109595e1ecc46a0cd1729b928e61a5921cce30022f8436a4aecc"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/leaf2.dae",
+    "bytes": 36296,
+    "sha256": "b79423b660b493aa233513db2223c840a8671ad039679168eea6aa69a621009a"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/paving.dae",
+    "bytes": 20697,
+    "sha256": "d5d474c4bacb995e726c24cbd766e28c0024a1705104319b09474153c5eaf153"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/rock.dae",
+    "bytes": 34695,
+    "sha256": "8e9075e7a5457101541f9d323c76d5b602790260c8085ae868bf225cf352f837"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/stone.dae",
+    "bytes": 101358,
+    "sha256": "420f21733180b085cc99d3d088603b2a0d765f4d137c4aecc4a13e13b74bb036"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/white.dae",
+    "bytes": 77957,
+    "sha256": "efdc9e52ed4138edf0c0f8e455c587312c4b144fc8057962f4c6ebbd16ffd8b1"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/meshes/visual/wood.dae",
+    "bytes": 10359,
+    "sha256": "e6824b324ebb9b331276daf4df3affe1e6e1e036a5f894005d947d2c62b73cc9"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/model.config",
+    "bytes": 233,
+    "sha256": "038b8b60a4acd4622c16dfd1e7aef3a481ae21b5a3b44a95e61db34dc47e953d"
+  },
+  {
+    "path": "gazebo/models/estate_fire_lounge/model.sdf",
+    "bytes": 13882,
+    "sha256": "2c334d9d67f3d16190c5c0510c5e7e89f4ea1abdc85578bf71f8d91a1febdae8"
+  },
+  {
+    "path": "gazebo/models/estate_lake_pavilion/meshes/collision/pavilion_hipped_roof.dae",
+    "bytes": 1871,
+    "sha256": "10bc85eb4377eeb7aea3012b1686105fcf7b94e3e599f01e44c0363512901a34"
+  },
+  {
+    "path": "gazebo/models/estate_lake_pavilion/meshes/visual/charcoal.dae",
+    "bytes": 20429,
+    "sha256": "1b0691432ff4f9f45ee584a8631ec87f61dcf030a80749dbc57139861e221d14"
+  },
+  {
+    "path": "gazebo/models/estate_lake_pavilion/meshes/visual/dark_fabric.dae",
+    "bytes": 4368,
+    "sha256": "96b779229096ca67954c40c700898c592187cf29102f2195e0347ceb1a06d06c"
+  },
+  {
+    "path": "gazebo/models/estate_lake_pavilion/meshes/visual/emissive.dae",
+    "bytes": 2154,
+    "sha256": "1b5462bbb91f03e0bec9fccb10ca5392735e8d3c5ad988393460b2d8b88df112"
+  },
+  {
+    "path": "gazebo/models/estate_lake_pavilion/meshes/visual/fabric.dae",
+    "bytes": 4368,
+    "sha256": "a92190797c6e0d4e353069fdb969fe6a6b9c8f8e762ce39b13aa911523bf15c0"
+  },
+  {
+    "path": "gazebo/models/estate_lake_pavilion/meshes/visual/trunk.dae",
+    "bytes": 25270,
+    "sha256": "019e93ddbe4b465a0ce193a07320ed714a0b1a08905cbec954c3b30344122c12"
+  },
+  {
+    "path": "gazebo/models/estate_lake_pavilion/meshes/visual/wood.dae",
+    "bytes": 17697,
+    "sha256": "c95b06876b0e77399bdc83246b815e6f56a9b178ca3a18f6444891199060b527"
+  },
+  {
+    "path": "gazebo/models/estate_lake_pavilion/model.config",
+    "bytes": 235,
+    "sha256": "55261518f3c6c32e0f6d6cdfbc379a10813aaf2539cb6df2a1ad90aab9f3a83c"
+  },
+  {
+    "path": "gazebo/models/estate_lake_pavilion/model.sdf",
+    "bytes": 10299,
+    "sha256": "1feba492a3d4e5369b4bd3567d5e4e23c4dfa194dd92c15ddf2e9dc3be657744"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/dark_fabric.dae",
+    "bytes": 8901,
+    "sha256": "ef8d98af80541b6c9ed0887ea49584d22d50fba870fcc3e36bb30314dfc5ee6c"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/fabric.dae",
+    "bytes": 21584,
+    "sha256": "cbfbc22f93dad8f2834c47cb1112d44b0e8ba9dab00730d166adacaee8a15065"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/grass_dark.dae",
+    "bytes": 7220,
+    "sha256": "6ae0724c00d4bbf996e2d6d951b3022d9990c8dcfee1275b11550f45879e588d"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/ivory.dae",
+    "bytes": 6610,
+    "sha256": "2920d77725514b7897d391cfd759118bddf9b7f033ba23153c35a69d0429324f"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/leaf2.dae",
+    "bytes": 21184,
+    "sha256": "5b39f39773197b0a00ca76a2c661fdb0dadb26c9ca88d4d4ba8ebe5054704319"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/metal.dae",
+    "bytes": 7353,
+    "sha256": "0c3776ab483926b9b6e1c6f399b144d155ce68d53d19b9bbdb3a9623f447581e"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/paving.dae",
+    "bytes": 8901,
+    "sha256": "d7174e54e63b6838f3179f9b336757de4102c69236cb4d87c61d7e04a7a4cb6e"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/pool_water.dae",
+    "bytes": 1666,
+    "sha256": "f1cde969b2e584da2385e4fdced1c92fff79ca4faf0443df60617476c129980f"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/stone.dae",
+    "bytes": 40563,
+    "sha256": "22430fccc0ad846ac46da18ef47ab04e8254827f331cd71463488722e58c1d0f"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/white.dae",
+    "bytes": 45001,
+    "sha256": "6cef321136294727acb408977f1200eb45f41f86d3e4941590c7449fd86b683b"
+  },
+  {
+    "path": "gazebo/models/estate_pool/meshes/visual/wood.dae",
+    "bytes": 10459,
+    "sha256": "e583f8b6ff7fbedb24af0c9a06ac9128016ff10db5fab2aa6ef39be3558dedac"
+  },
+  {
+    "path": "gazebo/models/estate_pool/model.config",
+    "bytes": 226,
+    "sha256": "17d622f7bd1826614a7324bd0f5aee45afff5aa85c0d02d15a67d526f867ce0f"
+  },
+  {
+    "path": "gazebo/models/estate_pool/model.sdf",
+    "bytes": 17357,
+    "sha256": "c0d899cc90dbe9095539cdb5ea2e01a623db15e90fe6e428e167063649841f79"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_1.dae",
+    "bytes": 4241,
+    "sha256": "1ea914792b5f54636f1ac3fe616d4a77de483d4da76e76b79484f2dda69e5a43"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_10.dae",
+    "bytes": 4267,
+    "sha256": "4e0db090f927e5b207ab8da6bbe334acd4e53a789dcaf8d8b9b96f146bffa27a"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_100.dae",
+    "bytes": 4267,
+    "sha256": "4e44f7faad164d0f5777fba57293b8d610e826210d7826c8e97dc75f725ed2a5"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_101.dae",
+    "bytes": 4267,
+    "sha256": "bde03a5867520e742389b14ef15d017caeec618b053d47410303a665bb957326"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_102.dae",
+    "bytes": 4267,
+    "sha256": "6ee48cf928566b76da28d838ef8ea72cc0650a5bce56a52f0798e6eb8e1cd7f4"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_103.dae",
+    "bytes": 4241,
+    "sha256": "9d1f0452af1c4ced068c12e501db48e63a51928fd3691f11e492ef9281d22131"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_104.dae",
+    "bytes": 4267,
+    "sha256": "bd94e185d39fae2c50c10e962836c5718258035eeafc138ed50dc87dbf32b19a"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_106.dae",
+    "bytes": 4293,
+    "sha256": "20971823fcedb9438aec04059ed0c20bc27278ff485512de15e295c2b50bc5d7"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_107.dae",
+    "bytes": 4267,
+    "sha256": "d3fc772b002d710e4775e43863c5e8d8476417f6f5ca5dbf6379ec10ce4af27b"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_108.dae",
+    "bytes": 4267,
+    "sha256": "1be36a1295e655d88260c76f0a34d21ce6575c585c20b4a2d7fb657221c3fb18"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_109.dae",
+    "bytes": 4224,
+    "sha256": "ad8f00998e5686fcdd213a80db8028a9450b26f1c3de6064740f2686e9f33bd6"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_110.dae",
+    "bytes": 4241,
+    "sha256": "167ae2c9a9dbfa8b737015a6243e3c4181a4645a9467d907decf6a18fdcdeeaf"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_111.dae",
+    "bytes": 4267,
+    "sha256": "0b9ae89362a18aca52962913372d79be5ef4b67e43e77f6bfe04539eebdc3be4"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_113.dae",
+    "bytes": 4241,
+    "sha256": "aac5bda4977f51304282bb5bef2df03bacc657009242ee38110fd2dfd79cc08e"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_114.dae",
+    "bytes": 4267,
+    "sha256": "ce199a51c408c8575f6db1ec59c81d355eaeb87c7a98f86f242d8017fcbb7284"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_115.dae",
+    "bytes": 4267,
+    "sha256": "a1160d965e70674765774dd0c1add61b316a32fc74a415163b364ad352130cbd"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_116.dae",
+    "bytes": 4267,
+    "sha256": "e9819726516cbeb217ee76445dd8cc050a3bc716697874a9ecdb6fcf62e43543"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_118.dae",
+    "bytes": 4241,
+    "sha256": "5abfcf9eab80e10339ca714897c3b3e7f3eef9d971d3267f1e774e4f04f25b71"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_119.dae",
+    "bytes": 4240,
+    "sha256": "ff8538640fc9562b3a91b82d21ec76ed1293a3c10a34cd5dffd5bb90643532cc"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_12.dae",
+    "bytes": 4215,
+    "sha256": "098233143278e68232f6ad85d000bd660021886a6c794fb31ef06a6e60d504bb"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_120.dae",
+    "bytes": 4215,
+    "sha256": "484ca2fba163ec669a1048a97db9c4d52a6b9c6640d21359ab4b9c6a40b21ad3"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_122.dae",
+    "bytes": 4293,
+    "sha256": "0b8fbc17e20efca4f5b7ac7e574dbd9a4d79e9cd99740a4baebfb698dd507ea5"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_123.dae",
+    "bytes": 4267,
+    "sha256": "17e4ea693252f949b33a0eb399897ef14353ced5e8a997a1cff9bc8e2d91b4df"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_124.dae",
+    "bytes": 4293,
+    "sha256": "0a47ef9bb91de56416e9b2e9cde1ceb84775fb75901f40d10408daa35b72fc4b"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_125.dae",
+    "bytes": 4267,
+    "sha256": "e29119a369feed3d26ec331a78a30abb73a4c7d56c7adb87652bfd23ec186f2c"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_127.dae",
+    "bytes": 4293,
+    "sha256": "e35911bdda416e8bc866d56f8c91ab7bcee902cc9d2fb54915fd328cde62e8e8"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_129.dae",
+    "bytes": 4215,
+    "sha256": "d48dad33b53d8c07359f3948522b9bc7f541455faf0d4c37a00d025567be4831"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_130.dae",
+    "bytes": 4293,
+    "sha256": "f4a0760e5f5602ce144c9531ba500105741e48d2d493147e407d8f3a7bf06546"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_132.dae",
+    "bytes": 4241,
+    "sha256": "09013c388048bac1b380c6a2e7a3cdbc55b818c05c9b038061b53373aabf052d"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_133.dae",
+    "bytes": 4241,
+    "sha256": "5f83e7efa43c1ddb5976936512208ebdf3ad0fc20c25ebcbdb55ae158777cb49"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_134.dae",
+    "bytes": 4293,
+    "sha256": "57e0f39f97d925f97c690107cefc95366bb153d5fb109f794cfcc1b5915849ba"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_135.dae",
+    "bytes": 4293,
+    "sha256": "cdd565d725514ece5c1946005f6f639af5f55aa37a5d869bd23a44d41c2e8d28"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_137.dae",
+    "bytes": 4267,
+    "sha256": "209c033bdf5e0965978938c12d69b40cd1e5f6fcba54c429b35d9227867751f4"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_138.dae",
+    "bytes": 4241,
+    "sha256": "7193b14307bb9ec2d6325959acc8aee3d1e9c2c2e819645733944b04297a08d5"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_139.dae",
+    "bytes": 4293,
+    "sha256": "070611eeea96f27a5c690f55eab1c919d3e5e29203275d6b41d41e3abe972a9a"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_14.dae",
+    "bytes": 4293,
+    "sha256": "a05b0d2cd66f3f78227ae65d24b761c532ab15954317760ec7ab36b425341527"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_140.dae",
+    "bytes": 4241,
+    "sha256": "df4f94d63ada8cb2457b4647a41d7d0a1df8471be942dfa538ebbb53859b3d31"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_141.dae",
+    "bytes": 4293,
+    "sha256": "f535e31b33fc82f66826db4646e714c5a0cf4fb1b5001cca570082eef3ef4b67"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_143.dae",
+    "bytes": 4293,
+    "sha256": "a84125f8d4060081c2fef93e23b8613039f18380fdec8983cfa8e5ebae3672ae"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_144.dae",
+    "bytes": 4267,
+    "sha256": "8d43a832209830687cec771e6a3e900b99178c75204ffb77cd63706bf282a755"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_145.dae",
+    "bytes": 4293,
+    "sha256": "df88f1e6aa02b492e1e2ee4f30308f468dc708abf045e520437e8b21372e813b"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_146.dae",
+    "bytes": 4293,
+    "sha256": "ea482e41f2d90b462ba6bf1d0a05a25b4799d506f74ac1da1b802e83aed4a431"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_147.dae",
+    "bytes": 4267,
+    "sha256": "e10600c89ad168bf5a7d0f08847cfd8cbdfaabd800aee56de07a7b5ded199d77"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_148.dae",
+    "bytes": 4293,
+    "sha256": "4a6d889d05e087dfad6c5c1a53f1c9597a9afb314ada1fa25f983585c68afb62"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_149.dae",
+    "bytes": 4267,
+    "sha256": "d7b18c9ec19048da5294c933a1d64ebd75d87241b86056030f897561166879d2"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_15.dae",
+    "bytes": 4267,
+    "sha256": "fe32fc242b1297ccc64f27f86b191d01a15755451152ceb05f479b5df38b8c0b"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_16.dae",
+    "bytes": 4224,
+    "sha256": "4263a4a1562f22cd3d80dfe8f2c807919662aa6592a3dac0522781e00edbd714"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_17.dae",
+    "bytes": 4267,
+    "sha256": "cc94fc78cc2ca38752629308f14f0485b9a181fc137dc8eca22fad13abb23fb8"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_18.dae",
+    "bytes": 4267,
+    "sha256": "c895a2969e8d01bc162bb494ba80259a14f527ad83dfd1d34162270010c4ee90"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_19.dae",
+    "bytes": 4267,
+    "sha256": "07dedf0952466fb007df7f651f92adf1e7e08b709a6e750a11933210b65d41fb"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_2.dae",
+    "bytes": 4267,
+    "sha256": "8ff1c0fd32d8658fb55bea0533d8818f5d6064ae940b6654d77a84919793683a"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_20.dae",
+    "bytes": 4267,
+    "sha256": "eb32fbbf63ab9ee4666dbdcc0caf32ab72abc19ac075120425bfe4248a8b1d12"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_21.dae",
+    "bytes": 4241,
+    "sha256": "96819ab49d021bd12129c7fcd5bdb99f67407a2425fc465ddf5a72768b38feee"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_23.dae",
+    "bytes": 4267,
+    "sha256": "a4e81b061eee73817174e3b494d993745d0068db052947dc9033c3ecf64fcabe"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_24.dae",
+    "bytes": 4293,
+    "sha256": "a51edbc631f29a6d7c2163b7a107a7da7f21620b223a2268b2a40fa9292efd85"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_25.dae",
+    "bytes": 4293,
+    "sha256": "9ac0728c3d0262b23bd04a0e0a7dc9468f1089205722e266236eb1802a9b6755"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_26.dae",
+    "bytes": 4293,
+    "sha256": "5c859a3d93a268a219794bf86cc0af0da20091450791908852f53194edc4d8ce"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_27.dae",
+    "bytes": 4215,
+    "sha256": "4935234b2a8364f651040d1bb47a8db3d3fb07b4db3fb86953b832c945e45cdf"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_29.dae",
+    "bytes": 4241,
+    "sha256": "63ebc99b928761a7dcd857990fce6461ee5ce9a4958f7491418190c8f27dd73f"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_3.dae",
+    "bytes": 4267,
+    "sha256": "194b490446a783a051522885217cd876ae7d43fec34755c2a88abd86305ddcca"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_30.dae",
+    "bytes": 4293,
+    "sha256": "2177394a1a57bf391c503ce26e7d20fdef85cdce735a4294b2ac7972be4b5c62"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_31.dae",
+    "bytes": 4250,
+    "sha256": "195ce70ade09f93e81c0b7b06807fe252ed368293a7e9dd29fbc6975d4493ce9"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_32.dae",
+    "bytes": 4267,
+    "sha256": "2737a328014b2ddcef743d0878b26473f36a82106e3de9459747a42c25052910"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_33.dae",
+    "bytes": 4293,
+    "sha256": "bf5bfd60b0453828a18b23e926ad57c544793ec9e1cc8e1ac9ff965b53c4eb92"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_34.dae",
+    "bytes": 4267,
+    "sha256": "3a1d4b2961f2d43d068563b4bd9dcdc3e10c331444f0d113524a7d87847fda81"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_35.dae",
+    "bytes": 4215,
+    "sha256": "90d2286dd71721fa95005cf36ab490603790f7691e92ea43b91e32f53bc9b77b"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_36.dae",
+    "bytes": 4267,
+    "sha256": "09f4131420a8b4c74a0c693054e29ba41e4ff9fa84c286b7361614d4d540b025"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_37.dae",
+    "bytes": 4267,
+    "sha256": "b12f3548dce52588115b194277dd53310d553c795112fa643e0519c27baf29fe"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_39.dae",
+    "bytes": 4266,
+    "sha256": "31319c0cc0db63cb2258f51fc8960b2c3e2915822902639231e51c19ff6af95e"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_40.dae",
+    "bytes": 4293,
+    "sha256": "6414dc1d5526f1e0b70c5257a1daeca9ebf3081cfbbffca4c9592379f564259e"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_41.dae",
+    "bytes": 4267,
+    "sha256": "a4b882e197e9bdb75446042d4cb6a2b99820079ce2766595f17add6bbd87a1aa"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_42.dae",
+    "bytes": 4267,
+    "sha256": "a4b2c0422e38a0ba2548b4e1a8404b36fa7817dcdc81748bc3a7ed57b39ecbca"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_43.dae",
+    "bytes": 4241,
+    "sha256": "2126ca625784e8e2171fc61d95cdeeaf22b2878b0e4bdd616321620d74ea9f06"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_45.dae",
+    "bytes": 4267,
+    "sha256": "fc43e775f37cad8f756741bb48f1fb31e7d9757341192b8d25c4655ef1d6558f"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_47.dae",
+    "bytes": 4284,
+    "sha256": "85eed66b8af63d60392c91686d7d5d96fedaae284130637110dcb82c1b63d705"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_49.dae",
+    "bytes": 4267,
+    "sha256": "8d124a3f3b7be9e20a412a961baa3bbd311c67914287a75943911d4aeb93b56e"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_50.dae",
+    "bytes": 4293,
+    "sha256": "0ee3e1132695250866e5f916fc06fd713b7ca9fb5d362c511bf0bebaef6420bc"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_51.dae",
+    "bytes": 4267,
+    "sha256": "d95795e6d21aade7da6675bb5b4b5ebb50d07d3e15b9c33e31051777b2ccd0d4"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_52.dae",
+    "bytes": 4267,
+    "sha256": "36f8c971b9581b5ab0bccc1322ad2b64bbb8dd9e17ee4e31920462cc839a394c"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_53.dae",
+    "bytes": 4293,
+    "sha256": "5d1d1ce32db89ef633ad9009a53acc5fb31e3dbc47d12f32f04f155b36ab63ec"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_54.dae",
+    "bytes": 4293,
+    "sha256": "135b85d4b4a1b4acf997bccce8acc62217d9dc4afd9edb7a7dc545d4decf21a8"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_55.dae",
+    "bytes": 4267,
+    "sha256": "44ccc41c557eebe4e3549649c1de0422a891919bde6e837381d5db2e704e0342"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_56.dae",
+    "bytes": 4267,
+    "sha256": "4b87a6afcaa25af629cb84627bb0306eb01aad1818d8c4ebbcaf33fca4562d43"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_57.dae",
+    "bytes": 4241,
+    "sha256": "4027a59f280e571aaa88eda8cb6114a35f81a1e5fb8acb1be1bd594e9b4f85dc"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_58.dae",
+    "bytes": 4267,
+    "sha256": "b64834041689e88ea6a32136b217026e633e813d60982aac733263be9f177026"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_59.dae",
+    "bytes": 4293,
+    "sha256": "b9b915ba377ab4de770b5c4868420c62b08865e4d8021c1c6c6b7110c4007fcb"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_6.dae",
+    "bytes": 4267,
+    "sha256": "41f5a19ae7516917ff0c38b036eac9440108f660a7df2c46ec096d978b6fc031"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_60.dae",
+    "bytes": 4293,
+    "sha256": "f03e4021d2db5c0279c8428ac23ed69a887867c837b42d9d8e714ef62e1a2f47"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_61.dae",
+    "bytes": 4293,
+    "sha256": "0c2063a2e16f1a3285d8a86ff9daf5afb59b11b265b889da297ebd5fa802e04e"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_62.dae",
+    "bytes": 4267,
+    "sha256": "3636444060269c8255655474f372d57f6c908c84ef11d61779960ad43e1b5e28"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_63.dae",
+    "bytes": 4267,
+    "sha256": "470a1c0c685bca6d886b7f6cf522423ad2a1d7436f5e7c24346efd1c1971310c"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_64.dae",
+    "bytes": 4224,
+    "sha256": "d9a7506454d58a7a8fd879e1f22f20377f6805cd5079556282d7ddd6d8aaf405"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_66.dae",
+    "bytes": 4267,
+    "sha256": "0d9a1295a25cb16adfd8beaf093612360ee7088640fa7482f3881b75fb2b77eb"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_67.dae",
+    "bytes": 4267,
+    "sha256": "391a1da4c2325e968999ac07b6bacf7066a834b5ccb467d1734110060c968a6b"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_68.dae",
+    "bytes": 4241,
+    "sha256": "1d742a0ab259c088d79f61d76371d34e4e55d35c3cc6842f91674f4d733ece25"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_69.dae",
+    "bytes": 4293,
+    "sha256": "e54c16184a91028620066d05ae52886c773ed9407efc6f7c6d30efd422a4edb0"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_7.dae",
+    "bytes": 4267,
+    "sha256": "85a483cbff4a7ba200953578f2a14a6c9708f31d81bd5253a391569df458ee81"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_70.dae",
+    "bytes": 4267,
+    "sha256": "97db082cf499a2addc7d96589f0590849723d422abb6b5c1ffdf40692b6a39e1"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_71.dae",
+    "bytes": 4267,
+    "sha256": "2f62b28e231da53c7f1acce652a22125f72ea3ce92dc4e2dfb5eeed655b50a18"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_72.dae",
+    "bytes": 4241,
+    "sha256": "7b6e3d9a4dde9d74cd9feb24f9a2691b2b16a5f65903f2103292a307ddca2474"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_73.dae",
+    "bytes": 4267,
+    "sha256": "5624dd3c08e6a1196328dcae14f4affac9250b1ef5ff6ac9a6eade6477e5e1fc"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_74.dae",
+    "bytes": 4267,
+    "sha256": "ef0a82acc5dcdba8a3d32e0a621ecf6c4b4aef056277ab8efedfd01f47098d49"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_75.dae",
+    "bytes": 4241,
+    "sha256": "035fe51413ecd3775ca0e3ecdf40ded6962ee9060d4d40ed007d5ab6fff03304"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_76.dae",
+    "bytes": 4215,
+    "sha256": "6b05d75d9d16bb70d065ac209e023a75b0da9c6cdc34591e6cfa006acc59beb2"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_77.dae",
+    "bytes": 4241,
+    "sha256": "76a7740d278ba513847a191a4641f39f18875607ec6650c5c0827b0989de305b"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_78.dae",
+    "bytes": 4267,
+    "sha256": "fe49b3476ec1d7d14a67d5ba5829222aed6d2b4e7cb94e13bf039b0bfcbc7196"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_79.dae",
+    "bytes": 4267,
+    "sha256": "72542a532d1aea9e41147b5f6cbfe880905e8f79f1fa368287ba7e4d97c60364"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_8.dae",
+    "bytes": 4293,
+    "sha256": "a486bf7fc0455e22b2cee4b54329346604fb14239f59d6063a31f422105ef4e4"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_81.dae",
+    "bytes": 4241,
+    "sha256": "1ed6b9fb3a26e55fddd4ea347176bc471d00afbfec66341ede84c3e17a94f56c"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_82.dae",
+    "bytes": 4267,
+    "sha256": "d300a13d1f3c3e071eb3ad053b32f17a609ae291116306920807ec6a4126e551"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_84.dae",
+    "bytes": 4267,
+    "sha256": "6cd5c332154b1d96d1d1fcae1e684ab64db76fcc2d49c001946627351c019089"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_85.dae",
+    "bytes": 4241,
+    "sha256": "225757102da6d3cd9409f6365196e93f91172031b4215571c3ad2e725a2bdca2"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_86.dae",
+    "bytes": 4293,
+    "sha256": "54c788e2ebad245ea70ef755f4fd58ad24cf1b05636533fcf8a4e12c33358882"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_87.dae",
+    "bytes": 4267,
+    "sha256": "4397fb4719ef939af45d3928989abe070d453330487bd08d5c435605c2781e1f"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_88.dae",
+    "bytes": 4293,
+    "sha256": "76882a6c3fb0e6792bd363d17f0a5475d4d0a5035dd92a7863deea9d47a2bdc0"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_89.dae",
+    "bytes": 4267,
+    "sha256": "2e3b0a968e0768c6f68f1c89acafe060ccf38d38cdd96db2e37174a53789c311"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_9.dae",
+    "bytes": 4293,
+    "sha256": "57047b098dceac476bb58dc39f6b2dfd0d2452f2e02ab3dfd80a08c1a368292d"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_90.dae",
+    "bytes": 4293,
+    "sha256": "c93969c7a34abff344fff540590172a43c88bec970e27df610d0802c32903674"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_91.dae",
+    "bytes": 4224,
+    "sha256": "28b9dd73c06c277f77ee80b2475203a64908db01bd6e231ad78723bc56c998b6"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_92.dae",
+    "bytes": 4293,
+    "sha256": "72303a735850eca92eacc147793c729d3a309c79fa72863e5d93890f8ee42493"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_93.dae",
+    "bytes": 4267,
+    "sha256": "8057c4c7dadce12d328fe6b7558aebe3b33b029087db6d42c2d1445bb0737fc4"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_95.dae",
+    "bytes": 4293,
+    "sha256": "a62e1f7322bef6da76632d309bf7a312bcfb7177b272e1535bf644d1b92c50a7"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_96.dae",
+    "bytes": 4293,
+    "sha256": "b8f7c20d40a0359fc16eb12892d96ac9905eaee7acff6c2ad22a7019fb2ec2a5"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_97.dae",
+    "bytes": 4215,
+    "sha256": "6b07daf83633d9bc3849cd4f54fbdaeb82675957162b1c0d290fe41ceba29925"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/collision/outcrop_98.dae",
+    "bytes": 4267,
+    "sha256": "e7c3bee07a7f01cf4e0d766635011dcbc6fb3f71a5bffb54b9c7c5df57347753"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/meshes/visual/rock.dae",
+    "bytes": 422370,
+    "sha256": "09affe7d11a2587afaf2fea7536b104a9bb7e302797d237f44cd61baddb34b01"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/model.config",
+    "bytes": 230,
+    "sha256": "e12403bd437675416c371e11d8f0df37b47bff820674226c91cb2df572c3b8fb"
+  },
+  {
+    "path": "gazebo/models/summit_boulders/model.sdf",
+    "bytes": 26774,
+    "sha256": "ff999ecd9cb65db98ae6b0b621cd36d51922761c269588b51699a2661538d425"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_0/meshes/collision/forest_collision.dae",
+    "bytes": 1223129,
+    "sha256": "5714428ddb50354959dddae988bc5dee6f0cf5b5e8d0f661e839379b87b101ae"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_0/meshes/visual/leaf0.dae",
+    "bytes": 599246,
+    "sha256": "c8d7f179bfd48d77730b54ee70c5e871acbf19961c8fad4cd02b72fceda1c039"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_0/meshes/visual/leaf1.dae",
+    "bytes": 599254,
+    "sha256": "9558c6291c6db71cf3733125b5cd4f7654744f1181ff3c39084a5472b826a8b5"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_0/meshes/visual/leaf2.dae",
+    "bytes": 599234,
+    "sha256": "07c91b571607c21160acf1d91ff0426164b19986f5cdaad776b26a2b710806f9"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_0/meshes/visual/trunk.dae",
+    "bytes": 792380,
+    "sha256": "0ea84167872ae0c1ac49bbe75da7ba25b61be07379caa809d694a6b7227bf826"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_0/model.config",
+    "bytes": 232,
+    "sha256": "f8c474b5f4031dda7145801a436b60d3dbe69a9b79e8366178f5a01829877f66"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_0/model.sdf",
+    "bytes": 2549,
+    "sha256": "d90d795bae2cd92515cee92bedc3580f21b190b9e0f2eb157f415f57a70920a7"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_1/meshes/collision/forest_collision.dae",
+    "bytes": 1196554,
+    "sha256": "8dc2ef96a6722064d6a38a0ae6317982358df3ba9326775cd130f7bed852295e"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_1/meshes/visual/leaf0.dae",
+    "bytes": 586598,
+    "sha256": "1405fdad04a769b83e6331ad69a441c345599a07366244ec1978130b19682b58"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_1/meshes/visual/leaf1.dae",
+    "bytes": 586583,
+    "sha256": "93f82f5847de7e20b467197d50918b42858264e6f70350e3ad8d55c7db6f0cc2"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_1/meshes/visual/leaf2.dae",
+    "bytes": 586595,
+    "sha256": "f7fd9dbffa35ab3894ab7965dfff04b2079d9cb1c7ba9b635e7542273f5c6ab2"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_1/meshes/visual/trunk.dae",
+    "bytes": 775051,
+    "sha256": "0c7cd15861f6c0936387227bfeba1435835e47355ac5f6157cddc4b4b935147f"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_1/model.config",
+    "bytes": 232,
+    "sha256": "e1ffb4ed6bab1ee9a3138c33eec572071c51b49d43f19db1757307d63acdf8a9"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_1/model.sdf",
+    "bytes": 2549,
+    "sha256": "dbc771cdb27ae55b31eff4a8f79afe977551f2c056b81fc0c7123c0fa663e969"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_2/meshes/collision/forest_collision.dae",
+    "bytes": 701277,
+    "sha256": "59aff1f5c14d0a473cfab9fb939b1a95f54f7d456ed73c8d9bf65e71bc12fc92"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_2/meshes/visual/leaf0.dae",
+    "bytes": 347732,
+    "sha256": "b5ee62cb6c9d99ca3e5c8959ff48c24d8f131ab51ce88b0cf2a2dc81d90efa3c"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_2/meshes/visual/leaf1.dae",
+    "bytes": 347707,
+    "sha256": "f596ae2cc4998feac1ad7c2d4d91de14b3b8e49b327ba1cb1c7d372f973d501a"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_2/meshes/visual/leaf2.dae",
+    "bytes": 347796,
+    "sha256": "f2894080be5c334b3ab1bad6c8687c49175322070e57c1c4a949cd7821c7ff20"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_2/meshes/visual/trunk.dae",
+    "bytes": 459093,
+    "sha256": "ce64bdbb6508ea2e6260336c14eb6c6a6a0fa1c273cb375ec167fbd170e58f57"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_2/model.config",
+    "bytes": 232,
+    "sha256": "022d7427cf6a442faabe06c68252edba0d9c0470883a5561bd24b3afa11efa50"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_2/model.sdf",
+    "bytes": 2549,
+    "sha256": "538322bbf70c4a35801b87e10ec04986df2a4c965df02922b53662b1e901fe21"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_3/meshes/collision/forest_collision.dae",
+    "bytes": 1173020,
+    "sha256": "0561b202fdcb79f2deb7dbdee1bf789a80420eac4fc50d5cac00211a8d9fb97e"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_3/meshes/visual/leaf0.dae",
+    "bytes": 575224,
+    "sha256": "741d500d8aa3889d1cd311dbda64dae05a0643fad20308f6e02ef7f79cd1ca44"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_3/meshes/visual/leaf1.dae",
+    "bytes": 575195,
+    "sha256": "428ed7e498612623f57946311d7776f1d1785241a9ff1b9c5384651bc0a0b4f1"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_3/meshes/visual/leaf2.dae",
+    "bytes": 575167,
+    "sha256": "993c638e93f98f9398756a6a55876bec46bf87a80dc30a8bb829d988d8bc5cb4"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_3/meshes/visual/trunk.dae",
+    "bytes": 759415,
+    "sha256": "e1ea0f0027055b658630a8803ea123884be6ae0ff85c1e8dad31b3ce66e7fb93"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_3/model.config",
+    "bytes": 232,
+    "sha256": "e95e8ea9b32ea695cefe5f8d0ad3f07c058cb1d0cd137464ec0ae2a63e7ab65a"
+  },
+  {
+    "path": "gazebo/models/summit_forest_0_3/model.sdf",
+    "bytes": 2549,
+    "sha256": "d9e50f0bfec4f6c60d3f4e2c85c392b04a16de5c61cea18b0528f19737664fd8"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_0/meshes/collision/forest_collision.dae",
+    "bytes": 922751,
+    "sha256": "0b3ccfc94f716b3ab024db75f3b6b502f32017b9048c5cada43128c48a748f3f"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_0/meshes/visual/leaf0.dae",
+    "bytes": 454640,
+    "sha256": "9252e613a8b4cafde4470134744cd4ce33fb2fe960d06871e796057eb59265ba"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_0/meshes/visual/leaf1.dae",
+    "bytes": 454619,
+    "sha256": "31be545b6e6cf5d7aa15ba8783de551d93105c9b86ae1807d4c8b3ae7ff47e22"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_0/meshes/visual/leaf2.dae",
+    "bytes": 454628,
+    "sha256": "ea27bedc14a761e53c841459cc975ac0067bde694d0c987d2dd30469becb4bc9"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_0/meshes/visual/trunk.dae",
+    "bytes": 599666,
+    "sha256": "7cf1dfe825112779dfdfaac790af5e6f8e4950c9f8d426b06e8709961e9f0f0f"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_0/model.config",
+    "bytes": 232,
+    "sha256": "0a1ff2d055fbe851e7c1d23102450cf8c0769e7cde2fd379dc605a4b9a573670"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_0/model.sdf",
+    "bytes": 2549,
+    "sha256": "5e58873f54498e1868683aef285840adfc01d38e542ebc785f0dd132c2594827"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_1/meshes/collision/forest_collision.dae",
+    "bytes": 885064,
+    "sha256": "0b0480cdb9bb5317d25b272c9ff2c389973060c08b5d4ab85df7252f56173c6b"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_1/meshes/visual/leaf0.dae",
+    "bytes": 436456,
+    "sha256": "fa13b26b65706cb3ef9d266f6e1181e72272a27f4bc4cfed571e2a01d9a7e5fd"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_1/meshes/visual/leaf1.dae",
+    "bytes": 436458,
+    "sha256": "298d96485bc3dd61dd58ea9f563a775fac86ffbdeb10a8a872004725b0494f3a"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_1/meshes/visual/leaf2.dae",
+    "bytes": 436466,
+    "sha256": "4954e2856c6bbaaa9880e794ddb169402807a88f56e06dc3925d930dd09387b1"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_1/meshes/visual/trunk.dae",
+    "bytes": 575832,
+    "sha256": "115a1c661f3ee5417b278fe16d317d3188e27836e3f5c1cfa7bc27d54caf1e30"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_1/model.config",
+    "bytes": 232,
+    "sha256": "13d50b9904bf761e55f4a829280dd5cfd7901b5124d80c65d2d272eb96107d27"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_1/model.sdf",
+    "bytes": 2549,
+    "sha256": "80532f657566180637f55445a9c0f6d232a01ae302ed3f6fe436707c58c81236"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_2/meshes/collision/forest_collision.dae",
+    "bytes": 72424,
+    "sha256": "a910d1ae7258521d46cab5c3160b1cd351c8ad9c7752fedb7b956773be65b1b8"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_2/meshes/visual/leaf0.dae",
+    "bytes": 36474,
+    "sha256": "4ed3ce01d3a4bfa858b731186391aa61384ccbb6b04c9b55b273ae2208bb1947"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_2/meshes/visual/leaf1.dae",
+    "bytes": 36464,
+    "sha256": "4d6c2367b82bc4e02fe56d4c2340fa6a4b81874eb6cbda4a7a073a3be5b0a920"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_2/meshes/visual/leaf2.dae",
+    "bytes": 36458,
+    "sha256": "2c105748987ad08bb1cd77eb53516930791b1a90d73802ed4823ce040700cc07"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_2/meshes/visual/trunk.dae",
+    "bytes": 47681,
+    "sha256": "fe8257ef3adc0483fa1ce2e8b025fa525de168c87031ea7bca4f2976a0bb12c3"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_2/model.config",
+    "bytes": 232,
+    "sha256": "c8335d2db5477e2244c452ab49a680e76e799a2d86b4fa787d97b1d5f6b69a7f"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_2/model.sdf",
+    "bytes": 2549,
+    "sha256": "5da96b2b13facae91ae948af2ea7657ab5567125487d9ab9a79d1e51b106e9ca"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_3/meshes/collision/forest_collision.dae",
+    "bytes": 1219124,
+    "sha256": "85f67e7942f3566e16c99074e75204f056b2534c27da2748851aa4b6665e2323"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_3/meshes/visual/leaf0.dae",
+    "bytes": 597260,
+    "sha256": "2c1c0396902e8c97d03554e25e734fb7634284c6c1c5ae3e4b5e110d4a2beeda"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_3/meshes/visual/leaf1.dae",
+    "bytes": 597264,
+    "sha256": "f999d0be7cf7e6d80d5ce6f517760dc119d94a51644c4ac0b2560484b77c4051"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_3/meshes/visual/leaf2.dae",
+    "bytes": 597244,
+    "sha256": "7b3c1643dc6be8b3fe1f5578ca02301616140962bf39898ac05cf22e59305ac2"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_3/meshes/visual/trunk.dae",
+    "bytes": 789901,
+    "sha256": "a0d97f3dd9b907af20d630aabb83be24d1bac86acc6ebb7c3625dee5f2243656"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_3/model.config",
+    "bytes": 232,
+    "sha256": "83d1d50abf76688ecccfd72057345c7a4f2027053ec7a3b5af1aa28fb2d88c3d"
+  },
+  {
+    "path": "gazebo/models/summit_forest_1_3/model.sdf",
+    "bytes": 2549,
+    "sha256": "0f1ca09baa3d1f7577590c5bb0340985804d99bb6ea3b7ca7fd73da2955280a3"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_0/meshes/collision/forest_collision.dae",
+    "bytes": 1237328,
+    "sha256": "d62ee388918ee2734d213a13f8bea49f2588af22790bb770f286a65dd0d2684f"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_0/meshes/visual/leaf0.dae",
+    "bytes": 605302,
+    "sha256": "a7527eb2df4946d65bab047b9182a270bd9ed0d104324ddeaf8dded33ee56392"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_0/meshes/visual/leaf1.dae",
+    "bytes": 605303,
+    "sha256": "ba7058c6851bfc08e76f3c8c9f80ef501b8e0d55bd7ee8217a6326d9bd96a45d"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_0/meshes/visual/leaf2.dae",
+    "bytes": 605282,
+    "sha256": "3263da80331c2bbd96ef34d0d9f77ad4d8fed67ed27c3b4cf70f80a1f06ccb12"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_0/meshes/visual/trunk.dae",
+    "bytes": 801328,
+    "sha256": "8762aedca8aa702ef537f77675fe43920b8ff2e4b57aae79025a959aebdcf0bc"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_0/model.config",
+    "bytes": 232,
+    "sha256": "c95779a6e6d1fe484dbc595e6037d1e9e50ab7eeb40fb00ce9130889f547a92c"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_0/model.sdf",
+    "bytes": 2549,
+    "sha256": "a57d874f291bd0c2d72092370b00bd5c598a1121bf74e123d4b23a7b89dabc5a"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_1/meshes/collision/forest_collision.dae",
+    "bytes": 1058410,
+    "sha256": "f20574e0f8015466182731c0bfb47272f6b5038d4c419a8b2c157ae437c17413"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_1/meshes/visual/leaf0.dae",
+    "bytes": 519696,
+    "sha256": "9a01e0dd49a28b5acd4665d83610c0183b54dbb4dfd525f06435b8a9351f744a"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_1/meshes/visual/leaf1.dae",
+    "bytes": 519712,
+    "sha256": "8d58a41e8ea7f565e65811d54a22754faddc9479577f187f1beaa7b838eb8ca6"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_1/meshes/visual/leaf2.dae",
+    "bytes": 519726,
+    "sha256": "183cd710b0840c5e4ff2af6aa5f36899835f3cf232e8cd09789513dad52ba312"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_1/meshes/visual/trunk.dae",
+    "bytes": 685412,
+    "sha256": "6982252819c089b07be50aa9d32bc1519e3c1d963cc40a5b235940125de8352e"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_1/model.config",
+    "bytes": 232,
+    "sha256": "ce96062229a2626157a9ac4cd409414103bf8d2d6c05e6f1e6694e377200adc0"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_1/model.sdf",
+    "bytes": 2549,
+    "sha256": "3d7203c26f0b992e640c56b4f7e744dae042e0f9d221844c87e5762b7886ac86"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_2/meshes/collision/forest_collision.dae",
+    "bytes": 149273,
+    "sha256": "a1eb457bd47fffa3f27f81971fc71577c6d4d43e64aac77b246b6a710c54a745"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_2/meshes/visual/leaf0.dae",
+    "bytes": 72785,
+    "sha256": "7a9c89b562a266f176cf434055e02b4f1527ce87f5e450e821c48c633dce178e"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_2/meshes/visual/leaf1.dae",
+    "bytes": 72786,
+    "sha256": "bdb2b9b173919af3a8b33e1f4bfce291f23d15140a87cbd17f9e71fec24aa7ff"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_2/meshes/visual/leaf2.dae",
+    "bytes": 72782,
+    "sha256": "ae2fa5b60f49bb055aaa14cda054c1088d007c9bf7d35007810a125981c8a26d"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_2/meshes/visual/trunk.dae",
+    "bytes": 96381,
+    "sha256": "dc2a22ba6fd9367ebceb8c1f519c2b896ba84b1a8d49158be5832cd9ccb05352"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_2/model.config",
+    "bytes": 232,
+    "sha256": "82d68901d8ec3a443df6f950a9ce74af0ea8336b5de7e95acf62d5248157657b"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_2/model.sdf",
+    "bytes": 2549,
+    "sha256": "7ed0a826ad3e9015f6e5ca6c8cae4d87daffc3a22d23526efa8169c7f5c84317"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_3/meshes/collision/forest_collision.dae",
+    "bytes": 1151273,
+    "sha256": "62bf2fdeb6195a3f22e0642f4da9383e9070c6193bb9a64e51a2ba7bce110738"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_3/meshes/visual/leaf0.dae",
+    "bytes": 564467,
+    "sha256": "337219e8d378ff779539f46c67212e544c84f3adcaae053d4eb94dee4dca67c3"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_3/meshes/visual/leaf1.dae",
+    "bytes": 564481,
+    "sha256": "f2cb67ee9dedf7d1b06783b5142f377050c7bef279d717e2d093f071b91c2ad6"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_3/meshes/visual/leaf2.dae",
+    "bytes": 564494,
+    "sha256": "3f511751a2d89b44ba160795a72456c064fe1331c51218aaa5a716f427a4e20f"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_3/meshes/visual/trunk.dae",
+    "bytes": 745518,
+    "sha256": "0388aa3307cc511b0b5e3476979b420d03035bfb85869f410569fdd78a48785d"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_3/model.config",
+    "bytes": 232,
+    "sha256": "9f3e06d365d8d7047c9523c867a1b9205c4ea92c3a3d3a7cc5fde9c20a3fc1c7"
+  },
+  {
+    "path": "gazebo/models/summit_forest_2_3/model.sdf",
+    "bytes": 2549,
+    "sha256": "bfc4ca5a04ccbc85a45f79191db7bcc16a0d7ced22041c49b492ad6c55243c5f"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_0/meshes/collision/forest_collision.dae",
+    "bytes": 1127878,
+    "sha256": "5ce678054de33ffb538fdec982207d0cb35a1c78e94cb65d60705c48d57633ea"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_0/meshes/visual/leaf0.dae",
+    "bytes": 553271,
+    "sha256": "fb94df1b9f690c2b0f8e061230b76279eb8e3bb9d2712e5593e509f41e4ae965"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_0/meshes/visual/leaf1.dae",
+    "bytes": 553251,
+    "sha256": "0bb39141d037fa8d613e47a8bf58a7fe66980e46d7433129d648fbe87d017a87"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_0/meshes/visual/leaf2.dae",
+    "bytes": 553241,
+    "sha256": "37ef518cff9e9a5c2ec3d88c1bebf85778cd67e2277dd6b7eddfb8e8329eba2c"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_0/meshes/visual/trunk.dae",
+    "bytes": 729900,
+    "sha256": "23f0b1e7d7495bf580f70485c836b23f854cef44156e1d88ac6bd80dac2e8215"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_0/model.config",
+    "bytes": 232,
+    "sha256": "07b6d146b19b92e45a24e8523275954a663c8eedb38a16ac7c1e1174665fa021"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_0/model.sdf",
+    "bytes": 2549,
+    "sha256": "ed5c3c3c0970c0a0c1d41b88ad6d3ccee402d9562d6f4bd511f5dcff11479791"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_1/meshes/collision/forest_collision.dae",
+    "bytes": 1203119,
+    "sha256": "1bdead7028bfdfa347a7e389085440fff29076ef2e4153cc7e31fe34882c9e16"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_1/meshes/visual/leaf0.dae",
+    "bytes": 589411,
+    "sha256": "4791dc5c1d2b30941ba648880ac957fa4449623488039a77d7c53346bc880b57"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_1/meshes/visual/leaf1.dae",
+    "bytes": 589415,
+    "sha256": "a01eb54d5fda7543bdcf5f92ea8030b110623a25f384bc6380b5b1e7f05ee108"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_1/meshes/visual/leaf2.dae",
+    "bytes": 589385,
+    "sha256": "2117453d7417649112daa61000f34eadea3e0f110ba4876744e7c5eebce818c8"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_1/meshes/visual/trunk.dae",
+    "bytes": 779613,
+    "sha256": "a6715d7caa8bd65ce4d263abe93ac3e130c5fb11108af14f4e4507fe74ad98af"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_1/model.config",
+    "bytes": 232,
+    "sha256": "c7b75664e8e02d2c5a30f704c5530967f40f9d1b34c79dc038993bb8faa4fef6"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_1/model.sdf",
+    "bytes": 2549,
+    "sha256": "389ccd9e2601cc44a342155ef77e9ac59d3eb26d5ac2674f1c67f31483b19c3e"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_2/meshes/collision/forest_collision.dae",
+    "bytes": 1161325,
+    "sha256": "a396fe25ce2279ff6490218a70148756ccd40a127a1c6c5867c5ebe4b5c73e89"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_2/meshes/visual/leaf0.dae",
+    "bytes": 569351,
+    "sha256": "4d4be271b2f0324e4c4a228aea6aef6531736231a26e41e35d02c82b75f4d4f4"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_2/meshes/visual/leaf1.dae",
+    "bytes": 569342,
+    "sha256": "3beffbde13852dea87e5d72532b9688e3d2418e8996fbfcb09b6f855ea5f03c6"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_2/meshes/visual/leaf2.dae",
+    "bytes": 569395,
+    "sha256": "0ac2c71d2ca23bf0b47cea30b1f2d7b9a3ef097e615bb9838427516dc98806eb"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_2/meshes/visual/trunk.dae",
+    "bytes": 752182,
+    "sha256": "57ca8513a3dc70664f008ca2ed48f2ea9d93a9e585f6e4e55e1dbd143f51cb2d"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_2/model.config",
+    "bytes": 232,
+    "sha256": "a1e15868a025d29d731fde83f2c69c6d41c4b96540891fe036fcf6d3f711ee04"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_2/model.sdf",
+    "bytes": 2549,
+    "sha256": "af2e2760939b37e835871f5d86f6dc35ccb0e812742a539096288822553c1b11"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_3/meshes/collision/forest_collision.dae",
+    "bytes": 1263816,
+    "sha256": "468cd26477f8a532616c2698bd9aa078be961a2922c3e9edf820d73106a57a45"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_3/meshes/visual/leaf0.dae",
+    "bytes": 617770,
+    "sha256": "270ea26e89e5ff8dba54966d162574b44460c0d15a8f5885a5762d91f8947d84"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_3/meshes/visual/leaf1.dae",
+    "bytes": 617829,
+    "sha256": "26ee470036bb52d49b1e29279003fc6bb58775dc8107e4f7eec79d3910c09eb8"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_3/meshes/visual/leaf2.dae",
+    "bytes": 617788,
+    "sha256": "621cba3fbdcfbe7e2df7cdf50e811d868795fd9c840895928c6e9ac4646ed117"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_3/meshes/visual/trunk.dae",
+    "bytes": 818149,
+    "sha256": "68db8f2d47bf14276427397c0bcb0b6d8ead4b764293cc55d44fd6332462f86a"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_3/model.config",
+    "bytes": 232,
+    "sha256": "372d730dffd7f8c3e9e3c3ab50fcc19b171bb8570a091298d8d5dc6ff0bf8940"
+  },
+  {
+    "path": "gazebo/models/summit_forest_3_3/model.sdf",
+    "bytes": 2549,
+    "sha256": "84d91b41c3520911cfb477654ea1f9188ebb8faf3024c776c1b4a3625ba8fbf4"
+  },
+  {
+    "path": "gazebo/models/summit_lake/meshes/visual/water.dae",
+    "bytes": 13009,
+    "sha256": "7687509c7b33ff7362ea8803a5e392fa0cab626f4af54f6f609f7aacb6f9f564"
+  },
+  {
+    "path": "gazebo/models/summit_lake/meshes/visual/water_ripple.dae",
+    "bytes": 206062,
+    "sha256": "19e23f0214fb2c1208c26b6b8c8207c4c2963c5ac00d090fddfdd22f9fb6b24d"
+  },
+  {
+    "path": "gazebo/models/summit_lake/model.config",
+    "bytes": 226,
+    "sha256": "6238aff7c5d77cbc797dbcf95326a77dfa7665e47a2994e4d1164283958d9a34"
+  },
+  {
+    "path": "gazebo/models/summit_lake/model.sdf",
+    "bytes": 1239,
+    "sha256": "a541f68f02e18f1caa545f32d39013eb6f5e396e0f02ce1004ba86616e71dec1"
+  },
+  {
+    "path": "gazebo/models/summit_road/meshes/collision/asphalt_surface.dae",
+    "bytes": 69488,
+    "sha256": "509008d98ca5cddb3fb147743109e909097403d5d80c64a8afa10c39b5706543"
+  },
+  {
+    "path": "gazebo/models/summit_road/meshes/collision/curb_4.5.dae",
+    "bytes": 69517,
+    "sha256": "f17965c87a5e3a663e200232523f707dfd03d35a5faf5b38dfff2a435783692c"
+  },
+  {
+    "path": "gazebo/models/summit_road/meshes/collision/curb_minus4.5.dae",
+    "bytes": 69458,
+    "sha256": "037ee19e0e3d3bc95fb5cb35c4bed60f84af007cdeb244ff36bf1e61760d9d22"
+  },
+  {
+    "path": "gazebo/models/summit_road/meshes/visual/asphalt.dae",
+    "bytes": 69488,
+    "sha256": "509008d98ca5cddb3fb147743109e909097403d5d80c64a8afa10c39b5706543"
+  },
+  {
+    "path": "gazebo/models/summit_road/meshes/visual/charcoal.dae",
+    "bytes": 28605,
+    "sha256": "f56b2f156ae40976c316422f938a5cf6d1d9341b7276f2bc20a3d169a0a825e4"
+  },
+  {
+    "path": "gazebo/models/summit_road/meshes/visual/emissive.dae",
+    "bytes": 28605,
+    "sha256": "97d2e615a42f0d825597d0dfc0dc04eaf8a47503bc8df8d23934a128f42bb83b"
+  },
+  {
+    "path": "gazebo/models/summit_road/meshes/visual/sand.dae",
+    "bytes": 25958,
+    "sha256": "008b6255f70cc49962dfcf3ece04139e8180b6c6915b4d7166a08dc95169dfe2"
+  },
+  {
+    "path": "gazebo/models/summit_road/meshes/visual/stone.dae",
+    "bytes": 142497,
+    "sha256": "614a64bd683bfdd9db2a77384d740b8e4bd662de6593821938ca8b1638688a12"
+  },
+  {
+    "path": "gazebo/models/summit_road/meshes/visual/white.dae",
+    "bytes": 142496,
+    "sha256": "f3908d1be6510c7b9f222e5519bceee8908fceba4dfd62167407408754cf3364"
+  },
+  {
+    "path": "gazebo/models/summit_road/model.config",
+    "bytes": 226,
+    "sha256": "b6ff6d69242cd79cd7adfe0e7ff9ddf10d25ed299868e528523711a6026adb8b"
+  },
+  {
+    "path": "gazebo/models/summit_road/model.sdf",
+    "bytes": 11495,
+    "sha256": "b93769b6dae25830104d7a62e37e1eae18de8777d6b6f32fa78fa436a1b041f3"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_0.dae",
+    "bytes": 4241,
+    "sha256": "6fb2e16c5a23a8476a0ba7dfeffab7ac605b56ad55b850b2dcbbd948427e3137"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_1.dae",
+    "bytes": 4224,
+    "sha256": "335daa17c09885ffa1fe395481837cc21008c8a66dc05b7e53ec42782a5da9a1"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_10.dae",
+    "bytes": 4241,
+    "sha256": "d69285f0bacb1945857a150f4044de4553fd00685244bba946f1cd309effe63c"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_11.dae",
+    "bytes": 4241,
+    "sha256": "987c77e8426fa6c1c9c7a519f900fffcab147585d75f5e38c87a0d18f67620a6"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_12.dae",
+    "bytes": 4241,
+    "sha256": "d0e58b6cf3591e9556b20e36a842337584de665f23fac2ec320feb55116bfb22"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_13.dae",
+    "bytes": 4241,
+    "sha256": "942f2b9ef91bd61e2d3588bbd4d89367d26342501eac4e83de211b5d59e4e5d0"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_14.dae",
+    "bytes": 4241,
+    "sha256": "1ea2cf0bc04356f7ec96e60f504f3aee4195f7375b326798f2f4318abd1d890a"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_15.dae",
+    "bytes": 4241,
+    "sha256": "d3648e3cee00fc1f97f5a4ab2591ae2d25c30cd69ab3cf29e560726d438dbfda"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_16.dae",
+    "bytes": 4267,
+    "sha256": "2e0344e6d177d9d2b356f119e01263cd02f52f5d9eea1b82c372d40cccf533a5"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_17.dae",
+    "bytes": 4267,
+    "sha256": "672fe1c0a4041bfd2a2af210bf35d09079ee553472062fb1f38c45c50655dca0"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_18.dae",
+    "bytes": 4267,
+    "sha256": "f19fa5fdf221fda70e8984e72ac6dc0c8a34c1a08d066128a807dfccc216ee7f"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_19.dae",
+    "bytes": 4267,
+    "sha256": "bfb7d5690f66978bf879e389c834d177efaba2f872aaf9f05840b42f9dd00018"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_2.dae",
+    "bytes": 4241,
+    "sha256": "fe2c7d6999f0d2a503572cc0a08d305298ed75b6b7ccc1ee2fbaa8f99f436b07"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_20.dae",
+    "bytes": 4267,
+    "sha256": "5a2784b8c3c00776449f1c9055c8ec8b2e7760d5a39c3c97294f8e6ed6c25b31"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_21.dae",
+    "bytes": 4267,
+    "sha256": "88fc0f22b51ed0b2f2285beaba280ac5f0cb70292927fce623cc6021d8f09cd4"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_22.dae",
+    "bytes": 4267,
+    "sha256": "5c1b529ea8fd6b3c9751e79599dbca2adeeebc6567f203a0ae211ff0e15dd0ce"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_23.dae",
+    "bytes": 4267,
+    "sha256": "c7c70d35c075f29af483843771a162123c955923a3b048da7608d8852813bdae"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_24.dae",
+    "bytes": 4267,
+    "sha256": "5861ebeada2095034cc1d1d377cc5ab3631c3dae35419d9236488c01fbacf228"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_25.dae",
+    "bytes": 4267,
+    "sha256": "302838c5495dfcd79a90427e42accf9ef91c8f4e9478f31cd83d0a17d6b09e2d"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_26.dae",
+    "bytes": 4267,
+    "sha256": "ef35acf9157d37ca638d4fa772324cc2f9dd73a0ec3317276a0a967b719490a7"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_27.dae",
+    "bytes": 4267,
+    "sha256": "f8e91a742fc009145eb0d9e9f1524be157c71f259d9cb16632023750fc1004e4"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_28.dae",
+    "bytes": 4267,
+    "sha256": "070597c95e8a9aaf4836075e966306da3fc14110468f5b0a602014644bd7708b"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_29.dae",
+    "bytes": 4267,
+    "sha256": "32877dc141286ddbd26f33ba4d19ea4725013a47ac79d0442830aed0e12f5324"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_3.dae",
+    "bytes": 4215,
+    "sha256": "dcabc2f3b2010d699331f75188ab18f5d5f3b5edcbe976188081e85d794a99e2"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_30.dae",
+    "bytes": 4267,
+    "sha256": "00300079f821db70fbbe4f72ba3bac0e33e511826086842422aebaf5336ace81"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_31.dae",
+    "bytes": 4267,
+    "sha256": "da695183e1bb4e94a16e954fc0095203d706931dfa71f073bd77f14646aa83e7"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_32.dae",
+    "bytes": 4267,
+    "sha256": "28d434b8d05217ddb96c17b270ccdc896d5bb0398d820eb4e77bf6eaba6d4fa1"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_33.dae",
+    "bytes": 4267,
+    "sha256": "ffe90a1e8326fe7bb09023ba9d7b37415d9e1858189eeea3fc5ccc6116158875"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_34.dae",
+    "bytes": 4267,
+    "sha256": "6f841b77f194068841944a99181c4292c8e2ceec1e6277f236c577705c2529e1"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_35.dae",
+    "bytes": 4267,
+    "sha256": "36e59b1cf80f6d708ab93cc62f6ff1cbc05774e6d9f8df826f7137aaa1e45db5"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_36.dae",
+    "bytes": 4267,
+    "sha256": "bcca25ed41b27ebf6151c1ba14c420e19874d050c4a0a2434d9e814f91e67693"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_37.dae",
+    "bytes": 4267,
+    "sha256": "871e6466db6c6878850752549e1cfebf1a0b4b336ed50b8aab20b534ed337faf"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_38.dae",
+    "bytes": 4267,
+    "sha256": "584efe595fa8cd3902353abfa30aba89c83bb5b0c1a11101dd642088ecc3c96c"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_39.dae",
+    "bytes": 4267,
+    "sha256": "0869682bd3be33b6e40410f8aacb37717f0ff79e30ade3cd7f4de3eea6b8133b"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_4.dae",
+    "bytes": 4240,
+    "sha256": "65571250709a73e9637a61f0cabfc9758a7fa8278bea23338c7023d13130f4c8"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_40.dae",
+    "bytes": 4267,
+    "sha256": "acfc442ab1819263ad0bccc15cef54d288407594bc65210a2ca48cf93ca2ef94"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_41.dae",
+    "bytes": 4267,
+    "sha256": "5b763bde5b8f2f4268858875137cc2a98e042cabef7e0dc5fb07f74431c2efee"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_42.dae",
+    "bytes": 4267,
+    "sha256": "d953c674c42538aeb5d834daa4b1fd75cb5d21a4f84d20f33d7a3ab25d81162a"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_43.dae",
+    "bytes": 4267,
+    "sha256": "abbffe3f2f30adca336ddfb0fe03c1f396a0f0ccbc1132c3f6b1c433515c3737"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_44.dae",
+    "bytes": 4267,
+    "sha256": "c7fa65c63e04187385cdddc09e51f5c6cad05aec91e31ae57a885ca37d14814f"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_45.dae",
+    "bytes": 4267,
+    "sha256": "5fff5528a5b3e4a61129681862cb9c926f9810522d92086ffd9ac8c89bc58219"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_46.dae",
+    "bytes": 4267,
+    "sha256": "0ca65f8dd78d823fa168308502face43b9c362cf5ca536e39aae549990f4eda8"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_47.dae",
+    "bytes": 4267,
+    "sha256": "6eced0aa1f311244e09a4520cfc80a8d549bdc89adc1ee7b3264d2d3f252b69e"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_48.dae",
+    "bytes": 4267,
+    "sha256": "ae60cd36574b1e77e113122852971116327f2a97f06225f9d942afa8bee29909"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_49.dae",
+    "bytes": 4267,
+    "sha256": "d5af7bc455ca7544e761a6a85a1b42b68d189ea4b2cc0c6b31d3ebd3b097426e"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_5.dae",
+    "bytes": 4215,
+    "sha256": "24a5c4077d6b60adbd5bba6871f8db983f3c6a170c6cfa347700c4e5c5d48c64"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_50.dae",
+    "bytes": 4267,
+    "sha256": "efd8a2e255620adf1f088d35859899ecb6e44baa595a8f464b66cf34470a6931"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_51.dae",
+    "bytes": 4267,
+    "sha256": "ad1b987e9e912aa9c0bcfcedea0c93de95236c5f91f1acad8ba72a01d3ef3877"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_52.dae",
+    "bytes": 4258,
+    "sha256": "15b2a82aecd6086f06aa9684082b69a636ba082911d921707dfa8cc3a0ce97b5"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_53.dae",
+    "bytes": 4241,
+    "sha256": "74338835192e21a4a8fadf3e3b808e9506b5123d82e231fa9f92465d97278b3b"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_54.dae",
+    "bytes": 4241,
+    "sha256": "280ab5db04dd2a2303c948ebe41737f74fbb7dbff9b94e01bcdc5071bda6effa"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_55.dae",
+    "bytes": 4241,
+    "sha256": "60364690d4640e00cf66d21a04fabfd496372762dbd11067bafe3a5ef47269c7"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_56.dae",
+    "bytes": 4241,
+    "sha256": "953caef2ccd9a4695aa48c70575fea6e1c46d979d367a89f0ab9d644dd558398"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_57.dae",
+    "bytes": 4241,
+    "sha256": "90267ce87c67578515c97d21039d0a9bcbdf5087c3c3b1297354f4c375e562f5"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_58.dae",
+    "bytes": 4241,
+    "sha256": "116570b86b24ad47e0f890d17fdacbb1eeb44e9c9d50d8f6c628bbf3f8470f12"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_59.dae",
+    "bytes": 4241,
+    "sha256": "68a5d42824a5bfa64ceb3c7d786b6aee37853fc4924640b6e6a4805b1d790efa"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_6.dae",
+    "bytes": 4241,
+    "sha256": "79059ab25a64206f2260fe8d7b0d18c47d232237aeee53476872670d168c941a"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_60.dae",
+    "bytes": 4241,
+    "sha256": "5ec82ad2a938d3ff7c5ac9dfffe195dd110edd2d8aa63f1922123eb53bd51451"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_61.dae",
+    "bytes": 4241,
+    "sha256": "932d65d470a2022019c60fc4ee9ff84429c0cfe261ac5dfa250c91e811830d8d"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_62.dae",
+    "bytes": 4241,
+    "sha256": "28aec2b21a43d148ca720430909e76d64334e62753330d61bccadebe06047375"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_63.dae",
+    "bytes": 4241,
+    "sha256": "4b31cf94105bd3a6c0b103609427968524c4a88ac2fc546b29e09bf742601dfd"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_64.dae",
+    "bytes": 4241,
+    "sha256": "7348c9cb325187235021ffbd7d1fbdd73d8079f21b74cc29f0baeb83d45df7b0"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_65.dae",
+    "bytes": 4215,
+    "sha256": "1840dd0f9abd70d2a2acd9f99c4e2e4347bf2ed60a229b29ed1f079296db6632"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_66.dae",
+    "bytes": 4224,
+    "sha256": "a948c4cc583fde7f84d456c47f20f5da57b00f7fdd22cf4867548af9c0daf674"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_67.dae",
+    "bytes": 4215,
+    "sha256": "6ee0340a1483140c8b97d1053a17ad14af858009540d5f272d8335f86a4ec0c4"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_68.dae",
+    "bytes": 4215,
+    "sha256": "ebbef5397a46bd6ae32246ecc06d4378a7f589ccce59ab67b91d10cd65f472c5"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_69.dae",
+    "bytes": 4241,
+    "sha256": "7722da5b8a1423a4a85d729b6e0970bd8753e23f81c9d59b3177c55cd876526e"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_7.dae",
+    "bytes": 4241,
+    "sha256": "17de3bbdb70308964b72f6120baeade5a3e861d5b8ec628793295f06359c893f"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_70.dae",
+    "bytes": 4241,
+    "sha256": "a6aeac6b896cf935bd6a5b39d7b1b45f589220ce6e5a50fea0c096cd13ae4c89"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_71.dae",
+    "bytes": 4241,
+    "sha256": "0349c2291ff95108ce340c5da085ef5f6d73c4c3bd7949a016412b8d42e6ddb6"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_72.dae",
+    "bytes": 4241,
+    "sha256": "ef29c97f5ad397244789a9483396170ad1f0333aec28326cebb3f4c2f1c2de59"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_73.dae",
+    "bytes": 4241,
+    "sha256": "3cb6ada483cbd48f611c43ffa74c139abf65669c07531aa56b000aac19945d69"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_74.dae",
+    "bytes": 4241,
+    "sha256": "46fb36198b03aa18d1bf87fbfd37a9961b20ddce5b1662b955773c82fbb11a34"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_75.dae",
+    "bytes": 4215,
+    "sha256": "37932d80483c74984972cbe6df3fb63a68354077c8069db2ba3c6d5d55de0d7a"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_76.dae",
+    "bytes": 4215,
+    "sha256": "a5c426b87eadc377d930679856b7d758fd1c071af98e026dcdd5518dbec3599f"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_77.dae",
+    "bytes": 4241,
+    "sha256": "154d6405b1c9e50eee65570d8e956aa8aa795d9a0f8bc058ee45962eea414565"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_78.dae",
+    "bytes": 4241,
+    "sha256": "1d10f3c07d97974a7795ad8a39b14f79f7ec9edeb6ef3c1517ba9f7646a23a49"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_79.dae",
+    "bytes": 4241,
+    "sha256": "4420eec24645adbdeb74691d535af56fa923549898ce124673f91dd37c25c1b2"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_8.dae",
+    "bytes": 4241,
+    "sha256": "ca2a8f0aeb2a7e00c353ec83dd44d7e287bc306e78446bfb94505cf840138d02"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_80.dae",
+    "bytes": 4240,
+    "sha256": "b1d34fcf637f613e39644e1131199885c19647d05926d8521e849cb8dbe29e71"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_81.dae",
+    "bytes": 4215,
+    "sha256": "da71a59c858ac8b09c87fe0344950efe041df72f1d798fb6d1db316cf6336cf8"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_82.dae",
+    "bytes": 4215,
+    "sha256": "b732bfedb13fe9eb47d56e5946b8e616568b5b053fb61050151908589f3b5304"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_83.dae",
+    "bytes": 4215,
+    "sha256": "89c8e8437aae8771e130fb0b1ffe0c29ef879e77e900ae023d751b242825a33d"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_84.dae",
+    "bytes": 4215,
+    "sha256": "8dacf12468f162baa957a446bed43aa52def9d2c56e49afaccba684202075d2a"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_85.dae",
+    "bytes": 4215,
+    "sha256": "ba51f941c80aaa6e1433971446b5452a38cfbcf773c74843ea74e7c5d9c5e028"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_86.dae",
+    "bytes": 4215,
+    "sha256": "ed6185c77b70422ebace5556e559bb872215672062080f35040bcc2404a3f9c3"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_87.dae",
+    "bytes": 4215,
+    "sha256": "e4028a304f23195b4858df9e8c9adc3fd4b776c1104d8836430ea06c6f889e08"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_88.dae",
+    "bytes": 4215,
+    "sha256": "4f8659e05f852005de0698f45ce98e862210a5972ef003c27fd4fd7f8e9e48a4"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_89.dae",
+    "bytes": 4215,
+    "sha256": "999283547a61c9f24c93e1ca5c90600ca7ed8cddd373f7f2487910c2d81996a4"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_9.dae",
+    "bytes": 4241,
+    "sha256": "e3995d882fcfb4ff27eaca6e3e7fa8bea1e170ba96af74b1a2445bb5b0135fb4"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_93.dae",
+    "bytes": 4241,
+    "sha256": "f8bb31658a097c8d43502f626c9499b15adbcf0d3ab6c127ae79e230762afc61"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/collision/shore_rock_94.dae",
+    "bytes": 4241,
+    "sha256": "e9ae8050634d705b174b4877b5e026cfa4e6d8a2c9e694b08d562010691d417f"
+  },
+  {
+    "path": "gazebo/models/summit_shore/meshes/visual/rock.dae",
+    "bytes": 306975,
+    "sha256": "17d10fdb0c73cc64acab0ddabe53a245f0e95094ab7dc6262be30339dcbe99d5"
+  },
+  {
+    "path": "gazebo/models/summit_shore/model.config",
+    "bytes": 227,
+    "sha256": "56b3ff9debfbc965957ad677b83ea6372860e5e886674be8369e796503b9627f"
+  },
+  {
+    "path": "gazebo/models/summit_shore/model.sdf",
+    "bytes": 20092,
+    "sha256": "a5b5166b0d3278033e019ee2fe0deb34132c985d94927626842fdbcb4607b8f8"
+  },
+  {
+    "path": "gazebo/models/summit_terrain/meshes/collision/ground_collision.dae",
+    "bytes": 13829153,
+    "sha256": "29d7dfc7b0b181e435267ad2b570c36914e21a6cbc42b747a03dc2aeda87e489"
+  },
+  {
+    "path": "gazebo/models/summit_terrain/meshes/visual/grass.dae",
+    "bytes": 8301380,
+    "sha256": "e4f593c7d4f005cf54b6601997f1867efad89162a1be6af613e3ff08ac427d52"
+  },
+  {
+    "path": "gazebo/models/summit_terrain/meshes/visual/grass_dark.dae",
+    "bytes": 4956767,
+    "sha256": "8309a564586d804eb9977219b473db8219e815073a12943319437c1e7a01e398"
+  },
+  {
+    "path": "gazebo/models/summit_terrain/meshes/visual/grass_light.dae",
+    "bytes": 4736759,
+    "sha256": "7327f42404fb609975aae0345e317fea5676239b05525726497360a32b78958a"
+  },
+  {
+    "path": "gazebo/models/summit_terrain/meshes/visual/rock.dae",
+    "bytes": 3490253,
+    "sha256": "b60ee2c02d4f797759d9fe662077197ab337665bf8e6922934cee9123e1befe9"
+  },
+  {
+    "path": "gazebo/models/summit_terrain/model.config",
+    "bytes": 229,
+    "sha256": "3a44235cef0897f5bb2d879c529961c609d72918b4abcf8586fcedaa81c0f625"
+  },
+  {
+    "path": "gazebo/models/summit_terrain/model.sdf",
+    "bytes": 2535,
+    "sha256": "ea3ba042b0fa42c2414476fb11b57958b8ef2418f9cf36ed43634c5c7aee5fb0"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/brass.dae",
+    "bytes": 283738,
+    "sha256": "9104b0dfaec6763f7e15b10f685a0c77e13a1cd2109f3ce17f56b36291436abc"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/charcoal.dae",
+    "bytes": 363583,
+    "sha256": "33608e1760c45c13f15c2bc68e82aeddcc996f593b673633d613f9a3ca394ab1"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/dark_fabric.dae",
+    "bytes": 79086,
+    "sha256": "73d188877c3910ff7c637ac29a2af931f70e9102a50ed03650472184932672d3"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/emissive.dae",
+    "bytes": 50092,
+    "sha256": "af714c97719885a0693833f218ce1c5aa8bc2e0ebebd7727e4ad48d7814e1b27"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/fire.dae",
+    "bytes": 2150,
+    "sha256": "f6081ab6d22742f95ed335de11fbbe37f14312d1ec2f8eab1f48dd9bbbddbcb0"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/glass.dae",
+    "bytes": 141187,
+    "sha256": "b24cab4de52bc53f15392eca70f47568631e2fc47b8cd88c44c642e3d7560ea2"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/ivory.dae",
+    "bytes": 26519,
+    "sha256": "4a06327cde0cc2e0fd39fe6b1b93fff78fefddb650a9649065bdf8d5bd70a5fb"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/leaf1.dae",
+    "bytes": 243783,
+    "sha256": "c53ea4d7c9c9d6ca943f2d2299b2a458fee60080f9328f783fe2cd356f4e0eb5"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/metal.dae",
+    "bytes": 135037,
+    "sha256": "2d4446df3049bfe61e83440cf4f1c81a875612baf607427b64944826dc6b6c1e"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/paving.dae",
+    "bytes": 2146,
+    "sha256": "ee89200381944177e2475e02728bd166e184ef98207092cfc6ab13c8d3abeee2"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/plaster.dae",
+    "bytes": 33083,
+    "sha256": "5623f02f345e7ffedbbaaf205f7aaf58f6017875b1e883c82c9ea601db74cc7c"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/rubber.dae",
+    "bytes": 32136,
+    "sha256": "97c601f523945618aca1c20a18e0a8f38f5bc7fa03c45552802dcd812d59fa52"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/screen.dae",
+    "bytes": 5088,
+    "sha256": "b507a5feb25c3412e3a0d102be01ebb1381f9bbf1a975f1249287f6ca0b78813"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/stone.dae",
+    "bytes": 28225,
+    "sha256": "4f019045857a2ab7434dec32d63804d8f1c3b872c009981e8d8bd96235a2e400"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/trunk.dae",
+    "bytes": 21295,
+    "sha256": "de23748c3a310137c4be7e02047f6ba83020ee8ee7fc2651f15d6e63e7c1c01c"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/villa_book_blue.dae",
+    "bytes": 46522,
+    "sha256": "4d1bb48b6e9d2a3f90dbf89a460c1f0994f4fabf208c4163f06b0ec920e4efb6"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/villa_book_red.dae",
+    "bytes": 56515,
+    "sha256": "55b752cef6f01771c5ff8b05226a0c66d859fa514897edf5fd4d326b901a4afa"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/villa_bronze.dae",
+    "bytes": 42772,
+    "sha256": "f1622b1b29f10c1a195b5cbd1cd3464bca0d3f4a42d6fe7481f29517fedbd0ef"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/villa_cinema.dae",
+    "bytes": 5851,
+    "sha256": "1172be50cee5292d6a2854e890e11b4878608c250f50e64ceb15f0a8ebe7c27d"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/villa_cream.dae",
+    "bytes": 203590,
+    "sha256": "71478d9aac979d7772d311ff3ca934a1133c6e1b4bf73727e3dbb9b876f939bb"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/villa_rug.dae",
+    "bytes": 9612,
+    "sha256": "bb676da828d5880a9c24a41eb903e01a93b69b133e362cc7f923ab820413ece1"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/white.dae",
+    "bytes": 132308,
+    "sha256": "490961d7f4801bcd6446224c327e5eaaed78c85ff677878c14cd10eba8a4ea28"
+  },
+  {
+    "path": "gazebo/models/summit_villa/meshes/visual/wood.dae",
+    "bytes": 318107,
+    "sha256": "e152657f231df585061fba44509af207029e68cd267862deced4c55318616b14"
+  },
+  {
+    "path": "gazebo/models/summit_villa/model.config",
+    "bytes": 227,
+    "sha256": "cb09ecb8014626cfb78e740ffdcb7dba278e0882fe543b711f80636301e8cad5"
+  },
+  {
+    "path": "gazebo/models/summit_villa/model.sdf",
+    "bytes": 365995,
+    "sha256": "2efd954471c633cfb4d9c452b42a7fbbedb8b210fb1a50e79e8aaf415912cd88"
+  },
+  {
+    "path": "gazebo/worlds/summit_estate.sdf",
+    "bytes": 5621,
+    "sha256": "42b50ce9038a213f1cdee13c78bd47dd9f6c4f7b2524cd5aad317870e4894dfd"
+  }
+]

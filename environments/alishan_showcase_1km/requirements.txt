@@ -1,0 +1,4 @@
+# Regeneration and geometry validation only. Gazebo launches prebuilt assets.
+numpy>=1.21
+Pillow>=9
+matplotlib>=3.5

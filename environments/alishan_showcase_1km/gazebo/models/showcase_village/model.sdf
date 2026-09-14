@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="showcase_village">
+    <static>true</static>
+    <link name="landscape">
+      <visual name="cabins">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://showcase_village/meshes/cabins.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foundation_0">
+        <pose>-353 -280 129.0505865656048 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>9 8 7.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_1">
+        <pose>-333 -280 129.5505865656048 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>12 8 8.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_2">
+        <pose>-310 -280 129.0505865656048 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>9 8 7.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_3">
+        <pose>-293 -285 129.0505865656048 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>9 8 7.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_4">
+        <pose>232 -95 174.0330429163623 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>9 8 7.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_5">
+        <pose>252 -95 174.5330429163623 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>12 8 8.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_6">
+        <pose>275 -95 174.0330429163623 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>9 8 7.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_7">
+        <pose>292 -90 174.0330429163623 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>9 8 7.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_8">
+        <pose>-168 307 201.59680746284016 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>9 8 7.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_9">
+        <pose>-148 307 202.09680746284016 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>12 8 8.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_10">
+        <pose>-125 307 201.59680746284016 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>9 8 7.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="foundation_11">
+        <pose>-108 302 201.59680746284016 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>9 8 7.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

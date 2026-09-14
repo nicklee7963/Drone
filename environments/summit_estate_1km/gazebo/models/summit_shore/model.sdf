@@ -1,0 +1,670 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="summit_shore">
+    <static>true</static>
+    <link name="structure">
+      <visual name="visual_rock">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/visual/rock.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.34 0.355 0.32 1</ambient>
+          <diffuse>0.34 0.355 0.32 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="shore_rock_0">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_0.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_1">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_1.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_2">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_2.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_3">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_3.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_4">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_4.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_5">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_5.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_6">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_6.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_7">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_7.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_8">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_8.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_9">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_9.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_10">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_10.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_11">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_11.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_12">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_12.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_13">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_13.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_14">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_14.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_15">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_15.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_16">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_16.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_17">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_17.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_18">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_18.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_19">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_19.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_20">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_20.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_21">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_21.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_22">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_22.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_23">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_23.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_24">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_24.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_25">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_25.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_26">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_26.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_27">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_27.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_28">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_28.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_29">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_29.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_30">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_30.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_31">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_31.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_32">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_32.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_33">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_33.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_34">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_34.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_35">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_35.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_36">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_36.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_37">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_37.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_38">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_38.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_39">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_39.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_40">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_40.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_41">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_41.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_42">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_42.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_43">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_43.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_44">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_44.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_45">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_45.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_46">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_46.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_47">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_47.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_48">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_48.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_49">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_49.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_50">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_50.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_51">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_51.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_52">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_52.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_53">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_53.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_54">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_54.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_55">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_55.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_56">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_56.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_57">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_57.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_58">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_58.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_59">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_59.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_60">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_60.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_61">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_61.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_62">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_62.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_63">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_63.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_64">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_64.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_65">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_65.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_66">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_66.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_67">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_67.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_68">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_68.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_69">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_69.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_70">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_70.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_71">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_71.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_72">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_72.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_73">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_73.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_74">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_74.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_75">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_75.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_76">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_76.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_77">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_77.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_78">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_78.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_79">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_79.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_80">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_80.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_81">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_81.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_82">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_82.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_83">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_83.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_84">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_84.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_85">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_85.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_86">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_86.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_87">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_87.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_88">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_88.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_89">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_89.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_93">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_93.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="shore_rock_94">
+        <geometry>
+          <mesh>
+            <uri>model://summit_shore/meshes/collision/shore_rock_94.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

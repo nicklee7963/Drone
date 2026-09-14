@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="estate_lake_pavilion">
+    <static>true</static>
+    <link name="structure">
+      <visual name="visual_wood">
+        <geometry>
+          <mesh>
+            <uri>model://estate_lake_pavilion/meshes/visual/wood.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.3 0.18 0.095 1</ambient>
+          <diffuse>0.3 0.18 0.095 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_trunk">
+        <geometry>
+          <mesh>
+            <uri>model://estate_lake_pavilion/meshes/visual/trunk.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.19 0.12 0.072 1</ambient>
+          <diffuse>0.19 0.12 0.072 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_charcoal">
+        <geometry>
+          <mesh>
+            <uri>model://estate_lake_pavilion/meshes/visual/charcoal.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.045 0.054 0.06 1</ambient>
+          <diffuse>0.045 0.054 0.06 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_dark_fabric">
+        <geometry>
+          <mesh>
+            <uri>model://estate_lake_pavilion/meshes/visual/dark_fabric.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.095 0.12 0.14 1</ambient>
+          <diffuse>0.095 0.12 0.14 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_emissive">
+        <geometry>
+          <mesh>
+            <uri>model://estate_lake_pavilion/meshes/visual/emissive.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.94 0.73 0.36 1</ambient>
+          <diffuse>0.94 0.73 0.36 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <emissive>0.517 0.4015 0.198 1</emissive>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_fabric">
+        <geometry>
+          <mesh>
+            <uri>model://estate_lake_pavilion/meshes/visual/fabric.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.7 0.64 0.52 1</ambient>
+          <diffuse>0.7 0.64 0.52 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="dock_platform">
+        <geometry>
+          <box>
+            <size>12 10 0.36</size>
+          </box>
+        </geometry>
+        <pose>-75 100 49.37 0 0 0</pose>
+      </collision>
+      <collision name="dock_walkway">
+        <geometry>
+          <box>
+            <size>24 4.5 0.3</size>
+          </box>
+        </geometry>
+        <pose>-57 100 49.4 0 0 0</pose>
+      </collision>
+      <collision name="dock_pile_-80_98.2">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>3.2</length>
+          </cylinder>
+        </geometry>
+        <pose>-80 98.2 48.3 0 0 0</pose>
+      </collision>
+      <collision name="dock_pile_-80_101.8">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>3.2</length>
+          </cylinder>
+        </geometry>
+        <pose>-80 101.8 48.3 0 0 0</pose>
+      </collision>
+      <collision name="dock_pile_-70_98.2">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>3.2</length>
+          </cylinder>
+        </geometry>
+        <pose>-70 98.2 48.3 0 0 0</pose>
+      </collision>
+      <collision name="dock_pile_-70_101.8">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>3.2</length>
+          </cylinder>
+        </geometry>
+        <pose>-70 101.8 48.3 0 0 0</pose>
+      </collision>
+      <collision name="dock_pile_-57_98.2">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>3.2</length>
+          </cylinder>
+        </geometry>
+        <pose>-57 98.2 48.3 0 0 0</pose>
+      </collision>
+      <collision name="dock_pile_-57_101.8">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>3.2</length>
+          </cylinder>
+        </geometry>
+        <pose>-57 101.8 48.3 0 0 0</pose>
+      </collision>
+      <collision name="dock_pile_-46_98.2">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>3.2</length>
+          </cylinder>
+        </geometry>
+        <pose>-46 98.2 48.3 0 0 0</pose>
+      </collision>
+      <collision name="dock_pile_-46_101.8">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>3.2</length>
+          </cylinder>
+        </geometry>
+        <pose>-46 101.8 48.3 0 0 0</pose>
+      </collision>
+      <collision name="pavilion_post_-4.5_-3.6">
+        <geometry>
+          <box>
+            <size>0.28 0.28 3.8</size>
+          </box>
+        </geometry>
+        <pose>-79.5 96.4 51.45 0 0 0</pose>
+      </collision>
+      <collision name="pavilion_post_-4.5_3.6">
+        <geometry>
+          <box>
+            <size>0.28 0.28 3.8</size>
+          </box>
+        </geometry>
+        <pose>-79.5 103.6 51.45 0 0 0</pose>
+      </collision>
+      <collision name="pavilion_post_4.5_-3.6">
+        <geometry>
+          <box>
+            <size>0.28 0.28 3.8</size>
+          </box>
+        </geometry>
+        <pose>-70.5 96.4 51.45 0 0 0</pose>
+      </collision>
+      <collision name="pavilion_post_4.5_3.6">
+        <geometry>
+          <box>
+            <size>0.28 0.28 3.8</size>
+          </box>
+        </geometry>
+        <pose>-70.5 103.6 51.45 0 0 0</pose>
+      </collision>
+      <collision name="pavilion_eave">
+        <geometry>
+          <box>
+            <size>11.5 9.6 0.16</size>
+          </box>
+        </geometry>
+        <pose>-75 100 53.23 0 0 0</pose>
+      </collision>
+      <collision name="pavilion_hipped_roof">
+        <geometry>
+          <mesh>
+            <uri>model://estate_lake_pavilion/meshes/collision/pavilion_hipped_roof.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="pavilion_seat_-1_base">
+        <geometry>
+          <box>
+            <size>6 1.3 0.58</size>
+          </box>
+        </geometry>
+        <pose>-75 97.3 49.9 0 0 3.14159</pose>
+      </collision>
+      <collision name="pavilion_seat_-1_back">
+        <geometry>
+          <box>
+            <size>6 0.19 1</size>
+          </box>
+        </geometry>
+        <pose>-75 96.74 50.59 0 0 3.14159</pose>
+      </collision>
+      <collision name="pavilion_seat_1_base">
+        <geometry>
+          <box>
+            <size>6 1.3 0.58</size>
+          </box>
+        </geometry>
+        <pose>-75 102.7 49.9 0 0 0</pose>
+      </collision>
+      <collision name="pavilion_seat_1_back">
+        <geometry>
+          <box>
+            <size>6 0.19 1</size>
+          </box>
+        </geometry>
+        <pose>-75 103.26 50.59 0 0 0</pose>
+      </collision>
+      <collision name="pavilion_table">
+        <geometry>
+          <box>
+            <size>3 1.2 0.7</size>
+          </box>
+        </geometry>
+        <pose>-75 100 50.1 0 0 0</pose>
+      </collision>
+      <collision name="dock_side_rail_95.4">
+        <geometry>
+          <box>
+            <size>11.6 0.1 0.1</size>
+          </box>
+        </geometry>
+        <pose>-75 95.4 50.6 0 0 0</pose>
+      </collision>
+      <collision name="dock_rail_post_-80.6_95.4">
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <pose>-80.6 95.4 50.05 0 0 0</pose>
+      </collision>
+      <collision name="dock_rail_post_-75_95.4">
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <pose>-75 95.4 50.05 0 0 0</pose>
+      </collision>
+      <collision name="dock_rail_post_-69.4_95.4">
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <pose>-69.4 95.4 50.05 0 0 0</pose>
+      </collision>
+      <collision name="dock_side_rail_104.6">
+        <geometry>
+          <box>
+            <size>11.6 0.1 0.1</size>
+          </box>
+        </geometry>
+        <pose>-75 104.6 50.6 0 0 0</pose>
+      </collision>
+      <collision name="dock_rail_post_-80.6_104.6">
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <pose>-80.6 104.6 50.05 0 0 0</pose>
+      </collision>
+      <collision name="dock_rail_post_-75_104.6">
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <pose>-75 104.6 50.05 0 0 0</pose>
+      </collision>
+      <collision name="dock_rail_post_-69.4_104.6">
+        <geometry>
+          <box>
+            <size>0.1 0.1 1</size>
+          </box>
+        </geometry>
+        <pose>-69.4 104.6 50.05 0 0 0</pose>
+      </collision>
+      <collision name="dock_west_rail">
+        <geometry>
+          <box>
+            <size>0.1 9.2 0.1</size>
+          </box>
+        </geometry>
+        <pose>-80.6 100 50.6 0 0 0</pose>
+      </collision>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <model name="summit_terrain">
+    <static>true</static>
+    <link name="structure">
+      <visual name="visual_grass">
+        <geometry>
+          <mesh>
+            <uri>model://summit_terrain/meshes/visual/grass.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.22 0.3 0.12 1</ambient>
+          <diffuse>0.22 0.3 0.12 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_grass_light">
+        <geometry>
+          <mesh>
+            <uri>model://summit_terrain/meshes/visual/grass_light.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.29 0.37 0.16 1</ambient>
+          <diffuse>0.29 0.37 0.16 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_grass_dark">
+        <geometry>
+          <mesh>
+            <uri>model://summit_terrain/meshes/visual/grass_dark.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.14 0.22 0.085 1</ambient>
+          <diffuse>0.14 0.22 0.085 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="visual_rock">
+        <geometry>
+          <mesh>
+            <uri>model://summit_terrain/meshes/visual/rock.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.34 0.355 0.32 1</ambient>
+          <diffuse>0.34 0.355 0.32 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="ground_collision">
+        <geometry>
+          <mesh>
+            <uri>model://summit_terrain/meshes/collision/ground_collision.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

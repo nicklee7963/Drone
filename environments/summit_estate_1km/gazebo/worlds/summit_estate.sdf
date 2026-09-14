@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <world name="summit_estate">
+    <physics name="default" type="ignored">
+      <max_step_size>0.004</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <gravity>0 0 -9.81</gravity>
+    <magnetic_field>2.15e-5 0 4.27e-5</magnetic_field>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics" />
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands" />
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster" />
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <scene>
+      <ambient>.56 .58 .61 1</ambient>
+      <background>.59 .70 .78 1</background>
+      <shadows>true</shadows>
+    </scene>
+    <light type="directional" name="late_afternoon_sun">
+      <pose>0 0 400 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <diffuse>1 .88 .70 1</diffuse>
+      <specular>.35 .32 .26 1</specular>
+      <direction>-.35 .45 -.83</direction>
+      <attenuation>
+        <range>2000</range>
+        <constant>1</constant>
+        <linear>0</linear>
+        <quadratic>0</quadratic>
+      </attenuation>
+    </light>
+    <gui fullscreen="false">
+      <plugin filename="MinimalScene" name="Summit Estate 1km">
+        <gz-gui>
+          <title>Summit Estate 1km</title>
+          <property type="bool" key="showTitleBar">false</property>
+          <property type="string" key="state">docked</property>
+        </gz-gui>
+        <engine>ogre2</engine>
+        <scene>scene</scene>
+        <camera_pose>230 -470 345 0 0.462298 2.08222</camera_pose>
+        <camera_clip>
+          <near>0.1</near>
+          <far>3000</far>
+        </camera_clip>
+      </plugin>
+      <plugin filename="GzSceneManager" name="GzSceneManager">
+        <gz-gui>
+          <property type="string" key="state">floating</property>
+          <property type="bool" key="showTitleBar">false</property>
+          <property type="double" key="width">5</property>
+          <property type="double" key="height">5</property>
+        </gz-gui>
+      </plugin>
+      <plugin filename="InteractiveViewControl" name="InteractiveViewControl">
+        <gz-gui>
+          <property type="string" key="state">floating</property>
+          <property type="bool" key="showTitleBar">false</property>
+          <property type="double" key="width">5</property>
+          <property type="double" key="height">5</property>
+        </gz-gui>
+      </plugin>
+      <plugin filename="CameraTracking" name="CameraTracking">
+        <gz-gui>
+          <property type="string" key="state">floating</property>
+          <property type="bool" key="showTitleBar">false</property>
+          <property type="double" key="width">5</property>
+          <property type="double" key="height">5</property>
+        </gz-gui>
+      </plugin>
+      <plugin filename="EntityContextMenuPlugin" name="EntityContextMenuPlugin">
+        <gz-gui>
+          <property type="string" key="state">floating</property>
+          <property type="bool" key="showTitleBar">false</property>
+          <property type="double" key="width">5</property>
+          <property type="double" key="height">5</property>
+        </gz-gui>
+      </plugin>
+      <plugin filename="WorldControl" name="World control">
+        <play_pause>true</play_pause>
+        <step>true</step>
+        <start_paused>false</start_paused>
+      </plugin>
+    </gui>
+    <include>
+      <uri>model://summit_villa</uri>
+    </include>
+    <include>
+      <uri>model://estate_entrance</uri>
+    </include>
+    <include>
+      <uri>model://estate_arrival</uri>
+    </include>
+    <include>
+      <uri>model://estate_pool</uri>
+    </include>
+    <include>
+      <uri>model://estate_basketball</uri>
+    </include>
+    <include>
+      <uri>model://estate_fire_lounge</uri>
+    </include>
+    <include>
+      <uri>model://estate_lake_pavilion</uri>
+    </include>
+    <include>
+      <uri>model://summit_terrain</uri>
+    </include>
+    <include>
+      <uri>model://summit_road</uri>
+    </include>
+    <include>
+      <uri>model://summit_lake</uri>
+    </include>
+    <include>
+      <uri>model://summit_shore</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_3_1</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_2_0</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_2_1</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_2_2</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_3_0</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_1_0</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_0_0</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_2_3</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_1_1</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_3_3</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_3_2</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_0_1</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_0_2</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_0_3</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_1_3</uri>
+    </include>
+    <include>
+      <uri>model://summit_forest_1_2</uri>
+    </include>
+    <include>
+      <uri>model://summit_boulders</uri>
+    </include>
+    <frame name="uav_lawn_spawn">
+      <pose>125 8 80.5 0 0 0</pose>
+    </frame>
+  </world>
+</sdf>

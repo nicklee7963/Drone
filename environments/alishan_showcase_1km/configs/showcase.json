@@ -1,0 +1,21 @@
+{
+  "version": "V1 — Showcase Scenic Environment",
+  "seed": 73129,
+  "size_m": 1000,
+  "grid_samples": 251,
+  "tree_spacing_m": 10,
+  "tree_probability": 0.83,
+  "road_width_m": 9,
+  "road_shoulder_width_m": 14,
+  "road_control_points": [
+    [-490, -390], [-350, -338], [-130, -345], [120, -310],
+    [315, -215], [350, -105], [225, -30], [0, 5],
+    [-220, 65], [-290, 160], [-155, 255], [55, 270],
+    [175, 325], [135, 418], [35, 450]
+  ],
+  "clearings": [
+    {"name": "Cedar Basecamp", "x": -325, "y": -302, "half_x": 43, "half_y": 31, "launch": true},
+    {"name": "Tea Terrace Lodge", "x": 260, "y": -73, "half_x": 40, "half_y": 27, "launch": false},
+    {"name": "Cloud Ridge", "x": -140, "y": 285, "half_x": 40, "half_y": 30, "launch": true}
+  ]
+}
