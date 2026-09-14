@@ -5,3 +5,16 @@ QGroundControl/*.AppImage
 
 # Windows metadata
 *:Zone.Identifier
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Blender application / downloaded tools
+**/tools/blender-*/
+**/tools/blender-*.tar.xz
+
+# Blender backup files
+*.blend1
+*.blend2
