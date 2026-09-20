@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "floors": {
+    "B1": {},
+    "1F": {
+      "endpoint:1F_Column_006_Kitchen_NE:1F_Glass_013_Pantry_North": {
+        "decision": "FALSE_POSITIVE",
+        "classification": "INTENTIONAL_GLASS_TRANSITION",
+        "reference_files": ["01_shell/1F/1F.png"],
+        "rationale": "The source plan and constructive footprints show the Kitchen_North wall completing this three-object junction; extending the glazing would overlap that wall."
+      },
+      "endpoint:1F_Wall_Exterior_011_Ensuite1_South:1F_Wall_Exterior_012_Guest1_South": {
+        "decision": "PRESERVED_REFERENCE_INTENT",
+        "classification": "INTENTIONAL_GLASS_TRANSITION",
+        "reference_files": ["01_shell/1F/1F.png"],
+        "rationale": "The apparent bounding-box separation is the source-drawn stepped south-facade glazing/reveal, not an open envelope hole."
+      },
+      "endpoint:1F_Wall_Exterior_013_StairA_South:1F_Wall_Interior_008_StairA_West": {
+        "decision": "FALSE_POSITIVE",
+        "classification": "INTENTIONAL_CIRCULATION",
+        "reference_files": ["01_shell/1F/1F.png"],
+        "rationale": "The Guest1 south wall completes this three-object stair/corridor junction; extending StairA_West causes a verified overlap."
+      },
+      "endpoint:1F_Wall_Exterior_017_Guest2_South:1F_Wall_Exterior_018_Ensuite2_South": {
+        "decision": "PRESERVED_REFERENCE_INTENT",
+        "classification": "INTENTIONAL_GLASS_TRANSITION",
+        "reference_files": ["01_shell/1F/1F.png"],
+        "rationale": "The source plan shows the same intentional stepped south-facade glazing/reveal as the west guest suite."
+      },
+      "endpoint:1F_Wall_Interior_001_Garage_GreatRoom:1F_Wall_Interior_008_StairA_West": {
+        "decision": "FALSE_POSITIVE",
+        "classification": "INTENTIONAL_CIRCULATION",
+        "reference_files": ["01_shell/1F/1F.png"],
+        "rationale": "A third structural wall completes the source-traced junction and the legacy aperture/overlap validator passes."
+      },
+      "sliver:1F_Wall_Exterior_017_Guest2_South:1F_Wall_Exterior_018_Ensuite2_South": {
+        "decision": "FALSE_POSITIVE",
+        "classification": "INTENTIONAL_GLASS_TRANSITION",
+        "reference_files": ["01_shell/1F/1F.png"],
+        "rationale": "This repeats the bounding-box façade-step candidate above; it is not an interior traversable-space sliver."
+      }
+    },
+    "2F": {
+      "endpoint:2F_Column_002_FamilyTerrace_West:2F_Wall_Exterior_004_GuestA_NorthEast": {
+        "decision": "PRESERVED_REFERENCE_INTENT",
+        "classification": "INTENTIONAL_TERRACE_OPENING",
+        "reference_files": ["01_shell/2F/2F.png"],
+        "rationale": "The source plan and legacy validator identify this as the Family Terrace west return/doorway clearance."
+      },
+      "endpoint:2F_Column_003_FamilyLounge_NorthWest:2F_Glass_004_FamilyTerrace_West_Return": {
+        "decision": "PRESERVED_REFERENCE_INTENT",
+        "classification": "INTENTIONAL_TERRACE_OPENING",
+        "reference_files": ["01_shell/2F/2F.png"],
+        "rationale": "The clear return is part of the validated Family Terrace interface and must not be filled."
+      },
+      "endpoint:2F_Column_004_FamilyLounge_NorthEast:2F_Glass_006_FamilyTerrace_East_Return": {
+        "decision": "PRESERVED_REFERENCE_INTENT",
+        "classification": "INTENTIONAL_TERRACE_OPENING",
+        "reference_files": ["01_shell/2F/2F.png"],
+        "rationale": "The clear return is part of the validated Family Terrace interface and must not be filled."
+      },
+      "endpoint:2F_Column_007_SouthWest_Junction:2F_Glass_012_Guest1_South": {
+        "decision": "FALSE_POSITIVE",
+        "classification": "INTENTIONAL_GLASS_TRANSITION",
+        "reference_files": ["01_shell/2F/2F.png"],
+        "rationale": "A source-traced exterior wall return occupies the interval; extending the glass creates positive-area overlap."
+      },
+      "endpoint:2F_Column_010_SouthEast_Junction:2F_Glass_013_Guest2_South": {
+        "decision": "FALSE_POSITIVE",
+        "classification": "INTENTIONAL_GLASS_TRANSITION",
+        "reference_files": ["01_shell/2F/2F.png"],
+        "rationale": "A source-traced exterior wall return occupies the interval between the glass and junction column."
+      },
+      "endpoint:2F_Glass_013_Guest2_South:2F_Wall_Exterior_015_Guest2_WestSouth": {
+        "decision": "FALSE_POSITIVE",
+        "classification": "INTENTIONAL_GLASS_TRANSITION",
+        "reference_files": ["01_shell/2F/2F.png"],
+        "rationale": "2F_Wall_Exterior_016 supplies the small source-traced wall strip; direct glass extension overlaps it."
+      },
+      "endpoint:2F_Wall_Interior_012_RightCorridor_South:2F_Wall_Interior_013_Powder_Guest2": {
+        "decision": "PRESERVED_REFERENCE_INTENT",
+        "classification": "INTENTIONAL_DOOR",
+        "reference_files": ["01_shell/2F/2F.png"],
+        "rationale": "The 0.033 m termination belongs to the scheduled Corridor_Powder doorway; extending it blocks the verified aperture."
+      }
+    },
+    "3F": {},
+    "Roof": {}
+  }
+}

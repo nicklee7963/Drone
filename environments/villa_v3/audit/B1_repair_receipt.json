@@ -1,0 +1,429 @@
+{
+  "floor": "B1",
+  "blend": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/01_shell/B1/B1_shell.blend",
+  "manifest": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/geometry_repairs.json",
+  "applied": [
+    {
+      "id": "b1_linen_corridor_south_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_013_Linen_CorridorSouth",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "The source-plan wall rectangles meet, but thickness normalization left a 13.519 mm wall-to-wall crack.",
+      "reference_files": [
+        "01_shell/B1/B1.png",
+        "reference/B1/villa_v1_basement_overview.png"
+      ],
+      "bounds_before_m": [
+        15.449057,
+        7.474815,
+        0.0,
+        15.672956,
+        7.654815,
+        3.2
+      ],
+      "bounds_after_m": [
+        15.449057,
+        7.461296,
+        0.0,
+        15.672956,
+        7.654815,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.013519
+    },
+    {
+      "id": "b1_storage_south_to_facade_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_029_StoragePowder_South",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-drawn Storage south partition to the south facade band.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        -14.550168,
+        -2.357407,
+        0.0,
+        -14.370168,
+        -1.231481,
+        3.2
+      ],
+      "bounds_after_m": [
+        -14.550168,
+        -2.429259,
+        0.0,
+        -14.370168,
+        -1.231481,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.071852
+    },
+    {
+      "id": "b1_powder_east_to_facade_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_030_Powder_East",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-drawn Powder east partition to the south facade band.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        -8.952683,
+        -2.357407,
+        0.0,
+        -8.772683,
+        0.95,
+        3.2
+      ],
+      "bounds_after_m": [
+        -8.952683,
+        -2.429259,
+        0.0,
+        -8.772683,
+        0.95,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.071852
+    },
+    {
+      "id": "b1_shower_southwest_to_gym_partition",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_005_Shower_SouthWest",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-drawn shower T-junction to the Gym/Shower partition.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        -7.478679,
+        6.755556,
+        0.0,
+        -7.298679,
+        7.001852,
+        3.2
+      ],
+      "bounds_after_m": [
+        -7.541237,
+        6.755556,
+        0.0,
+        -7.298679,
+        7.001852,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.062558
+    },
+    {
+      "id": "b1_gymrooms_northeast_to_gym_library",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_027_GymRooms_NorthEast",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-drawn storage/powder north wall to the Gym/Library partition.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        -13.135429,
+        0.983148,
+        0.0,
+        -7.761845,
+        1.163148,
+        3.2
+      ],
+      "bounds_after_m": [
+        -13.135429,
+        0.983148,
+        0.0,
+        -7.721241,
+        1.163148,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.040603
+    },
+    {
+      "id": "b1_shower_southeast_to_cinema_partition",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_006_Shower_SouthEast",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-drawn shower T-junction to the Shower/Cinema partition.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        -6.306499,
+        6.788704,
+        0.0,
+        -4.366038,
+        6.968704,
+        3.2
+      ],
+      "bounds_after_m": [
+        -6.306499,
+        6.788704,
+        0.0,
+        -4.32543,
+        6.968704,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.040608
+    },
+    {
+      "id": "b1_cinema_southwest_jamb_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_008_CinemaSouth_WestJamb",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-drawn cinema south jamb to the Shower/Cinema partition.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        -4.104822,
+        4.079444,
+        0.0,
+        -3.731656,
+        4.259444,
+        3.2
+      ],
+      "bounds_after_m": [
+        -4.14543,
+        4.079444,
+        0.0,
+        -3.731656,
+        4.259444,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.040608
+    },
+    {
+      "id": "b1_laundry_southwest_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_014_TopRoomsSouth_LaundryWest",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-drawn laundry south wall to the Cinema/Laundry partition.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        7.687212,
+        7.281296,
+        0.0,
+        8.35891,
+        7.461296,
+        3.2
+      ],
+      "bounds_after_m": [
+        7.646608,
+        7.281296,
+        0.0,
+        8.35891,
+        7.461296,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.040603
+    },
+    {
+      "id": "b1_laundry_linen_south_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_011_Laundry_Linen",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the Laundry/Linen partition to the source-drawn south wall.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        11.944592,
+        7.494444,
+        0.0,
+        12.124591,
+        11.364815,
+        3.2
+      ],
+      "bounds_after_m": [
+        11.944592,
+        7.461301,
+        0.0,
+        12.124591,
+        11.364815,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033143
+    },
+    {
+      "id": "b1_mechanical_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_017_ServiceWest_MechanicalNorth",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the Mechanical west return to the source-drawn north service wall.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        11.08631,
+        6.333333,
+        0.0,
+        11.266311,
+        7.248148,
+        3.2
+      ],
+      "bounds_after_m": [
+        11.08631,
+        6.333333,
+        0.0,
+        11.266311,
+        7.281296,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "b1_mechanical_electrical_west_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_021_Mechanical_Electrical",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the Mechanical/Electrical wall to its west service partition.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        11.306918,
+        2.672037,
+        0.0,
+        17.762684,
+        2.852037,
+        3.2
+      ],
+      "bounds_after_m": [
+        11.266311,
+        2.672037,
+        0.0,
+        17.762684,
+        2.852037,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.040607
+    },
+    {
+      "id": "b1_electrical_water_west_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_022_Electrical_Water",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the Electrical/Water wall to its west service partition.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        11.306918,
+        -0.336296,
+        0.0,
+        17.762684,
+        -0.156296,
+        3.2
+      ],
+      "bounds_after_m": [
+        11.266311,
+        -0.336296,
+        0.0,
+        17.762684,
+        -0.156296,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.040607
+    },
+    {
+      "id": "b1_bath_storage_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_031_BathStorage",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the Bath/Storage partition to the source-drawn north wall.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        14.23956,
+        -7.881482,
+        0.0,
+        14.419559,
+        -3.905555,
+        3.2
+      ],
+      "bounds_after_m": [
+        14.23956,
+        -7.881482,
+        0.0,
+        14.419559,
+        -3.872407,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "b1_storage_powder_northwest_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_028_StoragePowder_North",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the Storage/Powder divider to the source-drawn north wall.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        -14.550168,
+        -0.246296,
+        0.0,
+        -14.370168,
+        0.95,
+        3.2
+      ],
+      "bounds_after_m": [
+        -14.550168,
+        -0.246296,
+        0.0,
+        -14.370168,
+        0.983148,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "b1_powder_east_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "B1_Wall_Interior_030_Powder_East",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the Powder east partition to the source-drawn north wall.",
+      "reference_files": [
+        "01_shell/B1/B1.png"
+      ],
+      "bounds_before_m": [
+        -8.952683,
+        -2.429259,
+        0.0,
+        -8.772683,
+        0.95,
+        3.2
+      ],
+      "bounds_after_m": [
+        -8.952683,
+        -2.429259,
+        0.0,
+        -8.772683,
+        0.983148,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    }
+  ],
+  "status": "PASS"
+}

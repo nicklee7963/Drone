@@ -1,0 +1,1280 @@
+{
+  "floor": "3F",
+  "blend": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/01_shell/3F/3F_shell.blend",
+  "objects": [
+    {
+      "name": "3F_Column_001_Terrace_NorthWest",
+      "role": "column",
+      "bounds_m": [
+        -17.949266,
+        8.198148,
+        0.0,
+        -17.016352,
+        10.661111,
+        1.1
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.52750808,
+      "signature": "93d9cf3e8368a2426d36008742362ae3157c11923b1677ed9cc80d276d90f66a",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-17.949266247379455, 8.19814814814815, -17.016352201257863, 10.661111111111111]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 1.1,
+        "source_pixel_rectangles": "[[104, 210, 129, 280]]",
+        "structural_interpretation": "solid black/gray block in 3F.png",
+        "height_policy": "Match private-terrace glass guard top at 1.10 m"
+      }
+    },
+    {
+      "name": "3F_Column_002_Terrace_CenterWest",
+      "role": "column",
+      "bounds_m": [
+        -8.284277,
+        10.274074,
+        0.0,
+        -7.015513,
+        11.857408,
+        1.1
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.2097641,
+      "signature": "6ba535d6704599f5b5b70e8cf862c7ab6353e911f71d36d2cbc7bcca1e16ef13",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-8.284276729559748, 10.274074074074075, -7.015513626834382, 11.857407407407408]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 1.1,
+        "source_pixel_rectangles": "[[363, 176, 397, 221]]",
+        "structural_interpretation": "solid black/gray block in 3F.png",
+        "height_policy": "Match private-terrace glass guard top at 1.10 m"
+      }
+    },
+    {
+      "name": "3F_Column_003_Terrace_CenterEast",
+      "role": "column",
+      "bounds_m": [
+        6.605031,
+        10.274074,
+        0.0,
+        7.948428,
+        11.857408,
+        1.1
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.33974935,
+      "signature": "20e67c924aacb69ca5315462a66735931e63a6ccf7255e8dee14b89254492ae2",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[6.605031446540881, 10.274074074074075, 7.948427672955975, 11.857407407407408]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 1.1,
+        "source_pixel_rectangles": "[[762, 176, 798, 221]]",
+        "structural_interpretation": "solid black/gray block in 3F.png",
+        "height_policy": "Match private-terrace glass guard top at 1.10 m"
+      }
+    },
+    {
+      "name": "3F_Column_004_Terrace_NorthEast",
+      "role": "column",
+      "bounds_m": [
+        16.008804,
+        8.198148,
+        0.0,
+        16.904402,
+        10.661111,
+        1.1
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.4264059,
+      "signature": "73bf76a256f03216cc7958c3e226448221d1b2fda71b8dc4fba7f985bcd9dad8",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[16.008805031446542, 8.19814814814815, 16.90440251572327, 10.661111111111111]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 1.1,
+        "source_pixel_rectangles": "[[1014, 210, 1038, 280]]",
+        "structural_interpretation": "solid black/gray block in 3F.png",
+        "height_policy": "Match private-terrace glass guard top at 1.10 m"
+      }
+    },
+    {
+      "name": "3F_Column_005_Facade_WestMid",
+      "role": "column",
+      "bounds_m": [
+        -18.770231,
+        -0.633333,
+        0.0,
+        -18.098532,
+        0.703704,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.873879,
+      "signature": "2109afe23fa5b39e092f191e104dbdaa26a7f9edc36cf9a740e2747d1ff2e7de",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-18.770230607966457, -0.6333333333333334, -18.09853249475891, 0.7037037037037037]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[82, 493, 100, 531]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Column_006_Facade_EastMid",
+      "role": "column",
+      "bounds_m": [
+        16.941719,
+        -0.633333,
+        0.0,
+        17.650734,
+        0.703704,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.03353351,
+      "signature": "deef22297a4de1428b32e99e207a4560f4caf26c3afabf9299b82223022fd259",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[16.941719077568134, -0.6333333333333334, 17.650733752620546, 0.7037037037037037]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[1039, 493, 1058, 531]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Column_007_Facade_SouthWestStep",
+      "role": "column",
+      "bounds_m": [
+        -8.246961,
+        -9.570371,
+        0.0,
+        -7.239413,
+        -7.107408,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 7.94097034,
+      "signature": "f50c7f6bc5aa7edba72e57c25f21fddd2edcc0edeedd8ae266a9e18d7d174a8c",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-8.246960167714885, -9.570370370370371, -7.239412997903564, -7.107407407407408]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[364, 715, 391, 785]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Column_008_Facade_SouthEastStep",
+      "role": "column",
+      "bounds_m": [
+        6.978197,
+        -9.570371,
+        0.0,
+        7.948428,
+        -7.107408,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 7.6468549,
+      "signature": "dfbde51029d898e41ec616e20ecd054a89862145fffba6369f7432c7f126d199",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[6.978197064989518, -9.570370370370371, 7.948427672955975, -7.107407407407408]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[772, 715, 798, 785]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Column_009_Arrival_OuterWest",
+      "role": "column",
+      "bounds_m": [
+        -1.865828,
+        -6.966667,
+        0.0,
+        -1.30608,
+        -6.333333,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.13442324,
+      "signature": "60001eec1bc60b18c2d20c0602758218ee2ef99a0c7db0fa3c0d90020be6940f",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-1.8658280922431867, -6.966666666666667, -1.3060796645702306, -6.333333333333334]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[535, 693, 550, 711]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Column_010_Arrival_OuterEast",
+      "role": "column",
+      "bounds_m": [
+        5.821383,
+        -6.966667,
+        0.0,
+        6.343815,
+        -6.298148,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.11761723,
+      "signature": "f768c026251bb4f36329687a2c58d6860d895fa24e8bfbf2c60265eecaabb91a",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[5.821383647798743, -6.966666666666667, 6.343815513626835, -6.298148148148148]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[741, 692, 755, 711]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Column_011_Facade_NorthWestCorner",
+      "role": "column",
+      "bounds_m": [
+        -18.770231,
+        7.318519,
+        0.0,
+        -16.493921,
+        8.198148,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 6.40738751,
+      "signature": "b514b3ff6836ffdaf8e908885df7122ae1cab5b96c267de68651d4c75d86ddbe",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-18.770230607966457, 7.318518518518519, -16.49392033542977, 8.19814814814815]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[82, 280, 143, 305]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Column_012_Facade_NorthEastCorner",
+      "role": "column",
+      "bounds_m": [
+        15.561007,
+        7.318519,
+        0.0,
+        17.650734,
+        8.198148,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 5.88219243,
+      "signature": "963138951585d6e5471b4a3caf7f193bfdbba911ce561f4f2451e8fd31087065",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[15.561006289308176, 7.318518518518519, 17.650733752620546, 8.19814814814815]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[1002, 280, 1058, 305]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Column_013_Facade_SouthWestCorner",
+      "role": "column",
+      "bounds_m": [
+        -18.770231,
+        -6.298148,
+        0.0,
+        -16.493921,
+        -4.538889,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 12.81478197,
+      "signature": "5ef8b26168bf626f8b58445f4f3df91c3de11a4dda6945f5e71b28e9e0a6dec8",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-18.770230607966457, -6.298148148148148, -16.49392033542977, -4.538888888888889]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[82, 642, 143, 692]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Column_014_Facade_SouthEastCorner",
+      "role": "column",
+      "bounds_m": [
+        15.561007,
+        -6.298148,
+        0.0,
+        17.650734,
+        -4.538889,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 11.76439124,
+      "signature": "7dd49336b152e1e7575ea75f3927cf632c0356be1f4a480a245e8c511e8b5c60",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[15.561006289308176, -6.298148148148148, 17.650733752620546, -4.538888888888889]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[1002, 642, 1058, 692]]",
+        "structural_interpretation": "solid black/gray block in 3F.png"
+      }
+    },
+    {
+      "name": "3F_Floor_Main",
+      "role": "floor",
+      "bounds_m": [
+        -18.770233,
+        -9.570371,
+        -0.2,
+        17.650734,
+        7.318519,
+        0.0
+      ],
+      "vertices": 68,
+      "triangles": 132,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 119.09583353,
+      "signature": "32cd848dbef4b713418ea5356800cd361bb103518698c92c1b665d5b2484c5fe",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "floor",
+        "footprint_rectangles_world": "[[-18.770230607966457, -6.298148148148148, 17.650733752620546, 7.318518518518519], [-17.650733752620546, -9.570370370370371, -0.8582809224318658, -6.298148148148148], [5.373584905660378, -9.570370370370371, 16.68050314465409, -6.298148148148148], [-0.8582809224318658, -9.042592592592593, 5.373584905660378, -5.735185185185186]]",
+        "subtracted_rectangles_world": "[[0.8209643605870021, -10.696296296296296, 3.6943396226415097, -5.735185185185186]]",
+        "z_min": -0.2,
+        "z_max": 0,
+        "source_pixel_rectangles": "[[82, 305, 1058, 692], [112, 692, 562, 785], [729, 692, 1032, 785], [562, 676, 729, 770]]",
+        "architectural_program": "Open-plan master residence; no inferred internal room boundaries",
+        "stair_cut_source": "Live 2F_Stair_UpTo3F bounds"
+      }
+    },
+    {
+      "name": "3F_Glass_001_MasterNorth_West",
+      "role": "glass",
+      "bounds_m": [
+        -16.493921,
+        7.308518,
+        0.0,
+        -1.529979,
+        7.328518,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.95769142,
+      "signature": "ab22064ee1f5ad52fe068c3b156723df9c7a33c95e5fc11aef6da45d414ee813",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-16.49392033542977, 7.308518518518519, -1.529979035639413, 7.328518518518519]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[143, 305], [544, 305]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Glass_002_MasterNorth_East",
+      "role": "glass",
+      "bounds_m": [
+        1.418029,
+        7.308518,
+        0.0,
+        15.561007,
+        7.328518,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.90514969,
+      "signature": "384e4401a81972e72eec13ffca498d3f9e57243eb0853dc739415ec70f3246da",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[1.4180293501048218, 7.308518518518519, 15.561006289308176, 7.328518518518519]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[623, 305], [1002, 305]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Glass_003_FacadeWest_North",
+      "role": "glass",
+      "bounds_m": [
+        -18.556332,
+        0.703704,
+        0.0,
+        -18.536331,
+        5.488889,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.30625886,
+      "signature": "ddb7bdf87d45e03b1e97b1d4d029ea6a6a51145cb36eb829b7a06e17c3d38cad",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-18.556331236897275, 0.7037037037037037, -18.536331236897272, 5.488888888888889]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[88, 357], [88, 493]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Glass_004_FacadeWest_South",
+      "role": "glass",
+      "bounds_m": [
+        -18.556332,
+        -4.538889,
+        0.0,
+        -18.536331,
+        -0.633333,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.24996128,
+      "signature": "57a64417b36367efac4cfa33154f321e40e031dac9a6717518487a1f31c86142",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-18.556331236897275, -4.538888888888889, -18.536331236897272, -0.6333333333333334]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[88, 531], [88, 642]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Glass_005_FacadeEast_North",
+      "role": "glass",
+      "bounds_m": [
+        17.379519,
+        0.703704,
+        0.0,
+        17.399517,
+        5.488889,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.30622965,
+      "signature": "b180791660b989c457be7be17ca46e50333a66848c2e23ff1c161f35b8e20b7b",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[17.379517819706496, 0.7037037037037037, 17.3995178197065, 5.488888888888889]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[1051, 357], [1051, 493]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Glass_006_FacadeEast_South",
+      "role": "glass",
+      "bounds_m": [
+        17.379519,
+        -4.538889,
+        0.0,
+        17.399517,
+        -0.633333,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.24993745,
+      "signature": "1adae2940ed54ecfcc51c6907225f8abfbbcf9a64dced1e310e5877d2a19800f",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[17.379517819706496, -4.538888888888889, 17.3995178197065, -0.6333333333333334]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[1051, 531], [1051, 642]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Glass_007_SouthWest_Outer",
+      "role": "glass",
+      "bounds_m": [
+        -16.755136,
+        -9.052592,
+        0.0,
+        -8.246961,
+        -9.032593,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.54450976,
+      "signature": "1c94ff3532b21db1f766542297ccbdfe22d3edd7243e8dd1c7faa1309e8a2f14",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-16.755136268343815, -9.052592592592593, -8.246960167714885, -9.032592592592593]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[136, 770], [364, 770]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Glass_008_SouthWest_Inner",
+      "role": "glass",
+      "bounds_m": [
+        -7.239413,
+        -9.052592,
+        0.0,
+        -0.858281,
+        -9.032593,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.40838232,
+      "signature": "324f8c63213ebf89c927c36877fce35575de54d816e03b17226fcfa1e9a65f8a",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-7.239412997903564, -9.052592592592593, -0.8582809224318658, -9.032592592592593]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[391, 770], [562, 770]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Glass_009_SouthEast_Inner",
+      "role": "glass",
+      "bounds_m": [
+        5.373585,
+        -9.052592,
+        0.0,
+        6.978197,
+        -9.032593,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.10269265,
+      "signature": "3fef59ae30409cd541ed73c295824086a1a3556bdee085820c5772938e3b5bc7",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[5.373584905660378, -9.052592592592593, 6.978197064989518, -9.032592592592593]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[729, 770], [772, 770]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Glass_010_SouthEast_Outer",
+      "role": "glass",
+      "bounds_m": [
+        7.948428,
+        -9.052592,
+        0.0,
+        15.822222,
+        -9.032593,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.50391033,
+      "signature": "c86cbd91b864ca52558e78658336c7cc0b0cd9afffc5d775b7ac377c8e3e72b3",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[7.948427672955975, -9.052592592592593, 15.822222222222223, -9.032592592592593]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[798, 770], [1009, 770]]",
+        "nominal_thickness_m": 0.02,
+        "collision_policy": "Separate full-height visual/collision candidate for later export"
+      }
+    },
+    {
+      "name": "3F_Railing_Terrace_NorthCenter",
+      "role": "terrace",
+      "bounds_m": [
+        -7.000514,
+        11.847407,
+        0.0,
+        6.590032,
+        11.867408,
+        1.05
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.28540798,
+      "signature": "94d893c629f3e2d66075a9e60297f56d70ea8f3b9286d19bfcad166776db2132",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "railing_glass",
+        "footprint_rectangles_world": "[[-7.000513626834382, 11.847407407407408, 6.590031446540881, 11.867407407407407]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 1.05,
+        "railing_zone": "private_terrace",
+        "guardrail_height_m": 1.1,
+        "edge_coverage_ratio": 0.9977974449746038,
+        "collision_policy": "Export as collision and visual geometry",
+        "nominal_thickness_m": 0.02
+      }
+    },
+    {
+      "name": "3F_Railing_Terrace_NorthCenter_TopRail",
+      "role": "terrace",
+      "bounds_m": [
+        -7.000514,
+        11.837407,
+        1.05,
+        6.590032,
+        11.877407,
+        1.1
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.0271811,
+      "signature": "0a5fab6beea7ac182ca592aece2a0ea11ad6a7b638dae34e7ee1c2bfada75e63",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "railing_toprail",
+        "footprint_rectangles_world": "[[-7.000513626834382, 11.837407407407408, 6.590031446540881, 11.877407407407407]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 1.05,
+        "z_max": 1.1,
+        "railing_zone": "private_terrace",
+        "guardrail_height_m": 1.1,
+        "edge_coverage_ratio": 0.9977974449746038,
+        "collision_policy": "Export as collision and visual geometry",
+        "nominal_thickness_m": 0.04
+      }
+    },
+    {
+      "name": "3F_Railing_Terrace_NorthEast",
+      "role": "terrace",
+      "bounds_m": [
+        7.963428,
+        10.651111,
+        0.0,
+        15.993805,
+        10.671111,
+        1.05
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.16864178,
+      "signature": "a916860b5164bc6a61fd14e37ab9de6355149f00dc0d1a7d8333e7b5c3f2e752",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "railing_glass",
+        "footprint_rectangles_world": "[[7.963427672955975, 10.651111111111112, 15.993805031446541, 10.671111111111111]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 1.05,
+        "railing_zone": "private_terrace",
+        "guardrail_height_m": 1.1,
+        "edge_coverage_ratio": 0.9962780898876405,
+        "collision_policy": "Export as collision and visual geometry",
+        "nominal_thickness_m": 0.02
+      }
+    },
+    {
+      "name": "3F_Railing_Terrace_NorthEast_TopRail",
+      "role": "terrace",
+      "bounds_m": [
+        7.963428,
+        10.641111,
+        1.05,
+        15.993805,
+        10.681111,
+        1.1
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.01606076,
+      "signature": "e95bc107b0a13a217d68a4697a62ad44f9f1c2600c50a2a857b406d3cac31f27",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "railing_toprail",
+        "footprint_rectangles_world": "[[7.963427672955975, 10.641111111111112, 15.993805031446541, 10.681111111111111]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 1.05,
+        "z_max": 1.1,
+        "railing_zone": "private_terrace",
+        "guardrail_height_m": 1.1,
+        "edge_coverage_ratio": 0.9962780898876405,
+        "collision_policy": "Export as collision and visual geometry",
+        "nominal_thickness_m": 0.04
+      }
+    },
+    {
+      "name": "3F_Railing_Terrace_NorthWest",
+      "role": "terrace",
+      "bounds_m": [
+        -17.001352,
+        10.651111,
+        0.0,
+        -8.299276,
+        10.671111,
+        1.05
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.18274777,
+      "signature": "23c1fdc8ce68096cb4c4165aa04fb3ead3e894c76302aaa65e22f25d23211c2d",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "railing_glass",
+        "footprint_rectangles_world": "[[-17.001352201257863, 10.651111111111112, -8.299276729559748, 10.671111111111111]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 1.05,
+        "railing_zone": "private_terrace",
+        "guardrail_height_m": 1.1,
+        "edge_coverage_ratio": 0.9965643906655144,
+        "collision_policy": "Export as collision and visual geometry",
+        "nominal_thickness_m": 0.02
+      }
+    },
+    {
+      "name": "3F_Railing_Terrace_NorthWest_TopRail",
+      "role": "terrace",
+      "bounds_m": [
+        -17.001352,
+        10.641111,
+        1.05,
+        -8.299276,
+        10.681111,
+        1.1
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.01740416,
+      "signature": "f75bf792632413a24706a1f7ac6b42248cafe0d7b179ec847334a892cc257c31",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "railing_toprail",
+        "footprint_rectangles_world": "[[-17.001352201257863, 10.641111111111112, -8.299276729559748, 10.681111111111111]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 1.05,
+        "z_max": 1.1,
+        "railing_zone": "private_terrace",
+        "guardrail_height_m": 1.1,
+        "edge_coverage_ratio": 0.9965643906655144,
+        "collision_policy": "Export as collision and visual geometry",
+        "nominal_thickness_m": 0.04
+      }
+    },
+    {
+      "name": "3F_Terrace_Private",
+      "role": "terrace",
+      "bounds_m": [
+        -17.949266,
+        7.318519,
+        -0.2,
+        16.904402,
+        11.857408,
+        0.0
+      ],
+      "vertices": 20,
+      "triangles": 36,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 27.18414664,
+      "signature": "cfd8f336a5ff321418fa2bb0a3305baa486970aef4422a78913f7ed957ea9501",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "terrace",
+        "footprint_rectangles_world": "[[-17.949266247379455, 7.318518518518519, 16.90440251572327, 10.661111111111111], [-8.284276729559748, 10.661111111111111, 7.948427672955975, 11.857407407407408]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": -0.2,
+        "z_max": 0,
+        "source_pixel_rectangles": "[[104, 210, 1038, 305], [363, 176, 798, 210]]",
+        "architectural_program": "Private outdoor terrace",
+        "schedule_area_m2": 52.0,
+        "area_policy": "Trace drawn outline; schedule explicitly says areas are approximate"
+      }
+    },
+    {
+      "name": "3F_Wall_Exterior_001_NorthWest_Side",
+      "role": "wall",
+      "bounds_m": [
+        -18.770231,
+        5.488889,
+        0.0,
+        -18.490231,
+        7.318519,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.63935243,
+      "signature": "428ee59705941547a29bd425b1e1063062cf3347fd903d4164c3d36b6b541353",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-18.770230607966457, 5.488888888888889, -18.49023060796646, 7.318518518518519]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[82.0, 305.0, 89.50337078651685, 357.0]]",
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangle": "[82, 305, 100, 357]",
+        "alignment_rule": "preserve exterior face"
+      }
+    },
+    {
+      "name": "3F_Wall_Exterior_002_NorthEast_Side",
+      "role": "wall",
+      "bounds_m": [
+        17.370733,
+        5.488889,
+        0.0,
+        17.650734,
+        7.318519,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.63935243,
+      "signature": "8e9d70c56c73932d3f35f62965160e371387d4c1d5011b70274103af33ac247c",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[17.370733752620545, 5.488888888888889, 17.650733752620546, 7.318518518518519]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[1050.4966292134832, 305.0, 1058.0, 357.0]]",
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangle": "[1039, 305, 1058, 357]",
+        "alignment_rule": "preserve exterior face"
+      }
+    },
+    {
+      "name": "3F_Wall_Exterior_003_SouthWest_DownReturn",
+      "role": "wall",
+      "bounds_m": [
+        -17.035137,
+        -9.042593,
+        0.0,
+        -16.755136,
+        -6.298148,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.45902865,
+      "signature": "463904763308c003afc2030c60b0bc31357b7f24e8fb5f82bd91ff5f604586e4",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-17.035136268343816, -9.042592592592593, -16.755136268343815, -6.298148148148148]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[128.49662921348315, 692.0, 136.0, 770.0]]",
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangle": "[112, 692, 136, 770]",
+        "alignment_rule": "preserve exterior face"
+      }
+    },
+    {
+      "name": "3F_Wall_Exterior_004_SouthEast_DownReturn",
+      "role": "wall",
+      "bounds_m": [
+        15.822222,
+        -9.042593,
+        0.0,
+        16.102222,
+        -6.298148,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.45902865,
+      "signature": "89b4e1b1c5551fd0dc220795999113ea8a1ec09d7f3c1177a78458f4cfa2cbee",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[15.822222222222223, -9.042592592592593, 16.10222222222222, -6.298148148148148]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[1009.0, 692.0, 1016.5033707865168, 770.0]]",
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangle": "[1009, 692, 1032, 770]",
+        "alignment_rule": "preserve exterior face"
+      }
+    },
+    {
+      "name": "3F_Wall_Exterior_005_Arrival_West_Return",
+      "role": "wall",
+      "bounds_m": [
+        -0.858281,
+        -9.182592,
+        0.0,
+        0.600964,
+        -8.902593,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.30748248,
+      "signature": "e3819fd52a00b42bb4fe8b35374c90184d9acbc6d82c97b1a5ddad286bf539b3",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-0.8582809224318658, -9.182592592592593, 0.6009643363952637, -8.902592592592592]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "alignment_rule": "preserve live 2F stair aperture"
+      }
+    },
+    {
+      "name": "3F_Wall_Exterior_006_Arrival_East_Return",
+      "role": "wall",
+      "bounds_m": [
+        3.91434,
+        -9.182592,
+        0.0,
+        5.373585,
+        -8.902593,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.30748248,
+      "signature": "e018ffb809f2cf4156928e9d6da9573c8203c036fa4b01e7552ec418daef25ea",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[3.9143395137786867, -9.182592592592593, 5.373584905660378, -8.902592592592592]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "alignment_rule": "preserve live 2F stair aperture"
+      }
+    },
+    {
+      "name": "3F_Wall_Stair_001_From2F_West",
+      "role": "wall",
+      "bounds_m": [
+        0.600964,
+        -10.696297,
+        0.0,
+        0.820964,
+        -5.735185,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.49262303,
+      "signature": "1ff985fb1a3ee8c18327aa326c00cf51bdbbdb3992f5500ff7765320cf9419b4",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[0.6009643363952637, -10.696296691894531, 0.8209643363952637, -5.735185146331787]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "wall_class": "stairwell",
+        "nominal_thickness_m": 0.22,
+        "alignment_rule": "preserve live 2F stair aperture"
+      }
+    },
+    {
+      "name": "3F_Wall_Stair_002_From2F_East",
+      "role": "wall",
+      "bounds_m": [
+        3.69434,
+        -10.696297,
+        0.0,
+        3.91434,
+        -5.735185,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.49262303,
+      "signature": "6520163713fb8786cf6bdaca776c1afaf6e77420b22dd0da3e278166c64818a6",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[3.6943395137786865, -10.696296691894531, 3.9143395137786867, -5.735185146331787]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "wall_class": "stairwell",
+        "nominal_thickness_m": 0.22,
+        "alignment_rule": "preserve live 2F stair aperture"
+      }
+    }
+  ],
+  "candidates": [],
+  "intentional_openings": [
+    {
+      "name": "3F_Connection_2F",
+      "classification": "INTENTIONAL_CIRCULATION",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "3F_Opening_From2F",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "3F_Opening_StairArrival_From2F",
+      "classification": "INTENTIONAL_STAIR_OPENING",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "StairArrival_From2F",
+      "classification": "INTENTIONAL_STAIR_OPENING",
+      "source": "scene_property:opening_schedule_json",
+      "preserved": true
+    },
+    {
+      "name": "3F_Opening_PrivateTerrace_DoubleDoor",
+      "classification": "INTENTIONAL_TERRACE_OPENING",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "PrivateTerrace_DoubleDoor",
+      "classification": "INTENTIONAL_TERRACE_OPENING",
+      "source": "scene_property:opening_schedule_json",
+      "preserved": true
+    }
+  ],
+  "metrics": {
+    "architectural_meshes": 40,
+    "role_counts": {
+      "column": 14,
+      "floor": 1,
+      "glass": 10,
+      "terrace": 7,
+      "wall": 8
+    },
+    "scene_bounds_m": [
+      -18.770233,
+      -10.696297,
+      -0.2,
+      17.650734,
+      11.877407,
+      3.2
+    ],
+    "candidate_counts": {}
+  },
+  "warnings": [
+    "Broad-phase overlap and sliver candidates require comparison with the floor-plan references.",
+    "No candidate is automatically repaired by this audit."
+  ],
+  "status": "AUDIT_COMPLETE"
+}

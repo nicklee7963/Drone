@@ -1,0 +1,2779 @@
+{
+  "schema_version": 1,
+  "stage": "complete",
+  "status": "PASS",
+  "source_villa_v2_integrity": {
+    "status": "PASS",
+    "entries": 228,
+    "failures": []
+  },
+  "floors": {
+    "B1": {
+      "floor": "B1",
+      "elevation_m": -3.2,
+      "status": "PASS",
+      "legacy_validator": {
+        "passed": 40,
+        "failed": 0
+      },
+      "raw_candidate_counts": {},
+      "confirmed_defects_found": 15,
+      "wall_wall_cracks_found": 15,
+      "wall_glass_cracks_found": 0,
+      "exterior_gaps_found": 0,
+      "interior_accidental_gaps_found": 15,
+      "unwalkable_slivers_found": 0,
+      "accidental_columns_found": 0,
+      "floating_objects_found": 0,
+      "overlapping_objects_found": 0,
+      "intentional_openings_preserved": [
+        {
+          "name": "B1_Connection_1F",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "Gym_ShowerVestibule",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "ServiceCorridor_Main",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Bath_Lounge",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Cinema_Library_East",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Cinema_Library_West",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Electrical_Main",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Gym_Library",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Gym_Shower",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Gym_ShowerVestibule",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Laundry_Main",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Linen_ServiceCorridor",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Mechanical_Main",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Powder_Gym",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_ServiceCorridor_Main",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Shower_Vestibule",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_StorageEast_Lounge",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_StorageWest_Powder_Inferred",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_WaterUtility_Main",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "Bath_Lounge",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Cinema_Library_East",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Cinema_Library_West",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Electrical_Main",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Gym_Library",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Gym_Shower",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Laundry_Main",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Linen_ServiceCorridor",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Mechanical_Main",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Powder_Gym",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Shower_Vestibule",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "StorageEast_Lounge",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "StorageWest_Powder_Inferred",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "WaterUtility_Main",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Bath_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Courtyard_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Courtyard_West",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Gym_West",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Lounge_SouthEast",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Lounge_SouthWest",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Powder_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "StorageEast_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Storage_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Storage_West",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "B1_Opening_Stair_From1F",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "Stair_From1F",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Stair_Lounge_Arrival",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Stair_Underflight_Access",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        }
+      ],
+      "fixes_applied": [
+        {
+          "id": "b1_linen_corridor_south_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_013_Linen_CorridorSouth",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "The source-plan wall rectangles meet, but thickness normalization left a 13.519 mm wall-to-wall crack.",
+          "reference_files": [
+            "01_shell/B1/B1.png",
+            "reference/B1/villa_v1_basement_overview.png"
+          ],
+          "bounds_before_m": [
+            15.449057,
+            7.474815,
+            0.0,
+            15.672956,
+            7.654815,
+            3.2
+          ],
+          "bounds_after_m": [
+            15.449057,
+            7.461296,
+            0.0,
+            15.672956,
+            7.654815,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.013519
+        },
+        {
+          "id": "b1_storage_south_to_facade_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_029_StoragePowder_South",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-drawn Storage south partition to the south facade band.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            -14.550168,
+            -2.357407,
+            0.0,
+            -14.370168,
+            -1.231481,
+            3.2
+          ],
+          "bounds_after_m": [
+            -14.550168,
+            -2.429259,
+            0.0,
+            -14.370168,
+            -1.231481,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.071852
+        },
+        {
+          "id": "b1_powder_east_to_facade_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_030_Powder_East",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-drawn Powder east partition to the south facade band.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            -8.952683,
+            -2.357407,
+            0.0,
+            -8.772683,
+            0.95,
+            3.2
+          ],
+          "bounds_after_m": [
+            -8.952683,
+            -2.429259,
+            0.0,
+            -8.772683,
+            0.95,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.071852
+        },
+        {
+          "id": "b1_shower_southwest_to_gym_partition",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_005_Shower_SouthWest",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-drawn shower T-junction to the Gym/Shower partition.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            -7.478679,
+            6.755556,
+            0.0,
+            -7.298679,
+            7.001852,
+            3.2
+          ],
+          "bounds_after_m": [
+            -7.541237,
+            6.755556,
+            0.0,
+            -7.298679,
+            7.001852,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.062558
+        },
+        {
+          "id": "b1_gymrooms_northeast_to_gym_library",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_027_GymRooms_NorthEast",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-drawn storage/powder north wall to the Gym/Library partition.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            -13.135429,
+            0.983148,
+            0.0,
+            -7.761845,
+            1.163148,
+            3.2
+          ],
+          "bounds_after_m": [
+            -13.135429,
+            0.983148,
+            0.0,
+            -7.721241,
+            1.163148,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.040603
+        },
+        {
+          "id": "b1_shower_southeast_to_cinema_partition",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_006_Shower_SouthEast",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-drawn shower T-junction to the Shower/Cinema partition.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            -6.306499,
+            6.788704,
+            0.0,
+            -4.366038,
+            6.968704,
+            3.2
+          ],
+          "bounds_after_m": [
+            -6.306499,
+            6.788704,
+            0.0,
+            -4.32543,
+            6.968704,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.040608
+        },
+        {
+          "id": "b1_cinema_southwest_jamb_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_008_CinemaSouth_WestJamb",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-drawn cinema south jamb to the Shower/Cinema partition.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            -4.104822,
+            4.079444,
+            0.0,
+            -3.731656,
+            4.259444,
+            3.2
+          ],
+          "bounds_after_m": [
+            -4.14543,
+            4.079444,
+            0.0,
+            -3.731656,
+            4.259444,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.040608
+        },
+        {
+          "id": "b1_laundry_southwest_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_014_TopRoomsSouth_LaundryWest",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-drawn laundry south wall to the Cinema/Laundry partition.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            7.687212,
+            7.281296,
+            0.0,
+            8.35891,
+            7.461296,
+            3.2
+          ],
+          "bounds_after_m": [
+            7.646608,
+            7.281296,
+            0.0,
+            8.35891,
+            7.461296,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.040603
+        },
+        {
+          "id": "b1_laundry_linen_south_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_011_Laundry_Linen",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the Laundry/Linen partition to the source-drawn south wall.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            11.944592,
+            7.494444,
+            0.0,
+            12.124591,
+            11.364815,
+            3.2
+          ],
+          "bounds_after_m": [
+            11.944592,
+            7.461301,
+            0.0,
+            12.124591,
+            11.364815,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033143
+        },
+        {
+          "id": "b1_mechanical_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_017_ServiceWest_MechanicalNorth",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the Mechanical west return to the source-drawn north service wall.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            11.08631,
+            6.333333,
+            0.0,
+            11.266311,
+            7.248148,
+            3.2
+          ],
+          "bounds_after_m": [
+            11.08631,
+            6.333333,
+            0.0,
+            11.266311,
+            7.281296,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "b1_mechanical_electrical_west_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_021_Mechanical_Electrical",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the Mechanical/Electrical wall to its west service partition.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            11.306918,
+            2.672037,
+            0.0,
+            17.762684,
+            2.852037,
+            3.2
+          ],
+          "bounds_after_m": [
+            11.266311,
+            2.672037,
+            0.0,
+            17.762684,
+            2.852037,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.040607
+        },
+        {
+          "id": "b1_electrical_water_west_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_022_Electrical_Water",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the Electrical/Water wall to its west service partition.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            11.306918,
+            -0.336296,
+            0.0,
+            17.762684,
+            -0.156296,
+            3.2
+          ],
+          "bounds_after_m": [
+            11.266311,
+            -0.336296,
+            0.0,
+            17.762684,
+            -0.156296,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.040607
+        },
+        {
+          "id": "b1_bath_storage_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_031_BathStorage",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the Bath/Storage partition to the source-drawn north wall.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            14.23956,
+            -7.881482,
+            0.0,
+            14.419559,
+            -3.905555,
+            3.2
+          ],
+          "bounds_after_m": [
+            14.23956,
+            -7.881482,
+            0.0,
+            14.419559,
+            -3.872407,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "b1_storage_powder_northwest_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_028_StoragePowder_North",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the Storage/Powder divider to the source-drawn north wall.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            -14.550168,
+            -0.246296,
+            0.0,
+            -14.370168,
+            0.95,
+            3.2
+          ],
+          "bounds_after_m": [
+            -14.550168,
+            -0.246296,
+            0.0,
+            -14.370168,
+            0.983148,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "b1_powder_east_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "B1_Wall_Interior_030_Powder_East",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the Powder east partition to the source-drawn north wall.",
+          "reference_files": [
+            "01_shell/B1/B1.png"
+          ],
+          "bounds_before_m": [
+            -8.952683,
+            -2.429259,
+            0.0,
+            -8.772683,
+            0.95,
+            3.2
+          ],
+          "bounds_after_m": [
+            -8.952683,
+            -2.429259,
+            0.0,
+            -8.772683,
+            0.983148,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        }
+      ],
+      "remaining_warnings": []
+    },
+    "1F": {
+      "floor": "1F",
+      "elevation_m": 0.0,
+      "status": "PASS",
+      "legacy_validator": {
+        "passed": 49,
+        "failed": 0
+      },
+      "raw_candidate_counts": {
+        "UNWALKABLE_SLIVER": 1,
+        "WALL_GLASS_CRACK": 1,
+        "WALL_WALL_CRACK": 4
+      },
+      "confirmed_defects_found": 20,
+      "wall_wall_cracks_found": 9,
+      "wall_glass_cracks_found": 10,
+      "exterior_gaps_found": 0,
+      "interior_accidental_gaps_found": 9,
+      "unwalkable_slivers_found": 1,
+      "accidental_columns_found": 0,
+      "floating_objects_found": 0,
+      "overlapping_objects_found": 0,
+      "intentional_openings_preserved": [
+        {
+          "name": "1F_Connection_2F",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Connection_B1",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Corridor_Guest2",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Corridor_Powder",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Foyer_Corridor_Left",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Foyer_Corridor_Right",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Foyer_GreatRoom",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Garage_GreatRoom",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Garage_Storage_InferredSlidingAccess",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Garage_Utility",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Garage_Wine",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_GreatRoom_LeftCorridor",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Guest1_Ensuite1",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Guest1_Wine",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Guest2_Ensuite2",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Kitchen_Mudroom",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Kitchen_Pantry",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Kitchen_RightCorridor",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Main_Entry",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Pantry_Mudroom",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "Corridor_Guest2",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Corridor_Powder",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Foyer_Corridor_Left",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Foyer_Corridor_Right",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Foyer_GreatRoom",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Garage_GreatRoom",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Garage_Storage_InferredSlidingAccess",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Garage_Utility",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Garage_Wine",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "GreatRoom_LeftCorridor",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Guest1_Ensuite1",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Guest1_Wine",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Guest2_Ensuite2",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Kitchen_Mudroom",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Kitchen_Pantry",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Kitchen_RightCorridor",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Main_Entry",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Pantry_Mudroom",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "VOID_GreatRoom_OpenToAbove",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_StairA",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_StairA_Entrance",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_StairB",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_StairB_Entrance",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "StairA_Entrance",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "StairB_Entrance",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Garage_TerraceVestibule",
+          "classification": "INTENTIONAL_TERRACE_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "1F_Opening_Kitchen_TerraceVestibule",
+          "classification": "INTENTIONAL_TERRACE_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "Garage_TerraceVestibule",
+          "classification": "INTENTIONAL_TERRACE_OPENING",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "name": "Kitchen_TerraceVestibule",
+          "classification": "INTENTIONAL_TERRACE_OPENING",
+          "source": "scene_property:door_paths_json",
+          "preserved": true
+        },
+        {
+          "id": "endpoint:1F_Column_006_Kitchen_NE:1F_Glass_013_Pantry_North",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "objects": [
+            "1F_Column_006_Kitchen_NE",
+            "1F_Glass_013_Pantry_North"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.037317,
+            "dx_m": 0.037317,
+            "dy_m": 0.0
+          },
+          "decision": "FALSE_POSITIVE",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "rationale": "The source plan and constructive footprints show the Kitchen_North wall completing this three-object junction; extending the glazing would overlap that wall."
+        },
+        {
+          "id": "endpoint:1F_Wall_Exterior_011_Ensuite1_South:1F_Wall_Exterior_012_Guest1_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "objects": [
+            "1F_Wall_Exterior_011_Ensuite1_South",
+            "1F_Wall_Exterior_012_Guest1_South"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.142223,
+            "dx_m": 0.0,
+            "dy_m": 0.142223
+          },
+          "decision": "PRESERVED_REFERENCE_INTENT",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "rationale": "The apparent bounding-box separation is the source-drawn stepped south-facade glazing/reveal, not an open envelope hole."
+        },
+        {
+          "id": "endpoint:1F_Wall_Exterior_013_StairA_South:1F_Wall_Interior_008_StairA_West",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "objects": [
+            "1F_Wall_Exterior_013_StairA_South",
+            "1F_Wall_Interior_008_StairA_West"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.139259,
+            "dx_m": 0.0,
+            "dy_m": 0.139259
+          },
+          "decision": "FALSE_POSITIVE",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "rationale": "The Guest1 south wall completes this three-object stair/corridor junction; extending StairA_West causes a verified overlap."
+        },
+        {
+          "id": "endpoint:1F_Wall_Exterior_017_Guest2_South:1F_Wall_Exterior_018_Ensuite2_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "objects": [
+            "1F_Wall_Exterior_017_Guest2_South",
+            "1F_Wall_Exterior_018_Ensuite2_South"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.142223,
+            "dx_m": 0.0,
+            "dy_m": 0.142223
+          },
+          "decision": "PRESERVED_REFERENCE_INTENT",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "rationale": "The source plan shows the same intentional stepped south-facade glazing/reveal as the west guest suite."
+        },
+        {
+          "id": "endpoint:1F_Wall_Interior_001_Garage_GreatRoom:1F_Wall_Interior_008_StairA_West",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "objects": [
+            "1F_Wall_Interior_001_Garage_GreatRoom",
+            "1F_Wall_Interior_008_StairA_West"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.096583,
+            "dx_m": 0.096583,
+            "dy_m": 0.0
+          },
+          "decision": "FALSE_POSITIVE",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "rationale": "A third structural wall completes the source-traced junction and the legacy aperture/overlap validator passes."
+        },
+        {
+          "id": "sliver:1F_Wall_Exterior_017_Guest2_South:1F_Wall_Exterior_018_Ensuite2_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "objects": [
+            "1F_Wall_Exterior_017_Guest2_South",
+            "1F_Wall_Exterior_018_Ensuite2_South"
+          ],
+          "evidence": {
+            "clear_width_candidate_m": 0.142223,
+            "x_projection_m": 0.522432,
+            "y_projection_m": -0.142223
+          },
+          "decision": "FALSE_POSITIVE",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "rationale": "This repeats the bounding-box fa\u00e7ade-step candidate above; it is not an interior traversable-space sliver."
+        }
+      ],
+      "fixes_applied": [
+        {
+          "id": "1f_pantry_east_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_014_Pantry_East",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            18.480356,
+            1.759259,
+            0.0,
+            18.500357,
+            7.037037,
+            3.2
+          ],
+          "bounds_after_m": [
+            18.507547,
+            1.759259,
+            0.0,
+            18.527548,
+            7.037037,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.027191
+        },
+        {
+          "id": "1f_mudroom_east_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_015_Mudroom_East",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            18.480356,
+            -1.935185,
+            0.0,
+            18.500357,
+            0.668519,
+            3.2
+          ],
+          "bounds_after_m": [
+            18.507547,
+            -1.935185,
+            0.0,
+            18.527548,
+            0.668519,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.027191
+        },
+        {
+          "id": "1f_ensuite1_west_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_016_Ensuite1_West",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            -16.746477,
+            -8.47963,
+            0.0,
+            -16.726479,
+            -6.087037,
+            3.2
+          ],
+          "bounds_after_m": [
+            -16.773668,
+            -8.47963,
+            0.0,
+            -16.75367,
+            -6.087037,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.027191
+        },
+        {
+          "id": "1f_ensuite1_south_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_017_Ensuite1_South",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            -15.934172,
+            -10.213704,
+            0.0,
+            -15.001258,
+            -10.193704,
+            3.2
+          ],
+          "bounds_after_m": [
+            -15.934172,
+            -10.275556,
+            0.0,
+            -15.001258,
+            -10.255555,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.061852
+        },
+        {
+          "id": "1f_guest1_south_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_018_GuestSuite1_South",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            -13.172747,
+            -10.635926,
+            0.0,
+            -8.993292,
+            -10.615926,
+            3.2
+          ],
+          "bounds_after_m": [
+            -13.172747,
+            -10.697778,
+            0.0,
+            -8.993292,
+            -10.677777,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.061852
+        },
+        {
+          "id": "1f_staira_south_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_019_StairA_South",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Close the source-plan stair-jamb to glazing transition.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            -6.567715,
+            -11.163704,
+            0.0,
+            -5.298952,
+            -11.143703,
+            3.2
+          ],
+          "bounds_after_m": [
+            -6.567715,
+            -11.077038,
+            0.0,
+            -5.298952,
+            -11.057037,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.086666
+        },
+        {
+          "id": "1f_stairb_south_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_020_StairB_South",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Close the source-plan stair-jamb to glazing transition.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            5.298952,
+            -11.163704,
+            0.0,
+            6.269182,
+            -11.143703,
+            3.2
+          ],
+          "bounds_after_m": [
+            5.298952,
+            -11.077038,
+            0.0,
+            6.269182,
+            -11.057037,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.086666
+        },
+        {
+          "id": "1f_guest2_south_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_021_GuestSuite2_South",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            8.694759,
+            -10.635926,
+            0.0,
+            13.695178,
+            -10.615926,
+            3.2
+          ],
+          "bounds_after_m": [
+            8.694759,
+            -10.697778,
+            0.0,
+            13.695178,
+            -10.677777,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.061852
+        },
+        {
+          "id": "1f_ensuite2_south_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_022_Ensuite2_South",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            15.561007,
+            -10.213704,
+            0.0,
+            16.307337,
+            -10.193704,
+            3.2
+          ],
+          "bounds_after_m": [
+            15.561007,
+            -10.275556,
+            0.0,
+            16.307337,
+            -10.255555,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.061852
+        },
+        {
+          "id": "1f_ensuite2_east_glass_alignment",
+          "operation": "translate_object",
+          "object": "1F_Glass_023_Ensuite2_East",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            16.633186,
+            -8.47963,
+            0.0,
+            16.653187,
+            -6.051852,
+            3.2
+          ],
+          "bounds_after_m": [
+            16.679035,
+            -8.47963,
+            0.0,
+            16.699036,
+            -6.051852,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.045849
+        },
+        {
+          "id": "1f_corridor_left_west_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_007_Corridor_Left",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan corridor T-junction at the garage/great-room partition.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            -7.015513,
+            -2.922407,
+            0.0,
+            -5.149685,
+            -2.742407,
+            3.2
+          ],
+          "bounds_after_m": [
+            -7.056122,
+            -2.922407,
+            0.0,
+            -5.149685,
+            -2.742407,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.040608
+        },
+        {
+          "id": "1f_storage_utility_south_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_003_Storage_Utility",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction with the service/guest wall.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            -14.680776,
+            -4.433333,
+            0.0,
+            -14.500775,
+            -1.374259,
+            3.2
+          ],
+          "bounds_after_m": [
+            -14.680776,
+            -4.501667,
+            0.0,
+            -14.500775,
+            -1.374259,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.068333
+        },
+        {
+          "id": "1f_utility_wine_south_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_004_Utility_Wine",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction with the service/guest wall.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            -11.210336,
+            -4.433333,
+            0.0,
+            -11.030335,
+            -1.374259,
+            3.2
+          ],
+          "bounds_after_m": [
+            -11.210336,
+            -4.501667,
+            0.0,
+            -11.030335,
+            -1.374259,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.068333
+        },
+        {
+          "id": "1f_guest1_ensuite_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_006_Guest1_Ensuite",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction with the service/guest wall.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            -13.729203,
+            -10.275556,
+            0.0,
+            -13.549203,
+            -4.75,
+            3.2
+          ],
+          "bounds_after_m": [
+            -13.729203,
+            -10.275556,
+            0.0,
+            -13.549203,
+            -4.681667,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.068333
+        },
+        {
+          "id": "1f_staira_west_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_008_StairA_West",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan stair-wall T-junction.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            -7.571362,
+            -10.697778,
+            0.0,
+            -7.351363,
+            -4.75,
+            3.2
+          ],
+          "bounds_after_m": [
+            -7.571362,
+            -10.697778,
+            0.0,
+            -7.351363,
+            -4.681667,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.068333
+        },
+        {
+          "id": "1f_pantry_mudroom_west_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_011_Pantry_Mudroom",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction at pixel X=981.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            14.777358,
+            1.299815,
+            0.0,
+            18.210482,
+            1.479815,
+            3.2
+          ],
+          "bounds_after_m": [
+            14.718092,
+            1.299815,
+            0.0,
+            18.210482,
+            1.479815,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.059266
+        },
+        {
+          "id": "1f_powder_guest_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_018_Powder_Guest2",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction with the right corridor wall.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            7.463312,
+            -8.393703,
+            0.0,
+            10.090838,
+            -4.75,
+            3.2
+          ],
+          "bounds_after_m": [
+            7.463312,
+            -8.393703,
+            0.0,
+            10.090838,
+            -4.681667,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.068333
+        },
+        {
+          "id": "1f_guest2_ensuite_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_019_Guest2_Ensuite",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction with the right corridor wall.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            13.941028,
+            -10.555555,
+            0.0,
+            14.121027,
+            -4.75,
+            3.2
+          ],
+          "bounds_after_m": [
+            13.941028,
+            -10.555555,
+            0.0,
+            14.121027,
+            -4.681667,
+            3.2
+          ],
+          "vertices_changed": 6,
+          "displacement_m": 0.068333
+        },
+        {
+          "id": "1f_powder_guest_west_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_018_Powder_Guest2",
+          "classification": "UNWALKABLE_SLIVER",
+          "reason": "The source-plan horizontal partition starts where the stair-east wall ends at pixel X=785.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            7.463312,
+            -8.393703,
+            0.0,
+            10.090838,
+            -4.681667,
+            3.2
+          ],
+          "bounds_after_m": [
+            7.160881,
+            -8.393703,
+            0.0,
+            10.090838,
+            -4.681667,
+            3.2
+          ],
+          "vertices_changed": 6,
+          "displacement_m": 0.302432
+        },
+        {
+          "id": "1f_guest2_ensuite_south_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "1F_Wall_Interior_019_Guest2_Ensuite",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Extend the suite partition to the stepped guest-suite facade and close the interior envelope.",
+          "reference_files": [
+            "01_shell/1F/1F.png"
+          ],
+          "bounds_before_m": [
+            13.941028,
+            -10.555555,
+            0.0,
+            14.121027,
+            -4.681667,
+            3.2
+          ],
+          "bounds_after_m": [
+            13.941028,
+            -10.697778,
+            0.0,
+            14.121027,
+            -4.681667,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.142222
+        }
+      ],
+      "remaining_warnings": []
+    },
+    "2F": {
+      "floor": "2F",
+      "elevation_m": 3.2,
+      "status": "PASS",
+      "legacy_validator": {
+        "passed": 67,
+        "failed": 0
+      },
+      "raw_candidate_counts": {
+        "WALL_GLASS_CRACK": 5,
+        "WALL_WALL_CRACK": 2
+      },
+      "confirmed_defects_found": 12,
+      "wall_wall_cracks_found": 10,
+      "wall_glass_cracks_found": 2,
+      "exterior_gaps_found": 0,
+      "interior_accidental_gaps_found": 10,
+      "unwalkable_slivers_found": 0,
+      "accidental_columns_found": 0,
+      "floating_objects_found": 0,
+      "overlapping_objects_found": 0,
+      "intentional_openings_preserved": [
+        {
+          "name": "2F_Connection_1F",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Connection_3F",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "BCloset_Gallery",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "2F_Camera_Openings_Repaired_Overview",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_ACloset_Corridor",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_BCloset_Gallery",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_Corridor_Ensuite1",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_Corridor_Ensuite2",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_Corridor_Guest1",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_Corridor_Guest2",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_Corridor_Powder",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_DownTo1F",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_FamilyLounge_Gaming",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_Gaming_BBath",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_Gaming_BCloset",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_GuestA_ABath",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_GuestA_ACloset",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_GuestA_FamilyLounge",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_UpTo3F",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "ACloset_Corridor",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Corridor_Ensuite1",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Corridor_Ensuite2",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Corridor_Guest1",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Corridor_Guest2",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Corridor_Powder",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "FamilyLounge_Gaming",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Gaming_BBath",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "Gaming_BCloset",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "GuestA_ABath",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "GuestA_ACloset",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "GuestA_FamilyLounge",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repaired_objects_json_0",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_property:opening_gap_repaired_objects_json",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repair_0",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_gap_repair",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repaired_objects_json_1",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_gap_repaired_objects_json",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repaired_objects_json_2",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_gap_repaired_objects_json",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repaired_objects_json_3",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_gap_repaired_objects_json",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repaired_objects_json_4",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_gap_repaired_objects_json",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repaired_objects_json_5",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_gap_repaired_objects_json",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repaired_objects_json_6",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_gap_repaired_objects_json",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repaired_objects_json_7",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_gap_repaired_objects_json",
+          "preserved": true
+        },
+        {
+          "name": "opening_gap_repaired_objects_json_8",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "source": "scene_property:opening_gap_repaired_objects_json",
+          "preserved": true
+        },
+        {
+          "name": "2F_Opening_ArtGallery_StairDown",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "ArtGallery_StairDown",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_property:wall_opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "id": "endpoint:2F_Column_002_FamilyTerrace_West:2F_Wall_Exterior_004_GuestA_NorthEast",
+          "classification": "INTENTIONAL_TERRACE_OPENING",
+          "objects": [
+            "2F_Column_002_FamilyTerrace_West",
+            "2F_Wall_Exterior_004_GuestA_NorthEast"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.11195,
+            "dx_m": 0.11195,
+            "dy_m": 0.0
+          },
+          "decision": "PRESERVED_REFERENCE_INTENT",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "rationale": "The source plan and legacy validator identify this as the Family Terrace west return/doorway clearance."
+        },
+        {
+          "id": "endpoint:2F_Column_003_FamilyLounge_NorthWest:2F_Glass_004_FamilyTerrace_West_Return",
+          "classification": "INTENTIONAL_TERRACE_OPENING",
+          "objects": [
+            "2F_Column_003_FamilyLounge_NorthWest",
+            "2F_Glass_004_FamilyTerrace_West_Return"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.111949,
+            "dx_m": 0.111949,
+            "dy_m": 0.0
+          },
+          "decision": "PRESERVED_REFERENCE_INTENT",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "rationale": "The clear return is part of the validated Family Terrace interface and must not be filled."
+        },
+        {
+          "id": "endpoint:2F_Column_004_FamilyLounge_NorthEast:2F_Glass_006_FamilyTerrace_East_Return",
+          "classification": "INTENTIONAL_TERRACE_OPENING",
+          "objects": [
+            "2F_Column_004_FamilyLounge_NorthEast",
+            "2F_Glass_006_FamilyTerrace_East_Return"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.074633,
+            "dx_m": 0.074633,
+            "dy_m": 0.0
+          },
+          "decision": "PRESERVED_REFERENCE_INTENT",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "rationale": "The clear return is part of the validated Family Terrace interface and must not be filled."
+        },
+        {
+          "id": "endpoint:2F_Column_007_SouthWest_Junction:2F_Glass_012_Guest1_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "objects": [
+            "2F_Column_007_SouthWest_Junction",
+            "2F_Glass_012_Guest1_South"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.149266,
+            "dx_m": 0.149266,
+            "dy_m": 0.0
+          },
+          "decision": "FALSE_POSITIVE",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "rationale": "A source-traced exterior wall return occupies the interval; extending the glass creates positive-area overlap."
+        },
+        {
+          "id": "endpoint:2F_Column_010_SouthEast_Junction:2F_Glass_013_Guest2_South",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "objects": [
+            "2F_Column_010_SouthEast_Junction",
+            "2F_Glass_013_Guest2_South"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.11195,
+            "dx_m": 0.11195,
+            "dy_m": 0.0
+          },
+          "decision": "FALSE_POSITIVE",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "rationale": "A source-traced exterior wall return occupies the interval between the glass and junction column."
+        },
+        {
+          "id": "endpoint:2F_Glass_013_Guest2_South:2F_Wall_Exterior_015_Guest2_WestSouth",
+          "classification": "INTENTIONAL_GLASS_TRANSITION",
+          "objects": [
+            "2F_Glass_013_Guest2_South",
+            "2F_Wall_Exterior_015_Guest2_WestSouth"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.11195,
+            "dx_m": 0.11195,
+            "dy_m": 0.0
+          },
+          "decision": "FALSE_POSITIVE",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "rationale": "2F_Wall_Exterior_016 supplies the small source-traced wall strip; direct glass extension overlaps it."
+        },
+        {
+          "id": "endpoint:2F_Wall_Interior_012_RightCorridor_South:2F_Wall_Interior_013_Powder_Guest2",
+          "classification": "INTENTIONAL_DOOR",
+          "objects": [
+            "2F_Wall_Interior_012_RightCorridor_South",
+            "2F_Wall_Interior_013_Powder_Guest2"
+          ],
+          "evidence": {
+            "plan_gap_m": 0.033148,
+            "dx_m": 0.0,
+            "dy_m": 0.033148
+          },
+          "decision": "PRESERVED_REFERENCE_INTENT",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "rationale": "The 0.033 m termination belongs to the scheduled Corridor_Powder doorway; extending it blocks the verified aperture."
+        }
+      ],
+      "fixes_applied": [
+        {
+          "id": "2f_artgallery_southwest_column_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Column_008_ArtGallery_SouthWest",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the reference-plan column-to-guest-wall junction.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            -8.545493,
+            -10.274074,
+            0.0,
+            -7.388679,
+            -9.746296,
+            3.2
+          ],
+          "bounds_after_m": [
+            -8.545493,
+            -10.274074,
+            0.0,
+            -7.388679,
+            -9.64074,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.105556
+        },
+        {
+          "id": "2f_artgallery_southeast_column_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Column_009_ArtGallery_SouthEast",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the reference-plan column-to-guest-wall junction.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            6.903564,
+            -10.274074,
+            0.0,
+            8.060377,
+            -9.746296,
+            3.2
+          ],
+          "bounds_after_m": [
+            6.903564,
+            -10.274074,
+            0.0,
+            8.060377,
+            -9.64074,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.105556
+        },
+        {
+          "id": "2f_ensuite1_south_glass_alignment",
+          "operation": "translate_object",
+          "object": "2F_Glass_011_Ensuite1_South",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Align the glazing transition with the normalized south exterior wall.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            -16.493921,
+            -9.017407,
+            0.0,
+            -15.710273,
+            -8.997407,
+            3.2
+          ],
+          "bounds_after_m": [
+            -16.493921,
+            -9.114445,
+            0.0,
+            -15.710273,
+            -9.094444,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.097037
+        },
+        {
+          "id": "2f_ensuite2_south_glass_alignment",
+          "operation": "translate_object",
+          "object": "2F_Glass_014_Ensuite2_South",
+          "classification": "WALL_GLASS_CRACK",
+          "reason": "Align the glazing transition with the normalized south exterior wall.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            15.449057,
+            -9.017407,
+            0.0,
+            16.195389,
+            -8.997407,
+            3.2
+          ],
+          "bounds_after_m": [
+            15.449057,
+            -9.114445,
+            0.0,
+            16.195389,
+            -9.094444,
+            3.2
+          ],
+          "vertices_changed": 8,
+          "displacement_m": 0.097037
+        },
+        {
+          "id": "2f_guesta_family_south_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Wall_Interior_001_GuestA_FamilyLounge",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction at pixel Y=560.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            -7.702579,
+            -1.653704,
+            0.0,
+            -7.522579,
+            8.655556,
+            3.2
+          ],
+          "bounds_after_m": [
+            -7.702579,
+            -1.686852,
+            0.0,
+            -7.522579,
+            8.655556,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "2f_abath_acloset_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Wall_Interior_003_ABath_ACloset",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction at pixel Y=452.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            -13.691887,
+            -1.653704,
+            0.0,
+            -13.511887,
+            2.146296,
+            3.2
+          ],
+          "bounds_after_m": [
+            -13.691887,
+            -1.653704,
+            0.0,
+            -13.511887,
+            2.179445,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "2f_abath_acloset_south_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Wall_Interior_003_ABath_ACloset",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction at pixel Y=560.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            -13.691887,
+            -1.653704,
+            0.0,
+            -13.511887,
+            2.179445,
+            3.2
+          ],
+          "bounds_after_m": [
+            -13.691887,
+            -1.686852,
+            0.0,
+            -13.511887,
+            2.179445,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "2f_ensuite1_guest1_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Wall_Interior_006_Ensuite1_Guest1",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan corridor T-junction at pixel Y=606.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            -13.76652,
+            -8.796296,
+            0.0,
+            -13.58652,
+            -3.272222,
+            3.2
+          ],
+          "bounds_after_m": [
+            -13.76652,
+            -8.796296,
+            0.0,
+            -13.58652,
+            -3.239074,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "2f_family_gaming_south_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Wall_Interior_008_FamilyLounge_Gaming",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction at pixel Y=560.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            7.093438,
+            -1.653704,
+            0.0,
+            7.273438,
+            8.655556,
+            3.2
+          ],
+          "bounds_after_m": [
+            7.093438,
+            -1.686852,
+            0.0,
+            7.273438,
+            8.655556,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "2f_bcloset_bbath_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Wall_Interior_010_BCloset_BBath",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction at pixel Y=452.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            12.877505,
+            -1.653704,
+            0.0,
+            13.057506,
+            2.146296,
+            3.2
+          ],
+          "bounds_after_m": [
+            12.877505,
+            -1.653704,
+            0.0,
+            13.057506,
+            2.179445,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "2f_bcloset_bbath_south_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Wall_Interior_010_BCloset_BBath",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan T-junction at pixel Y=560.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            12.877505,
+            -1.653704,
+            0.0,
+            13.057506,
+            2.179445,
+            3.2
+          ],
+          "bounds_after_m": [
+            12.877505,
+            -1.686852,
+            0.0,
+            13.057506,
+            2.179445,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        },
+        {
+          "id": "2f_guest2_ensuite_north_endpoint",
+          "operation": "move_terminal_plane",
+          "object": "2F_Wall_Interior_014_Guest2_Ensuite2",
+          "classification": "WALL_WALL_CRACK",
+          "reason": "Close the source-plan corridor T-junction at pixel Y=606.",
+          "reference_files": [
+            "01_shell/2F/2F.png"
+          ],
+          "bounds_before_m": [
+            14.258218,
+            -8.796296,
+            0.0,
+            14.438218,
+            -3.272222,
+            3.2
+          ],
+          "bounds_after_m": [
+            14.258218,
+            -8.796296,
+            0.0,
+            14.438218,
+            -3.239074,
+            3.2
+          ],
+          "vertices_changed": 4,
+          "displacement_m": 0.033148
+        }
+      ],
+      "remaining_warnings": []
+    },
+    "3F": {
+      "floor": "3F",
+      "elevation_m": 6.4,
+      "status": "PASS",
+      "legacy_validator": {
+        "passed": 47,
+        "failed": 0
+      },
+      "raw_candidate_counts": {},
+      "confirmed_defects_found": 0,
+      "wall_wall_cracks_found": 0,
+      "wall_glass_cracks_found": 0,
+      "exterior_gaps_found": 0,
+      "interior_accidental_gaps_found": 0,
+      "unwalkable_slivers_found": 0,
+      "accidental_columns_found": 0,
+      "floating_objects_found": 0,
+      "overlapping_objects_found": 0,
+      "intentional_openings_preserved": [
+        {
+          "name": "3F_Connection_2F",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "3F_Opening_From2F",
+          "classification": "INTENTIONAL_DOOR",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "3F_Opening_StairArrival_From2F",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "StairArrival_From2F",
+          "classification": "INTENTIONAL_STAIR_OPENING",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        },
+        {
+          "name": "3F_Opening_PrivateTerrace_DoubleDoor",
+          "classification": "INTENTIONAL_TERRACE_OPENING",
+          "source": "scene_object",
+          "preserved": true
+        },
+        {
+          "name": "PrivateTerrace_DoubleDoor",
+          "classification": "INTENTIONAL_TERRACE_OPENING",
+          "source": "scene_property:opening_schedule_json",
+          "preserved": true
+        }
+      ],
+      "fixes_applied": [],
+      "remaining_warnings": []
+    },
+    "Roof": {
+      "floor": "Roof",
+      "elevation_m": 9.6,
+      "status": "PASS",
+      "legacy_validator": {
+        "passed": 21,
+        "failed": 0
+      },
+      "raw_candidate_counts": {},
+      "confirmed_defects_found": 0,
+      "wall_wall_cracks_found": 0,
+      "wall_glass_cracks_found": 0,
+      "exterior_gaps_found": 0,
+      "interior_accidental_gaps_found": 0,
+      "unwalkable_slivers_found": 0,
+      "accidental_columns_found": 0,
+      "floating_objects_found": 0,
+      "overlapping_objects_found": 0,
+      "intentional_openings_preserved": [
+        {
+          "name": "Roof_Connection_3F",
+          "classification": "INTENTIONAL_CIRCULATION",
+          "source": "scene_object",
+          "preserved": true
+        }
+      ],
+      "fixes_applied": [],
+      "remaining_warnings": []
+    }
+  },
+  "assembly_validation": {
+    "status": "PASS",
+    "passed": 8,
+    "failed": 0,
+    "floor_elevations_m": {
+      "B1": -3.2,
+      "1F": 0.0,
+      "2F": 3.2,
+      "3F": 6.4,
+      "Roof": 9.6
+    },
+    "per_floor": {
+      "B1": {
+        "objects": 78,
+        "transform_errors": []
+      },
+      "1F": {
+        "objects": 82,
+        "transform_errors": []
+      },
+      "2F": {
+        "objects": 78,
+        "transform_errors": []
+      },
+      "3F": {
+        "objects": 40,
+        "transform_errors": []
+      },
+      "Roof": {
+        "objects": 2,
+        "transform_errors": []
+      }
+    },
+    "checks": [
+      {
+        "name": "All required floor elevations are recorded",
+        "pass": true,
+        "detail": {
+          "B1": -3.2,
+          "1F": 0.0,
+          "2F": 3.2,
+          "3F": 6.4,
+          "Roof": 9.6
+        }
+      },
+      {
+        "name": "B1 collection is populated and translated exactly once",
+        "pass": true,
+        "detail": {
+          "objects": 78,
+          "transform_errors": []
+        }
+      },
+      {
+        "name": "1F collection is populated and translated exactly once",
+        "pass": true,
+        "detail": {
+          "objects": 82,
+          "transform_errors": []
+        }
+      },
+      {
+        "name": "2F collection is populated and translated exactly once",
+        "pass": true,
+        "detail": {
+          "objects": 78,
+          "transform_errors": []
+        }
+      },
+      {
+        "name": "3F collection is populated and translated exactly once",
+        "pass": true,
+        "detail": {
+          "objects": 40,
+          "transform_errors": []
+        }
+      },
+      {
+        "name": "Roof collection is populated and translated exactly once",
+        "pass": true,
+        "detail": {
+          "objects": 2,
+          "transform_errors": []
+        }
+      },
+      {
+        "name": "Inspection render is configured at 1920x1080",
+        "pass": true,
+        "detail": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "name": "Inspection camera exists",
+        "pass": true,
+        "detail": "VillaV3_InspectionCamera"
+      }
+    ]
+  },
+  "gazebo_validation": {
+    "status": "PASS",
+    "models": {
+      "B1": {
+        "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_B1/model.sdf",
+        "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_B1/meshes/villa_B1.obj",
+        "mesh_bytes": 67970,
+        "issues": []
+      },
+      "1F": {
+        "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_1F/model.sdf",
+        "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_1F/meshes/villa_1F.obj",
+        "mesh_bytes": 181903,
+        "issues": []
+      },
+      "2F": {
+        "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_2F/model.sdf",
+        "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_2F/meshes/villa_2F.obj",
+        "mesh_bytes": 107030,
+        "issues": []
+      },
+      "3F": {
+        "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_3F/model.sdf",
+        "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_3F/meshes/villa_3F.obj",
+        "mesh_bytes": 31937,
+        "issues": []
+      },
+      "Roof": {
+        "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_Roof/model.sdf",
+        "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_Roof/meshes/villa_Roof.obj",
+        "mesh_bytes": 12636,
+        "issues": []
+      }
+    },
+    "world": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/worlds/villa_v3.sdf",
+    "world_floor_poses": {
+      "B1": [
+        0.0,
+        0.0,
+        -3.2,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "1F": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "2F": [
+        0.0,
+        0.0,
+        3.2,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "3F": [
+        0.0,
+        0.0,
+        6.4,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Roof": [
+        0.0,
+        0.0,
+        9.6,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "physics_engine": "gz-physics-bullet-featherstone-plugin",
+    "visual_collision_policy": "same cleaned shell OBJ used for both",
+    "issues": []
+  },
+  "gazebo_headless_validation": {
+    "status": "PASS",
+    "command_mode": "headless server, run until bounded timeout",
+    "exit_code": 124,
+    "checks": {
+      "bounded_exit": true,
+      "server_started": true,
+      "world_loaded": true,
+      "bullet_mesh_collision_backend_loaded": true,
+      "world_initialized": true,
+      "no_missing_resources": true,
+      "collision_shapes_created": true,
+      "no_runtime_errors": true
+    },
+    "log": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/gazebo_headless.log"
+  },
+  "deliverables": {
+    "full_blender_assembly": {
+      "path": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/02_assembly/villa_v3_full.blend",
+      "exists": true,
+      "bytes": 3205816
+    },
+    "inspection_render": {
+      "path": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/02_assembly/villa_v3_full.png",
+      "exists": true,
+      "bytes": 1983011
+    },
+    "gazebo_world": {
+      "path": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/worlds/villa_v3.sdf",
+      "exists": true,
+      "bytes": 1863
+    }
+  },
+  "remaining_warnings": []
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "command_mode": "headless server, run until bounded timeout",
+  "exit_code": 124,
+  "checks": {
+    "bounded_exit": true,
+    "server_started": true,
+    "world_loaded": true,
+    "bullet_mesh_collision_backend_loaded": true,
+    "world_initialized": true,
+    "no_missing_resources": true,
+    "collision_shapes_created": true,
+    "no_runtime_errors": true
+  },
+  "log": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/gazebo_headless.log"
+}

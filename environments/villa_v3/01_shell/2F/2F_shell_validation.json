@@ -1,0 +1,1783 @@
+{
+  "checks": [
+    {
+      "name": "Blender file opens with expected 2F scene",
+      "pass": true,
+      "detail": "2F"
+    },
+    {
+      "name": "Scene uses meters at unit scale 1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Expected architectural mesh count is nonzero",
+      "pass": true,
+      "detail": 78
+    },
+    {
+      "name": "All architectural object scales are unit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No duplicate object names",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Required floor, terrace, stair, and void objects exist",
+      "pass": true,
+      "detail": [
+        "2F_Floor_Main",
+        "2F_Terrace_Family",
+        "2F_Stair_UpTo3F",
+        "2F_OpenToBelow",
+        "2F_Opening_DownTo1F",
+        "2F_Connection_1F"
+      ]
+    },
+    {
+      "name": "Saved top validation camera is truly orthographic",
+      "pass": true,
+      "detail": {
+        "type": "ORTHO",
+        "ortho_scale": 42.5
+      }
+    },
+    {
+      "name": "Calibrated source image is packed in the scene",
+      "pass": true,
+      "detail": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "name": "No furniture or decorative object names",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No ceiling or other-floor room slab",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Overall X extent is realistic and consistent with the 1F architectural envelope",
+      "pass": true,
+      "detail": [
+        37.61509323120117,
+        24.65555477142334,
+        3.600000023841858
+      ]
+    },
+    {
+      "name": "Overall Y extent is realistic for the corrected terrace projection",
+      "pass": true,
+      "detail": [
+        37.61509323120117,
+        24.65555477142334,
+        3.600000023841858
+      ]
+    },
+    {
+      "name": "No absurd coordinates or millimeter/meter scale error",
+      "pass": true,
+      "detail": [
+        [
+          -18.919496536254883,
+          18.69559669494629
+        ],
+        [
+          -12.948147773742676,
+          11.707406997680664
+        ],
+        [
+          -0.3999999761581421,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "name": "Family Terrace correction leaves every unrelated XY bound unchanged",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Main slab top is Z=0 with 0.20 m thickness",
+      "pass": true,
+      "detail": [
+        -0.20000000298023224,
+        0.0
+      ]
+    },
+    {
+      "name": "Main floor slab is horizontal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No floor covers the OPEN TO BELOW region",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "1F to 2F stair opening is not covered by the 2F slab",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Exterior walls use nominal 0.28 m thickness",
+      "pass": true,
+      "detail": [
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28
+      ]
+    },
+    {
+      "name": "Interior walls use nominal 0.18 m thickness",
+      "pass": true,
+      "detail": [
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18
+      ]
+    },
+    {
+      "name": "Stairwell walls use nominal 0.22 m thickness",
+      "pass": true,
+      "detail": [
+        0.22
+      ]
+    },
+    {
+      "name": "Walls are vertical with reasonable 3.2 m height",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No non-column wall thickness exceeds 0.30 m",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Glass is separate and 0.020 m thick",
+      "pass": true,
+      "detail": {
+        "count": 16,
+        "values": [
+          0.02
+        ]
+      }
+    },
+    {
+      "name": "Repaired wall and glazing meshes preserve their architectural materials",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Opening schedule contains exactly 12 source doorways and 2 circulation openings",
+      "pass": true,
+      "detail": {
+        "doorways": 12,
+        "circulation_openings": 2
+      }
+    },
+    {
+      "name": "Source-derived doorway widths remain within documented shell range",
+      "pass": true,
+      "detail": {
+        "minimum_m": 0.8582809224318658,
+        "maximum_m": 1.4425925925925926,
+        "wide_family_lounge_doors_m": {
+          "GuestA_FamilyLounge": 1.4425925925925926,
+          "FamilyLounge_Gaming": 1.4425925925925926
+        }
+      }
+    },
+    {
+      "name": "Intentional doorways and circulation openings are not blocked by walls or columns",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Every enclosed room has a measured-clear entrance and reaches the main circulation hub",
+      "pass": true,
+      "detail": {
+        "required_spaces": [
+          "A Bath",
+          "A Closet",
+          "Art Gallery / Upper Hall",
+          "B Bath",
+          "B Closet",
+          "Bridge / Upper Gallery",
+          "En-suite 1",
+          "En-suite 2",
+          "Family Lounge",
+          "Gaming Lounge / Media Room",
+          "Guest Suite 1",
+          "Guest Suite 2",
+          "Guest Suite A",
+          "Left Corridor",
+          "Powder Room",
+          "Right Corridor"
+        ],
+        "reachable_spaces": [
+          "A Bath",
+          "A Closet",
+          "Art Gallery / Upper Hall",
+          "B Bath",
+          "B Closet",
+          "Bridge / Upper Gallery",
+          "En-suite 1",
+          "En-suite 2",
+          "Family Lounge",
+          "Gaming Lounge / Media Room",
+          "Guest Suite 1",
+          "Guest Suite 2",
+          "Guest Suite A",
+          "Left Corridor",
+          "Powder Room",
+          "Right Corridor"
+        ],
+        "inaccessible_spaces": [],
+        "blocked_connections": []
+      }
+    },
+    {
+      "name": "Every traced wall-run interruption is a scheduled doorway or glazing bay",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Both audited 0.896 m B-service wall gaps are closed by continuous wall geometry",
+      "pass": true,
+      "detail": [
+        {
+          "rect_xyxy_m": [
+            10.112788259958071,
+            -1.9000000000000001,
+            11.0083857442348,
+            -1.653703703703704
+          ],
+          "covered_area_m2": 0.16120750019385377,
+          "required_wall_area_m2": 0.16120754716981128,
+          "coverage_ratio": 0.9999997085995145
+        },
+        {
+          "rect_xyxy_m": [
+            15.710272536687631,
+            -1.9000000000000001,
+            16.60587002096436,
+            -1.653703703703704
+          ],
+          "covered_area_m2": 0.16120750019385377,
+          "required_wall_area_m2": 0.16120754716981128,
+          "coverage_ratio": 0.9999997085995145
+        }
+      ]
+    },
+    {
+      "name": "All 11 audited wall-to-glass endpoint cracks are closed at intended faces",
+      "pass": true,
+      "detail": {
+        "clearances_m": {
+          "GuestA_West_North:north": 0.0,
+          "GuestA_West_South:north": 0.0,
+          "GuestA_West_South:south": 0.0,
+          "Gaming_East_North:north": 0.0,
+          "Gaming_East_South:north": 0.0,
+          "Gaming_East_South:south": 0.0,
+          "Ensuite1_West:south": 0.0,
+          "Ensuite2_East:north": 0.0,
+          "Ensuite2_East:south": 0.0,
+          "FamilyLounge_North:west": 4.76837158203125e-07,
+          "FamilyLounge_North:east": 0.0
+        },
+        "failed": {}
+      }
+    },
+    {
+      "name": "No overlapping duplicate wall segments exist",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No intended wall intersection is missed",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Every mesh outside the approved wall/glass correction set is byte-geometrically unchanged",
+      "pass": true,
+      "detail": {
+        "backup_exists": true,
+        "changed": [],
+        "missing": [],
+        "extra": [],
+        "error_count": 0,
+        "approved_changed_objects": [
+          "2F_Glass_002_GuestA_West_North",
+          "2F_Glass_003_GuestA_West_South",
+          "2F_Glass_005_FamilyLounge_North",
+          "2F_Glass_008_Gaming_East_North",
+          "2F_Glass_009_Gaming_East_South",
+          "2F_Glass_010_Ensuite1_West",
+          "2F_Glass_015_Ensuite2_East",
+          "2F_Glass_016_ArtGallery_South",
+          "2F_Wall_Interior_011_BService_Corridor"
+        ],
+        "v3_authorized_changed_objects": [
+          "2F_Column_008_ArtGallery_SouthWest",
+          "2F_Column_009_ArtGallery_SouthEast",
+          "2F_Glass_011_Ensuite1_South",
+          "2F_Glass_014_Ensuite2_South",
+          "2F_Wall_Interior_001_GuestA_FamilyLounge",
+          "2F_Wall_Interior_003_ABath_ACloset",
+          "2F_Wall_Interior_006_Ensuite1_Guest1",
+          "2F_Wall_Interior_008_FamilyLounge_Gaming",
+          "2F_Wall_Interior_010_BCloset_BBath",
+          "2F_Wall_Interior_014_Guest2_Ensuite2"
+        ]
+      }
+    },
+    {
+      "name": "2F to 3F stair is physical and rises north with realistic steps",
+      "pass": true,
+      "detail": {
+        "direction": "north (+Y), up to 3F",
+        "risers": 18,
+        "riser_m": 0.17777777777777778,
+        "tread_m": 0.26,
+        "terminal_elevation_m": 3.2
+      }
+    },
+    {
+      "name": "Existing 1F to 2F flight is not duplicated in the independent 2F shell",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Guardrails exist on all four void edges and exposed stair side edges",
+      "pass": true,
+      "detail": {
+        "expected": [
+          "2F_Railing_OpenToBelow_North",
+          "2F_Railing_OpenToBelow_South",
+          "2F_Railing_OpenToBelow_East",
+          "2F_Railing_OpenToBelow_West",
+          "2F_Railing_Stair_001_West",
+          "2F_Railing_Stair_002_East_North"
+        ],
+        "actual": [
+          "2F_Railing_OpenToBelow_North",
+          "2F_Railing_OpenToBelow_South",
+          "2F_Railing_OpenToBelow_East",
+          "2F_Railing_OpenToBelow_West",
+          "2F_Railing_Stair_001_West",
+          "2F_Railing_Stair_002_East_North",
+          "2F_Railing_FamilyTerrace_North",
+          "2F_Railing_FamilyTerrace_West",
+          "2F_Railing_FamilyTerrace_East"
+        ]
+      }
+    },
+    {
+      "name": "Guardrail height is 1.05 to 1.10 m with nominal top at 1.10 m",
+      "pass": true,
+      "detail": {
+        "2F_Railing_OpenToBelow_North": 1.100000023841858,
+        "2F_Railing_OpenToBelow_South": 1.100000023841858,
+        "2F_Railing_OpenToBelow_East": 1.100000023841858,
+        "2F_Railing_OpenToBelow_West": 1.100000023841858,
+        "2F_Railing_Stair_001_West": 1.100000023841858,
+        "2F_Railing_Stair_002_East_North": 1.100000023841858
+      }
+    },
+    {
+      "name": "Guardrail glass has physical 0.020 m thickness",
+      "pass": true,
+      "detail": [
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "name": "All guardrail object scales are unit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Void guardrails remain outside the OPEN TO BELOW clear volume",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Guardrails cover every exposed OPEN TO BELOW edge",
+      "pass": true,
+      "detail": {
+        "north": 0.9920892242630291,
+        "south": 0.9920892242630291,
+        "east": 0.9885167464114832,
+        "west": 0.9885167464114832
+      }
+    },
+    {
+      "name": "Guardrails do not block Bridge / Upper Gallery circulation",
+      "pass": true,
+      "detail": {
+        "west_m": 2.1443605870020965,
+        "east_m": 2.18167714884696,
+        "south_m": 1.5281481481481483
+      }
+    },
+    {
+      "name": "Stair guardrails do not block the south landing exit toward +X",
+      "pass": true,
+      "detail": {
+        "clear_exit_bounds_xy_m": [
+          [
+            6.940880503144654,
+            8.140880503144654
+          ],
+          [
+            -10.837037037037037,
+            -9.750740740740742
+          ]
+        ],
+        "blockers": []
+      }
+    },
+    {
+      "name": "Stair opening exposed west side and east flight side have guardrails",
+      "pass": true,
+      "detail": {
+        "west": 0.9865462472749922,
+        "east_north": 0.9835390946502057
+      }
+    },
+    {
+      "name": "Dedicated Family Terrace slab exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Family Terrace is north of the Family Lounge glazing",
+      "pass": true,
+      "detail": {
+        "terrace_center_y": 10.357407093048096,
+        "glazing_y": 9.007407188415527
+      }
+    },
+    {
+      "name": "Family Terrace connects continuously to the Lounge glazing interface",
+      "pass": true,
+      "detail": {
+        "gap_m": 0.0,
+        "terrace_south_at_glass_m": 9.007407188415527,
+        "glazing_center_y_m": 9.007407188415527
+      }
+    },
+    {
+      "name": "Family Terrace slab has the validated 0.20 m thickness",
+      "pass": true,
+      "detail": [
+        -0.20000000298023224,
+        0.0
+      ]
+    },
+    {
+      "name": "Family Terrace uses the approved 10.0 m luxury proportion width",
+      "pass": true,
+      "detail": 10.0
+    },
+    {
+      "name": "Family Terrace provides the approved uniform 2.7 m furnishing depth",
+      "pass": true,
+      "detail": {
+        "minimum_m": 2.6999998092651367,
+        "maximum_m": 2.6999998092651367
+      }
+    },
+    {
+      "name": "Family Terrace actual top area is approximately 27 square metres",
+      "pass": true,
+      "detail": 26.999998092651367
+    },
+    {
+      "name": "Family Terrace width/depth ratio matches the approved luxury design",
+      "pass": true,
+      "detail": 3.7037039653427666
+    },
+    {
+      "name": "Family Terrace does not overlap indoor or bridge floor slabs",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Family Terrace does not cover OPEN TO BELOW",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "Family Terrace object scale is unit",
+      "pass": true,
+      "detail": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Family Lounge glazing remains a full-height separator at the terrace interface",
+      "pass": true,
+      "detail": [
+        [
+          -4.813837051391602,
+          4.328721046447754
+        ],
+        [
+          8.997406959533691,
+          9.017407417297363
+        ],
+        [
+          0.0,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "name": "Family Terrace exposed north, west, and east edges have 1.10 m glass guards",
+      "pass": true,
+      "detail": [
+        "2F_Railing_FamilyTerrace_North",
+        "2F_Railing_FamilyTerrace_West",
+        "2F_Railing_FamilyTerrace_East"
+      ]
+    },
+    {
+      "name": "All architectural meshes are closed with positive signed volume",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "No duplicate architectural meshes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "2F stair opening matches the measured 1F Stair B opening",
+      "pass": true,
+      "detail": {
+        "2F": [
+          4.5899371069182395,
+          -10.837037037037037,
+          6.940880503144654,
+          -4.890740740740741
+        ],
+        "1F": [
+          4.5899371069182395,
+          -10.837037037037037,
+          6.940880503144654,
+          -4.890740740740741
+        ],
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "2F reuses exact 1F origin and pixel-to-world transform",
+      "pass": true,
+      "detail": {
+        "origin_pixel": [
+          585.0,
+          513.0
+        ],
+        "origin_xy_m": [
+          0.0,
+          0.0
+        ],
+        "meters_per_pixel_x": 0.03731656184486373,
+        "meters_per_pixel_y": 0.03518518518518519,
+        "x_axis": "east/right",
+        "y_axis": "north/top"
+      }
+    },
+    {
+      "name": "2F OPEN TO BELOW substantially overlaps the measured 1F Great Room void",
+      "pass": true,
+      "detail": {
+        "2F_open_to_below": [
+          -5.29895178197065,
+          -3.2722222222222226,
+          4.813836477987421,
+          3.6944444444444446
+        ],
+        "1F_great_room_void": [
+          -7.015513626834382,
+          -2.1814814814814816,
+          7.015513626834382,
+          8.127777777777778
+        ],
+        "overlap_fraction": 0.8434343434343435,
+        "fully_contained": false
+      }
+    },
+    {
+      "name": "Shared major X anchors align to 1F within 0.25 m",
+      "pass": true,
+      "detail": {
+        "centerline": 0.0,
+        "stair_opening": 0.0,
+        "west_outer_face": 0.07463312368972552,
+        "east_outer_face": 0.11194968553459361
+      }
+    },
+    {
+      "name": "1F/2F alignment regression remains unchanged outside the corrected terrace",
+      "pass": true,
+      "detail": {
+        "non_terrace_xy_error_m": 0.0,
+        "stair_xy_error_m": 0.0,
+        "origin_xy_error_m": 0.0,
+        "major_anchor_error_m": 0.11194968553459361
+      }
+    },
+    {
+      "name": "1F source scripts remain byte-identical and the shell carries authorized V3 repairs",
+      "pass": true,
+      "detail": {
+        "expected_immutable_files": {
+          "build_1F_shell.py": "5292c83303f937fff36b335fb8bbbef4bbabda5f1a450d7eca488322acb9c28e",
+          "validate_1F_shell.py": "e1310b4a1f97d1d0e8af517ff1be725921700e57db7892e3abaadd3cf49b84db"
+        },
+        "actual": {
+          "build_1F_shell.py": "5292c83303f937fff36b335fb8bbbef4bbabda5f1a450d7eca488322acb9c28e",
+          "validate_1F_shell.py": "e1310b4a1f97d1d0e8af517ff1be725921700e57db7892e3abaadd3cf49b84db"
+        },
+        "v3_repaired_objects": [
+          "1F_Glass_014_Pantry_East",
+          "1F_Glass_015_Mudroom_East",
+          "1F_Glass_016_Ensuite1_West",
+          "1F_Glass_017_Ensuite1_South",
+          "1F_Glass_018_GuestSuite1_South",
+          "1F_Glass_019_StairA_South",
+          "1F_Glass_020_StairB_South",
+          "1F_Glass_021_GuestSuite2_South",
+          "1F_Glass_022_Ensuite2_South",
+          "1F_Glass_023_Ensuite2_East",
+          "1F_Wall_Interior_003_Storage_Utility",
+          "1F_Wall_Interior_004_Utility_Wine",
+          "1F_Wall_Interior_006_Guest1_Ensuite",
+          "1F_Wall_Interior_007_Corridor_Left",
+          "1F_Wall_Interior_008_StairA_West",
+          "1F_Wall_Interior_011_Pantry_Mudroom",
+          "1F_Wall_Interior_018_Powder_Guest2",
+          "1F_Wall_Interior_019_Guest2_Ensuite"
+        ]
+      }
+    }
+  ],
+  "passed": 67,
+  "failed": 0,
+  "mesh_objects": 78,
+  "triangles": 2548,
+  "bounds_m": {
+    "min": [
+      -18.919496536254883,
+      -12.948147773742676,
+      -0.3999999761581421
+    ],
+    "max": [
+      18.69559669494629,
+      11.707406997680664,
+      3.200000047683716
+    ],
+    "dimensions": [
+      37.61509323120117,
+      24.65555477142334,
+      3.600000023841858
+    ]
+  },
+  "non_terrace_xy_regression_error_m": 0.0,
+  "wall_thicknesses_m": {
+    "exterior": [
+      0.28
+    ],
+    "interior": [
+      0.18
+    ],
+    "stairwell": [
+      0.22
+    ]
+  },
+  "glass_thicknesses_m": [
+    0.02
+  ],
+  "railing": {
+    "glass_objects": [
+      "2F_Railing_OpenToBelow_North",
+      "2F_Railing_OpenToBelow_South",
+      "2F_Railing_OpenToBelow_East",
+      "2F_Railing_OpenToBelow_West",
+      "2F_Railing_Stair_001_West",
+      "2F_Railing_Stair_002_East_North",
+      "2F_Railing_FamilyTerrace_North",
+      "2F_Railing_FamilyTerrace_West",
+      "2F_Railing_FamilyTerrace_East"
+    ],
+    "toprail_objects": [
+      "2F_Railing_OpenToBelow_North_TopRail",
+      "2F_Railing_OpenToBelow_South_TopRail",
+      "2F_Railing_OpenToBelow_East_TopRail",
+      "2F_Railing_OpenToBelow_West_TopRail",
+      "2F_Railing_Stair_001_West_TopRail",
+      "2F_Railing_Stair_002_East_North_TopRail",
+      "2F_Railing_FamilyTerrace_North_TopRail",
+      "2F_Railing_FamilyTerrace_West_TopRail",
+      "2F_Railing_FamilyTerrace_East_TopRail"
+    ],
+    "overall_heights_m": {
+      "2F_Railing_OpenToBelow_North": 1.100000023841858,
+      "2F_Railing_OpenToBelow_South": 1.100000023841858,
+      "2F_Railing_OpenToBelow_East": 1.100000023841858,
+      "2F_Railing_OpenToBelow_West": 1.100000023841858,
+      "2F_Railing_Stair_001_West": 1.100000023841858,
+      "2F_Railing_Stair_002_East_North": 1.100000023841858
+    },
+    "glass_thicknesses_m": [
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02
+    ],
+    "void_edge_coverage": {
+      "north": 0.9920892242630291,
+      "south": 0.9920892242630291,
+      "east": 0.9885167464114832,
+      "west": 0.9885167464114832
+    },
+    "bridge_clearance_m": {
+      "west_m": 2.1443605870020965,
+      "east_m": 2.18167714884696,
+      "south_m": 1.5281481481481483
+    },
+    "stair_edge_coverage": {
+      "west": 0.9865462472749922,
+      "east_north": 0.9835390946502057
+    },
+    "stair_landing_exit_blockers": []
+  },
+  "open_to_below_dimensions_m": [
+    10.112788259958071,
+    6.966666666666667
+  ],
+  "bridge_dimensions_m": {
+    "overall": [
+      388,
+      242
+    ],
+    "overall_world": [
+      14.478825995807128,
+      8.514814814814816
+    ],
+    "walkway_clearance": {
+      "west_m": 2.1443605870020965,
+      "east_m": 2.18167714884696,
+      "south_m": 1.5281481481481483
+    }
+  },
+  "stair_opening_dimensions_m": [
+    2.3509433962264144,
+    5.946296296296296
+  ],
+  "family_terrace": {
+    "validated": true,
+    "terrace_width_m": 10.0,
+    "terrace_depth_m": 2.6999998092651367,
+    "terrace_minimum_depth_m": 2.6999998092651367,
+    "terrace_maximum_depth_m": 2.6999998092651367,
+    "terrace_area_m2": 26.999998092651367,
+    "terrace_width_depth_ratio": 3.7037039653427666,
+    "terrace_center_xy": [
+      -0.2612161636352539,
+      10.357407093048096
+    ],
+    "terrace_slab_thickness_m": 0.20000000298023224,
+    "lounge_glazing_center_y_m": 9.007407188415527,
+    "gap_to_lounge_glazing_m": 0.0,
+    "indoor_floor_overlap_m2": 0.0,
+    "open_to_below_overlap_m2": 0.0,
+    "guardrail_objects": [
+      "2F_Railing_FamilyTerrace_North",
+      "2F_Railing_FamilyTerrace_West",
+      "2F_Railing_FamilyTerrace_East"
+    ]
+  },
+  "non_column_walls_over_030_m": [],
+  "wall_audit": {
+    "opening_schedule": [
+      {
+        "name": "GuestA_ABath",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          115,
+          445,
+          139,
+          452
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 0.8955974842767296,
+        "aperture_world_xyxy_m": [
+          -17.538784067085956,
+          2.1462962962962964,
+          -16.643186582809225,
+          2.392592592592593
+        ]
+      },
+      {
+        "name": "GuestA_ACloset",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          334,
+          445,
+          360,
+          452
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 0.9702306079664571,
+        "aperture_world_xyxy_m": [
+          -9.366457023060796,
+          2.1462962962962964,
+          -8.39622641509434,
+          2.392592592592593
+        ]
+      },
+      {
+        "name": "ACloset_Corridor",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          320,
+          560,
+          345,
+          567
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 0.9329140461215933,
+        "aperture_world_xyxy_m": [
+          -9.88888888888889,
+          -1.9000000000000001,
+          -8.955974842767295,
+          -1.653703703703704
+        ]
+      },
+      {
+        "name": "Corridor_Ensuite1",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          184,
+          599,
+          208,
+          606
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 0.8955974842767296,
+        "aperture_world_xyxy_m": [
+          -14.963941299790356,
+          -3.2722222222222226,
+          -14.068343815513627,
+          -3.025925925925926
+        ]
+      },
+      {
+        "name": "Corridor_Guest1",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          320,
+          599,
+          345,
+          606
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 0.9329140461215933,
+        "aperture_world_xyxy_m": [
+          -9.88888888888889,
+          -3.2722222222222226,
+          -8.955974842767295,
+          -3.025925925925926
+        ]
+      },
+      {
+        "name": "GuestA_FamilyLounge",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          377,
+          445,
+          385,
+          486
+        ],
+        "clear_aperture_px": [
+          377,
+          452,
+          385,
+          486
+        ],
+        "width_axis": "y",
+        "reason": "source wide side door",
+        "width_m": 1.4425925925925926,
+        "aperture_world_xyxy_m": [
+          -7.761844863731657,
+          0.9500000000000001,
+          -7.463312368972747,
+          2.392592592592593
+        ],
+        "clear_aperture_world_xyxy_m": [
+          -7.761844863731657,
+          0.9500000000000001,
+          -7.463312368972747,
+          2.1462962962962964
+        ]
+      },
+      {
+        "name": "FamilyLounge_Gaming",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          773,
+          445,
+          782,
+          486
+        ],
+        "clear_aperture_px": [
+          773,
+          452,
+          782,
+          486
+        ],
+        "width_axis": "y",
+        "reason": "source wide side door",
+        "width_m": 1.4425925925925926,
+        "aperture_world_xyxy_m": [
+          7.015513626834382,
+          0.9500000000000001,
+          7.351362683438155,
+          2.392592592592593
+        ],
+        "clear_aperture_world_xyxy_m": [
+          7.015513626834382,
+          0.9500000000000001,
+          7.351362683438155,
+          2.1462962962962964
+        ]
+      },
+      {
+        "name": "Gaming_BCloset",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          798,
+          445,
+          825,
+          452
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 1.0075471698113208,
+        "aperture_world_xyxy_m": [
+          7.948427672955975,
+          2.1462962962962964,
+          8.955974842767295,
+          2.392592592592593
+        ]
+      },
+      {
+        "name": "Gaming_BBath",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          1023,
+          445,
+          1046,
+          452
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 0.8582809224318658,
+        "aperture_world_xyxy_m": [
+          16.344654088050316,
+          2.1462962962962964,
+          17.202935010482182,
+          2.392592592592593
+        ]
+      },
+      {
+        "name": "Corridor_Powder",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          825,
+          599,
+          856,
+          606
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 1.1568134171907758,
+        "aperture_world_xyxy_m": [
+          8.955974842767295,
+          -3.2722222222222226,
+          10.112788259958071,
+          -3.025925925925926
+        ]
+      },
+      {
+        "name": "Corridor_Guest2",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          895,
+          599,
+          922,
+          606
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 1.0075471698113208,
+        "aperture_world_xyxy_m": [
+          11.568134171907758,
+          -3.2722222222222226,
+          12.575681341719077,
+          -3.025925925925926
+        ]
+      },
+      {
+        "name": "Corridor_Ensuite2",
+        "classification": "intentional_doorway",
+        "aperture_px": [
+          982,
+          599,
+          1006,
+          606
+        ],
+        "width_axis": "x",
+        "reason": "source door swing",
+        "width_m": 0.8955974842767296,
+        "aperture_world_xyxy_m": [
+          14.814675052410902,
+          -3.2722222222222226,
+          15.710272536687631,
+          -3.025925925925926
+        ]
+      },
+      {
+        "name": "BCloset_Gallery",
+        "classification": "circulation_opening",
+        "marker_path_px": [
+          [
+            760,
+            580
+          ],
+          [
+            795,
+            580
+          ]
+        ],
+        "aperture_px": [
+          760,
+          568,
+          795,
+          592
+        ],
+        "reason": "source open gallery circulation",
+        "marker_center_world_xy_m": [
+          7.183438155136269,
+          -2.3574074074074076
+        ],
+        "aperture_world_xyxy_m": [
+          6.530398322851153,
+          -2.7796296296296297,
+          7.836477987421384,
+          -1.9351851851851853
+        ]
+      },
+      {
+        "name": "ArtGallery_StairDown",
+        "classification": "circulation_opening",
+        "marker_path_px": [
+          [
+            771,
+            785
+          ],
+          [
+            805,
+            785
+          ]
+        ],
+        "aperture_px": [
+          708,
+          640,
+          771,
+          676
+        ],
+        "reason": "open north approach to the 1F stair aperture",
+        "marker_center_world_xy_m": [
+          7.575262054507338,
+          -9.570370370370371
+        ],
+        "aperture_world_xyxy_m": [
+          4.5899371069182395,
+          -5.735185185185186,
+          6.940880503144654,
+          -4.468518518518519
+        ]
+      }
+    ],
+    "intentional_doorway_count": 12,
+    "circulation_opening_count": 2,
+    "intentional_opening_count": 14,
+    "doorway_widths_m": {
+      "GuestA_ABath": 0.8955974842767296,
+      "GuestA_ACloset": 0.9702306079664571,
+      "ACloset_Corridor": 0.9329140461215933,
+      "Corridor_Ensuite1": 0.8955974842767296,
+      "Corridor_Guest1": 0.9329140461215933,
+      "GuestA_FamilyLounge": 1.4425925925925926,
+      "FamilyLounge_Gaming": 1.4425925925925926,
+      "Gaming_BCloset": 1.0075471698113208,
+      "Gaming_BBath": 0.8582809224318658,
+      "Corridor_Powder": 1.1568134171907758,
+      "Corridor_Guest2": 1.0075471698113208,
+      "Corridor_Ensuite2": 0.8955974842767296
+    },
+    "minimum_doorway_width_m": 0.8582809224318658,
+    "maximum_doorway_width_m": 1.4425925925925926,
+    "source_wall_run_gaps": [
+      {
+        "wall": "2F_Wall_Exterior_009_Ensuite1_West",
+        "axis": "y",
+        "gap_px": [
+          118,
+          648,
+          133,
+          721
+        ],
+        "classification": "glazing",
+        "matched_object": "2F_Glass_010_Ensuite1_West"
+      },
+      {
+        "wall": "2F_Wall_Exterior_010_Ensuite1_South",
+        "axis": "x",
+        "gap_px": [
+          143,
+          763,
+          164,
+          780
+        ],
+        "classification": "glazing",
+        "matched_object": "2F_Glass_011_Ensuite1_South"
+      },
+      {
+        "wall": "2F_Wall_Exterior_011_Guest1_South",
+        "axis": "x",
+        "gap_px": [
+          227,
+          774,
+          329,
+          787
+        ],
+        "classification": "glazing",
+        "matched_object": "2F_Glass_012_Guest1_South"
+      },
+      {
+        "wall": "2F_Wall_Exterior_017_Ensuite2_South",
+        "axis": "x",
+        "gap_px": [
+          999,
+          763,
+          1019,
+          780
+        ],
+        "classification": "glazing",
+        "matched_object": "2F_Glass_014_Ensuite2_South"
+      },
+      {
+        "wall": "2F_Wall_Exterior_018_Ensuite2_East",
+        "axis": "y",
+        "gap_px": [
+          1030,
+          648,
+          1044,
+          721
+        ],
+        "classification": "glazing",
+        "matched_object": "2F_Glass_015_Ensuite2_East"
+      },
+      {
+        "wall": "2F_Wall_Interior_001_GuestA_FamilyLounge",
+        "axis": "y",
+        "gap_px": [
+          377,
+          445,
+          385,
+          486
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "GuestA_FamilyLounge"
+      },
+      {
+        "wall": "2F_Wall_Interior_002_GuestA_ABath_ACloset",
+        "axis": "x",
+        "gap_px": [
+          334,
+          445,
+          360,
+          452
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "GuestA_ACloset"
+      },
+      {
+        "wall": "2F_Wall_Interior_004_AService_Corridor",
+        "axis": "x",
+        "gap_px": [
+          320,
+          560,
+          345,
+          567
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "ACloset_Corridor"
+      },
+      {
+        "wall": "2F_Wall_Interior_005_LeftCorridor_South",
+        "axis": "x",
+        "gap_px": [
+          184,
+          599,
+          208,
+          606
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "Corridor_Ensuite1"
+      },
+      {
+        "wall": "2F_Wall_Interior_005_LeftCorridor_South",
+        "axis": "x",
+        "gap_px": [
+          320,
+          599,
+          345,
+          606
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "Corridor_Guest1"
+      },
+      {
+        "wall": "2F_Wall_Interior_008_FamilyLounge_Gaming",
+        "axis": "y",
+        "gap_px": [
+          773,
+          445,
+          782,
+          486
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "FamilyLounge_Gaming"
+      },
+      {
+        "wall": "2F_Wall_Interior_009_Gaming_BCloset_BBath",
+        "axis": "x",
+        "gap_px": [
+          798,
+          445,
+          825,
+          452
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "Gaming_BCloset"
+      },
+      {
+        "wall": "2F_Wall_Interior_009_Gaming_BCloset_BBath",
+        "axis": "x",
+        "gap_px": [
+          1023,
+          445,
+          1046,
+          452
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "Gaming_BBath"
+      },
+      {
+        "wall": "2F_Wall_Interior_012_RightCorridor_South",
+        "axis": "x",
+        "gap_px": [
+          825,
+          599,
+          856,
+          606
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "Corridor_Powder"
+      },
+      {
+        "wall": "2F_Wall_Interior_012_RightCorridor_South",
+        "axis": "x",
+        "gap_px": [
+          895,
+          599,
+          922,
+          606
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "Corridor_Guest2"
+      },
+      {
+        "wall": "2F_Wall_Interior_012_RightCorridor_South",
+        "axis": "x",
+        "gap_px": [
+          982,
+          599,
+          1006,
+          606
+        ],
+        "classification": "intentional_doorway",
+        "matched_object": "Corridor_Ensuite2"
+      }
+    ],
+    "accidental_gaps_found": 2,
+    "accidental_gaps_corrected": 2,
+    "unexplained_gaps_remaining": 0,
+    "wall_to_glass_cracks_found": 11,
+    "wall_to_glass_cracks_corrected": 11,
+    "wall_to_glass_junction_clearances_m": {
+      "GuestA_West_North:north": 0.0,
+      "GuestA_West_South:north": 0.0,
+      "GuestA_West_South:south": 0.0,
+      "Gaming_East_North:north": 0.0,
+      "Gaming_East_South:north": 0.0,
+      "Gaming_East_South:south": 0.0,
+      "Ensuite1_West:south": 0.0,
+      "Ensuite2_East:north": 0.0,
+      "Ensuite2_East:south": 0.0,
+      "FamilyLounge_North:west": 4.76837158203125e-07,
+      "FamilyLounge_North:east": 0.0
+    },
+    "smallest_remaining_wall_glass_junction_clearance_m": 0.0,
+    "maximum_remaining_wall_glass_junction_clearance_m": 4.76837158203125e-07,
+    "blocked_openings": [],
+    "duplicate_wall_overlaps": [],
+    "missed_wall_intersections": [],
+    "ambiguous_openings_requiring_manual_review": [],
+    "preserved_source_clearances": [
+      "FamilyTerrace_West_Return structural/doorway zone",
+      "FamilyTerrace_East_Return structural/doorway zone",
+      "ArtGallery_South west open return",
+      "ArtGallery_South east open return"
+    ],
+    "bservice_gap_coverage": [
+      {
+        "rect_xyxy_m": [
+          10.112788259958071,
+          -1.9000000000000001,
+          11.0083857442348,
+          -1.653703703703704
+        ],
+        "covered_area_m2": 0.16120750019385377,
+        "required_wall_area_m2": 0.16120754716981128,
+        "coverage_ratio": 0.9999997085995145
+      },
+      {
+        "rect_xyxy_m": [
+          15.710272536687631,
+          -1.9000000000000001,
+          16.60587002096436,
+          -1.653703703703704
+        ],
+        "covered_area_m2": 0.16120750019385377,
+        "required_wall_area_m2": 0.16120754716981128,
+        "coverage_ratio": 0.9999997085995145
+      }
+    ]
+  },
+  "room_access_audit": {
+    "circulation_hub": "Art Gallery / Upper Hall",
+    "required_spaces": [
+      "A Bath",
+      "A Closet",
+      "Art Gallery / Upper Hall",
+      "B Bath",
+      "B Closet",
+      "Bridge / Upper Gallery",
+      "En-suite 1",
+      "En-suite 2",
+      "Family Lounge",
+      "Gaming Lounge / Media Room",
+      "Guest Suite 1",
+      "Guest Suite 2",
+      "Guest Suite A",
+      "Left Corridor",
+      "Powder Room",
+      "Right Corridor"
+    ],
+    "reachable_spaces": [
+      "A Bath",
+      "A Closet",
+      "Art Gallery / Upper Hall",
+      "B Bath",
+      "B Closet",
+      "Bridge / Upper Gallery",
+      "En-suite 1",
+      "En-suite 2",
+      "Family Lounge",
+      "Gaming Lounge / Media Room",
+      "Guest Suite 1",
+      "Guest Suite 2",
+      "Guest Suite A",
+      "Left Corridor",
+      "Powder Room",
+      "Right Corridor"
+    ],
+    "inaccessible_spaces": [],
+    "measured_clear_connections": [
+      {
+        "spaces": [
+          "Guest Suite A",
+          "A Bath"
+        ],
+        "opening": "GuestA_ABath"
+      },
+      {
+        "spaces": [
+          "Guest Suite A",
+          "A Closet"
+        ],
+        "opening": "GuestA_ACloset"
+      },
+      {
+        "spaces": [
+          "A Closet",
+          "Left Corridor"
+        ],
+        "opening": "ACloset_Corridor"
+      },
+      {
+        "spaces": [
+          "Left Corridor",
+          "En-suite 1"
+        ],
+        "opening": "Corridor_Ensuite1"
+      },
+      {
+        "spaces": [
+          "Left Corridor",
+          "Guest Suite 1"
+        ],
+        "opening": "Corridor_Guest1"
+      },
+      {
+        "spaces": [
+          "Guest Suite A",
+          "Family Lounge"
+        ],
+        "opening": "GuestA_FamilyLounge"
+      },
+      {
+        "spaces": [
+          "Family Lounge",
+          "Gaming Lounge / Media Room"
+        ],
+        "opening": "FamilyLounge_Gaming"
+      },
+      {
+        "spaces": [
+          "Gaming Lounge / Media Room",
+          "B Closet"
+        ],
+        "opening": "Gaming_BCloset"
+      },
+      {
+        "spaces": [
+          "Gaming Lounge / Media Room",
+          "B Bath"
+        ],
+        "opening": "Gaming_BBath"
+      },
+      {
+        "spaces": [
+          "Right Corridor",
+          "Powder Room"
+        ],
+        "opening": "Corridor_Powder"
+      },
+      {
+        "spaces": [
+          "Right Corridor",
+          "Guest Suite 2"
+        ],
+        "opening": "Corridor_Guest2"
+      },
+      {
+        "spaces": [
+          "Right Corridor",
+          "En-suite 2"
+        ],
+        "opening": "Corridor_Ensuite2"
+      },
+      {
+        "spaces": [
+          "Left Corridor",
+          "Art Gallery / Upper Hall"
+        ],
+        "opening": "Left Corridor_Art Gallery"
+      },
+      {
+        "spaces": [
+          "Right Corridor",
+          "Art Gallery / Upper Hall"
+        ],
+        "opening": "Right Corridor_Art Gallery"
+      },
+      {
+        "spaces": [
+          "Family Lounge",
+          "Bridge / Upper Gallery"
+        ],
+        "opening": "Family Lounge_Bridge"
+      },
+      {
+        "spaces": [
+          "Bridge / Upper Gallery",
+          "Art Gallery / Upper Hall"
+        ],
+        "opening": "Bridge_Art Gallery"
+      }
+    ],
+    "blocked_connections": []
+  },
+  "unrelated_geometry_regression": {
+    "backup_exists": true,
+    "changed": [],
+    "missing": [],
+    "extra": [],
+    "error_count": 0,
+    "approved_changed_objects": [
+      "2F_Glass_002_GuestA_West_North",
+      "2F_Glass_003_GuestA_West_South",
+      "2F_Glass_005_FamilyLounge_North",
+      "2F_Glass_008_Gaming_East_North",
+      "2F_Glass_009_Gaming_East_South",
+      "2F_Glass_010_Ensuite1_West",
+      "2F_Glass_015_Ensuite2_East",
+      "2F_Glass_016_ArtGallery_South",
+      "2F_Wall_Interior_011_BService_Corridor"
+    ],
+    "v3_authorized_changed_objects": [
+      "2F_Column_008_ArtGallery_SouthWest",
+      "2F_Column_009_ArtGallery_SouthEast",
+      "2F_Glass_011_Ensuite1_South",
+      "2F_Glass_014_Ensuite2_South",
+      "2F_Wall_Interior_001_GuestA_FamilyLounge",
+      "2F_Wall_Interior_003_ABath_ACloset",
+      "2F_Wall_Interior_006_Ensuite1_Guest1",
+      "2F_Wall_Interior_008_FamilyLounge_Gaming",
+      "2F_Wall_Interior_010_BCloset_BBath",
+      "2F_Wall_Interior_014_Guest2_Ensuite2"
+    ]
+  },
+  "alignment": {
+    "coordinate_system": {
+      "origin_xy_m": [
+        0.0,
+        0.0
+      ],
+      "origin_pixel": [
+        585.0,
+        513.0
+      ],
+      "meters_per_pixel": [
+        0.03731656184486373,
+        0.03518518518518519
+      ],
+      "orientation": "+X east, +Y north"
+    },
+    "one_f_architectural_bounds_xy_m": [
+      [
+        -18.844863891601562,
+        -12.490740776062012
+      ],
+      [
+        18.80754852294922,
+        12.45555591583252
+      ]
+    ],
+    "two_f_architectural_bounds_xy_m": [
+      [
+        -18.919496536254883,
+        -12.948147773742676
+      ],
+      [
+        18.69559669494629,
+        11.707406997680664
+      ]
+    ],
+    "origin_xy_error_m": 0.0,
+    "stair_opening_1f_xyxy_m": [
+      4.5899371069182395,
+      -10.837037037037037,
+      6.940880503144654,
+      -4.890740740740741
+    ],
+    "stair_opening_2f_xyxy_m": [
+      4.5899371069182395,
+      -10.837037037037037,
+      6.940880503144654,
+      -4.890740740740741
+    ],
+    "stair_xy_error_m": 0.0,
+    "open_to_below_inside_1f_great_room": false,
+    "open_to_below_overlap_fraction": 0.8434343434343435,
+    "open_to_below_source_extension_m": {
+      "west": 0,
+      "south": 1.090740740740741,
+      "east": 0,
+      "north": 0
+    },
+    "open_to_below_margin_m": [
+      1.7165618448637323,
+      -1.090740740740741,
+      2.2016771488469606,
+      4.433333333333334
+    ],
+    "major_anchor_errors_m": {
+      "centerline": 0.0,
+      "stair_opening": 0.0,
+      "west_outer_face": 0.07463312368972552,
+      "east_outer_face": 0.11194968553459361
+    },
+    "detailed_anchor_measurements_m": {
+      "one_f_building_center_xy_m": [
+        -0.018657684326171875,
+        -0.017592430114746094
+      ],
+      "two_f_building_center_xy_m": [
+        -0.11194992065429688,
+        -0.6203703880310059
+      ],
+      "building_center_xy_error_m": 0.609954676930015,
+      "x_centerline_error_m": 0.0,
+      "west_anchor_error_m": 0.07463264465332031,
+      "east_anchor_error_m": 0.11195182800292969,
+      "north_anchor_error_m": 0.7481489181518555,
+      "south_anchor_error_m": 0.45740699768066406,
+      "stair_center_xy_error_m": 0.0,
+      "stair_width_error_m": 0.0,
+      "stair_depth_error_m": 0.0
+    },
+    "source_2f_dimension_tick_span_under_stack_transform_m": {
+      "written_width_m": 35.6,
+      "written_depth_m": 22.8,
+      "2f_tick_width_under_1f_transform_m": 36.0104821802935,
+      "2f_tick_depth_under_1f_transform_m": 21.322222222222223,
+      "policy": "Use established 1F transform for stacking; preserve 2F source pixels."
+    }
+  },
+  "one_f_readonly_sha256": {
+    "build_1F_shell.py": "5292c83303f937fff36b335fb8bbbef4bbabda5f1a450d7eca488322acb9c28e",
+    "validate_1F_shell.py": "e1310b4a1f97d1d0e8af517ff1be725921700e57db7892e3abaadd3cf49b84db"
+  },
+  "validation_images": {
+    "2F_shell_top.png": {
+      "exists": true,
+      "bytes": 3843572
+    },
+    "2F_shell_perspective_front.png": {
+      "exists": true,
+      "bytes": 2316483
+    },
+    "2F_shell_perspective_corner.png": {
+      "exists": true,
+      "bytes": 2393121
+    },
+    "2F_shell_source_overlay.png": {
+      "exists": true,
+      "bytes": 1413951
+    },
+    "2F_vs_1F_alignment.png": {
+      "exists": true,
+      "bytes": 87142
+    },
+    "2F_open_to_below_validation.png": {
+      "exists": true,
+      "bytes": 2676472
+    },
+    "2F_family_terrace_validation.png": {
+      "exists": true,
+      "bytes": 2518689
+    },
+    "2F_wall_topology_validation.png": {
+      "exists": false,
+      "bytes": 0
+    }
+  }
+}

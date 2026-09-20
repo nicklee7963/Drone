@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "passed": 8,
+  "failed": 0,
+  "floor_elevations_m": {
+    "B1": -3.2,
+    "1F": 0.0,
+    "2F": 3.2,
+    "3F": 6.4,
+    "Roof": 9.6
+  },
+  "per_floor": {
+    "B1": {
+      "objects": 78,
+      "transform_errors": []
+    },
+    "1F": {
+      "objects": 82,
+      "transform_errors": []
+    },
+    "2F": {
+      "objects": 78,
+      "transform_errors": []
+    },
+    "3F": {
+      "objects": 40,
+      "transform_errors": []
+    },
+    "Roof": {
+      "objects": 2,
+      "transform_errors": []
+    }
+  },
+  "checks": [
+    {
+      "name": "All required floor elevations are recorded",
+      "pass": true,
+      "detail": {
+        "B1": -3.2,
+        "1F": 0.0,
+        "2F": 3.2,
+        "3F": 6.4,
+        "Roof": 9.6
+      }
+    },
+    {
+      "name": "B1 collection is populated and translated exactly once",
+      "pass": true,
+      "detail": {
+        "objects": 78,
+        "transform_errors": []
+      }
+    },
+    {
+      "name": "1F collection is populated and translated exactly once",
+      "pass": true,
+      "detail": {
+        "objects": 82,
+        "transform_errors": []
+      }
+    },
+    {
+      "name": "2F collection is populated and translated exactly once",
+      "pass": true,
+      "detail": {
+        "objects": 78,
+        "transform_errors": []
+      }
+    },
+    {
+      "name": "3F collection is populated and translated exactly once",
+      "pass": true,
+      "detail": {
+        "objects": 40,
+        "transform_errors": []
+      }
+    },
+    {
+      "name": "Roof collection is populated and translated exactly once",
+      "pass": true,
+      "detail": {
+        "objects": 2,
+        "transform_errors": []
+      }
+    },
+    {
+      "name": "Inspection render is configured at 1920x1080",
+      "pass": true,
+      "detail": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "Inspection camera exists",
+      "pass": true,
+      "detail": "VillaV3_InspectionCamera"
+    }
+  ]
+}

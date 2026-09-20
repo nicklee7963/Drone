@@ -1,0 +1,274 @@
+{
+  "checks": [
+    {
+      "name": "Blender file opens with expected standalone roof scene",
+      "pass": true,
+      "detail": "ROOF"
+    },
+    {
+      "name": "Scene uses meters at unit scale 1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Required roof geometry, connection marker, and cameras exist",
+      "pass": true,
+      "detail": [
+        "Roof_Slab",
+        "Roof_Parapet",
+        "Roof_Connection_3F",
+        "Roof_Camera_Top_Orthographic",
+        "Roof_Camera_Perspective_Corner"
+      ]
+    },
+    {
+      "name": "Only the slab and parapet are exportable architectural meshes",
+      "pass": true,
+      "detail": [
+        "Roof_Parapet",
+        "Roof_Slab"
+      ]
+    },
+    {
+      "name": "All architectural object scales are unit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Roof slab XY bounds match the approved 3F indoor body",
+      "pass": true,
+      "detail": {
+        "actual": [
+          -18.770233154296875,
+          -9.5703706741333,
+          17.650733947753906,
+          7.31851863861084
+        ],
+        "expected": [
+          -18.770230607966457,
+          -9.570370370370371,
+          17.650733752620546,
+          7.318518518518519
+        ]
+      }
+    },
+    {
+      "name": "Roof underside is the local assembly datum and slab is 0.20 m thick",
+      "pass": true,
+      "detail": [
+        0.0,
+        0.20000000298023224
+      ]
+    },
+    {
+      "name": "Parapet rises 0.30 m above the roof surface",
+      "pass": true,
+      "detail": [
+        0.20000000298023224,
+        0.5
+      ]
+    },
+    {
+      "name": "Slab footprint uses the approved 3F indoor rectangles without a stair cut",
+      "pass": true,
+      "detail": [
+        [
+          -18.770230607966457,
+          -6.298148148148148,
+          17.650733752620546,
+          7.318518518518519
+        ],
+        [
+          -17.650733752620546,
+          -9.570370370370371,
+          -0.8582809224318658,
+          -6.298148148148148
+        ],
+        [
+          5.373584905660378,
+          -9.570370370370371,
+          16.68050314465409,
+          -6.298148148148148
+        ],
+        [
+          -0.8582809224318658,
+          -9.042592592592593,
+          5.373584905660378,
+          -5.735185185185186
+        ]
+      ]
+    },
+    {
+      "name": "Representative 3F indoor points are covered by the roof",
+      "pass": true,
+      "detail": [
+        [
+          -18.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          17.0,
+          0.0
+        ],
+        [
+          -10.0,
+          -8.0
+        ],
+        [
+          2.25,
+          -8.5
+        ],
+        [
+          10.0,
+          -8.0
+        ]
+      ]
+    },
+    {
+      "name": "Private-terrace sample points are not covered by the roof",
+      "pass": true,
+      "detail": [
+        [
+          0.0,
+          9.0
+        ],
+        [
+          -12.0,
+          9.0
+        ],
+        [
+          12.0,
+          9.0
+        ]
+      ]
+    },
+    {
+      "name": "Roof meshes are closed solids with positive volume",
+      "pass": true,
+      "detail": {
+        "Roof_Slab": {
+          "non_manifold_edges": 0,
+          "volume_m3": 120.9965184440119,
+          "components": 1
+        },
+        "Roof_Parapet": {
+          "non_manifold_edges": 0,
+          "volume_m3": 5.77559381341979,
+          "components": 1
+        }
+      }
+    },
+    {
+      "name": "Roof slab is one connected solid",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "Roof parapet is one connected union without overlapping box components",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "Roof carries an origin-aligned 3F assembly marker",
+      "pass": true,
+      "detail": {
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "paired_object": "3F wall-top datum Z=3.20 m"
+      }
+    },
+    {
+      "name": "Saved top camera is truly orthographic",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Perspective validation camera exists",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Perspective camera contains the complete roof with safe margins",
+      "pass": true,
+      "detail": {
+        "x_min": 0.09068043529987335,
+        "x_max": 0.954447329044342,
+        "y_min": 0.08884952962398529,
+        "y_max": 0.7272218465805054,
+        "minimum_depth": 37.37569046020508
+      }
+    },
+    {
+      "name": "Live 3F source blend remains byte-identical",
+      "pass": true,
+      "detail": "30011cc91aa447ef3e2eec924eaeafa0fcf5348222b4d31bd54956343722d2de"
+    },
+    {
+      "name": "No duplicate object names",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No furniture, equipment, landscaping, or terrace geometry exists",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "passed": 21,
+  "failed": 0,
+  "mesh_objects": 2,
+  "object_count_total": 7,
+  "triangles": 404,
+  "bounds_m": {
+    "min": [
+      -18.770233154296875,
+      -9.5703706741333,
+      0.0
+    ],
+    "max": [
+      17.650733947753906,
+      7.31851863861084,
+      0.20000000298023224
+    ]
+  },
+  "assembly": {
+    "roof_local_underside_z_m": 0.0,
+    "recommended_3f_relative_pose_z_m": 3.2,
+    "assembled_roof_top_z_m": 3.4,
+    "assembled_parapet_top_z_m": 3.7
+  },
+  "source_3f_sha256": "30011cc91aa447ef3e2eec924eaeafa0fcf5348222b4d31bd54956343722d2de",
+  "geometry_quality": {
+    "Roof_Slab": {
+      "non_manifold_edges": 0,
+      "volume_m3": 120.9965184440119,
+      "components": 1
+    },
+    "Roof_Parapet": {
+      "non_manifold_edges": 0,
+      "volume_m3": 5.77559381341979,
+      "components": 1
+    }
+  },
+  "validation_images": {
+    "Roof_shell_top.png": {
+      "exists": true,
+      "bytes": 2834497,
+      "modified_unix_s": 1789480943.3365674,
+      "from_current_build": true
+    },
+    "Roof_shell_perspective_corner.png": {
+      "exists": true,
+      "bytes": 2283741,
+      "modified_unix_s": 1789480954.7592335,
+      "from_current_build": true
+    }
+  }
+}

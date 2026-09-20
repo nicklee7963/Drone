@@ -1,0 +1,431 @@
+Blender 4.5.3 LTS (hash 67807e1800cc built 2025-09-09 01:38:15)
+Fra:1 Mem:24.33M (Peak 24.33M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Floor_Main
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_001_Garage_NorthWest
+Fra:1 Mem:24.42M (Peak 24.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_005_TerraceDoor_Left
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_008_Pantry_East
+Fra:1 Mem:24.42M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_010_Ensuite1_West
+Fra:1 Mem:24.43M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_013_StairA_South
+Fra:1 Mem:24.43M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_014_Entry_West
+Fra:1 Mem:24.43M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_016_StairB_South
+Fra:1 Mem:24.43M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_001_Garage_GreatRoom
+Fra:1 Mem:24.43M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_004_Utility_Wine
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_006_Guest1_Ensuite
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_008_StairA_West
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_010_Pantry_Kitchen
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_012_Mudroom_Kitchen
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_013_Corridor_Right_North
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_014_Corridor_Right_West
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_016_StairB_West
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_018_Powder_Guest2
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_019_Guest2_Ensuite
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_002_TerraceDoor_Left
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_003_GreatRoom_NW
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_004_GreatRoom_NE
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_005_TerraceDoor_Right
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_011_Foyer_NW
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_012_Foyer_NE
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_014_Entry_E
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_015_Terrace_Main_W
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Validation_Area_Light
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_002_Garage_West
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Entry_Porch
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_003_Storage_West
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Dining
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Left
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Main
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_005_TerraceDoor_Left_West
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_006_TerraceDoor_Left_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_007_GreatRoom_NorthWest
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_008_GreatRoom_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_009_GreatRoom_NorthEast
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_010_TerraceDoor_Right_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_012_Kitchen_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_013_Pantry_North
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_014_Pantry_East
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_016_Ensuite1_West
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_017_Ensuite1_South
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_018_GuestSuite1_South
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_019_StairA_South
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_021_GuestSuite2_South
+Fra:1 Mem:24.52M (Peak 24.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_022_Ensuite2_South
+Fra:1 Mem:24.52M (Peak 24.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_025_Entry_Sidelight_East
+Fra:1 Mem:24.52M (Peak 24.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_StairA_DownToB1
+Fra:1 Mem:24.55M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:21.46M (Peak 24.55M) | Time:00:00.01 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.01 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.01 | Mem:0.20M, Peak:0.20M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.01 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.01 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.50M, Peak:0.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.01 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:21.61M (Peak 24.55M) | Time:00:00.01 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:21.61M (Peak 24.55M) | Time:00:00.01 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:317.64M (Peak 317.64M) | Time:00:00.45 | Remaining:00:10.15 | Mem:296.30M, Peak:296.30M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:442.15M (Peak 628.92M) | Time:00:11.39 | Mem:296.30M, Peak:296.30M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:442.15M (Peak 628.92M) | Time:00:11.39 | Mem:296.30M, Peak:296.30M | Scene, ViewLayer | Finished
+Saved: '/home/nicklee/Phenix_Project/Drone/environments/villa_v2/01_shell/1F/1F_shell_top.png'
+Time: 00:11.60 (Saving: 00:00.20)
+
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Floor_Main
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_004_Storage_WestSouth
+Fra:1 Mem:24.40M (Peak 24.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_009_Mudroom_EastSouth
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_012_Guest1_South
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_015_Entry_East
+Fra:1 Mem:24.44M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_018_Ensuite2_South
+Fra:1 Mem:24.44M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_003_Storage_Utility
+Fra:1 Mem:24.44M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_008_StairA_West
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_009_StairA_East
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_010_Pantry_Kitchen
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_011_Pantry_Mudroom
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_013_Corridor_Right_North
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_014_Corridor_Right_West
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_016_StairB_West
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_017_StairB_East
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_018_Powder_Guest2
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_001_Garage_NW
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Validation_Area_Light
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_003_GreatRoom_NW
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_004_GreatRoom_NE
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Entry_Porch
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_006_Kitchen_NE
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_011_Foyer_NW
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_012_Foyer_NE
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_014_Entry_E
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_015_Terrace_Main_W
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_016_Terrace_Main_E
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_001_Garage_North
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_004_Storage_North_Fixed
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_006_TerraceDoor_Left_North
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_008_GreatRoom_North
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_009_GreatRoom_NorthEast
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_012_Kitchen_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_013_Pantry_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_014_Pantry_East
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_016_Ensuite1_West
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_019_StairA_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_020_StairB_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_021_GuestSuite2_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_022_Ensuite2_South
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_023_Ensuite2_East
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_StairA_DownToB1
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_StairB_UpTo2F
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Main
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Left
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Dining
+Fra:1 Mem:24.55M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:21.46M (Peak 24.55M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.20M, Peak:0.20M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:21.61M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:21.61M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:191.53M (Peak 191.53M) | Time:00:00.13 | Remaining:00:02.88 | Mem:170.18M, Peak:170.18M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:262.94M (Peak 370.06M) | Time:00:04.83 | Mem:170.18M, Peak:170.18M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:262.94M (Peak 370.06M) | Time:00:04.83 | Mem:170.18M, Peak:170.18M | Scene, ViewLayer | Finished
+Saved: '/home/nicklee/Phenix_Project/Drone/environments/villa_v2/01_shell/1F/1F_shell_perspective_front.png'
+Time: 00:04.96 (Saving: 00:00.12)
+
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Floor_Main
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_007_Kitchen_North
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_008_Pantry_East
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_011_Ensuite1_South
+Fra:1 Mem:24.40M (Peak 24.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_014_Entry_West
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_018_Ensuite2_South
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_019_Ensuite2_East
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_005_Service_Guest1
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_008_StairA_West
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_009_StairA_East
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_010_Pantry_Kitchen
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_011_Pantry_Mudroom
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_013_Corridor_Right_North
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_015_Corridor_Right_South
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_016_StairB_West
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_017_StairB_East
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_018_Powder_Guest2
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_019_Guest2_Ensuite
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_002_TerraceDoor_Left
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_003_GreatRoom_NW
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_005_TerraceDoor_Right
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_006_Kitchen_NE
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_011_Foyer_NW
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_013_Entry_W
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_014_Entry_E
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_015_Terrace_Main_W
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_016_Terrace_Main_E
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_001_Garage_North
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_002_Garage_West
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_003_Storage_West
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_005_TerraceDoor_Left_West
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_007_GreatRoom_NorthWest
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_008_GreatRoom_North
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_010_TerraceDoor_Right_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_011_TerraceDoor_Right_East
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_013_Pantry_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_014_Pantry_East
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_015_Mudroom_East
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_016_Ensuite1_West
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_017_Ensuite1_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_018_GuestSuite1_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_019_StairA_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_020_StairB_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_021_GuestSuite2_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_022_Ensuite2_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_023_Ensuite2_East
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_024_Entry_Sidelight_West
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Entry_Porch
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_StairA_DownToB1
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Dining
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_StairB_UpTo2F
+Fra:1 Mem:24.52M (Peak 24.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Main
+Fra:1 Mem:24.52M (Peak 24.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Left
+Fra:1 Mem:24.55M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:21.46M (Peak 24.55M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.20M, Peak:0.20M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:21.61M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:21.61M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:191.53M (Peak 191.53M) | Time:00:00.11 | Remaining:00:02.41 | Mem:170.18M, Peak:170.18M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:262.94M (Peak 370.06M) | Time:00:04.35 | Mem:170.18M, Peak:170.18M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:262.94M (Peak 370.06M) | Time:00:04.35 | Mem:170.18M, Peak:170.18M | Scene, ViewLayer | Finished
+Saved: '/home/nicklee/Phenix_Project/Drone/environments/villa_v2/01_shell/1F/1F_shell_perspective_corner.png'
+Time: 00:04.47 (Saving: 00:00.12)
+
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Floor_Main
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_006_TerraceDoor_Right
+Fra:1 Mem:24.34M (Peak 24.34M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_010_Ensuite1_West
+Fra:1 Mem:24.42M (Peak 24.42M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_013_StairA_South
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Exterior_015_Entry_East
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_001_Garage_GreatRoom
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_004_Utility_Wine
+Fra:1 Mem:24.44M (Peak 24.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_005_Service_Guest1
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_007_Corridor_Left
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_008_StairA_West
+Fra:1 Mem:24.45M (Peak 24.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_009_StairA_East
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_010_Pantry_Kitchen
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_012_Mudroom_Kitchen
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_014_Corridor_Right_West
+Fra:1 Mem:24.46M (Peak 24.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_017_StairB_East
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_018_Powder_Guest2
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Wall_Interior_019_Guest2_Ensuite
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_001_Garage_NW
+Fra:1 Mem:24.47M (Peak 24.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_003_GreatRoom_NW
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Validation_Area_Light
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_005_TerraceDoor_Right
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_006_Kitchen_NE
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_012_Foyer_NE
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_013_Entry_W
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_014_Entry_E
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Column_016_Terrace_Main_E
+Fra:1 Mem:24.48M (Peak 24.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_001_Garage_North
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_002_Garage_West
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_003_Storage_West
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_004_Storage_North_Fixed
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_006_TerraceDoor_Left_North
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_008_GreatRoom_North
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_009_GreatRoom_NorthEast
+Fra:1 Mem:24.49M (Peak 24.49M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_011_TerraceDoor_Right_East
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_012_Kitchen_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_013_Pantry_North
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_014_Pantry_East
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_016_Ensuite1_West
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_017_Ensuite1_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_018_GuestSuite1_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_019_StairA_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_021_GuestSuite2_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_022_Ensuite2_South
+Fra:1 Mem:24.50M (Peak 24.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_023_Ensuite2_East
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_024_Entry_Sidelight_West
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Glass_025_Entry_Sidelight_East
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_StairA_DownToB1
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_StairB_UpTo2F
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Main
+Fra:1 Mem:24.51M (Peak 24.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Left
+Fra:1 Mem:24.52M (Peak 24.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Terrace_Dining
+Fra:1 Mem:24.52M (Peak 24.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 1F_Entry_Porch
+Fra:1 Mem:24.55M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:21.32M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:21.41M (Peak 24.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:21.43M (Peak 24.55M) | Time:00:00.00 | Mem:0.02M, Peak:0.02M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:21.46M (Peak 24.55M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.06M, Peak:0.06M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.20M, Peak:0.20M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:21.47M (Peak 24.55M) | Time:00:00.00 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.36M, Peak:0.51M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.51M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.50M, Peak:0.58M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:21.60M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:21.61M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:21.61M (Peak 24.55M) | Time:00:00.00 | Mem:0.58M, Peak:0.58M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:191.53M (Peak 191.53M) | Time:00:00.25 | Remaining:00:05.68 | Mem:170.18M, Peak:170.18M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:262.94M (Peak 370.06M) | Time:00:05.73 | Mem:170.18M, Peak:170.18M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:262.94M (Peak 370.06M) | Time:00:05.73 | Mem:170.18M, Peak:170.18M | Scene, ViewLayer | Finished
+Saved: '/home/nicklee/Phenix_Project/Drone/environments/villa_v2/01_shell/1F/1F_shell_greatroom_validation.png'
+Time: 00:05.85 (Saving: 00:00.12)
+
+Info: Saved as "1F_shell.blend"
+PASS Scene uses meters 
+PASS Architectural shell geometry exists 82
+PASS 1F_Floor_Main exists 
+PASS 1F_Terrace_Main exists 
+PASS 1F_Terrace_Left exists 
+PASS 1F_Terrace_Dining exists 
+PASS 1F_Entry_Porch exists 
+PASS 1F_StairA_DownToB1 exists 
+PASS 1F_StairB_UpTo2F exists 
+PASS VOID_GreatRoom_OpenToAbove exists 
+PASS 1F_Reference_Plan exists 
+PASS 1F_Connection_B1 exists 
+PASS 1F_Connection_2F exists 
+PASS Reference calibrated by dimension markers 
+PASS Reference packed 
+PASS Structural meshes closed with outward normals and no degenerate faces 
+PASS Mesh object scales all 1,1,1 
+PASS No duplicate complete meshes 
+PASS No orphaned wall islands or thin trimming remnants 
+PASS No intersecting architectural solid volumes {'candidate_pairs': 29, 'overlaps': []}
+PASS Architectural width consistent with calibrated source extent [37.65241241455078, 24.94629669189453, 6.799999952316284]
+PASS No renderable ceiling or upper-floor slab 
+PASS Main slab top at zero and thickness 0.20 m 
+PASS Great Room usable interior has zero columns, piers, or wall stubs 
+PASS Actual exterior wall bands are within 0.25-0.30 m [0.28]
+PASS Actual interior wall bands are within 0.15-0.20 m [0.18]
+PASS Actual stairwell wall bands are within 0.20-0.25 m [0.22]
+PASS Exterior faces, partition centerlines, and stair-void faces retain alignment 
+PASS No wall mesh extends outside its measured construction bands 
+PASS No non-column wall geometry exceeds 0.30 m 
+PASS Slab aperture for Stair A 
+PASS Slab aperture for Stair B 
+PASS Garage has slab 
+PASS Great Room has slab 
+PASS Foyer has slab 
+PASS Kitchen has slab 
+PASS Guest Suite 1 has slab 
+PASS Guest Suite 2 has slab 
+PASS Great Room remains open to above 
+PASS Glass remains separate 0.020 m solid geometry [0.019999, 0.02]
+PASS Named doorway/circulation paths unblocked at 1.2 m 
+PASS Every room connects to foyer with sampled 0.40 m UAV clearance {'Grand Entry Foyer': True, 'Great Room': True, 'Garage': True, 'Storage': True, 'Utility': True, 'Wine Cellar': True, 'Guest Suite 1': True, 'En-suite 1': True, 'Kitchen & Dining': True, 'Pantry / Prep Kitchen': True, 'Mudroom / Shoe Gallery': True, 'Left Corridor': True, 'Right Corridor': True, 'Powder Room': True, 'Guest Suite 2': True, 'En-suite 2': True}
+PASS 1F_StairA_DownToB1 physical treads change elevation in documented direction [-0.16842103004455566, -0.33684277534484863, -0.5052635669708252, -0.67368483543396, -0.8421051502227783, -1.0105268955230713, -1.1789476871490479, -1.3473689556121826, -1.5157897472381592, -1.6842105388641357, -1.8526313304901123, -2.0210530757904053, -2.189473867416382, -2.3578951358795166, -2.5263149738311768, -2.694737195968628, -2.8631579875946045, -3.0315778255462646]
+PASS 1F_StairA_DownToB1 realistic riser / tread [0.16842105263157894, 0.27, 2.8360586166381836]
+PASS 1F_StairA_DownToB1 minimum 2.1 m vertical headroom 
+PASS 1F_StairB_UpTo2F physical treads change elevation in documented direction [0.168420672416687, 0.33684241771698, 0.5052627325057983, 0.6736835241317749, 0.8421047925949097, 1.0105262994766235, 1.1789470911026, 1.3473683595657349, 1.5157893896102905, 1.684210181236267, 1.8526312112808228, 2.021052837371826, 2.1894736289978027, 2.3578944206237793, 2.526315689086914, 2.694736957550049, 2.8631582260131836, 3.03157901763916]
+PASS 1F_StairB_UpTo2F realistic riser / tread [0.16842105263157894, 0.27, 2.350943088531494]
+PASS 1F_StairB_UpTo2F minimum 2.1 m vertical headroom 
+PASS No furniture/decor geometry 
+VALIDATION: 49 passed; 0 failed
+Info: Saved as "1F_shell.blend"
+REPORT AND SOURCE OVERLAY EXPORTED {'1F_shell_top.png': [2400, 1700], '1F_shell_perspective_front.png': [1800, 1300], '1F_shell_perspective_corner.png': [1800, 1300], '1F_shell_greatroom_validation.png': [1800, 1300]}
+SHELL BUILD COMPLETE {"passed": 49, "failed": 0, "bounds_min_m": [-18.844863891601562, -12.490740776062012, -3.5999999046325684], "bounds_max_m": [18.80754852294922, 12.45555591583252, 3.200000047683716], "dimensions_m": [37.65241241455078, 24.94629669189453, 6.799999952316284], "mesh_objects": 82, "triangles": 4740, "room_connectivity": {"Grand Entry Foyer": true, "Great Room": true, "Garage": true, "Storage": true, "Utility": true, "Wine Cellar": true, "Guest Suite 1": true, "En-suite 1": true, "Kitchen & Dining": true, "Pantry / Prep Kitchen": true, "Mudroom / Shoe Gallery": true, "Left Corridor": true, "Right Corridor": true, "Powder Room": true, "Guest Suite 2": true, "En-suite 2": true}, "wall_thicknesses_m": {"exterior": [0.28], "interior": [0.18], "stairwell": [0.22]}, "great_room_obstructions": [], "remaining_walls_over_030_m": []}
+
+Blender quit

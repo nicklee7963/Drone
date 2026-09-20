@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "floors": {
+    "B1": [
+      {
+        "id": "b1_linen_corridor_south_endpoint",
+        "operation": "move_terminal_plane",
+        "object": "B1_Wall_Interior_013_Linen_CorridorSouth",
+        "axis": "Y",
+        "side": "min",
+        "expected_m": 7.474814814814815,
+        "target_m": 7.461296296296297,
+        "max_displacement_m": 0.02,
+        "reason": "The source-plan wall rectangles meet, but thickness normalization left a 13.519 mm wall-to-wall crack.",
+        "classification": "WALL_WALL_CRACK",
+        "reference_files": [
+          "01_shell/B1/B1.png",
+          "reference/B1/villa_v1_basement_overview.png"
+        ]
+      },
+      {
+        "id": "b1_storage_south_to_facade_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_029_StoragePowder_South",
+        "axis": "Y", "side": "min", "expected_m": -2.357407331466675,
+        "target_m": -2.4292593002319336, "max_displacement_m": 0.08,
+        "reason": "Close the source-drawn Storage south partition to the south facade band.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_powder_east_to_facade_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_030_Powder_East",
+        "axis": "Y", "side": "min", "expected_m": -2.357407331466675,
+        "target_m": -2.4292593002319336, "max_displacement_m": 0.08,
+        "reason": "Close the source-drawn Powder east partition to the south facade band.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_shower_southwest_to_gym_partition",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_005_Shower_SouthWest",
+        "axis": "X", "side": "min", "expected_m": -7.478679180145264,
+        "target_m": -7.541236877441406, "max_displacement_m": 0.07,
+        "reason": "Close the source-drawn shower T-junction to the Gym/Shower partition.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_gymrooms_northeast_to_gym_library",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_027_GymRooms_NorthEast",
+        "axis": "X", "side": "max", "expected_m": -7.761844635009766,
+        "target_m": -7.721241705780029, "max_displacement_m": 0.05,
+        "reason": "Close the source-drawn storage/powder north wall to the Gym/Library partition.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_shower_southeast_to_cinema_partition",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_006_Shower_SouthEast",
+        "axis": "X", "side": "max", "expected_m": -4.366037845611572,
+        "target_m": -4.325429916381836, "max_displacement_m": 0.05,
+        "reason": "Close the source-drawn shower T-junction to the Shower/Cinema partition.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_cinema_southwest_jamb_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_008_CinemaSouth_WestJamb",
+        "axis": "X", "side": "min", "expected_m": -4.104821681976318,
+        "target_m": -4.145429611206055, "max_displacement_m": 0.05,
+        "reason": "Close the source-drawn cinema south jamb to the Shower/Cinema partition.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_laundry_southwest_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_014_TopRoomsSouth_LaundryWest",
+        "axis": "X", "side": "min", "expected_m": 7.687211513519287,
+        "target_m": 7.646608584289551, "max_displacement_m": 0.05,
+        "reason": "Close the source-drawn laundry south wall to the Cinema/Laundry partition.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_laundry_linen_south_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_011_Laundry_Linen",
+        "axis": "Y", "side": "min", "expected_m": 7.494444370269775,
+        "target_m": 7.461301081542969, "max_displacement_m": 0.04,
+        "reason": "Close the Laundry/Linen partition to the source-drawn south wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_mechanical_north_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_017_ServiceWest_MechanicalNorth",
+        "axis": "Y", "side": "max", "expected_m": 7.248147964477539,
+        "target_m": 7.281296253204346, "max_displacement_m": 0.04,
+        "reason": "Close the Mechanical west return to the source-drawn north service wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_mechanical_electrical_west_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_021_Mechanical_Electrical",
+        "axis": "X", "side": "min", "expected_m": 11.306918144226074,
+        "target_m": 11.266310691833496, "max_displacement_m": 0.05,
+        "reason": "Close the Mechanical/Electrical wall to its west service partition.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_electrical_water_west_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_022_Electrical_Water",
+        "axis": "X", "side": "min", "expected_m": 11.306918144226074,
+        "target_m": 11.266310691833496, "max_displacement_m": 0.05,
+        "reason": "Close the Electrical/Water wall to its west service partition.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_bath_storage_north_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_031_BathStorage",
+        "axis": "Y", "side": "max", "expected_m": -3.905555486679077,
+        "target_m": -3.8724074363708496, "max_displacement_m": 0.04,
+        "reason": "Close the Bath/Storage partition to the source-drawn north wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_storage_powder_northwest_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_028_StoragePowder_North",
+        "axis": "Y", "side": "max", "expected_m": 0.9499999284744263,
+        "target_m": 0.9831481575965881, "max_displacement_m": 0.04,
+        "reason": "Close the Storage/Powder divider to the source-drawn north wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      },
+      {
+        "id": "b1_powder_east_north_endpoint",
+        "operation": "move_terminal_plane", "object": "B1_Wall_Interior_030_Powder_East",
+        "axis": "Y", "side": "max", "expected_m": 0.9500000476837158,
+        "target_m": 0.9831481575965881, "max_displacement_m": 0.04,
+        "reason": "Close the Powder east partition to the source-drawn north wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/B1/B1.png"]
+      }
+    ],
+    "1F": [
+      {
+        "id": "1f_pantry_east_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_014_Pantry_East",
+        "axis": "X", "expected_min_m": 18.480356216430664,
+        "delta_m": 0.027191162109375, "max_displacement_m": 0.03,
+        "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_mudroom_east_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_015_Mudroom_East",
+        "axis": "X", "expected_min_m": 18.480356216430664,
+        "delta_m": 0.027191162109375, "max_displacement_m": 0.03,
+        "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_ensuite1_west_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_016_Ensuite1_West",
+        "axis": "X", "expected_min_m": -16.746477127075195,
+        "delta_m": -0.027191162109375, "max_displacement_m": 0.03,
+        "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_ensuite1_south_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_017_Ensuite1_South",
+        "axis": "Y", "expected_min_m": -10.213704109191895,
+        "delta_m": -0.06185150146484375, "max_displacement_m": 0.07,
+        "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_guest1_south_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_018_GuestSuite1_South",
+        "axis": "Y", "expected_min_m": -10.635926246643066,
+        "delta_m": -0.06185150146484375, "max_displacement_m": 0.07,
+        "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_staira_south_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_019_StairA_South",
+        "axis": "Y", "expected_min_m": -11.163703918457031,
+        "delta_m": 0.08666610717773438, "max_displacement_m": 0.09,
+        "reason": "Close the source-plan stair-jamb to glazing transition.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_stairb_south_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_020_StairB_South",
+        "axis": "Y", "expected_min_m": -11.163703918457031,
+        "delta_m": 0.08666610717773438, "max_displacement_m": 0.09,
+        "reason": "Close the source-plan stair-jamb to glazing transition.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_guest2_south_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_021_GuestSuite2_South",
+        "axis": "Y", "expected_min_m": -10.635926246643066,
+        "delta_m": -0.06185150146484375, "max_displacement_m": 0.07,
+        "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_ensuite2_south_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_022_Ensuite2_South",
+        "axis": "Y", "expected_min_m": -10.213704109191895,
+        "delta_m": -0.06185150146484375, "max_displacement_m": 0.07,
+        "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_ensuite2_east_glass_alignment",
+        "operation": "translate_object", "object": "1F_Glass_023_Ensuite2_East",
+        "axis": "X", "expected_min_m": 16.63318634033203,
+        "delta_m": 0.045848846435546875, "max_displacement_m": 0.05,
+        "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_corridor_left_west_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_007_Corridor_Left",
+        "axis": "X", "side": "min", "expected_m": -7.0155134201049805,
+        "target_m": -7.056121826171875, "max_displacement_m": 0.05,
+        "reason": "Close the source-plan corridor T-junction at the garage/great-room partition.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_storage_utility_south_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_003_Storage_Utility",
+        "axis": "Y", "side": "min", "expected_m": -4.433333396911621,
+        "target_m": -4.50166654586792, "max_displacement_m": 0.07,
+        "reason": "Close the source-plan T-junction with the service/guest wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_utility_wine_south_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_004_Utility_Wine",
+        "axis": "Y", "side": "min", "expected_m": -4.433333396911621,
+        "target_m": -4.50166654586792, "max_displacement_m": 0.07,
+        "reason": "Close the source-plan T-junction with the service/guest wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_guest1_ensuite_north_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_006_Guest1_Ensuite",
+        "axis": "Y", "side": "max", "expected_m": -4.75,
+        "target_m": -4.681666851043701, "max_displacement_m": 0.07,
+        "reason": "Close the source-plan T-junction with the service/guest wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_staira_west_north_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_008_StairA_West",
+        "axis": "Y", "side": "max", "expected_m": -4.75,
+        "target_m": -4.681666851043701, "max_displacement_m": 0.07,
+        "reason": "Close the source-plan stair-wall T-junction.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_pantry_mudroom_west_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_011_Pantry_Mudroom",
+        "axis": "X", "side": "min", "expected_m": 14.777358055114746,
+        "target_m": 14.71809196472168, "max_displacement_m": 0.06,
+        "reason": "Close the source-plan T-junction at pixel X=981.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_powder_guest_north_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_018_Powder_Guest2",
+        "axis": "Y", "side": "max", "expected_m": -4.75,
+        "target_m": -4.681666851043701, "max_displacement_m": 0.07,
+        "reason": "Close the source-plan T-junction with the right corridor wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_guest2_ensuite_north_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_019_Guest2_Ensuite",
+        "axis": "Y", "side": "max", "expected_m": -4.75,
+        "target_m": -4.681666851043701, "max_displacement_m": 0.07,
+        "reason": "Close the source-plan T-junction with the right corridor wall.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_powder_guest_west_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_018_Powder_Guest2",
+        "axis": "X", "side": "min", "expected_m": 7.463312149047852,
+        "target_m": 7.1608805656433105, "max_displacement_m": 0.31,
+        "reason": "The source-plan horizontal partition starts where the stair-east wall ends at pixel X=785.",
+        "classification": "UNWALKABLE_SLIVER", "reference_files": ["01_shell/1F/1F.png"]
+      },
+      {
+        "id": "1f_guest2_ensuite_south_endpoint",
+        "operation": "move_terminal_plane", "object": "1F_Wall_Interior_019_Guest2_Ensuite",
+        "axis": "Y", "side": "min", "expected_m": -10.55555534362793,
+        "target_m": -10.69777774810791, "max_displacement_m": 0.15,
+        "reason": "Extend the suite partition to the stepped guest-suite facade and close the interior envelope.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/1F/1F.png"]
+      }
+    ],
+    "2F": [
+      {
+        "id": "2f_artgallery_southwest_column_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Column_008_ArtGallery_SouthWest",
+        "axis": "Y", "side": "max", "expected_m": -9.746295928955078,
+        "target_m": -9.640740394592285, "max_displacement_m": 0.11,
+        "reason": "Close the reference-plan column-to-guest-wall junction.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_artgallery_southeast_column_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Column_009_ArtGallery_SouthEast",
+        "axis": "Y", "side": "max", "expected_m": -9.746295928955078,
+        "target_m": -9.640740394592285, "max_displacement_m": 0.11,
+        "reason": "Close the reference-plan column-to-guest-wall junction.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_ensuite1_south_glass_alignment",
+        "operation": "translate_object", "object": "2F_Glass_011_Ensuite1_South",
+        "axis": "Y", "expected_min_m": -9.017407417297363,
+        "delta_m": -0.09703731536865234, "max_displacement_m": 0.10,
+        "reason": "Align the glazing transition with the normalized south exterior wall.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_ensuite2_south_glass_alignment",
+        "operation": "translate_object", "object": "2F_Glass_014_Ensuite2_South",
+        "axis": "Y", "expected_min_m": -9.017407417297363,
+        "delta_m": -0.09703731536865234, "max_displacement_m": 0.10,
+        "reason": "Align the glazing transition with the normalized south exterior wall.",
+        "classification": "WALL_GLASS_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_guesta_family_south_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Wall_Interior_001_GuestA_FamilyLounge",
+        "axis": "Y", "side": "min", "expected_m": -1.6537036895751953,
+        "target_m": -1.6868518590927124, "max_displacement_m": 0.04,
+        "reason": "Close the source-plan T-junction at pixel Y=560.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_abath_acloset_north_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Wall_Interior_003_ABath_ACloset",
+        "axis": "Y", "side": "max", "expected_m": 2.146296262741089,
+        "target_m": 2.1794445514678955, "max_displacement_m": 0.04,
+        "reason": "Close the source-plan T-junction at pixel Y=452.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_abath_acloset_south_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Wall_Interior_003_ABath_ACloset",
+        "axis": "Y", "side": "min", "expected_m": -1.6537036895751953,
+        "target_m": -1.6868518590927124, "max_displacement_m": 0.04,
+        "reason": "Close the source-plan T-junction at pixel Y=560.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_ensuite1_guest1_north_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Wall_Interior_006_Ensuite1_Guest1",
+        "axis": "Y", "side": "max", "expected_m": -3.2722222805023193,
+        "target_m": -3.2390739917755127, "max_displacement_m": 0.04,
+        "reason": "Close the source-plan corridor T-junction at pixel Y=606.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_family_gaming_south_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Wall_Interior_008_FamilyLounge_Gaming",
+        "axis": "Y", "side": "min", "expected_m": -1.6537036895751953,
+        "target_m": -1.6868518590927124, "max_displacement_m": 0.04,
+        "reason": "Close the source-plan T-junction at pixel Y=560.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_bcloset_bbath_north_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Wall_Interior_010_BCloset_BBath",
+        "axis": "Y", "side": "max", "expected_m": 2.146296262741089,
+        "target_m": 2.1794445514678955, "max_displacement_m": 0.04,
+        "reason": "Close the source-plan T-junction at pixel Y=452.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_bcloset_bbath_south_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Wall_Interior_010_BCloset_BBath",
+        "axis": "Y", "side": "min", "expected_m": -1.6537036895751953,
+        "target_m": -1.6868518590927124, "max_displacement_m": 0.04,
+        "reason": "Close the source-plan T-junction at pixel Y=560.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      },
+      {
+        "id": "2f_guest2_ensuite_north_endpoint",
+        "operation": "move_terminal_plane", "object": "2F_Wall_Interior_014_Guest2_Ensuite2",
+        "axis": "Y", "side": "max", "expected_m": -3.2722222805023193,
+        "target_m": -3.2390739917755127, "max_displacement_m": 0.04,
+        "reason": "Close the source-plan corridor T-junction at pixel Y=606.",
+        "classification": "WALL_WALL_CRACK", "reference_files": ["01_shell/2F/2F.png"]
+      }
+    ],
+    "3F": [],
+    "Roof": []
+  }
+}

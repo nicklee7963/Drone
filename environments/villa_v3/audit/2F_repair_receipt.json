@@ -1,0 +1,344 @@
+{
+  "floor": "2F",
+  "blend": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/01_shell/2F/2F_shell.blend",
+  "manifest": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/geometry_repairs.json",
+  "applied": [
+    {
+      "id": "2f_artgallery_southwest_column_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Column_008_ArtGallery_SouthWest",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the reference-plan column-to-guest-wall junction.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        -8.545493,
+        -10.274074,
+        0.0,
+        -7.388679,
+        -9.746296,
+        3.2
+      ],
+      "bounds_after_m": [
+        -8.545493,
+        -10.274074,
+        0.0,
+        -7.388679,
+        -9.64074,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.105556
+    },
+    {
+      "id": "2f_artgallery_southeast_column_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Column_009_ArtGallery_SouthEast",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the reference-plan column-to-guest-wall junction.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        6.903564,
+        -10.274074,
+        0.0,
+        8.060377,
+        -9.746296,
+        3.2
+      ],
+      "bounds_after_m": [
+        6.903564,
+        -10.274074,
+        0.0,
+        8.060377,
+        -9.64074,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.105556
+    },
+    {
+      "id": "2f_ensuite1_south_glass_alignment",
+      "operation": "translate_object",
+      "object": "2F_Glass_011_Ensuite1_South",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Align the glazing transition with the normalized south exterior wall.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        -16.493921,
+        -9.017407,
+        0.0,
+        -15.710273,
+        -8.997407,
+        3.2
+      ],
+      "bounds_after_m": [
+        -16.493921,
+        -9.114445,
+        0.0,
+        -15.710273,
+        -9.094444,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.097037
+    },
+    {
+      "id": "2f_ensuite2_south_glass_alignment",
+      "operation": "translate_object",
+      "object": "2F_Glass_014_Ensuite2_South",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Align the glazing transition with the normalized south exterior wall.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        15.449057,
+        -9.017407,
+        0.0,
+        16.195389,
+        -8.997407,
+        3.2
+      ],
+      "bounds_after_m": [
+        15.449057,
+        -9.114445,
+        0.0,
+        16.195389,
+        -9.094444,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.097037
+    },
+    {
+      "id": "2f_guesta_family_south_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Wall_Interior_001_GuestA_FamilyLounge",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction at pixel Y=560.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        -7.702579,
+        -1.653704,
+        0.0,
+        -7.522579,
+        8.655556,
+        3.2
+      ],
+      "bounds_after_m": [
+        -7.702579,
+        -1.686852,
+        0.0,
+        -7.522579,
+        8.655556,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "2f_abath_acloset_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Wall_Interior_003_ABath_ACloset",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction at pixel Y=452.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        -13.691887,
+        -1.653704,
+        0.0,
+        -13.511887,
+        2.146296,
+        3.2
+      ],
+      "bounds_after_m": [
+        -13.691887,
+        -1.653704,
+        0.0,
+        -13.511887,
+        2.179445,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "2f_abath_acloset_south_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Wall_Interior_003_ABath_ACloset",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction at pixel Y=560.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        -13.691887,
+        -1.653704,
+        0.0,
+        -13.511887,
+        2.179445,
+        3.2
+      ],
+      "bounds_after_m": [
+        -13.691887,
+        -1.686852,
+        0.0,
+        -13.511887,
+        2.179445,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "2f_ensuite1_guest1_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Wall_Interior_006_Ensuite1_Guest1",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan corridor T-junction at pixel Y=606.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        -13.76652,
+        -8.796296,
+        0.0,
+        -13.58652,
+        -3.272222,
+        3.2
+      ],
+      "bounds_after_m": [
+        -13.76652,
+        -8.796296,
+        0.0,
+        -13.58652,
+        -3.239074,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "2f_family_gaming_south_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Wall_Interior_008_FamilyLounge_Gaming",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction at pixel Y=560.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        7.093438,
+        -1.653704,
+        0.0,
+        7.273438,
+        8.655556,
+        3.2
+      ],
+      "bounds_after_m": [
+        7.093438,
+        -1.686852,
+        0.0,
+        7.273438,
+        8.655556,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "2f_bcloset_bbath_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Wall_Interior_010_BCloset_BBath",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction at pixel Y=452.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        12.877505,
+        -1.653704,
+        0.0,
+        13.057506,
+        2.146296,
+        3.2
+      ],
+      "bounds_after_m": [
+        12.877505,
+        -1.653704,
+        0.0,
+        13.057506,
+        2.179445,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "2f_bcloset_bbath_south_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Wall_Interior_010_BCloset_BBath",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction at pixel Y=560.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        12.877505,
+        -1.653704,
+        0.0,
+        13.057506,
+        2.179445,
+        3.2
+      ],
+      "bounds_after_m": [
+        12.877505,
+        -1.686852,
+        0.0,
+        13.057506,
+        2.179445,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    },
+    {
+      "id": "2f_guest2_ensuite_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "2F_Wall_Interior_014_Guest2_Ensuite2",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan corridor T-junction at pixel Y=606.",
+      "reference_files": [
+        "01_shell/2F/2F.png"
+      ],
+      "bounds_before_m": [
+        14.258218,
+        -8.796296,
+        0.0,
+        14.438218,
+        -3.272222,
+        3.2
+      ],
+      "bounds_after_m": [
+        14.258218,
+        -8.796296,
+        0.0,
+        14.438218,
+        -3.239074,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.033148
+    }
+  ],
+  "status": "PASS"
+}

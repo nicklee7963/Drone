@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "models": {
+    "B1": {
+      "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_B1/model.sdf",
+      "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_B1/meshes/villa_B1.obj",
+      "mesh_bytes": 67970,
+      "issues": []
+    },
+    "1F": {
+      "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_1F/model.sdf",
+      "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_1F/meshes/villa_1F.obj",
+      "mesh_bytes": 181903,
+      "issues": []
+    },
+    "2F": {
+      "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_2F/model.sdf",
+      "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_2F/meshes/villa_2F.obj",
+      "mesh_bytes": 107030,
+      "issues": []
+    },
+    "3F": {
+      "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_3F/model.sdf",
+      "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_3F/meshes/villa_3F.obj",
+      "mesh_bytes": 31937,
+      "issues": []
+    },
+    "Roof": {
+      "model_sdf": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_Roof/model.sdf",
+      "mesh": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/villa_Roof/meshes/villa_Roof.obj",
+      "mesh_bytes": 12636,
+      "issues": []
+    }
+  },
+  "world": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/gazebo/worlds/villa_v3.sdf",
+  "world_floor_poses": {
+    "B1": [
+      0.0,
+      0.0,
+      -3.2,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "1F": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "2F": [
+      0.0,
+      0.0,
+      3.2,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "3F": [
+      0.0,
+      0.0,
+      6.4,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Roof": [
+      0.0,
+      0.0,
+      9.6,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "physics_engine": "gz-physics-bullet-featherstone-plugin",
+  "visual_collision_policy": "same cleaned shell OBJ used for both",
+  "issues": []
+}

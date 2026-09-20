@@ -1,0 +1,568 @@
+{
+  "floor": "1F",
+  "blend": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/01_shell/1F/1F_shell.blend",
+  "manifest": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/geometry_repairs.json",
+  "applied": [
+    {
+      "id": "1f_pantry_east_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_014_Pantry_East",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        18.480356,
+        1.759259,
+        0.0,
+        18.500357,
+        7.037037,
+        3.2
+      ],
+      "bounds_after_m": [
+        18.507547,
+        1.759259,
+        0.0,
+        18.527548,
+        7.037037,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.027191
+    },
+    {
+      "id": "1f_mudroom_east_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_015_Mudroom_East",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        18.480356,
+        -1.935185,
+        0.0,
+        18.500357,
+        0.668519,
+        3.2
+      ],
+      "bounds_after_m": [
+        18.507547,
+        -1.935185,
+        0.0,
+        18.527548,
+        0.668519,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.027191
+    },
+    {
+      "id": "1f_ensuite1_west_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_016_Ensuite1_West",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        -16.746477,
+        -8.47963,
+        0.0,
+        -16.726479,
+        -6.087037,
+        3.2
+      ],
+      "bounds_after_m": [
+        -16.773668,
+        -8.47963,
+        0.0,
+        -16.75367,
+        -6.087037,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.027191
+    },
+    {
+      "id": "1f_ensuite1_south_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_017_Ensuite1_South",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        -15.934172,
+        -10.213704,
+        0.0,
+        -15.001258,
+        -10.193704,
+        3.2
+      ],
+      "bounds_after_m": [
+        -15.934172,
+        -10.275556,
+        0.0,
+        -15.001258,
+        -10.255555,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.061852
+    },
+    {
+      "id": "1f_guest1_south_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_018_GuestSuite1_South",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        -13.172747,
+        -10.635926,
+        0.0,
+        -8.993292,
+        -10.615926,
+        3.2
+      ],
+      "bounds_after_m": [
+        -13.172747,
+        -10.697778,
+        0.0,
+        -8.993292,
+        -10.677777,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.061852
+    },
+    {
+      "id": "1f_staira_south_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_019_StairA_South",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Close the source-plan stair-jamb to glazing transition.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        -6.567715,
+        -11.163704,
+        0.0,
+        -5.298952,
+        -11.143703,
+        3.2
+      ],
+      "bounds_after_m": [
+        -6.567715,
+        -11.077038,
+        0.0,
+        -5.298952,
+        -11.057037,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.086666
+    },
+    {
+      "id": "1f_stairb_south_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_020_StairB_South",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Close the source-plan stair-jamb to glazing transition.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        5.298952,
+        -11.163704,
+        0.0,
+        6.269182,
+        -11.143703,
+        3.2
+      ],
+      "bounds_after_m": [
+        5.298952,
+        -11.077038,
+        0.0,
+        6.269182,
+        -11.057037,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.086666
+    },
+    {
+      "id": "1f_guest2_south_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_021_GuestSuite2_South",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        8.694759,
+        -10.635926,
+        0.0,
+        13.695178,
+        -10.615926,
+        3.2
+      ],
+      "bounds_after_m": [
+        8.694759,
+        -10.697778,
+        0.0,
+        13.695178,
+        -10.677777,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.061852
+    },
+    {
+      "id": "1f_ensuite2_south_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_022_Ensuite2_South",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Close the wall-to-glass separation while preserving the glazing span.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        15.561007,
+        -10.213704,
+        0.0,
+        16.307337,
+        -10.193704,
+        3.2
+      ],
+      "bounds_after_m": [
+        15.561007,
+        -10.275556,
+        0.0,
+        16.307337,
+        -10.255555,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.061852
+    },
+    {
+      "id": "1f_ensuite2_east_glass_alignment",
+      "operation": "translate_object",
+      "object": "1F_Glass_023_Ensuite2_East",
+      "classification": "WALL_GLASS_CRACK",
+      "reason": "Align the source-plan glazing line with the normalized exterior-wall endpoint.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        16.633186,
+        -8.47963,
+        0.0,
+        16.653187,
+        -6.051852,
+        3.2
+      ],
+      "bounds_after_m": [
+        16.679035,
+        -8.47963,
+        0.0,
+        16.699036,
+        -6.051852,
+        3.2
+      ],
+      "vertices_changed": 8,
+      "displacement_m": 0.045849
+    },
+    {
+      "id": "1f_corridor_left_west_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_007_Corridor_Left",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan corridor T-junction at the garage/great-room partition.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        -7.015513,
+        -2.922407,
+        0.0,
+        -5.149685,
+        -2.742407,
+        3.2
+      ],
+      "bounds_after_m": [
+        -7.056122,
+        -2.922407,
+        0.0,
+        -5.149685,
+        -2.742407,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.040608
+    },
+    {
+      "id": "1f_storage_utility_south_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_003_Storage_Utility",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction with the service/guest wall.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        -14.680776,
+        -4.433333,
+        0.0,
+        -14.500775,
+        -1.374259,
+        3.2
+      ],
+      "bounds_after_m": [
+        -14.680776,
+        -4.501667,
+        0.0,
+        -14.500775,
+        -1.374259,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.068333
+    },
+    {
+      "id": "1f_utility_wine_south_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_004_Utility_Wine",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction with the service/guest wall.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        -11.210336,
+        -4.433333,
+        0.0,
+        -11.030335,
+        -1.374259,
+        3.2
+      ],
+      "bounds_after_m": [
+        -11.210336,
+        -4.501667,
+        0.0,
+        -11.030335,
+        -1.374259,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.068333
+    },
+    {
+      "id": "1f_guest1_ensuite_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_006_Guest1_Ensuite",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction with the service/guest wall.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        -13.729203,
+        -10.275556,
+        0.0,
+        -13.549203,
+        -4.75,
+        3.2
+      ],
+      "bounds_after_m": [
+        -13.729203,
+        -10.275556,
+        0.0,
+        -13.549203,
+        -4.681667,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.068333
+    },
+    {
+      "id": "1f_staira_west_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_008_StairA_West",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan stair-wall T-junction.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        -7.571362,
+        -10.697778,
+        0.0,
+        -7.351363,
+        -4.75,
+        3.2
+      ],
+      "bounds_after_m": [
+        -7.571362,
+        -10.697778,
+        0.0,
+        -7.351363,
+        -4.681667,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.068333
+    },
+    {
+      "id": "1f_pantry_mudroom_west_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_011_Pantry_Mudroom",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction at pixel X=981.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        14.777358,
+        1.299815,
+        0.0,
+        18.210482,
+        1.479815,
+        3.2
+      ],
+      "bounds_after_m": [
+        14.718092,
+        1.299815,
+        0.0,
+        18.210482,
+        1.479815,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.059266
+    },
+    {
+      "id": "1f_powder_guest_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_018_Powder_Guest2",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction with the right corridor wall.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        7.463312,
+        -8.393703,
+        0.0,
+        10.090838,
+        -4.75,
+        3.2
+      ],
+      "bounds_after_m": [
+        7.463312,
+        -8.393703,
+        0.0,
+        10.090838,
+        -4.681667,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.068333
+    },
+    {
+      "id": "1f_guest2_ensuite_north_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_019_Guest2_Ensuite",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Close the source-plan T-junction with the right corridor wall.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        13.941028,
+        -10.555555,
+        0.0,
+        14.121027,
+        -4.75,
+        3.2
+      ],
+      "bounds_after_m": [
+        13.941028,
+        -10.555555,
+        0.0,
+        14.121027,
+        -4.681667,
+        3.2
+      ],
+      "vertices_changed": 6,
+      "displacement_m": 0.068333
+    },
+    {
+      "id": "1f_powder_guest_west_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_018_Powder_Guest2",
+      "classification": "UNWALKABLE_SLIVER",
+      "reason": "The source-plan horizontal partition starts where the stair-east wall ends at pixel X=785.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        7.463312,
+        -8.393703,
+        0.0,
+        10.090838,
+        -4.681667,
+        3.2
+      ],
+      "bounds_after_m": [
+        7.160881,
+        -8.393703,
+        0.0,
+        10.090838,
+        -4.681667,
+        3.2
+      ],
+      "vertices_changed": 6,
+      "displacement_m": 0.302432
+    },
+    {
+      "id": "1f_guest2_ensuite_south_endpoint",
+      "operation": "move_terminal_plane",
+      "object": "1F_Wall_Interior_019_Guest2_Ensuite",
+      "classification": "WALL_WALL_CRACK",
+      "reason": "Extend the suite partition to the stepped guest-suite facade and close the interior envelope.",
+      "reference_files": [
+        "01_shell/1F/1F.png"
+      ],
+      "bounds_before_m": [
+        13.941028,
+        -10.555555,
+        0.0,
+        14.121027,
+        -4.681667,
+        3.2
+      ],
+      "bounds_after_m": [
+        13.941028,
+        -10.697778,
+        0.0,
+        14.121027,
+        -4.681667,
+        3.2
+      ],
+      "vertices_changed": 4,
+      "displacement_m": 0.142222
+    }
+  ],
+  "status": "PASS"
+}

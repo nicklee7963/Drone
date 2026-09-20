@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="villa_B1">
+    <static>true</static>
+    <link name="villa_B1_link">
+      <visual name="villa_B1_visual">
+        <geometry><mesh><uri>meshes/villa_B1.obj</uri></mesh></geometry>
+      </visual>
+      <collision name="villa_B1_collision">
+        <geometry><mesh><uri>meshes/villa_B1.obj</uri></mesh></geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

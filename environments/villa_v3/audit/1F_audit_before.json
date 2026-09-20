@@ -1,0 +1,3320 @@
+{
+  "floor": "1F",
+  "blend": "/home/nicklee/Phenix_Project/Drone/environments/villa_v3/01_shell/1F/1F_shell.blend",
+  "objects": [
+    {
+      "name": "1F_Column_001_Garage_NW",
+      "role": "column",
+      "bounds_m": [
+        -17.949266,
+        8.233334,
+        0.0,
+        -16.941719,
+        9.464815,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.97048329,
+      "signature": "4148033fff0cd158fb1605acac53fe053e4b34cd0c81bd3b2812057e51043ba3",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-17.949266247379455, 8.233333333333334, -16.941719077568134, 9.464814814814815]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[104, 244, 131, 279]]"
+      }
+    },
+    {
+      "name": "1F_Column_002_TerraceDoor_Left",
+      "role": "column",
+      "bounds_m": [
+        -7.873795,
+        9.324074,
+        0.0,
+        -6.866247,
+        10.37963,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.40327359,
+      "signature": "08925d018af25721481b13f35a80c5c30df092eef889fd6340e6e7678f34bb55",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-7.873794549266248, 9.324074074074074, -6.866247379454927, 10.37962962962963]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[374, 218, 401, 248]]"
+      }
+    },
+    {
+      "name": "1F_Column_003_GreatRoom_NW",
+      "role": "column",
+      "bounds_m": [
+        -5.298952,
+        8.127778,
+        0.0,
+        -4.440671,
+        9.35926,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.3822618,
+      "signature": "568eddca313b146130ba14dd5e9060bb554eb786d0cd2fc1edf231cbcf553fb2",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-5.29895178197065, 8.127777777777778, -4.440670859538784, 9.35925925925926]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[443, 247, 466, 282]]"
+      }
+    },
+    {
+      "name": "1F_Column_004_GreatRoom_NE",
+      "role": "column",
+      "bounds_m": [
+        4.440671,
+        8.127778,
+        0.0,
+        5.336268,
+        9.35926,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.52931764,
+      "signature": "27e674c885983eef72f5fd3a3e03bdfcb7b530b181e5caed0f3b08745a68fa7a",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[4.440670859538784, 8.127777777777778, 5.336268343815513, 9.35925925925926]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[704, 247, 728, 282]]"
+      }
+    },
+    {
+      "name": "1F_Column_005_TerraceDoor_Right",
+      "role": "column",
+      "bounds_m": [
+        6.791614,
+        9.35926,
+        0.0,
+        7.836478,
+        10.37963,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.41167391,
+      "signature": "661aa89555e0fdaf10954fdaad964c00c4ab9803be0af48a61c9e065d26332b8",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[6.791614255765199, 9.35925925925926, 7.836477987421384, 10.37962962962963]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[767, 218, 795, 247]]"
+      }
+    },
+    {
+      "name": "1F_Column_006_Kitchen_NE",
+      "role": "column",
+      "bounds_m": [
+        16.941719,
+        8.233334,
+        0.0,
+        17.986584,
+        9.464815,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.11754101,
+      "signature": "2a635bdb5aaa7d253525bbd679e54482727006bdc68afd04cf165290710a8891",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[16.941719077568134, 8.233333333333334, 17.98658280922432, 9.464814814814815]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[1039, 244, 1067, 279]]"
+      }
+    },
+    {
+      "name": "1F_Column_011_Foyer_NW",
+      "role": "column",
+      "bounds_m": [
+        -5.149685,
+        -3.061111,
+        0.0,
+        -4.366038,
+        -2.181482,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.20582269,
+      "signature": "58dcbe64cad6cde26e0f79a21c973799ac13d5613dc576710191040b3cc3bc57",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-5.149685534591195, -3.0611111111111113, -4.366037735849057, -2.1814814814814816]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[447, 575, 468, 600]]"
+      }
+    },
+    {
+      "name": "1F_Column_012_Foyer_NE",
+      "role": "column",
+      "bounds_m": [
+        4.403354,
+        -3.061111,
+        0.0,
+        5.224319,
+        -2.181482,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.31086256,
+      "signature": "848a23a7a0a7a9dbf303700e2246f28b672ce4132a1c1b7bf1d35557a8fa1259",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[4.40335429769392, -3.0611111111111113, 5.2243186582809225, -2.1814814814814816]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[703, 575, 725, 600]]"
+      }
+    },
+    {
+      "name": "1F_Column_013_Entry_W",
+      "role": "column",
+      "bounds_m": [
+        -3.097275,
+        -9.711111,
+        0.0,
+        -1.977778,
+        -8.47963,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.41164706,
+      "signature": "70c53a58737a43f54277c5e22b9b0ac82c7562a796dba4c836337df56f22c32f",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-3.09727463312369, -9.711111111111112, -1.9777777777777779, -8.47962962962963]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[502, 754, 532, 789]]"
+      }
+    },
+    {
+      "name": "1F_Column_014_Entry_E",
+      "role": "column",
+      "bounds_m": [
+        2.201677,
+        -9.711111,
+        0.0,
+        3.283857,
+        -8.47963,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.26459215,
+      "signature": "142c339c79d86076ce732eed744d703c7bf1d3055f7485bd6c521f9c4c19858b",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[2.20167714884696, -9.711111111111112, 3.2838574423480082, -8.47962962962963]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[644, 754, 673, 789]]"
+      }
+    },
+    {
+      "name": "1F_Column_015_Terrace_Main_W",
+      "role": "column",
+      "bounds_m": [
+        -7.687212,
+        11.083333,
+        0.0,
+        -6.94088,
+        12.314815,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.94109804,
+      "signature": "6de6979b3a4765e2250836e7357a885b1208a606daf51daae3dd2d3a6d23fd05",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[-7.687211740041929, 11.083333333333334, -6.940880503144654, 12.314814814814815]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[379, 163, 399, 198]]"
+      }
+    },
+    {
+      "name": "1F_Column_016_Terrace_Main_E",
+      "role": "column",
+      "bounds_m": [
+        6.94088,
+        11.083333,
+        0.0,
+        7.687212,
+        12.314815,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.94109804,
+      "signature": "342c5869eab81d8121e28d124cd30907b2bbeb371887ce4cf9dec6a6738eaf99",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "column",
+        "footprint_rectangles_world": "[[6.940880503144654, 11.083333333333334, 7.687211740041929, 12.314814814814815]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[771, 163, 791, 198]]"
+      }
+    },
+    {
+      "name": "1F_Entry_Porch",
+      "role": "porch",
+      "bounds_m": [
+        -3.657023,
+        -12.490741,
+        -0.2,
+        3.768973,
+        -9.746296,
+        0.0
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.07604726,
+      "signature": "c2e09899d0ac8f51148032f08bf2c031153559abfdb159446e60956de0992f0c",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "terrace",
+        "footprint_rectangles_world": "[[-3.6570230607966456, -12.490740740740742, 3.768972746331237, -9.746296296296297]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": -0.2,
+        "z_max": 0,
+        "source_pixel_rectangles": "[[487, 790, 686, 868]]"
+      }
+    },
+    {
+      "name": "1F_Floor_Main",
+      "role": "floor",
+      "bounds_m": [
+        -18.844864,
+        -11.505555,
+        -0.2,
+        18.807549,
+        10.37963,
+        0.0
+      ],
+      "vertices": 1162,
+      "triangles": 2328,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 137.5997963,
+      "signature": "6a98eedef7165dcc257d7ceb7730f8d29a86ad8a392c61006f0c7d821fb8c64d",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "floor",
+        "footprint_rectangles_world": "[[-18.844863731656186, -3.6240740740740742, 18.807547169811322, 8.62037037037037], [-18.844863731656186, -4.82037037037037, 14.665408805031447, -3.6240740740740742], [14.665408805031447, -4.82037037037037, 16.979035639413, -3.6240740740740742], [-17.053668763102724, -10.555555555555555, -13.471278825995807, -4.82037037037037], [-13.844444444444445, -10.977777777777778, -7.351362683438155, -4.82037037037037], [-8.20964360587002, -11.505555555555556, -3.6570230607966456, -4.82037037037037], [-3.6570230607966456, -9.746296296296297, 3.768972746331237, -4.82037037037037], [3.768972746331237, -11.505555555555556, 7.985744234800839, -4.609259259259259], [7.50062893081761, -10.977777777777778, 14.553459119496855, -4.609259259259259], [13.919077568134172, -10.555555555555555, 16.979035639413, -4.609259259259259], [-8.955974842767295, 8.374074074074075, -6.828930817610063, 10.344444444444445], [-7.164779874213837, 8.374074074074075, -4.440670859538784, 9.28888888888889], [4.440670859538784, 8.374074074074075, 7.2020964360587, 9.28888888888889], [6.791614255765199, 8.338888888888889, 8.955974842767295, 10.344444444444445], [-17.949266247379455, 8.19814814814815, -16.941719077568134, 9.464814814814815], [-5.29895178197065, 8.127777777777778, -4.440670859538784, 9.35925925925926], [4.440670859538784, 8.127777777777778, 5.336268343815513, 9.35925925925926], [16.941719077568134, 8.19814814814815, 17.98658280922432, 9.464814814814815], [-17.949266247379455, 8.233333333333334, -16.941719077568134, 9.464814814814815], [-7.873794549266248, 9.324074074074074, -6.866247379454927, 10.37962962962963], [-5.29895178197065, 8.127777777777778, -4.440670859538784, 9.35925925925926], [4.440670859538784, 8.127777777777778, 5.336268343815513, 9.35925925925926], [6.791614255765199, 9.35925925925926, 7.836477987421384, 10.37962962962963], [16.941719077568134, 8.233333333333334, 17.98658280922432, 9.464814814814815]]",
+        "subtracted_rectangles_world": "[[-7.351362683438155, -10.837037037037037, -4.515303983228511, -4.82037037037037], [4.5899371069182395, -10.837037037037037, 6.940880503144654, -4.890740740740741]]",
+        "z_min": -0.2,
+        "z_max": 0,
+        "source_pixel_rectangles": "[[80, 268, 1089, 616], [80, 616, 978, 650], [978, 616, 1040, 650], [128, 650, 224, 813], [214, 650, 388, 825], [365, 650, 487, 840], [487, 650, 686, 790], [686, 644, 799, 840], [786, 644, 975, 825], [958, 644, 1040, 813], [345, 219, 402, 275], [393, 249, 466, 275], [704, 249, 778, 275], [767, 219, 825, 276], [104, 244, 131, 280], [443, 247, 466, 282], [704, 247, 728, 282], [1039, 244, 1067, 280], [104, 244, 131, 279], [374, 218, 401, 248], [443, 247, 466, 282], [704, 247, 728, 282], [767, 218, 795, 247], [1039, 244, 1067, 279]]"
+      }
+    },
+    {
+      "name": "1F_Glass_001_Garage_North",
+      "role": "glass",
+      "bounds_m": [
+        -16.120754,
+        8.39926,
+        0.0,
+        -9.366457,
+        8.419259,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.43226431,
+      "signature": "4b9c81513add3995f642708faf93b52ea63b4bc73c7565dd6a52695db66b8cae",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-16.120754716981132, 8.39925925925926, -9.366457023060796, 8.41925925925926]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[153, 274], [334, 274]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_002_Garage_West",
+      "role": "glass",
+      "bounds_m": [
+        -18.537672,
+        -0.211111,
+        0.0,
+        -18.517673,
+        5.594444,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.37152862,
+      "signature": "70da09fbf6faa74124d9dbf0e5ecc5787a680dea9c66aef0395bbef6af6c59c5",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-18.537672955974845, -0.21111111111111114, -18.51767295597484, 5.594444444444445]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[88.5, 354], [88.5, 519]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_003_Storage_West",
+      "role": "glass",
+      "bounds_m": [
+        -18.537672,
+        -3.448148,
+        0.0,
+        -18.517673,
+        -1.477778,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.12609458,
+      "signature": "43ffda95762de969a03807d69753fbf62de7b6aefb163f134183ce18dcdf2c87",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-18.537672955974845, -3.448148148148148, -18.51767295597484, -1.4777777777777779]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[88.5, 555], [88.5, 611]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_004_Storage_North_Fixed",
+      "role": "glass",
+      "bounds_m": [
+        -17.464151,
+        -1.294259,
+        0.0,
+        -16.195389,
+        -1.274259,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.08120121,
+      "signature": "01b738d841525378617f461210f56d40c066f9ad782fb7cdf2ee18eca276e1be",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-17.464150943396227, -1.2942592592592594, -16.19538784067086, -1.2742592592592594]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[117, 549.5], [151, 549.5]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_005_TerraceDoor_Left_West",
+      "role": "glass",
+      "bounds_m": [
+        -8.854025,
+        8.62037,
+        0.0,
+        -8.834025,
+        10.098148,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.09457548,
+      "signature": "fe44d053b45100bcb9cbe1df7af21800480d389a3c9221f2eccc8ef7f0958d5a",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-8.854025157232705, 8.62037037037037, -8.834025157232706, 10.098148148148148]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[348, 226], [348, 268]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_006_TerraceDoor_Left_North",
+      "role": "glass",
+      "bounds_m": [
+        -8.844026,
+        10.088148,
+        0.0,
+        -7.873795,
+        10.108149,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 28,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.0617762,
+      "signature": "d1f61394860a8abca6c6e381a742215a352b83ca3234cc96b7fbbff05bd8c49c",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-8.844025157232705, 10.088148148148148, -7.873794549266248, 10.108148148148148]]",
+        "subtracted_rectangles_world": "[[-8.854025157232705, 8.62037037037037, -8.834025157232706, 10.098148148148148]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[348, 226], [374, 226]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_007_GreatRoom_NorthWest",
+      "role": "glass",
+      "bounds_m": [
+        -6.381132,
+        9.173333,
+        0.0,
+        -5.298952,
+        9.193334,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.06926114,
+      "signature": "b78f8b4c98821df9c9eea4af4c4d2f975176e93f2a01ef85eb26c1aa64066723",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-6.381132075471698, 9.173333333333334, -5.29895178197065, 9.193333333333333]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[414, 252], [443, 252]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_008_GreatRoom_North",
+      "role": "glass",
+      "bounds_m": [
+        -4.440671,
+        8.54,
+        0.0,
+        4.440671,
+        8.56,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.5684189,
+      "signature": "b59cf51d0abcfdcd70ab3aef4e658ae2e5cea5fc6cbbf0beb5c3c4cef8eba178",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-4.440670859538784, 8.540000000000001, 4.440670859538784, 8.56]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[466, 270], [704, 270]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_009_GreatRoom_NorthEast",
+      "role": "glass",
+      "bounds_m": [
+        5.336268,
+        9.173333,
+        0.0,
+        6.418448,
+        9.193334,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.06926111,
+      "signature": "0dc31f8dba1025834adf86f990b23544c7a09a8aaefe743a2a5016c5d28343aa",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[5.336268343815513, 9.173333333333334, 6.418448637316562, 9.193333333333333]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[728, 252], [757, 252]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_010_TerraceDoor_Right_North",
+      "role": "glass",
+      "bounds_m": [
+        7.836478,
+        10.088148,
+        0.0,
+        8.806708,
+        10.108149,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.06209618,
+      "signature": "12b7f9079d193252d557390c8574171530c4fd5ff7324555cd62cc5d247f0f4c",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[7.836477987421384, 10.088148148148148, 8.80670859538784, 10.108148148148148]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[795, 226], [821, 226]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_011_TerraceDoor_Right_East",
+      "role": "glass",
+      "bounds_m": [
+        8.796709,
+        8.62037,
+        0.0,
+        8.816709,
+        10.098148,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 28,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.09425549,
+      "signature": "2ebcae4e79d0dfd12bc9be2a71850aaa0987338e2c123ca1846e17967ccaeec7",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[8.796708595387841, 8.62037037037037, 8.81670859538784, 10.098148148148148]]",
+        "subtracted_rectangles_world": "[[7.836477987421384, 10.088148148148148, 8.80670859538784, 10.108148148148148]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[821, 226], [821, 268]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_012_Kitchen_North",
+      "role": "glass",
+      "bounds_m": [
+        9.441091,
+        8.39926,
+        0.0,
+        14.292243,
+        8.419259,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.31046606,
+      "signature": "6acec949d5edaf6fdcdfbfa6162295da9b4f4360ab194ed91cba2de6de4b971d",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[9.441090146750524, 8.39925925925926, 14.292243186582809, 8.41925925925926]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[838, 274], [968, 274]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_013_Pantry_North",
+      "role": "glass",
+      "bounds_m": [
+        15.598323,
+        8.39926,
+        0.0,
+        16.904402,
+        8.419259,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.08358698,
+      "signature": "c24919236e1211f234930e64e2c6693f4c102e66624f60f4664a8606e9e67633",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[15.598322851153041, 8.39925925925926, 16.90440251572327, 8.41925925925926]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[1003, 274], [1038, 274]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_014_Pantry_East",
+      "role": "glass",
+      "bounds_m": [
+        18.480356,
+        1.759259,
+        0.0,
+        18.500357,
+        7.037037,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.33778551,
+      "signature": "208af4ffdec5066eefebd77971bc1993d1924290d737a1db545fef092c4cd947",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[18.480356394129977, 1.7592592592592593, 18.50035639412998, 7.037037037037037]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[1080.5, 313], [1080.5, 463]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_015_Mudroom_East",
+      "role": "glass",
+      "bounds_m": [
+        18.480356,
+        -1.935185,
+        0.0,
+        18.500357,
+        0.668519,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.16664086,
+      "signature": "cfd927e9d3747980bb1964121560ae46ee19d3a90551dc8cf1f769984475cada",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[18.480356394129977, -1.9351851851851853, 18.50035639412998, 0.6685185185185185]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[1080.5, 494], [1080.5, 568]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_016_Ensuite1_West",
+      "role": "glass",
+      "bounds_m": [
+        -16.746477,
+        -8.47963,
+        0.0,
+        -16.726479,
+        -6.087037,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.15311482,
+      "signature": "c5b4e6c2e62fbc9a22087cf29dfebfa97b24ac50dc5432a554e1f60707230ef7",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-16.746477987421386, -8.47962962962963, -16.726477987421383, -6.087037037037037]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[136.5, 686], [136.5, 754]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_017_Ensuite1_South",
+      "role": "glass",
+      "bounds_m": [
+        -15.934172,
+        -10.213704,
+        0.0,
+        -15.001258,
+        -10.193704,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.05970785,
+      "signature": "9614018ce6e6ff8515f2f925e32983e433c9087f1f05a4b1ffd49da91390460e",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-15.934171907756815, -10.213703703703704, -15.00125786163522, -10.193703703703704]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[158, 803], [183, 803]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_018_GuestSuite1_South",
+      "role": "glass",
+      "bounds_m": [
+        -13.172747,
+        -10.635926,
+        0.0,
+        -8.993292,
+        -10.615926,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.26749123,
+      "signature": "b9907eac1ab34c319531dfbd74ad01e89ea8793fa30ac7a628109bbb65fe5c8b",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-13.172746331236898, -10.635925925925926, -8.99329140461216, -10.615925925925927]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[232, 815], [344, 815]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_019_StairA_South",
+      "role": "glass",
+      "bounds_m": [
+        -6.567715,
+        -11.163704,
+        0.0,
+        -5.298952,
+        -11.143703,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.0812027,
+      "signature": "c92e8ac98c7de7d25ac6aec32b6e15ada952e8f84450f64b95406cc5897298ee",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-6.5677148846960165, -11.163703703703705, -5.29895178197065, -11.143703703703705]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[409, 830], [443, 830]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_020_StairB_South",
+      "role": "glass",
+      "bounds_m": [
+        5.298952,
+        -11.163704,
+        0.0,
+        6.269182,
+        -11.143703,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.06209618,
+      "signature": "b0efd5ac5e2e247ae667deb75396f0c9f8c3b1706437a1a17f056fa57dab3386",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[5.29895178197065, -11.163703703703705, 6.269182389937107, -11.143703703703705]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[727, 830], [753, 830]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_021_GuestSuite2_South",
+      "role": "glass",
+      "bounds_m": [
+        8.694759,
+        -10.635926,
+        0.0,
+        13.695178,
+        -10.615926,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.32003412,
+      "signature": "11ff77976aff51795c2afe12bce9e709f689c988d215f4f265c44f672bbd5f68",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[8.694758909853249, -10.635925925925926, 13.69517819706499, -10.615925925925927]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[818, 815], [952, 815]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_022_Ensuite2_South",
+      "role": "glass",
+      "bounds_m": [
+        15.561007,
+        -10.213704,
+        0.0,
+        16.307337,
+        -10.193704,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.04776623,
+      "signature": "af9d61c35bf4875790005883174ff0c680f6fbceedab2aced59a1ae3590a9d92",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[15.561006289308176, -10.213703703703704, 16.30733752620545, -10.193703703703704]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[1002, 803], [1022, 803]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_023_Ensuite2_East",
+      "role": "glass",
+      "bounds_m": [
+        16.633186,
+        -8.47963,
+        0.0,
+        16.653187,
+        -6.051852,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.15538134,
+      "signature": "a4a96ac8342a2b759da293c3311e3f7db74826bd3030a596cda291fff839f2f2",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[16.633186582809223, -8.47962962962963, 16.653186582809226, -6.051851851851852]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[1031, 685], [1031, 754]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_024_Entry_Sidelight_West",
+      "role": "glass",
+      "bounds_m": [
+        -1.977778,
+        -9.51,
+        0.0,
+        -1.343396,
+        -9.49,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.04060135,
+      "signature": "71e4b2f4d5cee08b5a2c5b2d088bd20cece753eb5752633e56e512061621e696",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[-1.9777777777777779, -9.51, -1.3433962264150945, -9.49]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[532, 783], [549, 783]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_Glass_025_Entry_Sidelight_East",
+      "role": "glass",
+      "bounds_m": [
+        1.529979,
+        -9.51,
+        0.0,
+        2.201677,
+        -9.49,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.04298966,
+      "signature": "b40ffd74058468beec5e027e1abd9c7abf9c367869b9fe7c797138501efbfcf1",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "glass",
+        "footprint_rectangles_world": "[[1.529979035639413, -9.51, 2.20167714884696, -9.49]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_line": "[[626, 783], [644, 783]]",
+        "collision_policy": "Separate candidate collider; export policy to be selected later"
+      }
+    },
+    {
+      "name": "1F_StairA_DownToB1",
+      "role": "stair",
+      "bounds_m": [
+        -7.351363,
+        -10.837037,
+        -3.6,
+        -4.515304,
+        -4.82037,
+        0.0
+      ],
+      "vertices": 84,
+      "triangles": 164,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 6.82544776,
+      "signature": "dbacc7ee73c3f3a8bee9f9966e80d22e604ac4352493253870433d6be5450b51",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "stair",
+        "source_pixel_rectangles": "[[388, 650, 464, 821]]",
+        "xmin": -7.351362683438155,
+        "xmax": -4.515303983228511,
+        "start_y": -4.82037037037037,
+        "end_y": -10.837037037037037,
+        "riser_m": 0.16842105263157894,
+        "tread_m": 0.27,
+        "risers": 19,
+        "treads": 18,
+        "run_m": 4.86,
+        "landing_depth_m": 1.1566666666666663,
+        "terminal_elevation_m": -3.2,
+        "direction": "south (-Y), down to B1"
+      }
+    },
+    {
+      "name": "1F_StairB_UpTo2F",
+      "role": "stair",
+      "bounds_m": [
+        4.589937,
+        -10.837037,
+        -0.4,
+        6.94088,
+        -4.890741,
+        3.2
+      ],
+      "vertices": 84,
+      "triangles": 164,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 5.5917631,
+      "signature": "72609265bf07b5b82754f5cfc22fdf2db9bc64d29746f70fd66bbd27a8dbe824",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "stair",
+        "source_pixel_rectangles": "[[708, 652, 771, 821]]",
+        "xmin": 4.5899371069182395,
+        "xmax": 6.940880503144654,
+        "start_y": -4.890740740740741,
+        "end_y": -10.837037037037037,
+        "riser_m": 0.16842105263157894,
+        "tread_m": 0.27,
+        "risers": 19,
+        "treads": 18,
+        "run_m": 4.86,
+        "landing_depth_m": 1.0862962962962959,
+        "terminal_elevation_m": 3.2,
+        "direction": "south (-Y), up to 2F"
+      }
+    },
+    {
+      "name": "1F_Terrace_Dining",
+      "role": "terrace",
+      "bounds_m": [
+        7.911111,
+        8.62037,
+        -0.2,
+        18.023899,
+        11.646297,
+        0.0
+      ],
+      "vertices": 36,
+      "triangles": 68,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 5.58336029,
+      "signature": "3da2c7d1d33dfbb6b228a6aa8062b3b1144aa4f40d62866706be7531f3e73361",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "terrace",
+        "footprint_rectangles_world": "[[7.911111111111111, 8.374074074074075, 18.023899371069184, 11.646296296296297]]",
+        "subtracted_rectangles_world": "[[-18.844863731656186, -3.6240740740740742, 18.807547169811322, 8.62037037037037], [6.791614255765199, 8.338888888888889, 8.955974842767295, 10.344444444444445], [16.941719077568134, 8.19814814814815, 17.98658280922432, 9.464814814814815], [16.941719077568134, 8.233333333333334, 17.98658280922432, 9.464814814814815]]",
+        "z_min": -0.2,
+        "z_max": 0,
+        "source_pixel_rectangles": "[[797, 182, 1068, 275]]"
+      }
+    },
+    {
+      "name": "1F_Terrace_Left",
+      "role": "terrace",
+      "bounds_m": [
+        -17.986584,
+        8.62037,
+        -0.2,
+        -7.873795,
+        11.646297,
+        0.0
+      ],
+      "vertices": 36,
+      "triangles": 68,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 5.57679612,
+      "signature": "e3fcee9146212d1ce4f59bfee850b7bc66fc311842232aa716a846a7ed20773b",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "terrace",
+        "footprint_rectangles_world": "[[-17.98658280922432, 8.374074074074075, -7.873794549266248, 11.646296296296297]]",
+        "subtracted_rectangles_world": "[[-18.844863731656186, -3.6240740740740742, 18.807547169811322, 8.62037037037037], [-8.955974842767295, 8.374074074074075, -6.828930817610063, 10.344444444444445], [-17.949266247379455, 8.19814814814815, -16.941719077568134, 9.464814814814815], [-17.949266247379455, 8.233333333333334, -16.941719077568134, 9.464814814814815]]",
+        "z_min": -0.2,
+        "z_max": 0,
+        "source_pixel_rectangles": "[[103, 182, 374, 275]]"
+      }
+    },
+    {
+      "name": "1F_Terrace_Main",
+      "role": "terrace",
+      "bounds_m": [
+        -7.873795,
+        8.62037,
+        -0.2,
+        7.911111,
+        12.455556,
+        0.0
+      ],
+      "vertices": 106,
+      "triangles": 208,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 10.68852921,
+      "signature": "40b201ca58d11cc599bac1e84ada7096d5fbd7870f71bd066c43f295b24b2b18",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "terrace",
+        "footprint_rectangles_world": "[[-7.873794549266248, 8.55, 7.911111111111111, 12.455555555555556]]",
+        "subtracted_rectangles_world": "[[-18.844863731656186, -3.6240740740740742, 18.807547169811322, 8.62037037037037], [-8.955974842767295, 8.374074074074075, -6.828930817610063, 10.344444444444445], [-7.164779874213837, 8.374074074074075, -4.440670859538784, 9.28888888888889], [4.440670859538784, 8.374074074074075, 7.2020964360587, 9.28888888888889], [6.791614255765199, 8.338888888888889, 8.955974842767295, 10.344444444444445], [-5.29895178197065, 8.127777777777778, -4.440670859538784, 9.35925925925926], [4.440670859538784, 8.127777777777778, 5.336268343815513, 9.35925925925926], [-7.873794549266248, 9.324074074074074, -6.866247379454927, 10.37962962962963], [-5.29895178197065, 8.127777777777778, -4.440670859538784, 9.35925925925926], [4.440670859538784, 8.127777777777778, 5.336268343815513, 9.35925925925926], [6.791614255765199, 9.35925925925926, 7.836477987421384, 10.37962962962963]]",
+        "z_min": -0.2,
+        "z_max": 0,
+        "source_pixel_rectangles": "[[374, 159, 797, 270]]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_001_Garage_NorthWest",
+      "role": "wall",
+      "bounds_m": [
+        -18.844864,
+        5.594444,
+        0.0,
+        -16.120754,
+        8.62037,
+        3.2
+      ],
+      "vertices": 28,
+      "triangles": 44,
+      "components": 3,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.80791102,
+      "signature": "e0f08bdf199007f989079cb1f747ef9f2e0195bca89ce72611d6ef50c5dca2a2",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-18.844863731656186, 8.34037037037037, -16.120754716981132, 8.62037037037037], [-18.844863731656186, 5.594444444444445, -18.564863731656185, 8.127777777777778]]",
+        "subtracted_rectangles_world": "[[-17.949266247379455, 8.233333333333334, -16.941719077568134, 9.464814814814815]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[80.0, 268.0, 153.0, 275.9578947368421], [80.0, 282.0, 87.50337078651685, 354.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[80, 268, 153, 282], [80, 282, 97, 354]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"N\", \"original_m\": 8.62037037037037, \"final_m\": 8.62037037037037, \"error_m\": 0.0}, {\"anchor\": \"W\", \"original_m\": -18.844863731656186, \"final_m\": -18.844863731656186, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_002_Garage_NorthEast",
+      "role": "wall",
+      "bounds_m": [
+        -9.366457,
+        8.34037,
+        0.0,
+        -6.978197,
+        8.62037,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.30398889,
+      "signature": "9970462850af3e5edbef2ef5e6afa2975814b716afd2c1a0e8aec7d47c867c49",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-9.366457023060796, 8.34037037037037, -8.508176100628932, 8.62037037037037], [-7.575262054507338, 8.34037037037037, -6.978197064989518, 8.62037037037037]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[334.0, 268.0, 357.0, 275.9578947368421], [382.0, 268.0, 398.0, 275.9578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[334, 268, 357, 282], [382, 268, 398, 282]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"N\", \"original_m\": 8.62037037037037, \"final_m\": 8.62037037037037, \"error_m\": 0.0}, {\"anchor\": \"N\", \"original_m\": 8.62037037037037, \"final_m\": 8.62037037037037, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_003_Garage_WestSouth",
+      "role": "wall",
+      "bounds_m": [
+        -18.844864,
+        -1.477778,
+        0.0,
+        -17.464151,
+        -0.211111,
+        3.2
+      ],
+      "vertices": 24,
+      "triangles": 40,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.8370842,
+      "signature": "2bc3020318280149074559476910f7eb25480cb5d2f8c69d4f9b820a886a953e",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-18.844863731656186, -1.4777777777777779, -18.564863731656185, -0.21111111111111114], [-18.247798742138365, -1.4425925925925926, -17.464150943396227, -1.162592592592591]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[80.0, 519.0, 87.50337078651685, 555.0], [96.0, 546.0421052631579, 117.0, 554.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[80, 519, 98, 555], [96, 537, 117, 554]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"W\", \"original_m\": -18.844863731656186, \"final_m\": -18.844863731656186, \"error_m\": 0.0}, {\"anchor\": \"S\", \"original_m\": -1.4425925925925926, \"final_m\": -1.4425925925925926, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_004_Storage_WestSouth",
+      "role": "wall",
+      "bounds_m": [
+        -18.844864,
+        -4.890741,
+        0.0,
+        -16.344654,
+        -3.448148,
+        3.2
+      ],
+      "vertices": 24,
+      "triangles": 40,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.86786207,
+      "signature": "5bbb5a31685de018c1bf8373fe2178a42be0329c588cca71450d1b74ac73024b",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-18.844863731656186, -4.82037037037037, -18.564863731656185, -3.448148148148148], [-18.17316561844864, -4.890740740740741, -16.344654088050316, -4.61074074074074]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[80.0, 611.0, 87.50337078651685, 650.0], [98.0, 644.0421052631579, 147.0, 652.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[80, 611, 98, 650], [98, 634, 147, 652]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"W\", \"original_m\": -18.844863731656186, \"final_m\": -18.844863731656186, \"error_m\": 0.0}, {\"anchor\": \"S\", \"original_m\": -4.890740740740741, \"final_m\": -4.890740740740741, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_005_TerraceDoor_Left",
+      "role": "wall",
+      "bounds_m": [
+        -7.108931,
+        8.972223,
+        0.0,
+        -6.381132,
+        9.887037,
+        3.2
+      ],
+      "vertices": 38,
+      "triangles": 72,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.78371114,
+      "signature": "c49b559ff60e9062c06147b0bd6678e325897d8f83fae819bc85038b8d61499f",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-7.873794549266248, 10.09962962962963, -6.828930817610063, 10.37962962962963], [-7.108930817610064, 8.972222222222223, -6.828930817610063, 9.887037037037038], [-6.978197064989518, 9.114444444444446, -6.381132075471698, 9.394444444444446]]",
+        "subtracted_rectangles_world": "[[-7.873794549266248, 9.324074074074074, -6.866247379454927, 10.37962962962963]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[374.0, 218.0, 402.0, 225.9578947368421], [394.4966292134831, 232.0, 402.0, 258.0], [398.0, 246.0, 414.0, 253.9578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[374, 218, 402, 232], [389, 232, 402, 258], [398, 246, 414, 258]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"N\", \"original_m\": 10.37962962962963, \"final_m\": 10.37962962962963, \"error_m\": 0.0}, {\"anchor\": \"E\", \"original_m\": -6.828930817610063, \"final_m\": -6.828930817610063, \"error_m\": 0.0}, {\"anchor\": \"N\", \"original_m\": 9.394444444444446, \"final_m\": 9.394444444444446, \"error_m\": 0.0}]",
+        "removed_orphan_islands_json": "[{\"footprint_m2\": 0.010448595874549937, \"vertices\": 8}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_006_TerraceDoor_Right",
+      "role": "wall",
+      "bounds_m": [
+        6.418448,
+        7.142592,
+        0.0,
+        7.314046,
+        9.394444,
+        3.2
+      ],
+      "vertices": 24,
+      "triangles": 44,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.51041116,
+      "signature": "4b11c9415aaf91ade2919a55bc09b935184fb061611da3a0d712b5a6f4e634d0",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[6.791614255765199, 10.09962962962963, 7.836477987421384, 10.37962962962963], [6.418448637316562, 9.114444444444446, 7.314046121593291, 9.394444444444446], [7.034046121593293, 7.142592592592593, 7.314046121593291, 9.887037037037038]]",
+        "subtracted_rectangles_world": "[[6.791614255765199, 9.35925925925926, 7.836477987421384, 10.37962962962963]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[767.0, 218.0, 795.0, 225.9578947368421], [757.0, 246.0, 781.0, 253.9578947368421], [773.4966292134832, 232.0, 781.0, 310.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[767, 218, 795, 232], [757, 246, 781, 258], [773, 232, 781, 310]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"N\", \"original_m\": 10.37962962962963, \"final_m\": 10.37962962962963, \"error_m\": 0.0}, {\"anchor\": \"N\", \"original_m\": 9.394444444444446, \"final_m\": 9.394444444444446, \"error_m\": 0.0}, {\"anchor\": \"E\", \"original_m\": 7.314046121593291, \"final_m\": 7.314046121593291, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_007_Kitchen_North",
+      "role": "wall",
+      "bounds_m": [
+        8.657442,
+        8.34037,
+        0.0,
+        18.807547,
+        8.620369,
+        3.2
+      ],
+      "vertices": 24,
+      "triangles": 36,
+      "components": 3,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.60796804,
+      "signature": "ab75646ef9b49003812b20ed456b26626ab2895f021f21305b6e60344494f88b",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[8.657442348008386, 8.34037037037037, 9.441090146750524, 8.62037037037037], [14.292243186582809, 8.34037037037037, 15.598322851153041, 8.62037037037037], [16.90440251572327, 8.34037037037037, 18.807547169811322, 8.62037037037037]]",
+        "subtracted_rectangles_world": "[[16.941719077568134, 8.233333333333334, 17.98658280922432, 9.464814814814815]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[817.0, 268.0, 838.0, 275.9578947368421], [968.0, 268.0, 1003.0, 275.9578947368421], [1038.0, 268.0, 1089.0, 275.9578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[817, 268, 838, 282], [968, 268, 1003, 282], [1038, 268, 1089, 282]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"N\", \"original_m\": 8.62037037037037, \"final_m\": 8.62037037037037, \"error_m\": 0.0}, {\"anchor\": \"N\", \"original_m\": 8.62037037037037, \"final_m\": 8.62037037037037, \"error_m\": 0.0}, {\"anchor\": \"N\", \"original_m\": 8.62037037037037, \"final_m\": 8.62037037037037, \"error_m\": 0.0}]",
+        "removed_orphan_islands_json": "[{\"footprint_m2\": 0.010448827315485687, \"vertices\": 8}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_008_Pantry_East",
+      "role": "wall",
+      "bounds_m": [
+        18.527548,
+        0.668519,
+        0.0,
+        18.807547,
+        8.127778,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.95459923,
+      "signature": "ff7a724f0b2decee868820a9ecf79701454dad4affa3e4aecd211db458b33e57",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[18.52754716981132, 7.037037037037037, 18.807547169811322, 8.127777777777778], [18.52754716981132, 0.6685185185185185, 18.807547169811322, 1.7592592592592593]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[1081.4966292134832, 282.0, 1089.0, 313.0], [1081.4966292134832, 463.0, 1089.0, 494.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[1073, 282, 1089, 313], [1073, 463, 1089, 494]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"E\", \"original_m\": 18.807547169811322, \"final_m\": 18.807547169811322, \"error_m\": 0.0}, {\"anchor\": \"E\", \"original_m\": 18.807547169811322, \"final_m\": 18.807547169811322, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_009_Mudroom_EastSouth",
+      "role": "wall",
+      "bounds_m": [
+        14.478826,
+        -3.8,
+        0.0,
+        18.807547,
+        -1.935185,
+        3.2
+      ],
+      "vertices": 20,
+      "triangles": 32,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 5.01443031,
+      "signature": "0c53824db266f40bd31f8d690892a0180fce3e2aab523752cf888379368ec356",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[18.52754716981132, -3.8000000000000003, 18.807547169811322, -1.9351851851851853], [14.478825995807128, -3.8000000000000003, 18.2104821802935, -3.5199999999999987]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[1081.4966292134832, 568.0, 1089.0, 621.0], [973.0, 613.0421052631579, 1073.0, 621.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[1073, 568, 1089, 621], [973, 603, 1073, 621]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"E\", \"original_m\": 18.807547169811322, \"final_m\": 18.807547169811322, \"error_m\": 0.0}, {\"anchor\": \"S\", \"original_m\": -3.8000000000000003, \"final_m\": -3.8000000000000003, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_010_Ensuite1_West",
+      "role": "wall",
+      "bounds_m": [
+        -17.053669,
+        -9.851851,
+        0.0,
+        -16.773668,
+        -4.890741,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.30139795,
+      "signature": "8b584b6f3eebd585b6192fe9b58e9b45908f408d2081782eee57cf08b0b7643c",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-17.053668763102724, -6.087037037037037, -16.773668763102727, -4.82037037037037], [-17.053668763102724, -9.851851851851853, -16.773668763102727, -8.47962962962963]]",
+        "subtracted_rectangles_world": "[[-18.17316561844864, -4.890740740740741, -16.344654088050316, -4.61074074074074]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[128.0, 650.0, 135.50337078651685, 686.0], [128.0, 754.0, 135.50337078651685, 793.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[128, 650, 145, 686], [128, 754, 145, 793]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"W\", \"original_m\": -17.053668763102724, \"final_m\": -17.053668763102724, \"error_m\": 0.0}, {\"anchor\": \"W\", \"original_m\": -17.053668763102724, \"final_m\": -17.053668763102724, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_011_Ensuite1_South",
+      "role": "wall",
+      "bounds_m": [
+        -17.053669,
+        -10.555555,
+        0.0,
+        -13.471279,
+        -10.275556,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.37392831,
+      "signature": "02054a268d73141325404b62c995b4d6258d5f3291021181ee2e2eeaca60a523",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-17.053668763102724, -10.555555555555555, -15.934171907756815, -10.275555555555554], [-15.00125786163522, -10.555555555555555, -13.471278825995807, -10.275555555555554]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[128.0, 805.0421052631579, 158.0, 813.0], [183.0, 805.0421052631579, 224.0, 813.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[128, 793, 158, 813], [183, 793, 224, 813]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"S\", \"original_m\": -10.555555555555555, \"final_m\": -10.555555555555555, \"error_m\": 0.0}, {\"anchor\": \"S\", \"original_m\": -10.555555555555555, \"final_m\": -10.555555555555555, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_012_Guest1_South",
+      "role": "wall",
+      "bounds_m": [
+        -13.844444,
+        -10.977777,
+        0.0,
+        -7.351363,
+        -10.697778,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.07300764,
+      "signature": "93edcc24b9f5da847f11d442e36881163cbba44c0f3893e1fd1e6490bb90fce9",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-13.844444444444445, -10.977777777777778, -13.172746331236898, -10.697777777777777], [-8.99329140461216, -10.977777777777778, -7.351362683438155, -10.697777777777777]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[214.0, 817.0421052631579, 232.0, 825.0], [344.0, 817.0421052631579, 388.0, 825.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[214, 805, 232, 825], [344, 805, 388, 825]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"S\", \"original_m\": -10.977777777777778, \"final_m\": -10.977777777777778, \"error_m\": 0.0}, {\"anchor\": \"S\", \"original_m\": -10.977777777777778, \"final_m\": -10.977777777777778, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_013_StairA_South",
+      "role": "wall",
+      "bounds_m": [
+        -8.209643,
+        -11.057037,
+        0.0,
+        -3.657023,
+        -10.837037,
+        3.2
+      ],
+      "vertices": 28,
+      "triangles": 48,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.92529518,
+      "signature": "b36492db40d86180f12d69bd8b77cdf170e4e7aa858047eb405357dcfd1f6215",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-8.20964360587002, -11.057037037037036, -6.5677148846960165, -10.837037037037037], [-5.29895178197065, -11.057037037037036, -3.6570230607966456, -10.837037037037037]]",
+        "subtracted_rectangles_world": "[[-8.99329140461216, -10.977777777777778, -7.351362683438155, -10.697777777777777]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[365.0, 821.0, 409.0, 827.2526315789473], [443.0, 821.0, 487.0, 827.2526315789473]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "stairwell",
+        "nominal_thickness_m": 0.22,
+        "original_source_pixel_rectangles": "[[365, 821, 409, 840], [443, 821, 487, 840]]",
+        "alignment_rule": "preserve stair opening face",
+        "alignment_records_json": "[{\"anchor\": \"N\", \"original_m\": -10.837037037037037, \"final_m\": -10.837037037037037, \"error_m\": 0.0}, {\"anchor\": \"N\", \"original_m\": -10.837037037037037, \"final_m\": -10.837037037037037, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_014_Entry_West",
+      "role": "wall",
+      "bounds_m": [
+        -4.030189,
+        -9.746296,
+        0.0,
+        -1.977778,
+        -9.466296,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 28,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.96193606,
+      "signature": "6e10abc6b5bdfe3a452018b1a6f5271a60537786d64dc230a8461cd3bb9b0939",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-4.030188679245283, -9.746296296296297, -1.9777777777777779, -9.466296296296296]]",
+        "subtracted_rectangles_world": "[[-3.09727463312369, -9.711111111111112, -1.9777777777777779, -8.47962962962963]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[477.0, 782.0421052631579, 532.0, 790.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[477, 776, 532, 790]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"S\", \"original_m\": -9.746296296296297, \"final_m\": -9.746296296296297, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_015_Entry_East",
+      "role": "wall",
+      "bounds_m": [
+        2.201677,
+        -9.746296,
+        0.0,
+        4.55262,
+        -9.466296,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 28,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.258655,
+      "signature": "f03fcb09a568b6695a53b4a09108b1442ff6329e433b152303623e5bd1b915bf",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[2.20167714884696, -9.746296296296297, 4.552620545073375, -9.466296296296296]]",
+        "subtracted_rectangles_world": "[[2.20167714884696, -9.711111111111112, 3.2838574423480082, -8.47962962962963]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[644.0, 782.0421052631579, 707.0, 790.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[644, 776, 707, 790]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"S\", \"original_m\": -9.746296296296297, \"final_m\": -9.746296296296297, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_016_StairB_South",
+      "role": "wall",
+      "bounds_m": [
+        3.768973,
+        -11.057037,
+        0.0,
+        7.985744,
+        -10.837037,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.28556752,
+      "signature": "5dafb0f4211b6bdf6555666655a58667adefbdbeb67b13155bd1a4dbc8a00ab3",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[3.768972746331237, -11.057037037037036, 5.29895178197065, -10.837037037037037], [6.269182389937107, -11.057037037037036, 7.985744234800839, -10.837037037037037]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[686.0, 821.0, 727.0, 827.2526315789473], [753.0, 821.0, 799.0, 827.2526315789473]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "stairwell",
+        "nominal_thickness_m": 0.22,
+        "original_source_pixel_rectangles": "[[686, 821, 727, 840], [753, 821, 799, 840]]",
+        "alignment_rule": "preserve stair opening face",
+        "alignment_records_json": "[{\"anchor\": \"N\", \"original_m\": -10.837037037037037, \"final_m\": -10.837037037037037, \"error_m\": 0.0}, {\"anchor\": \"N\", \"original_m\": -10.837037037037037, \"final_m\": -10.837037037037037, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_017_Guest2_South",
+      "role": "wall",
+      "bounds_m": [
+        7.388679,
+        -10.977777,
+        0.0,
+        14.553459,
+        -10.697778,
+        3.2
+      ],
+      "vertices": 28,
+      "triangles": 48,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.67036635,
+      "signature": "befe3f1610d5d87da3c5ee51590356293b64b134fc727b6a206e9a88578a14db",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[7.3886792452830194, -10.977777777777778, 8.694758909853249, -10.697777777777777], [13.69517819706499, -10.977777777777778, 14.553459119496855, -10.697777777777777]]",
+        "subtracted_rectangles_world": "[[6.269182389937107, -11.057037037037036, 7.985744234800839, -10.837037037037037]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[783.0, 817.0421052631579, 818.0, 825.0], [952.0, 817.0421052631579, 975.0, 825.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[783, 806, 818, 825], [952, 806, 975, 825]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"S\", \"original_m\": -10.977777777777778, \"final_m\": -10.977777777777778, \"error_m\": 0.0}, {\"anchor\": \"S\", \"original_m\": -10.977777777777778, \"final_m\": -10.977777777777778, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_018_Ensuite2_South",
+      "role": "wall",
+      "bounds_m": [
+        14.031027,
+        -10.555555,
+        0.0,
+        15.561007,
+        -10.275556,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.37086053,
+      "signature": "14006dd3386892c6f4ada8a03ef4dbead78db41cb72741001e28a0ca25b79449",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[14.031027253668764, -10.555555555555555, 15.561006289308176, -10.275555555555554]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[961.0, 805.0421052631579, 1002.0, 813.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[961, 794, 1002, 813]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"S\", \"original_m\": -10.555555555555555, \"final_m\": -10.555555555555555, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Exterior_019_Ensuite2_East",
+      "role": "wall",
+      "bounds_m": [
+        16.699036,
+        -10.555555,
+        0.0,
+        16.979036,
+        -3.8,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.87769832,
+      "signature": "3a75ad92fee44d3d73592d54041365c494306b7af5cfa4a7486fb231caf288e0",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[16.699035639413, -6.051851851851852, 16.979035639413, -3.6240740740740742], [16.699035639413, -10.555555555555555, 16.979035639413, -8.47962962962963]]",
+        "subtracted_rectangles_world": "[[14.478825995807128, -3.8000000000000003, 18.2104821802935, -3.5199999999999987]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[1032.4966292134832, 616.0, 1040.0, 685.0], [1032.4966292134832, 754.0, 1040.0, 813.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "exterior",
+        "nominal_thickness_m": 0.28,
+        "original_source_pixel_rectangles": "[[1022, 616, 1040, 685], [1022, 754, 1040, 813]]",
+        "alignment_rule": "preserve exterior face",
+        "alignment_records_json": "[{\"anchor\": \"E\", \"original_m\": 16.979035639413, \"final_m\": 16.979035639413, \"error_m\": 0.0}, {\"anchor\": \"E\", \"original_m\": 16.979035639413, \"final_m\": 16.979035639413, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_001_Garage_GreatRoom",
+      "role": "wall",
+      "bounds_m": [
+        -7.25478,
+        -4.855556,
+        0.0,
+        -7.056122,
+        8.972222,
+        3.2
+      ],
+      "vertices": 36,
+      "triangles": 60,
+      "components": 3,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 7.11444684,
+      "signature": "99db2d71f35456f0a382e70abc060c979824546f1069ba3be464702f49b516bf",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-7.2547798742138365, 0.4222222222222223, -7.074779874213837, 8.972222222222223], [-7.236121593291404, -4.855555555555556, -7.056121593291405, -0.7740740740740741]]",
+        "subtracted_rectangles_world": "[[-7.575262054507338, 8.34037037037037, -6.978197064989518, 8.62037037037037]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[390.588202247191, 258.0, 395.411797752809, 501.0], [391.088202247191, 535.0, 395.911797752809, 651.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[389, 258, 397, 501], [389, 535, 398, 651]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": -7.164779874213837, \"final_m\": -7.164779874213837, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -7.146121593291404, \"final_m\": -7.146121593291404, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_002_Garage_Service",
+      "role": "wall",
+      "bounds_m": [
+        -15.001258,
+        -1.374259,
+        0.0,
+        -7.236121,
+        -1.194259,
+        3.2
+      ],
+      "vertices": 24,
+      "triangles": 36,
+      "components": 3,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.41949252,
+      "signature": "266a66efb28e8460336815d2c512e3b8534ab70d4480a9eed6525542f147e733",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-15.00125786163522, -1.3742592592592577, -14.217610062893081, -1.194259259259261], [-13.172746331236898, -1.3742592592592577, -8.694758909853249, -1.194259259259261], [-7.911111111111111, -1.3742592592592577, -7.015513626834382, -1.194259259259261]]",
+        "subtracted_rectangles_world": "[[-7.236121593291404, -4.855555555555556, -7.056121593291405, -0.7740740740740741]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[183.0, 546.9421052631579, 204.0, 552.0578947368421], [232.0, 546.9421052631579, 352.0, 552.0578947368421], [373.0, 546.9421052631579, 397.0, 552.0578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[183, 545, 204, 554], [232, 545, 352, 554], [373, 545, 397, 554]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": -1.2842592592592594, \"final_m\": -1.2842592592592594, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -1.2842592592592594, \"final_m\": -1.2842592592592594, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -1.2842592592592594, \"final_m\": -1.2842592592592594, \"error_m\": 0.0}]",
+        "removed_orphan_islands_json": "[{\"footprint_m2\": 0.007309510962045351, \"vertices\": 8}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_003_Storage_Utility",
+      "role": "wall",
+      "bounds_m": [
+        -14.680776,
+        -4.433333,
+        0.0,
+        -14.500775,
+        -1.374259,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.76202973,
+      "signature": "f94b0d0267f578585efdefdcd8b9fd88083d2cf1075905a31315212ff859813f",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-14.68077568134172, -4.433333333333334, -14.50077568134172, -1.301851851851852]]",
+        "subtracted_rectangles_world": "[[-15.00125786163522, -1.3742592592592577, -14.217610062893081, -1.194259259259261]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[191.58820224719102, 550.0, 196.41179775280898, 639.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[190, 550, 198, 639]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": -14.59077568134172, \"final_m\": -14.59077568134172, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_004_Utility_Wine",
+      "role": "wall",
+      "bounds_m": [
+        -11.210336,
+        -4.433333,
+        0.0,
+        -11.030335,
+        -1.374259,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.76202973,
+      "signature": "becd61fd198ac5e44575bed6e788a2f66c4391361cb58d2acc2eb712b0c4a1ca",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-11.210335429769392, -4.433333333333334, -11.030335429769393, -1.301851851851852]]",
+        "subtracted_rectangles_world": "[[-13.172746331236898, -1.3742592592592577, -8.694758909853249, -1.194259259259261]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[284.588202247191, 550.0, 289.411797752809, 639.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[283, 550, 291, 639]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": -11.120335429769392, \"final_m\": -11.120335429769392, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_005_Service_Guest1",
+      "role": "wall",
+      "bounds_m": [
+        -16.419287,
+        -4.681667,
+        0.0,
+        -7.236122,
+        -4.501667,
+        3.2
+      ],
+      "vertices": 28,
+      "triangles": 48,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.82119119,
+      "signature": "dfeabe9376cc2e01ef6efc961c94fd320f0acb8efdaaef0ce710519bdfe62972",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-16.41928721174004, -4.681666666666666, -9.478406708595388, -4.501666666666669], [-8.694758909853249, -4.681666666666666, -7.015513626834382, -4.501666666666669]]",
+        "subtracted_rectangles_world": "[[-18.17316561844864, -4.890740740740741, -16.344654088050316, -4.61074074074074], [-7.236121593291404, -4.855555555555556, -7.056121593291405, -0.7740740740740741]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[145.0, 640.9421052631579, 331.0, 646.0578947368421], [352.0, 640.9421052631579, 397.0, 646.0578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[145, 639, 331, 648], [352, 639, 397, 648]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": -4.591666666666667, \"final_m\": -4.591666666666667, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -4.591666666666667, \"final_m\": -4.591666666666667, \"error_m\": 0.0}]",
+        "removed_orphan_islands_json": "[{\"footprint_m2\": 0.007309525484743062, \"vertices\": 12}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_006_Guest1_Ensuite",
+      "role": "wall",
+      "bounds_m": [
+        -13.729203,
+        -10.275556,
+        0.0,
+        -13.549203,
+        -4.75,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.57472456,
+      "signature": "9f33b539df8091b1b96c98eddebff8e0158b0b26fccf791d991b947d1c0ae047",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-13.729203354297693, -5.62962962962963, -13.549203354297694, -4.75], [-13.729203354297693, -10.661111111111111, -13.549203354297694, -6.685185185185186]]",
+        "subtracted_rectangles_world": "[[-15.00125786163522, -10.555555555555555, -13.471278825995807, -10.275555555555554]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[217.08820224719102, 648.0, 221.91179775280898, 673.0], [217.08820224719102, 703.0, 221.91179775280898, 816.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[215, 648, 224, 673], [215, 703, 224, 816]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": -13.639203354297694, \"final_m\": -13.639203354297694, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -13.639203354297694, \"final_m\": -13.639203354297694, \"error_m\": 0.0}]",
+        "removed_orphan_islands_json": "[{\"footprint_m2\": 0.0190000283982954, \"vertices\": 8}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_007_Corridor_Left",
+      "role": "wall",
+      "bounds_m": [
+        -7.015513,
+        -2.922407,
+        0.0,
+        -5.149685,
+        -2.742407,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.62333621,
+      "signature": "0347284196e3e9e744eb16d17b27cbeebd766c164abec57212bcda1e7c1bf670",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-7.015513626834382, -2.922407407407406, -6.5677148846960165, -2.742407407407409], [-5.784067085953879, -2.922407407407406, -5.149685534591195, -2.742407407407409]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[397.0, 590.9421052631579, 409.0, 596.0578947368421], [430.0, 590.9421052631579, 447.0, 596.0578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[397, 589, 409, 598], [430, 589, 447, 598]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": -2.8324074074074073, \"final_m\": -2.8324074074074073, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -2.8324074074074073, \"final_m\": -2.8324074074074073, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_008_StairA_West",
+      "role": "wall",
+      "bounds_m": [
+        -7.571362,
+        -10.697778,
+        0.0,
+        -7.351363,
+        -4.75,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.1872316,
+      "signature": "85762a68a10d2a300cfbb1252dd950537e8fb0f4f1b0540bf8254751d430e0e8",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-7.571362683438155, -10.837037037037037, -7.351362683438155, -4.75]]",
+        "subtracted_rectangles_world": "[[-8.99329140461216, -10.977777777777778, -7.351362683438155, -10.697777777777777]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[382.1044943820225, 648.0, 388.0, 821.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "stairwell",
+        "nominal_thickness_m": 0.22,
+        "original_source_pixel_rectangles": "[[374, 648, 388, 821]]",
+        "alignment_rule": "preserve stair opening face",
+        "alignment_records_json": "[{\"anchor\": \"E\", \"original_m\": -7.351362683438155, \"final_m\": -7.351362683438155, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_009_StairA_East",
+      "role": "wall",
+      "bounds_m": [
+        -4.515304,
+        -10.837037,
+        0.0,
+        -3.884822,
+        -4.75,
+        3.2
+      ],
+      "vertices": 32,
+      "triangles": 56,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.15502871,
+      "signature": "54bb3ae4c463d0a61e3d97081ec3c2858fbf0b6d689393fadc6d2865e43cad82",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[-4.515303983228511, -9.35925925925926, -4.2953039832285125, -4.75], [-4.10482180293501, -10.837037037037037, -3.8848218029350114, -9.35925925925926]]",
+        "subtracted_rectangles_world": "[[-4.030188679245283, -9.746296296296297, -1.9777777777777779, -9.466296296296296]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[464.0, 648.0, 469.8955056179775, 779.0], [475.0, 779.0, 480.8955056179775, 821.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "stairwell",
+        "nominal_thickness_m": 0.22,
+        "original_source_pixel_rectangles": "[[464, 648, 477, 779], [475, 779, 487, 821]]",
+        "alignment_rule": "preserve stair opening face",
+        "alignment_records_json": "[{\"anchor\": \"W\", \"original_m\": -4.515303983228511, \"final_m\": -4.515303983228511, \"error_m\": 0.0}, {\"anchor\": \"W\", \"original_m\": -4.10482180293501, \"final_m\": -4.10482180293501, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_010_Pantry_Kitchen",
+      "role": "wall",
+      "bounds_m": [
+        14.538093,
+        -0.985185,
+        0.0,
+        14.718092,
+        8.127778,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.6815835,
+      "signature": "3b0129d34a5bf1d4b543c6b10c2867b343c8033cd06747ee640e296cfe790b63",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[14.538092243186583, 7.142592592592593, 14.718092243186582, 8.127777777777778], [14.538092243186583, -0.9851851851851853, 14.718092243186582, 6.157407407407407]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[974.588202247191, 282.0, 979.411797752809, 310.0], [974.588202247191, 338.0, 979.411797752809, 541.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[973, 282, 981, 310], [973, 338, 981, 541]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": 14.628092243186583, \"final_m\": 14.628092243186583, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": 14.628092243186583, \"final_m\": 14.628092243186583, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_011_Pantry_Mudroom",
+      "role": "wall",
+      "bounds_m": [
+        14.777358,
+        1.299815,
+        0.0,
+        18.210482,
+        1.479815,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.54759143,
+      "signature": "493f39ecacd83823ca7b2a0c2325a005263521363c1225efc08db703af62e033",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[14.777358490566039, 1.2998148148148145, 15.635639412997904, 1.4798148148148154], [16.38197064989518, 1.2998148148148145, 18.2104821802935, 1.4798148148148154]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[981.0, 470.9421052631579, 1004.0, 476.0578947368421], [1024.0, 470.9421052631579, 1073.0, 476.0578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[981, 469, 1004, 478], [1024, 469, 1073, 478]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": 1.389814814814815, \"final_m\": 1.389814814814815, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": 1.389814814814815, \"final_m\": 1.389814814814815, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_012_Mudroom_Kitchen",
+      "role": "wall",
+      "bounds_m": [
+        14.538093,
+        -3.52,
+        0.0,
+        14.718092,
+        -1.935185,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.91285004,
+      "signature": "6a324b86f6b479545ac41a1f7e85490b3c8121d2ef2b328cad46ce01fb7db5f5",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[14.538092243186583, -3.6592592592592594, 14.718092243186582, -1.9351851851851853]]",
+        "subtracted_rectangles_world": "[[14.478825995807128, -3.8000000000000003, 18.2104821802935, -3.5199999999999987]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[974.588202247191, 568.0, 979.411797752809, 617.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[972, 568, 982, 617]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": 14.628092243186583, \"final_m\": 14.628092243186583, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_013_Corridor_Right_North",
+      "role": "wall",
+      "bounds_m": [
+        7.07478,
+        -2.77963,
+        0.0,
+        14.538093,
+        -1.935185,
+        3.2
+      ],
+      "vertices": 32,
+      "triangles": 52,
+      "components": 3,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.15308197,
+      "signature": "028e6da340efcd0a90eb684e5776944cd7599410358c103411a28e08648eb8f3",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[7.074779874213837, -2.7796296296296297, 7.2547798742138365, -1.9351851851851853], [7.314046121593291, -2.693703703703702, 12.799580712788261, -2.5137037037037055], [13.657861635220126, -2.693703703703702, 14.665408805031447, -2.5137037037037055]]",
+        "subtracted_rectangles_world": "[[14.538092243186583, -3.6592592592592594, 14.718092243186582, -1.9351851851851853]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[774.588202247191, 568.0, 779.411797752809, 592.0], [781.0, 584.4421052631579, 928.0, 589.5578947368421], [951.0, 584.4421052631579, 978.0, 589.5578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[773, 568, 781, 592], [781, 582, 928, 592], [951, 582, 978, 592]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": 7.164779874213837, \"final_m\": 7.164779874213837, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -2.6037037037037036, \"final_m\": -2.6037037037037036, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -2.6037037037037036, \"final_m\": -2.6037037037037036, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_014_Corridor_Right_West",
+      "role": "wall",
+      "bounds_m": [
+        9.239141,
+        -4.785185,
+        0.0,
+        9.419141,
+        -2.77963,
+        3.2
+      ],
+      "vertices": 16,
+      "triangles": 24,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.70933459,
+      "signature": "e247b5c718d7424cf07dc6a0f6cfd7708dd74bdca56fbd0ae5425d8efe3dbd48",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[9.239140461215934, -3.412962962962963, 9.419140461215934, -2.7796296296296297], [9.239140461215934, -4.785185185185186, 9.419140461215934, -4.187037037037038]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[832.588202247191, 592.0, 837.411797752809, 610.0], [832.588202247191, 632.0, 837.411797752809, 649.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[831, 592, 839, 610], [831, 632, 839, 649]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": 9.329140461215934, \"final_m\": 9.329140461215934, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": 9.329140461215934, \"final_m\": 9.329140461215934, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_015_Corridor_Right_South",
+      "role": "wall",
+      "bounds_m": [
+        8.769392,
+        -4.681667,
+        0.0,
+        16.307337,
+        -4.501667,
+        3.2
+      ],
+      "vertices": 24,
+      "triangles": 36,
+      "components": 3,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.78680097,
+      "signature": "560c8a6fcd8ae34c9b2a69418027f9dcc938aa882809873492987bb99d2b6cd0",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[8.769392033542978, -4.681666666666666, 10.5979035639413, -4.501666666666669], [11.381551362683439, -4.681666666666666, 16.30733752620545, -4.501666666666669]]",
+        "subtracted_rectangles_world": "[[9.239140461215934, -4.785185185185186, 9.419140461215934, -4.187037037037038]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[820.0, 640.9421052631579, 869.0, 646.0578947368421], [890.0, 640.9421052631579, 1022.0, 646.0578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[820, 639, 869, 648], [890, 639, 1022, 648]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": -4.591666666666667, \"final_m\": -4.591666666666667, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -4.591666666666667, \"final_m\": -4.591666666666667, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_016_StairB_West",
+      "role": "wall",
+      "bounds_m": [
+        4.369937,
+        -10.837037,
+        0.0,
+        4.589937,
+        -4.890741,
+        3.2
+      ],
+      "vertices": 30,
+      "triangles": 56,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.02251345,
+      "signature": "3c8503f208a98e6e58aacac7217cd6b9770e3973082e4caef438c195b68ea4ce",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[4.36993710691824, -9.253703703703705, 4.5899371069182395, -4.890740740740741], [4.36993710691824, -10.837037037037037, 4.5899371069182395, -9.253703703703705]]",
+        "subtracted_rectangles_world": "[[2.20167714884696, -9.746296296296297, 4.552620545073375, -9.466296296296296]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[702.1044943820225, 652.0, 708.0, 776.0], [702.1044943820225, 776.0, 708.0, 821.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "stairwell",
+        "nominal_thickness_m": 0.22,
+        "original_source_pixel_rectangles": "[[695, 652, 708, 776], [684, 776, 708, 821]]",
+        "alignment_rule": "preserve stair opening face",
+        "alignment_records_json": "[{\"anchor\": \"E\", \"original_m\": 4.5899371069182395, \"final_m\": 4.5899371069182395, \"error_m\": 0.0}, {\"anchor\": \"E\", \"original_m\": 4.5899371069182395, \"final_m\": 4.5899371069182395, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_017_StairB_East",
+      "role": "wall",
+      "bounds_m": [
+        6.94088,
+        -10.837037,
+        0.0,
+        7.160881,
+        -4.609259,
+        3.2
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.38436107,
+      "signature": "4d51b38ff938fd2dd17695656eddcda6bee2d6486662f75c415deada3afeac5c",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[6.940880503144654, -10.837037037037037, 7.160880503144654, -4.609259259259259]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[771.0, 644.0, 776.8955056179775, 821.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "stairwell",
+        "nominal_thickness_m": 0.22,
+        "original_source_pixel_rectangles": "[[771, 644, 785, 821]]",
+        "alignment_rule": "preserve stair opening face",
+        "alignment_records_json": "[{\"anchor\": \"W\", \"original_m\": 6.940880503144654, \"final_m\": 6.940880503144654, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_018_Powder_Guest2",
+      "role": "wall",
+      "bounds_m": [
+        7.463312,
+        -8.393703,
+        0.0,
+        10.090838,
+        -4.75,
+        3.2
+      ],
+      "vertices": 24,
+      "triangles": 40,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.44283643,
+      "signature": "ede50424cf714e82a6509bc97889ff288a6cc3ac71fead6ed9f3d92491905cfb",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[9.910838574423481, -8.338888888888889, 10.09083857442348, -4.75], [7.463312368972747, -8.393703703703702, 9.851572327044025, -8.213703703703706]]",
+        "subtracted_rectangles_world": "[]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[850.588202247191, 648.0, 855.411797752809, 750.0], [785.0, 746.4421052631579, 849.0, 751.5578947368421]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[849, 648, 857, 750], [785, 745, 849, 753]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": 10.00083857442348, \"final_m\": 10.00083857442348, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": -8.303703703703704, \"final_m\": -8.303703703703704, \"error_m\": 0.0}]"
+      }
+    },
+    {
+      "name": "1F_Wall_Interior_019_Guest2_Ensuite",
+      "role": "wall",
+      "bounds_m": [
+        13.941028,
+        -10.555555,
+        0.0,
+        14.121027,
+        -4.75,
+        3.2
+      ],
+      "vertices": 28,
+      "triangles": 48,
+      "components": 2,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.67561653,
+      "signature": "0a6dd7a4de0282f50e86aa46e70edb4f067f86574fabe79a5c9f134541460892",
+      "custom_properties": {
+        "shell_geometry": true,
+        "element_type": "wall",
+        "footprint_rectangles_world": "[[13.941027253668764, -5.7, 14.121027253668764, -4.75], [13.941027253668764, -10.555555555555555, 14.121027253668764, -6.720370370370371]]",
+        "subtracted_rectangles_world": "[[14.031027253668764, -10.555555555555555, 15.561006289308176, -10.275555555555554]]",
+        "z_min": 0,
+        "z_max": 3.2,
+        "source_pixel_rectangles": "[[958.588202247191, 648.0, 963.411797752809, 675.0], [958.588202247191, 704.0, 963.411797752809, 813.0]]",
+        "height_assumption_m": 3.2,
+        "wall_class": "interior",
+        "nominal_thickness_m": 0.18,
+        "original_source_pixel_rectangles": "[[957, 648, 965, 675], [957, 704, 965, 813]]",
+        "alignment_rule": "preserve wall centerline",
+        "alignment_records_json": "[{\"anchor\": \"CENTER\", \"original_m\": 14.031027253668764, \"final_m\": 14.031027253668764, \"error_m\": 0.0}, {\"anchor\": \"CENTER\", \"original_m\": 14.031027253668764, \"final_m\": 14.031027253668764, \"error_m\": 0.0}]"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "endpoint:1F_Column_006_Kitchen_NE:1F_Glass_013_Pantry_North",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Column_006_Kitchen_NE",
+        "1F_Glass_013_Pantry_North"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.037317,
+        "dx_m": 0.037317,
+        "dy_m": 0.0
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_014_Pantry_East:1F_Wall_Exterior_008_Pantry_East",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_014_Pantry_East",
+        "1F_Wall_Exterior_008_Pantry_East"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.027191,
+        "dx_m": 0.027191,
+        "dy_m": 0.0
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_015_Mudroom_East:1F_Wall_Exterior_008_Pantry_East",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_015_Mudroom_East",
+        "1F_Wall_Exterior_008_Pantry_East"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.027191,
+        "dx_m": 0.027191,
+        "dy_m": 0.0
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_016_Ensuite1_West:1F_Wall_Exterior_010_Ensuite1_West",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_016_Ensuite1_West",
+        "1F_Wall_Exterior_010_Ensuite1_West"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.027191,
+        "dx_m": 0.027191,
+        "dy_m": 0.0
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_017_Ensuite1_South:1F_Wall_Exterior_011_Ensuite1_South",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_017_Ensuite1_South",
+        "1F_Wall_Exterior_011_Ensuite1_South"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.061852,
+        "dx_m": 0.0,
+        "dy_m": 0.061852
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_018_GuestSuite1_South:1F_Wall_Exterior_012_Guest1_South",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_018_GuestSuite1_South",
+        "1F_Wall_Exterior_012_Guest1_South"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.061852,
+        "dx_m": 0.0,
+        "dy_m": 0.061852
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_019_StairA_South:1F_Wall_Exterior_013_StairA_South",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_019_StairA_South",
+        "1F_Wall_Exterior_013_StairA_South"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.086666,
+        "dx_m": 0.0,
+        "dy_m": 0.086666
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_020_StairB_South:1F_Wall_Exterior_016_StairB_South",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_020_StairB_South",
+        "1F_Wall_Exterior_016_StairB_South"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.086666,
+        "dx_m": 0.0,
+        "dy_m": 0.086666
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_021_GuestSuite2_South:1F_Wall_Exterior_017_Guest2_South",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_021_GuestSuite2_South",
+        "1F_Wall_Exterior_017_Guest2_South"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.061852,
+        "dx_m": 0.0,
+        "dy_m": 0.061852
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_022_Ensuite2_South:1F_Wall_Exterior_018_Ensuite2_South",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_022_Ensuite2_South",
+        "1F_Wall_Exterior_018_Ensuite2_South"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.061852,
+        "dx_m": 0.0,
+        "dy_m": 0.061852
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Glass_023_Ensuite2_East:1F_Wall_Exterior_019_Ensuite2_East",
+      "classification": "WALL_GLASS_CRACK",
+      "objects": [
+        "1F_Glass_023_Ensuite2_East",
+        "1F_Wall_Exterior_019_Ensuite2_East"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.045849,
+        "dx_m": 0.045849,
+        "dy_m": 0.0
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Exterior_011_Ensuite1_South:1F_Wall_Exterior_012_Guest1_South",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Exterior_011_Ensuite1_South",
+        "1F_Wall_Exterior_012_Guest1_South"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.142223,
+        "dx_m": 0.0,
+        "dy_m": 0.142223
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Exterior_013_StairA_South:1F_Wall_Interior_008_StairA_West",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Exterior_013_StairA_South",
+        "1F_Wall_Interior_008_StairA_West"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.139259,
+        "dx_m": 0.0,
+        "dy_m": 0.139259
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Exterior_017_Guest2_South:1F_Wall_Exterior_018_Ensuite2_South",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Exterior_017_Guest2_South",
+        "1F_Wall_Exterior_018_Ensuite2_South"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.142223,
+        "dx_m": 0.0,
+        "dy_m": 0.142223
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Exterior_017_Guest2_South:1F_Wall_Interior_019_Guest2_Ensuite",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Exterior_017_Guest2_South",
+        "1F_Wall_Interior_019_Guest2_Ensuite"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.142223,
+        "dx_m": 0.0,
+        "dy_m": 0.142223
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Interior_001_Garage_GreatRoom:1F_Wall_Interior_007_Corridor_Left",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Interior_001_Garage_GreatRoom",
+        "1F_Wall_Interior_007_Corridor_Left"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.040609,
+        "dx_m": 0.040609,
+        "dy_m": 0.0
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Interior_001_Garage_GreatRoom:1F_Wall_Interior_008_StairA_West",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Interior_001_Garage_GreatRoom",
+        "1F_Wall_Interior_008_StairA_West"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.096583,
+        "dx_m": 0.096583,
+        "dy_m": 0.0
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Interior_003_Storage_Utility:1F_Wall_Interior_005_Service_Guest1",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Interior_003_Storage_Utility",
+        "1F_Wall_Interior_005_Service_Guest1"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.068334,
+        "dx_m": 0.0,
+        "dy_m": 0.068334
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Interior_004_Utility_Wine:1F_Wall_Interior_005_Service_Guest1",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Interior_004_Utility_Wine",
+        "1F_Wall_Interior_005_Service_Guest1"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.068334,
+        "dx_m": 0.0,
+        "dy_m": 0.068334
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Interior_005_Service_Guest1:1F_Wall_Interior_006_Guest1_Ensuite",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Interior_005_Service_Guest1",
+        "1F_Wall_Interior_006_Guest1_Ensuite"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.068333,
+        "dx_m": 0.0,
+        "dy_m": 0.068333
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Interior_005_Service_Guest1:1F_Wall_Interior_008_StairA_West",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Interior_005_Service_Guest1",
+        "1F_Wall_Interior_008_StairA_West"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.068333,
+        "dx_m": 0.0,
+        "dy_m": 0.068333
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Interior_010_Pantry_Kitchen:1F_Wall_Interior_011_Pantry_Mudroom",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Interior_010_Pantry_Kitchen",
+        "1F_Wall_Interior_011_Pantry_Mudroom"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.059266,
+        "dx_m": 0.059266,
+        "dy_m": 0.0
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Interior_015_Corridor_Right_South:1F_Wall_Interior_018_Powder_Guest2",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Interior_015_Corridor_Right_South",
+        "1F_Wall_Interior_018_Powder_Guest2"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.068333,
+        "dx_m": 0.0,
+        "dy_m": 0.068333
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "endpoint:1F_Wall_Interior_015_Corridor_Right_South:1F_Wall_Interior_019_Guest2_Ensuite",
+      "classification": "WALL_WALL_CRACK",
+      "objects": [
+        "1F_Wall_Interior_015_Corridor_Right_South",
+        "1F_Wall_Interior_019_Guest2_Ensuite"
+      ],
+      "evidence": {
+        "plan_gap_m": 0.068333,
+        "dx_m": 0.0,
+        "dy_m": 0.068333
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Objects stop within the endpoint-crack tolerance and have overlapping plan projection."
+    },
+    {
+      "id": "sliver:1F_Wall_Exterior_017_Guest2_South:1F_Wall_Exterior_018_Ensuite2_South",
+      "classification": "UNWALKABLE_SLIVER",
+      "objects": [
+        "1F_Wall_Exterior_017_Guest2_South",
+        "1F_Wall_Exterior_018_Ensuite2_South"
+      ],
+      "evidence": {
+        "clear_width_candidate_m": 0.142223,
+        "x_projection_m": 0.522432,
+        "y_projection_m": -0.142223
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Parallel/adjacent structural bounds form a 0.10-0.40 m free-space candidate."
+    },
+    {
+      "id": "sliver:1F_Wall_Interior_017_StairB_East:1F_Wall_Interior_018_Powder_Guest2",
+      "classification": "UNWALKABLE_SLIVER",
+      "objects": [
+        "1F_Wall_Interior_017_StairB_East",
+        "1F_Wall_Interior_018_Powder_Guest2"
+      ],
+      "evidence": {
+        "clear_width_candidate_m": 0.302431,
+        "x_projection_m": -0.302431,
+        "y_projection_m": 3.643703
+      },
+      "decision": "REVIEW_REQUIRED",
+      "reference_files": [],
+      "rationale": "Parallel/adjacent structural bounds form a 0.10-0.40 m free-space candidate."
+    }
+  ],
+  "intentional_openings": [
+    {
+      "name": "1F_Connection_2F",
+      "classification": "INTENTIONAL_CIRCULATION",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Connection_B1",
+      "classification": "INTENTIONAL_CIRCULATION",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Corridor_Guest2",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Corridor_Powder",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Foyer_Corridor_Left",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Foyer_Corridor_Right",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Foyer_GreatRoom",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Garage_GreatRoom",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Garage_Storage_InferredSlidingAccess",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Garage_Utility",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Garage_Wine",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_GreatRoom_LeftCorridor",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Guest1_Ensuite1",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Guest1_Wine",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Guest2_Ensuite2",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Kitchen_Mudroom",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Kitchen_Pantry",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Kitchen_RightCorridor",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Main_Entry",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Pantry_Mudroom",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "Corridor_Guest2",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Corridor_Powder",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Foyer_Corridor_Left",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Foyer_Corridor_Right",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Foyer_GreatRoom",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Garage_GreatRoom",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Garage_Storage_InferredSlidingAccess",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Garage_Utility",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Garage_Wine",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "GreatRoom_LeftCorridor",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Guest1_Ensuite1",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Guest1_Wine",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Guest2_Ensuite2",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Kitchen_Mudroom",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Kitchen_Pantry",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Kitchen_RightCorridor",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Main_Entry",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Pantry_Mudroom",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "VOID_GreatRoom_OpenToAbove",
+      "classification": "INTENTIONAL_DOOR",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_StairA",
+      "classification": "INTENTIONAL_STAIR_OPENING",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_StairA_Entrance",
+      "classification": "INTENTIONAL_STAIR_OPENING",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_StairB",
+      "classification": "INTENTIONAL_STAIR_OPENING",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_StairB_Entrance",
+      "classification": "INTENTIONAL_STAIR_OPENING",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "StairA_Entrance",
+      "classification": "INTENTIONAL_STAIR_OPENING",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "StairB_Entrance",
+      "classification": "INTENTIONAL_STAIR_OPENING",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Garage_TerraceVestibule",
+      "classification": "INTENTIONAL_TERRACE_OPENING",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "1F_Opening_Kitchen_TerraceVestibule",
+      "classification": "INTENTIONAL_TERRACE_OPENING",
+      "source": "scene_object",
+      "preserved": true
+    },
+    {
+      "name": "Garage_TerraceVestibule",
+      "classification": "INTENTIONAL_TERRACE_OPENING",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    },
+    {
+      "name": "Kitchen_TerraceVestibule",
+      "classification": "INTENTIONAL_TERRACE_OPENING",
+      "source": "scene_property:door_paths_json",
+      "preserved": true
+    }
+  ],
+  "metrics": {
+    "architectural_meshes": 82,
+    "role_counts": {
+      "column": 12,
+      "porch": 1,
+      "floor": 1,
+      "glass": 25,
+      "stair": 2,
+      "terrace": 3,
+      "wall": 38
+    },
+    "scene_bounds_m": [
+      -18.844864,
+      -12.490741,
+      -3.6,
+      18.807549,
+      12.455556,
+      3.2
+    ],
+    "candidate_counts": {
+      "UNWALKABLE_SLIVER": 2,
+      "WALL_GLASS_CRACK": 11,
+      "WALL_WALL_CRACK": 13
+    }
+  },
+  "warnings": [
+    "Broad-phase overlap and sliver candidates require comparison with the floor-plan references.",
+    "No candidate is automatically repaired by this audit."
+  ],
+  "status": "AUDIT_COMPLETE"
+}

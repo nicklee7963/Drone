@@ -1,0 +1,45 @@
+name: drone_env
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=5.1
+  - bzip2=1.0.8
+  - ca-certificates=2026.7.16
+  - ld_impl_linux-64=2.44
+  - libexpat=2.8.2
+  - libffi=3.4.8
+  - libgcc=15.2.0
+  - libgcc-ng=15.2.0
+  - libnsl=2.0.0
+  - libstdcxx=15.2.0
+  - libuuid=1.41.5
+  - libxcb=1.17.0
+  - libzlib=1.3.2
+  - ncurses=6.5
+  - openssl=3.5.7
+  - packaging=26.0
+  - pip=26.1.2
+  - pthread-stubs=0.3
+  - python=3.11.15
+  - readline=8.3
+  - setuptools=83.0.0
+  - sqlite=3.53.2
+  - tk=8.6.15
+  - tzdata=2026c
+  - wheel=0.47.0
+  - xorg-libx11=1.8.12
+  - xorg-libxau=1.0.12
+  - xorg-libxdmcp=1.1.5
+  - xorg-xorgproto=2024.1
+  - xz=5.8.2
+  - zlib=1.3.2
+  - pip:
+      - grpcio==1.84.0
+      - iniconfig==2.3.0
+      - mavsdk==3.17.2
+      - pluggy==1.6.0
+      - protobuf==7.36.1
+      - pygments==2.21.0
+      - pytest==9.1.1
+      - typing-extensions==4.16.0

@@ -1,0 +1,54 @@
+PASS Scene uses meters 
+PASS Architectural shell geometry exists 82
+PASS 1F_Floor_Main exists 
+PASS 1F_Terrace_Main exists 
+PASS 1F_Terrace_Left exists 
+PASS 1F_Terrace_Dining exists 
+PASS 1F_Entry_Porch exists 
+PASS 1F_StairA_DownToB1 exists 
+PASS 1F_StairB_UpTo2F exists 
+PASS VOID_GreatRoom_OpenToAbove exists 
+PASS 1F_Reference_Plan exists 
+PASS 1F_Connection_B1 exists 
+PASS 1F_Connection_2F exists 
+PASS Reference calibrated by dimension markers 
+PASS Reference packed 
+PASS Structural meshes closed with outward normals and no degenerate faces 
+PASS Mesh object scales all 1,1,1 
+PASS No duplicate complete meshes 
+PASS No orphaned wall islands or thin trimming remnants 
+PASS No intersecting architectural solid volumes {'candidate_pairs': 29, 'overlaps': []}
+PASS Architectural width consistent with calibrated source extent [37.65241241455078, 24.94629669189453, 6.799999952316284]
+PASS No renderable ceiling or upper-floor slab 
+PASS Main slab top at zero and thickness 0.20 m 
+PASS Great Room usable interior has zero columns, piers, or wall stubs 
+PASS Actual exterior wall bands are within 0.25-0.30 m [0.28]
+PASS Actual interior wall bands are within 0.15-0.20 m [0.18]
+PASS Actual stairwell wall bands are within 0.20-0.25 m [0.22]
+PASS Exterior faces, partition centerlines, and stair-void faces retain alignment 
+PASS No wall mesh extends outside its measured construction bands 
+PASS No non-column wall geometry exceeds 0.30 m 
+PASS Slab aperture for Stair A 
+PASS Slab aperture for Stair B 
+PASS Garage has slab 
+PASS Great Room has slab 
+PASS Foyer has slab 
+PASS Kitchen has slab 
+PASS Guest Suite 1 has slab 
+PASS Guest Suite 2 has slab 
+PASS Great Room remains open to above 
+PASS Glass remains separate 0.020 m solid geometry [0.019999, 0.02]
+PASS Named doorway/circulation paths unblocked at 1.2 m 
+PASS Every room connects to foyer with sampled 0.40 m UAV clearance {'Grand Entry Foyer': True, 'Great Room': True, 'Garage': True, 'Storage': True, 'Utility': True, 'Wine Cellar': True, 'Guest Suite 1': True, 'En-suite 1': True, 'Kitchen & Dining': True, 'Pantry / Prep Kitchen': True, 'Mudroom / Shoe Gallery': True, 'Left Corridor': True, 'Right Corridor': True, 'Powder Room': True, 'Guest Suite 2': True, 'En-suite 2': True}
+PASS 1F_StairA_DownToB1 physical treads change elevation in documented direction [-0.16842103004455566, -0.33684277534484863, -0.5052635669708252, -0.67368483543396, -0.8421051502227783, -1.0105268955230713, -1.1789476871490479, -1.3473689556121826, -1.5157897472381592, -1.6842105388641357, -1.8526313304901123, -2.0210530757904053, -2.189473867416382, -2.3578951358795166, -2.5263149738311768, -2.694737195968628, -2.8631579875946045, -3.0315778255462646]
+PASS 1F_StairA_DownToB1 realistic riser / tread [0.16842105263157894, 0.27, 2.8360586166381836]
+PASS 1F_StairA_DownToB1 minimum 2.1 m vertical headroom 
+PASS 1F_StairB_UpTo2F physical treads change elevation in documented direction [0.168420672416687, 0.33684241771698, 0.5052627325057983, 0.6736835241317749, 0.8421047925949097, 1.0105262994766235, 1.1789470911026, 1.3473683595657349, 1.5157893896102905, 1.684210181236267, 1.8526312112808228, 2.021052837371826, 2.1894736289978027, 2.3578944206237793, 2.526315689086914, 2.694736957550049, 2.8631582260131836, 3.03157901763916]
+PASS 1F_StairB_UpTo2F realistic riser / tread [0.16842105263157894, 0.27, 2.350943088531494]
+PASS 1F_StairB_UpTo2F minimum 2.1 m vertical headroom 
+PASS No furniture/decor geometry 
+VALIDATION: 49 passed; 0 failed
+Blender 4.5.3 LTS (hash 67807e1800cc built 2025-09-09 01:38:15)
+Read blend: "/home/nicklee/Phenix_Project/Drone/environments/villa_v2/01_shell/1F/1F_shell.blend"
+
+Blender quit

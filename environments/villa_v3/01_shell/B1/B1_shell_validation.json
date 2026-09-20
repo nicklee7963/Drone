@@ -1,0 +1,932 @@
+{
+  "summary": {
+    "passed": 40,
+    "failed": 0,
+    "total": 40
+  },
+  "checks": [
+    {
+      "name": "Blender file opens with expected B1 scene",
+      "pass": true,
+      "detail": "B1"
+    },
+    {
+      "name": "Scene uses meters at unit scale 1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Architectural shell geometry exists",
+      "pass": true,
+      "detail": 78
+    },
+    {
+      "name": "Required floor, courtyard, stair interface, and camera exist",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Saved top validation camera is truly orthographic",
+      "pass": true,
+      "detail": {
+        "type": "ORTHO",
+        "ortho_scale": 42.5
+      }
+    },
+    {
+      "name": "Calibrated B1 reference image is packed",
+      "pass": true,
+      "detail": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "name": "No furniture, equipment, appliance, or decorative object names",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No physical stair is duplicated in B1",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "All architectural mesh transforms have unit scale",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "B1 XY bounds are realistic in the established villa frame",
+      "pass": true,
+      "detail": {
+        "bounds_xyz_m": [
+          [
+            -19.068763732910156,
+            -11.99666690826416,
+            -0.20000000298023224
+          ],
+          [
+            18.397064208984375,
+            12.279629707336426,
+            3.200000047683716
+          ]
+        ],
+        "dimensions_xyz_m": [
+          37.46582794189453,
+          24.276296615600586,
+          3.400000050663948
+        ]
+      }
+    },
+    {
+      "name": "B1 shell Z bounds are exactly slab bottom to wall top",
+      "pass": true,
+      "detail": [
+        -0.20000000298023224,
+        3.200000047683716
+      ]
+    },
+    {
+      "name": "Main floor slab is Z -0.20..0.00 m",
+      "pass": true,
+      "detail": [
+        -0.20000000298023224,
+        0.0
+      ]
+    },
+    {
+      "name": "All walls span Z 0.00..3.20 m",
+      "pass": true,
+      "detail": {
+        "B1_Wall_Exterior_001_Gym_North": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_002_North_Center": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_003_Service_North": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_009_Courtyard_SouthWest": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_015_Lounge_SouthCenter": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_016_Lounge_SouthEast": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_020_Service_SouthWest": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_022_Service_SouthEast": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_024_StoragePowder_SouthMiddle": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_025_StoragePowder_SouthEast": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_004_Gym_WestNorth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_005_Gym_WestSouth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_007_Courtyard_WestNorth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_008_Courtyard_WestSouth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_017_Lounge_East": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_018_Services_EastLower": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_019_Services_EastUpper": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_011_StairVestibule_West": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_012_StairVestibule_South": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Exterior_013_StairVestibule_EastReturn": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_005_Shower_SouthWest": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_006_Shower_SouthEast": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_008_CinemaSouth_WestJamb": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_009_CinemaSouth_Center": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_010_CinemaSouth_EastJamb": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_014_TopRoomsSouth_LaundryWest": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_015_TopRoomsSouth_Main": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_016_ServiceCorridor_South": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_021_Mechanical_Electrical": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_022_Electrical_Water": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_023_WaterBath_WestJamb": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_024_WaterBath_Center": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_025_WaterBath_EastJamb": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_026_GymRooms_NorthWest": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_027_GymRooms_NorthEast": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_001_Gym_ShowerSouth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_002_Gym_VestibuleSouth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_003_Gym_LibrarySouth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_004_ShowerCinema": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_007_CinemaLaundry": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_011_Laundry_Linen": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_012_Linen_CorridorNorth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_013_Linen_CorridorSouth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_017_ServiceWest_MechanicalNorth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_018_ServiceWest_MechanicalSouth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_019_ServiceWest_ElectricalSouth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_020_ServiceWest_WaterSouth": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_028_StoragePowder_North": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_029_StoragePowder_South": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_030_Powder_East": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Interior_031_BathStorage": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Stair_001_From1F_West": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Stair_002_From1F_East": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Stair_003_NorthUnderflight_West": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Stair_004_NorthUnderflight_East": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Stair_005_LowerThreshold_West": [
+          0.0,
+          3.200000047683716
+        ],
+        "B1_Wall_Stair_006_LowerThreshold_East": [
+          0.0,
+          3.200000047683716
+        ]
+      }
+    },
+    {
+      "name": "Exterior walls use nominal 0.28 m thickness",
+      "pass": true,
+      "detail": [
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28,
+        0.28
+      ]
+    },
+    {
+      "name": "Interior walls use nominal 0.18 m thickness",
+      "pass": true,
+      "detail": [
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18,
+        0.18
+      ]
+    },
+    {
+      "name": "Stairwell walls use nominal 0.22 m thickness",
+      "pass": true,
+      "detail": [
+        0.22,
+        0.22,
+        0.22,
+        0.22,
+        0.22,
+        0.22
+      ]
+    },
+    {
+      "name": "Glazing is separate 0.020 m floor-to-ceiling geometry",
+      "pass": true,
+      "detail": [
+        [
+          "B1_Glass_001_Gym_West",
+          0.02,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          "B1_Glass_002_Storage_West",
+          0.02,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          "B1_Glass_003_Courtyard_West",
+          0.02,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          "B1_Glass_004_Storage_South",
+          0.02,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          "B1_Glass_005_Powder_South",
+          0.02,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          "B1_Glass_006_Courtyard_South",
+          0.02,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          "B1_Glass_007_Lounge_SouthWest",
+          0.02,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          "B1_Glass_008_Lounge_SouthEast",
+          0.02,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          "B1_Glass_009_Bath_South",
+          0.02,
+          0.0,
+          3.200000047683716
+        ],
+        [
+          "B1_Glass_010_StorageEast_South",
+          0.02,
+          0.0,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "name": "Glass material matches the actual existing-floor rendering convention",
+      "pass": true,
+      "detail": {
+        "rgba": [
+          0.12999999523162842,
+          0.5400000214576721,
+          0.699999988079071,
+          0.3199999928474426
+        ],
+        "roughness": 0.3499999940395355,
+        "transmission": 0.0,
+        "alpha": 0.3199999928474426
+      }
+    },
+    {
+      "name": "Every source wall interruption has an allowed classification",
+      "pass": true,
+      "detail": {
+        "doorway": 15,
+        "circulation_opening": 3,
+        "stair_opening": 1,
+        "glazing": 10,
+        "accidental_gap": 0
+      }
+    },
+    {
+      "name": "Opening audit records zero accidental gaps",
+      "pass": true,
+      "detail": {
+        "doorway": 15,
+        "circulation_opening": 3,
+        "stair_opening": 1,
+        "glazing": 10,
+        "accidental_gap": 0
+      }
+    },
+    {
+      "name": "Every intentional doorway and circulation opening is physically clear",
+      "pass": true,
+      "detail": {
+        "Gym_Shower": [],
+        "Shower_Vestibule": [],
+        "Gym_Library": [],
+        "Cinema_Library_West": [],
+        "Cinema_Library_East": [],
+        "Laundry_Main": [],
+        "Linen_ServiceCorridor": [],
+        "Mechanical_Main": [],
+        "Electrical_Main": [],
+        "WaterUtility_Main": [],
+        "Powder_Gym": [],
+        "StorageWest_Powder_Inferred": [],
+        "Bath_Lounge": [],
+        "StorageEast_Lounge": [],
+        "Gym_ShowerVestibule": [],
+        "ServiceCorridor_Main": [],
+        "Stair_Underflight_Access": [],
+        "Stair_Lounge_Arrival": []
+      }
+    },
+    {
+      "name": "B1 records the exact live 1F physical stair XY bounds",
+      "pass": true,
+      "detail": {
+        "B1_physical_stair_xyxy_m": [
+          -7.351362683438155,
+          -10.837037037037037,
+          -4.515303983228511,
+          -4.82037037037037
+        ],
+        "live_1F_stair_xyxy_m": [
+          -7.351362683438155,
+          -10.837037037037037,
+          -4.515303983228511,
+          -4.82037037037037
+        ],
+        "maximum_xy_error_m": 0.0
+      }
+    },
+    {
+      "name": "B1 slab opening is limited to the 1F stair/slab collision footprint",
+      "pass": true,
+      "detail": {
+        "B1_slab_opening_xyxy_m": [
+          -7.351362705230713,
+          -10.83703750371933,
+          -4.515304088592529,
+          -9.072870790958405
+        ],
+        "expected_collision_footprint_xyxy_m": [
+          -7.351362683438155,
+          -10.837037037037037,
+          -4.515303983228511,
+          -9.07287037037037
+        ],
+        "live_1F_mesh_cross_section_at_B1_slab_top_xyxy_m": [
+          -7.351362705230713,
+          -10.837037086486816,
+          -4.515304088592529,
+          -9.072870254516602
+        ],
+        "maximum_xy_error_m": 5.364418029785156e-07
+      }
+    },
+    {
+      "name": "B1 arrival threshold is centered on the exact south edge of the live 1F lower landing",
+      "pass": true,
+      "detail": {
+        "B1_local_xyz_m": [
+          -5.933333396911621,
+          -10.837037086486816,
+          0.0
+        ],
+        "expected_local_xyz_m": [
+          -5.933333333333334,
+          -10.837037037037037,
+          0.0
+        ],
+        "maximum_error_m": 6.357828752356909e-08,
+        "assembly_z_offset_m": -3.2
+      }
+    },
+    {
+      "name": "B1 stair direction and landing ends match both floor-plan arrows",
+      "pass": true,
+      "detail": {
+        "upper_landing_end": "north (+Y) at 1F",
+        "lower_landing_end": "south (-Y) at B1",
+        "travel_direction": "north (+Y), up to 1F",
+        "exit_direction": "south (-Y) through lower-end opening",
+        "live_north_top_z_m": 0.0,
+        "live_south_top_z_m": -3.200000047683716
+      }
+    },
+    {
+      "name": "No B1 slab covers the aligned stair aperture",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "B1 slab remains beneath the non-colliding upper stair flight",
+      "pass": true,
+      "detail": [
+        -5.933333333333334,
+        -6.94662037037037
+      ]
+    },
+    {
+      "name": "B1 lower landing has clear supported initial -Y exit circulation",
+      "pass": true,
+      "detail": {
+        "blockers": {
+          "0.1": [],
+          "0.35": [],
+          "0.6": []
+        },
+        "floor_support": {
+          "0.1": true,
+          "0.35": true,
+          "0.6": true
+        },
+        "samples_world_xy_m": [
+          [
+            -5.933333333333334,
+            -10.937037037037037
+          ],
+          [
+            -5.933333333333334,
+            -11.187037037037037
+          ],
+          [
+            -5.933333333333334,
+            -11.437037037037037
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Both B1 stair side walls enclose the full aligned flight",
+      "pass": true,
+      "detail": [
+        -4.515304088592529,
+        -10.837037086486816,
+        -4.295303821563721,
+        -4.820370197296143
+      ]
+    },
+    {
+      "name": "Obsolete south stair glazing from the incorrect 1F landing assumption is absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Every enclosed room reaches the main lounge with 0.40 m UAV clearance",
+      "pass": true,
+      "detail": {
+        "rooms": {
+          "Gym / Fitness Room": true,
+          "Shower / Changing": true,
+          "Cinema / Theater Room": true,
+          "Library / Wine Tasting Lounge": true,
+          "Bar / Pantry": true,
+          "Lounge": true,
+          "Laundry": true,
+          "Linen / Storage": true,
+          "Mechanical / Plant Room": true,
+          "Electrical Room": true,
+          "Water Tank / Utility": true,
+          "Bath": true,
+          "Storage East": true,
+          "Powder Room": true,
+          "Storage West": true
+        },
+        "grid_resolution_m": 0.2,
+        "uav_radius_m": 0.2,
+        "reachable_cells": 16733
+      }
+    },
+    {
+      "name": "All audited wall-to-wall, wall-to-column, and wall-to-glass junction objects exist",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Audited junctions contain no tiny cracks",
+      "pass": true,
+      "detail": {
+        "NorthWestColumn_GymNorth": {
+          "type": "wall_to_column",
+          "gap_m": 0.0
+        },
+        "GymNorth_ShowerColumn": {
+          "type": "wall_to_column",
+          "gap_m": 0.0
+        },
+        "ShowerColumn_NorthCenter": {
+          "type": "wall_to_column",
+          "gap_m": 0.0
+        },
+        "NorthCenter_LaundryColumn": {
+          "type": "wall_to_column",
+          "gap_m": 0.0
+        },
+        "LaundryColumn_ServiceNorth": {
+          "type": "wall_to_column",
+          "gap_m": 0.0
+        },
+        "ServiceNorth_NorthEastColumn": {
+          "type": "wall_to_column",
+          "gap_m": 0.0
+        },
+        "GymWestNorth_GymGlass": {
+          "type": "wall_to_glass",
+          "gap_m": 0.0
+        },
+        "GymGlass_WestColumn": {
+          "type": "wall_to_column",
+          "gap_m": 0.0
+        },
+        "StorageWestGlass_LowerColumn": {
+          "type": "wall_to_glass",
+          "gap_m": 0.0
+        },
+        "CourtyardWestGlass_NorthWall": {
+          "type": "wall_to_glass",
+          "gap_m": 0.0
+        },
+        "CourtyardWestGlass_SouthWall": {
+          "type": "wall_to_glass",
+          "gap_m": 0.0
+        },
+        "CourtyardSouthGlass_WestWall": {
+          "type": "wall_to_glass",
+          "gap_m": 0.0
+        },
+        "LoungeGlassWest_CenterWall": {
+          "type": "wall_to_glass",
+          "gap_m": 0.0
+        },
+        "LoungeCenterWall_EastGlass": {
+          "type": "wall_to_glass",
+          "gap_m": 0.0
+        },
+        "BathGlass_Mullion": {
+          "type": "wall_to_column",
+          "gap_m": 0.0
+        },
+        "Mullion_StorageEastGlass": {
+          "type": "wall_to_column",
+          "gap_m": 0.0
+        },
+        "StairWest_VestibuleWest": {
+          "type": "wall_to_wall",
+          "gap_m": 0.0
+        },
+        "StairEast_LowerThreshold": {
+          "type": "wall_to_wall",
+          "gap_m": 0.0
+        },
+        "VestibuleWest_South": {
+          "type": "wall_to_wall",
+          "gap_m": 0.0
+        },
+        "VestibuleSouth_East": {
+          "type": "wall_to_wall",
+          "gap_m": 0.0
+        },
+        "VestibuleEast_LoungeGlass": {
+          "type": "wall_to_glass",
+          "gap_m": 0.0
+        },
+        "CinemaSouthEast_CinemaLaundry": {
+          "type": "wall_to_wall",
+          "gap_m": 0.0
+        }
+      }
+    },
+    {
+      "name": "No overlapping structural or glazing volumes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Main floor and courtyard slab have no coplanar overlap",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "All architectural meshes are closed with positive signed volume",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "No wall object contains disconnected fragments",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "No duplicate complete architectural meshes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No wall, column, or glazing object is floating without slab support",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Upper-floor shells are unchanged or carry authorized V3 repairs",
+      "pass": true,
+      "detail": {
+        "baseline": {
+          "01_shell/1F/1F_shell.blend": "7a91e92129e1fa5d5ff155ccc80027de38b345c1a6f23173fac3a9980dbfb230",
+          "01_shell/2F/2F_shell.blend": "2e72436177fc4cc9fd8d8db4f6b9ffa42d0b9364941480874ce8612991159b46",
+          "01_shell/3F/3F_shell.blend": "30011cc91aa447ef3e2eec924eaeafa0fcf5348222b4d31bd54956343722d2de"
+        },
+        "current": {
+          "01_shell/1F/1F_shell.blend": "c5a4fe43de82890606ee73ea0f5680235c9c19f132042a5ec65237b0acb779e2",
+          "01_shell/2F/2F_shell.blend": "7815fb7a7e73da75a2e73fe257764ce948d113b9d7a22c03b2a69e00e86f6201",
+          "01_shell/3F/3F_shell.blend": "30011cc91aa447ef3e2eec924eaeafa0fcf5348222b4d31bd54956343722d2de"
+        },
+        "v3_repaired_objects": {
+          "01_shell/1F/1F_shell.blend": [
+            "1F_Glass_014_Pantry_East",
+            "1F_Glass_015_Mudroom_East",
+            "1F_Glass_016_Ensuite1_West",
+            "1F_Glass_017_Ensuite1_South",
+            "1F_Glass_018_GuestSuite1_South",
+            "1F_Glass_019_StairA_South",
+            "1F_Glass_020_StairB_South",
+            "1F_Glass_021_GuestSuite2_South",
+            "1F_Glass_022_Ensuite2_South",
+            "1F_Glass_023_Ensuite2_East",
+            "1F_Wall_Interior_003_Storage_Utility",
+            "1F_Wall_Interior_004_Utility_Wine",
+            "1F_Wall_Interior_006_Guest1_Ensuite",
+            "1F_Wall_Interior_007_Corridor_Left",
+            "1F_Wall_Interior_008_StairA_West",
+            "1F_Wall_Interior_011_Pantry_Mudroom",
+            "1F_Wall_Interior_018_Powder_Guest2",
+            "1F_Wall_Interior_019_Guest2_Ensuite"
+          ],
+          "01_shell/2F/2F_shell.blend": [
+            "2F_Column_008_ArtGallery_SouthWest",
+            "2F_Column_009_ArtGallery_SouthEast",
+            "2F_Glass_011_Ensuite1_South",
+            "2F_Glass_014_Ensuite2_South",
+            "2F_Wall_Interior_001_GuestA_FamilyLounge",
+            "2F_Wall_Interior_003_ABath_ACloset",
+            "2F_Wall_Interior_006_Ensuite1_Guest1",
+            "2F_Wall_Interior_008_FamilyLounge_Gaming",
+            "2F_Wall_Interior_010_BCloset_BBath",
+            "2F_Wall_Interior_014_Guest2_Ensuite2"
+          ],
+          "01_shell/3F/3F_shell.blend": []
+        }
+      }
+    }
+  ],
+  "stats": {
+    "object_count_total": 100,
+    "architectural_mesh_count": 78,
+    "mesh_datablock_count": 78,
+    "triangle_count": 1364,
+    "xy_bounds_m": [
+      -19.068763732910156,
+      -11.99666690826416,
+      18.397064208984375,
+      12.279629707336426
+    ],
+    "z_bounds_m": [
+      -0.20000000298023224,
+      3.200000047683716
+    ],
+    "intentional_openings": 29,
+    "opening_counts": {
+      "doorway": 15,
+      "circulation_opening": 3,
+      "stair_opening": 1,
+      "glazing": 10,
+      "accidental_gap": 0
+    },
+    "accidental_gaps": 0
+  },
+  "stair_alignment": {
+    "B1_slab_opening_xyxy_m": [
+      -7.351362705230713,
+      -10.83703750371933,
+      -4.515304088592529,
+      -9.072870790958405
+    ],
+    "live_1F_stair_xyxy_m": [
+      -7.351362683438155,
+      -10.837037037037037,
+      -4.515303983228511,
+      -4.82037037037037
+    ],
+    "maximum_xy_error_m": 0.0,
+    "B1_arrival_local_xyz_m": [
+      -5.933333396911621,
+      -10.837037086486816,
+      0.0
+    ],
+    "upper_1F_landing": "north (+Y) at 1F",
+    "lower_B1_landing": "south (-Y) at B1",
+    "B1_travel_direction": "north (+Y), up to 1F",
+    "B1_exit_direction": "south (-Y) through lower-end opening",
+    "assembly_result": "B1 local Z=0 meets 1F stair terminal Z=-3.2 when B1 is assembled at world Z=-3.2",
+    "physical_stair_owner": "1F_shell.blend",
+    "duplicate_B1_stair_count": 0
+  },
+  "source_ambiguities": [
+    "B1.png's written 33.2 m width conflicts with the established 1F pixel transform; the shared transform governs stacking.",
+    "The B1 raster stair is north of the live 1F stair; only the stair bay and an L-shaped south-exit vestibule are locally adapted.",
+    "The straight south exit drawn in B1 cannot meet the unchanged lounge after exact 1F XY alignment; the local vestibule therefore turns east then north back into the lounge.",
+    "The west Storage has no legible door leaf; a 0.986 m internal opening to Powder is inferred to provide required access.",
+    "The Linen / Storage door graphic is crowded by its east service vestibule; the visible east-side doorway is retained."
+  ]
+}

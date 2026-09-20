@@ -1,0 +1,27 @@
+{
+  "backup": "/home/nicklee/Phenix_Project/Drone/environments/villa_v2/01_shell/1F/1F_shell_before_wall_fix.blend",
+  "backup_sha256": "81307a63c576201da664ead56b59f8c10bdad83d3599425a6d6c2eaa5fcd4e7e",
+  "invariant_objects_checked": 44,
+  "invariant_objects_changed": [],
+  "invariant_objects_missing": [],
+  "door_paths_unchanged": true,
+  "great_room_columns_removed": {
+    "1F_Column_007_GreatRoom_W1": {
+      "present_before": true,
+      "absent_after": true
+    },
+    "1F_Column_008_GreatRoom_E1": {
+      "present_before": true,
+      "absent_after": true
+    },
+    "1F_Column_009_GreatRoom_W2": {
+      "present_before": true,
+      "absent_after": true
+    },
+    "1F_Column_010_GreatRoom_E2": {
+      "present_before": true,
+      "absent_after": true
+    }
+  },
+  "passed": true
+}
